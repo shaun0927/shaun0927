@@ -198,6 +198,71 @@
 </div>
 
 <div align="center">
+  <h3><a href="https://dacon.io/competitions/official/236489/codeshare/12508">📝 문맥 기반 문장 순서 예측</a> (2025.06)</h3>
+  <p>섞인 문장들을 논리적 순서로 재배열하는 NLP 시퀀스 정렬 시스템 - 🏅 Top 2% (4/204)</p>
+  <p>
+    <b>AI Models:</b> <img src="https://img.shields.io/badge/BART--NAON-FF6B6B?style=flat-square"/> <img src="https://img.shields.io/badge/Transformers-FF9900?style=flat-square&logo=huggingface&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+    <br>
+    <b>Techniques:</b> <img src="https://img.shields.io/badge/Pairwise_Ranking-009688?style=flat-square"/> <img src="https://img.shields.io/badge/Hard_Negative_Mining-2496ED?style=flat-square"/> <img src="https://img.shields.io/badge/Teacher--Student_CoT-37814A?style=flat-square"/> <img src="https://img.shields.io/badge/Ensemble-FF4438?style=flat-square"/>
+    <br>
+    <b>Tools:</b> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+  </p>
+  <hr>
+</div>
+
+<div align="center">
+  <h3><a href="https://github.com/shaun0927/hecto-car-classification-2025">🚗 Hecto AI Car Classification Challenge</a> (2025.06)</h3>
+  <p>396개 자동차 모델 다중 클래스 이미지 분류 시스템 - 🏅 Top 6% (44/748)</p>
+  <p>
+    <b>AI Models:</b> <img src="https://img.shields.io/badge/ConvNeXt--Base-4B0082?style=flat-square"/> <img src="https://img.shields.io/badge/CLIP-FF6B6B?style=flat-square"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+    <br>
+    <b>Techniques:</b> <img src="https://img.shields.io/badge/GeM_Pooling-009688?style=flat-square"/> <img src="https://img.shields.io/badge/Sub--center_ArcFace-2496ED?style=flat-square"/> <img src="https://img.shields.io/badge/Progressive_Resizing-37814A?style=flat-square"/> <img src="https://img.shields.io/badge/CutMix/MixUp-FF4438?style=flat-square"/>
+    <br>
+    <b>Tools:</b> <img src="https://img.shields.io/badge/timm-FFBE00?style=flat-square"/> <img src="https://img.shields.io/badge/albumentations-00D9FF?style=flat-square"/> <img src="https://img.shields.io/badge/FAISS-0052CC?style=flat-square&logo=meta&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch_2.0-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  </p>
+  <hr>
+</div>
+
+<div align="center">
+  <h3><a href="https://github.com/shaun0927/thyroid-cancer-classification">🏥 갑상선암 진단 분류 시스템</a> (2025.05)</h3>
+  <p>갑상선 결절의 양성/악성 이진 분류 AI 진단 시스템 - 🏅 Top 2% (15/990)</p>
+  <p>
+    <b>AI Models:</b> <img src="https://img.shields.io/badge/CatBoost-FECC00?style=flat-square"/> <img src="https://img.shields.io/badge/XGBoost-189FFF?style=flat-square"/> <img src="https://img.shields.io/badge/LightGBM-026732?style=flat-square"/> <img src="https://img.shields.io/badge/RandomForest-1E8449?style=flat-square"/>
+    <br>
+    <b>Techniques:</b> <img src="https://img.shields.io/badge/Threshold_Optimization-009688?style=flat-square"/> <img src="https://img.shields.io/badge/RandomOverSampler-2496ED?style=flat-square"/> <img src="https://img.shields.io/badge/Ensemble_Voting-37814A?style=flat-square"/> <img src="https://img.shields.io/badge/Nested_CV-FF4438?style=flat-square"/>
+    <br>
+    <b>Tools:</b> <img src="https://img.shields.io/badge/Optuna-9146FF?style=flat-square"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/imbalanced--learn-853B3B?style=flat-square"/> <img src="https://img.shields.io/badge/GPU_Acceleration-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+  </p>
+  <hr>
+</div>
+
+<div align="center">
+  <h3><a href="https://github.com/shaun0927/AIMO-2-Solution">🧮 AI Mathematical Olympiad Solver</a> (2025.04)</h3>
+  <p>국가 수학 올림피아드 수준의 복잡한 수학 문제 자동 해결 시스템 - 🏅 Top 7% (157/2212)</p>
+  <p>
+    <b>AI Models:</b> <img src="https://img.shields.io/badge/DeepSeek--R1-FF6B6B?style=flat-square"/> <img src="https://img.shields.io/badge/Qwen--7B-4B0082?style=flat-square"/> <img src="https://img.shields.io/badge/AWQ_Quantization-009688?style=flat-square"/>
+    <br>
+    <b>Techniques:</b> <img src="https://img.shields.io/badge/rStar--Math-2496ED?style=flat-square"/> <img src="https://img.shields.io/badge/MCTS-37814A?style=flat-square"/> <img src="https://img.shields.io/badge/Self--Verification-FF4438?style=flat-square"/> <img src="https://img.shields.io/badge/QLoRA-9146FF?style=flat-square"/>
+    <br>
+    <b>Tools:</b> <img src="https://img.shields.io/badge/vLLM-FFBE00?style=flat-square"/> <img src="https://img.shields.io/badge/4--bit_Quantization-76B900?style=flat-square"/> <img src="https://img.shields.io/badge/Batch_Processing-0052CC?style=flat-square"/> <img src="https://img.shields.io/badge/Dynamic_Weighting-FF9900?style=flat-square"/>
+  </p>
+  <hr>
+</div>
+
+<div align="center">
+  <h3><a href="https://dacon.io/competitions/official/236460/codeshare/12330">💳 신용카드 고객 세그먼트 분류</a> (2025.04)</h3>
+  <p>고객 지원 등급 3-클래스 분류 시스템 - 🏅 Top 4% (8/236)</p>
+  <p>
+    <b>AI Models:</b> <img src="https://img.shields.io/badge/Multi--stage_Binary-4B0082?style=flat-square"/> <img src="https://img.shields.io/badge/Ensemble_Methods-FF6B6B?style=flat-square"/> <img src="https://img.shields.io/badge/Gradient_Boosting-189FFF?style=flat-square"/>
+    <br>
+    <b>Techniques:</b> <img src="https://img.shields.io/badge/Feature_Engineering-009688?style=flat-square"/> <img src="https://img.shields.io/badge/Customer_Segmentation-2496ED?style=flat-square"/> <img src="https://img.shields.io/badge/Domain_Knowledge-37814A?style=flat-square"/>
+    <br>
+    <b>Tools:</b> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/XGBoost-189FFF?style=flat-square"/>
+  </p>
+  <hr>
+</div>
+
+<div align="center">
   <h3><a href="https://github.com/MSAI3rdTeam5/FootTrafficReport">CV 기반 유동인구 분석 및 리포팅 시스템</a> (2025.02)</h3>
   <p>YOLO 모델로 유동인구를 감지하고, LLM을 통해 분석 보고서 및 대시보드를 생성하는 풀스택 프로젝트</p>
   <p>
