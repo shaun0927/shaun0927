@@ -18,9 +18,10 @@
       <td style="width: 50%; text-align: left; border: none; padding-left: 20px;">
         <h3>Key Achievements</h3>
         <p>
-          🏅 <strong>Top 4% Finishes: 2 times</strong><br>
-          🎖️ <strong>Top 10% Finishes: 1 time</strong><br>
-          👥 <strong>Team Competitions: 13 times</strong><br>
+          🥇 <strong>Top 1% Finishes: 1 time</strong><br>
+          🏅 <strong>Top 4% Finishes: 4 times</strong><br>
+          🎖️ <strong>Top 10% Finishes: 6 times</strong><br>
+          👥 <strong>Team Competitions: 14 times</strong><br>
         </p>
       </td>
     </tr>
@@ -65,14 +66,14 @@
       <td align="center"><a href="https://dacon.io/competitions/official/236493/overview/description">HAI(하이)! - Hecto AI Challenge</a></td>
       <td align="center">비전, 분류</td>
       <td align="center">44 / 748 (Top 6%)</td>
-      <td align="center">-</td>
+      <td align="center"><a href="https://github.com/shaun0927/hecto-car-classification-2025">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2025.04 ~ 2025.05</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236488/overview/description">갑상선암 진단 분류 해커톤</a></td>
       <td align="center">의료, 분류</td>
       <td align="center"><b>15 / 990</b> (Top 2%)</td>
-      <td align="center">-</td>
+      <td align="center"><a href="https://github.com/shaun0927/thyroid-cancer-classification">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2025.03 ~ 2025.04</td>
