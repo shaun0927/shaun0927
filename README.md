@@ -210,7 +210,7 @@
     <tr>
       <td align="center">📝</td>
       <td><b>문장 순서 예측</b><br><sub>2025.06</sub></td>
-      <td>섞인 문장들을 논리적 순서로 재배열하는 NLP 시스템</td>
+      <td>한글 문장의 자연스러운 순서 예측</td>
       <td align="center">
         <img src="https://img.shields.io/badge/BART-FF9900?style=flat-square"/>
         <img src="https://img.shields.io/badge/Transformers-FF9900?style=flat-square&logo=huggingface&logoColor=white"/>
@@ -243,7 +243,7 @@
     <tr>
       <td align="center">🧮</td>
       <td><b>AI Math Olympiad</b><br><sub>2025.04</sub></td>
-      <td>수학 올림피아드 문제 자동 해결 시스템</td>
+      <td>수학 올림피아드 문제 LLM 추론</td>
       <td align="center">
         <img src="https://img.shields.io/badge/DeepSeek-FF6B6B?style=flat-square"/>
         <img src="https://img.shields.io/badge/MCTS-37814A?style=flat-square"/>
@@ -254,7 +254,7 @@
     <tr>
       <td align="center">💳</td>
       <td><b>고객 세그먼트 분류</b><br><sub>2025.04</sub></td>
-      <td>신용카드 고객 지원 등급 3-클래스 분류</td>
+      <td>신용카드 고객 지원 등급 분류</td>
       <td align="center">
         <img src="https://img.shields.io/badge/Ensemble-FF6B6B?style=flat-square"/>
         <img src="https://img.shields.io/badge/XGBoost-189FFF?style=flat-square"/>
