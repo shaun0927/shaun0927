@@ -47,6 +47,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center">2025.06 ~ 2025.07</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/236518/overview/description">Boost up AI 2025 : 신약 개발</a></td>
+      <td align="center">정형, 회귀, 바이오</td>
+      <td align="center"><b>🏆 2 / 739</b> (Top 1%)</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
       <td align="center">2025.05 ~ 2025.06</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236489/overview/description">문맥 기반 문장 순서 예측</a></td>
       <td align="center">NLP, LLM</td>
@@ -62,10 +69,10 @@
     </tr>
     <tr>
       <td align="center">2025.04 ~ 2025.05</td>
-      <td align="center"><a href="https://dacon.io/competitions/open/236475/codeshare/12404">기업 성공 확률 예측</a></td>
-      <td align="center">정형, 회귀</td>
-      <td align="center"><b>8 / 952</b></td>
-      <td align="center"><a href="https://dacon.io/competitions/open/236475/codeshare/12404">코드 보기</a></td>
+      <td align="center"><a href="https://dacon.io/competitions/official/236488/overview/description">갑상선암 진단 분류 해커톤</a></td>
+      <td align="center">의료, 분류</td>
+      <td align="center"><b>15 / 990</b></td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">2025.03 ~ 2025.04</td>
@@ -110,16 +117,16 @@
       <td align="center">60 / 257</td>
     </tr>
     <tr>
-      <td align="center">2025.07 ~ 2025.08</td>
-      <td align="center"><a href="https://dacon.io/competitions/official/236526/overview/description">데이콘 Basic 스트레스 지수 예측</a></td>
-      <td align="center">정형, 회귀</td>
-      <td align="center">14 / 221</td>
+      <td align="center">2025.08 ~ 2025.09</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/236562/overview/description">고객 지원 등급 분류 해커톤</a></td>
+      <td align="center">NLP, 분류</td>
+      <td align="center"><b>🥈 2 / 110</b></td>
     </tr>
     <tr>
-      <td align="center">2025.06 ~ 2025.07</td>
-      <td align="center"><a href="https://dacon.io/competitions/official/236518/overview/description">Boost up AI 2025 : 신약 개발</a></td>
-      <td align="center">정형, 회귀, 바이오</td>
-      <td align="center"><b>5 / 739</b></td>
+      <td align="center">2025.07 ~ 2025.08</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/236526/overview/description">스트레스 지수 예측 해커톤</a></td>
+      <td align="center">정형, 회귀</td>
+      <td align="center"><b>12 / 221</b></td>
     </tr>
   </tbody>
 </table>
