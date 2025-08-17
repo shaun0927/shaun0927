@@ -145,9 +145,15 @@
     </tr>
     <tr>
       <td align="center">2024.10 ~ 2025.04</td>
-      <td align="center"><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2">AI Mathematical Olympiad</a></td>
+      <td align="center"><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2">AI Mathematical Olympiad - Progress Prize 2</a></td>
       <td align="center">NLP, Mathematical Reasoning</td>
-      <td align="center">645 / 2212</td>
+      <td align="center"><b>🥉 157 / 2212</b> (Top 7%)</td>
+    </tr>
+    <tr>
+      <td align="center">2024.11 ~ 2025.02</td>
+      <td align="center"><a href="https://www.kaggle.com/competitions/czii-cryo-et-object-identification">CZII - CryoET Object Identification</a></td>
+      <td align="center">Computer Vision, 3D Object Detection</td>
+      <td align="center">305 / 931</td>
     </tr>
     <tr>
       <td align="center">2024.09 ~ 2024.12</td>
