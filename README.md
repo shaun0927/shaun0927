@@ -9,11 +9,11 @@
   <table style="width: 80%; border: none; margin: auto;">
     <tr style="border: none;">
       <td style="width: 50%; text-align: center; border: none;" align="center">
-        <a href="https://dacon.io/myprofile/516971/competition">
+        <a href="https://dacon.io/myprofile/499579/home">
           <img src="https://cdn-icons-png.flaticon.com/512/179/179249.png" width="80" alt="Gold Tier"/>
         </a>
         <br>
-        <strong>Overall Rank: 131 of 135,189</strong> <br> (Top 0.41%)
+        <strong>Overall Rank: 131 of 135,189</strong> <br> (Top 0.1%)
       </td>
       <td style="width: 50%; text-align: left; border: none; padding-left: 20px;">
         <h3>Key Achievements</h3>
@@ -25,7 +25,7 @@
       </td>
     </tr>
   </table>
-  <p><a href="https://dacon.io/myprofile/516971/competition"><strong>➡️ My Dacon Profile Link</strong></a></p>
+  <p><a href="https://dacon.io/myprofile/499579/home"><strong>➡️ My Dacon Profile Link</strong></a></p>
 </div>
 <br>
 
@@ -51,34 +51,34 @@
       <td align="center"><a href="https://dacon.io/competitions/official/236518/overview/description">Boost up AI 2025 : 신약 개발</a></td>
       <td align="center">정형, 회귀, 바이오</td>
       <td align="center"><b>🏆 2 / 739</b> (Top 1%)</td>
-      <td align="center">-</td>
+      <td align="center"><a href="https://github.com/shaun0927/Awesome-CYP3A4">논문 정리</a></td>
     </tr>
     <tr>
       <td align="center">2025.05 ~ 2025.06</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236489/overview/description">문맥 기반 문장 순서 예측</a></td>
       <td align="center">NLP, LLM</td>
-      <td align="center"><b>4 / 204</b></td>
+      <td align="center"><b>4 / 204</b> (Top 2%)</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236489/codeshare/12508">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2025.05 ~ 2025.06</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236493/overview/description">HAI(하이)! - Hecto AI Challenge</a></td>
       <td align="center">비전, 분류</td>
-      <td align="center">44 / 748</td>
+      <td align="center">44 / 748 (Top 6%)</td>
       <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">2025.04 ~ 2025.05</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236488/overview/description">갑상선암 진단 분류 해커톤</a></td>
       <td align="center">의료, 분류</td>
-      <td align="center"><b>15 / 990</b></td>
+      <td align="center"><b>15 / 990</b> (Top 2%)</td>
       <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">2025.03 ~ 2025.04</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236460/overview/description">신용카드 고객 세그먼트 분류</a></td>
       <td align="center">정형, 분류</td>
-      <td align="center"><b>8 / 236</b></td>
+      <td align="center"><b>8 / 236</b> (Top 4%)</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236460/codeshare/12330">코드 보기</a></td>
     </tr>
     <tr>
@@ -141,6 +141,7 @@
       <th align="center">대회명</th>
       <th align="center">분야</th>
       <th align="center">성적 (순위/참가팀)</th>
+      <th align="center">코드 공유</th>
     </tr>
   </thead>
   <tbody>
@@ -149,24 +150,28 @@
       <td align="center"><a href="https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025">Locating Bacterial Flagellar Motors</a></td>
       <td align="center">Computer Vision, 3D Object Detection</td>
       <td align="center">318 / 1136</td>
+      <td align="center"><a href="https://github.com/shaun0927/motor2025">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2024.10 ~ 2025.04</td>
       <td align="center"><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2">AI Mathematical Olympiad - Progress Prize 2</a></td>
       <td align="center">NLP, Mathematical Reasoning</td>
       <td align="center"><b>🥉 157 / 2212</b> (Top 7%)</td>
+      <td align="center"><a href="https://github.com/shaun0927/AIMO-2-Solution">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2024.11 ~ 2025.02</td>
       <td align="center"><a href="https://www.kaggle.com/competitions/czii-cryo-et-object-identification">CZII - CryoET Object Identification</a></td>
       <td align="center">Computer Vision, 3D Object Detection</td>
       <td align="center">305 / 931</td>
+      <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">2024.09 ~ 2024.12</td>
       <td align="center"><a href="https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants">Game-Playing Strength of MCTS Variants</a></td>
       <td align="center">Reinforcement Learning, Predictive Modeling</td>
       <td align="center">1148 / 1608</td>
+      <td align="center">-</td>
     </tr>
   </tbody>
 </table>
@@ -220,40 +225,11 @@
   <hr>
 </div>
 
-<div align="center">
-  <h3><a href="https://github.com/shaun0927/StockPriceForecast_Regression_ML">회귀 모델 기반 주가 예측 웹 서비스</a> (2024.11)</h3>
-  <p>다양한 회귀 모델(LightGBM 등)을 사용하여 주가를 예측하고 Gradio로 시각화하는 머신러닝 프로젝트</p>
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-    <img src="https://img.shields.io/badge/LightGBM-9C27B0?style=for-the-badge&logo=lightgbm&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  </p>
-  <hr>
-</div>
-
-<div align="center">
-  <h3><a href="https://github.com/shaun0927/KU_Sejong_Navigator">Mapbox 기반 교내 길찾기 네비게이터</a> (2023.11)</h3>
-  <p>Flutter와 Mapbox SDK를 활용하여 제작한 교내 길찾기 및 시설 안내 모바일 애플리케이션</p>
-  <p>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Mapbox-4264FB?style=for-the-badge&logo=mapbox&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Provider-212121?style=for-the-badge&logo=google&logoColor=white"/>
-    <img src="https://img.shields.io/badge/GetX-7B1FA2?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  </p>
-</div>
-<br>
 
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">📬 Contact</h2>
   <p>
-    <a href="mailto:your.email@gmail.com"><img src="https://img.shields.io/badge/your.email@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
-    <a href="https://your-blog.com/"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"/></a>
+    <a href="mailto:shaun0927@naver.com"><img src="https://img.shields.io/badge/shaun0927@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
   </p>
   <img src="https://komarev.com/ghpvc/?username=shaun0927&label=Profile%20views&color=blue&style=flat" alt="profile views"/>
 </div>
