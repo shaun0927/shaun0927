@@ -461,13 +461,13 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 
 
 <div align="center">
-  <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">📬 Contact</h2>
-  
   <!-- Microsoft AI School Team Photo -->
   <div style="margin: 20px 0;">
     <img src="./123.png" alt="Microsoft AI School Team" style="width: 80%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p><i>Microsoft AI School 5기 - 최우수 프로젝트 팀</i></p>
   </div>
+  
+  <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">📬 Contact</h2>
   
   <p>
     <a href="mailto:shaun0927@naver.com"><img src="https://img.shields.io/badge/shaun0927@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
