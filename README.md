@@ -4,47 +4,36 @@
 
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🚀 About Me</h2>
-  <p><b>생물학 전공자에서 머신러닝 엔지니어로 진로를 전환한 AI 전문가</b></p>
 </div>
 
-<table align="center" style="width: 90%; margin: 20px auto; border: none;">
-  <tr>
-    <td style="vertical-align: top; width: 50%; padding-right: 20px; border: none;">
-      <h3>💡 핵심 역량</h3>
-      <ul style="text-align: left;">
-        <li><b>빠른 Task 파악과 논문 구현</b><br>
-        <sub>다수의 경진대회 입상 경험으로 검증된 문제 해결 능력</sub></li>
-        <li><b>실패를 통한 성장 마인드셋</b><br>
-        <sub>관련 논문과 모든 가능한 방법론을 시도하는 철저한 접근</sub></li>
-        <li><b>ML 전분야 역량</b><br>
-        <sub>CV, LLM 대회 입상 등 머신러닝 전분야 실전 경험</sub></li>
-        <li><b>과학적 실험 설계</b><br>
-        <sub>생물학 배경의 통계적 검증과 체계적 접근법</sub></li>
-      </ul>
-    </td>
-    <td style="vertical-align: top; width: 50%; padding-left: 20px; border: none;">
-      <h3>🛠️ 기술 스택 & 경험</h3>
-      <ul style="text-align: left;">
-        <li><b>Cloud & Infra</b><br>
-        <sub>Azure 기반 AI 애플리케이션 배포, 엣지-클라우드 하이브리드 아키텍처</sub></li>
-        <li><b>Development Environment</b><br>
-        <sub>Runpod Linux 환경에서 대규모 모델 학습 및 실험</sub></li>
-        <li><b>Collaboration Tools</b><br>
-        <sub>Jira, Confluence를 활용한 팀 리더십과 프로젝트 관리</sub></li>
-        <li><b>Soft Skills</b><br>
-        <sub>8년간 출판 번역가로 20권 출간, 설득력 있는 문서화 능력</sub></li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<div align="center" style="margin: 30px 0;">
-  <blockquote style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; margin: 20px auto; width: 80%;">
-    <p style="margin: 0; font-size: 16px;">
-      <b>"우수한 개발자는 정확한 접근뿐만 아니라 많은 실패 위에 결과를 낸다"</b><br>
-      <small style="opacity: 0.9;">수많은 실패와 팀 협업을 통해 지속적으로 성장하는 ML 엔지니어</small>
+<div align="center" style="margin: 20px auto; width: 85%;">
+  <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 30px; border-radius: 15px; text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; color: #2c3e50;">🧬 생물학 전공자에서 머신러닝 엔지니어로 진로를 전환하였습니다.</h3>
+    
+    <p style="line-height: 1.8; color: #34495e;">
+    다수의 경진대회 입상을 토대로 <b>빠른 Task 파악과 논문 및 Github 적용</b>이 강점입니다.
+    각종 대회를 겪으면서 우수한 개발자는 정확한 접근뿐만 아니라 많은 실패 위에 결과를 낸다는 점을 배웠고, 어떤 Task를 해결하기 위해 관련 논문은 물론 존재하는 거의 모든 방법을 시도하는 게 기본으로 자리잡았습니다. 대회 입상까지 수많은 실패를 겪었고, 팀단위의 회의와 협업으로 이를 극복해 왔습니다.
     </p>
-  </blockquote>
+    
+    <p style="line-height: 1.8; color: #34495e;">
+    대회 환경에서는 주로 <b>Runpod Linux</b>를 활용했습니다.
+    CV 및 LLM 대회 입상 경험 등 <b>머신러닝 전 분야</b>에 관심을 두고 있으며, 각 분야에서 사용되는 방법론은 유기적으로 연결되어 있기에 많은 도움이 되리라 생각합니다.
+    </p>
+    
+    <p style="line-height: 1.8; color: #34495e;">
+    <b>Azure</b> 등 클라우드 인프라를 활용한 AI 애플리케이션을 배포했고, 
+    엣지-클라우드 하이브리드 아키텍처를 구현한 경험이 있습니다.
+    </p>
+    
+    <p style="line-height: 1.8; color: #34495e;">
+    과학적 실험 설계와 통계적 검증 기반 능력이 있으며,
+    팀리더로서 여러 프로젝트를 이끌며 <b>Jira, Confluence</b>를 활용해 협업과 문제해결 능력 등 소프트 스킬을 쌓아 왔습니다.
+    </p>
+    
+    <p style="line-height: 1.8; color: #34495e; margin-bottom: 0;">
+    이외에도 약 8년간 <b>출판 번역가</b>로서 20권 가량의 책을 출간했으며, 번역 제안서를 쓰면서 설득 능력을 키워 왔습니다. 다양한 분야에서 두각을 나타내는 인재이자 머신러닝 엔지니어로서 커리어를 넓혀가고자 합니다.
+    </p>
+  </div>
 </div>
 
 <br>
