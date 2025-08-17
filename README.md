@@ -268,105 +268,118 @@
 <br>
 
 <details>
-<summary><b>🔧 프로젝트별 상세 기술 스택 (클릭하여 펼치기)</b></summary>
+<summary><b>💡 프로젝트별 상세 기술 스택 (클릭하여 펼치기)</b></summary>
 <br>
 
-<table align="center" style="width: 100%; margin: auto;">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🔬 Bacterial Motor Detection</h4>
-      <b>AI Models</b><br>
-      • YOLOv10 (3D Object Detection)<br>
-      • MHAF (Multi-Head Attention Fusion)<br><br>
-      <b>Core Techniques</b><br>
-      • 3D Non-Maximum Suppression<br>
-      • Test Time Augmentation<br>
-      • 5-Fold Cross Validation<br><br>
-      <b>Tools & Frameworks</b><br>
-      • WandB (Experiment Tracking)<br>
-      • CUDA (GPU Acceleration)<br>
-      • Docker (Containerization)
-    </td>
-    <td width="50%" valign="top">
-      <h4>📝 문맥 기반 문장 순서 예측</h4>
-      <b>AI Models</b><br>
-      • BART-NAON (Non-Autoregressive)<br>
-      • Transformers (Sequence Modeling)<br><br>
-      <b>Core Techniques</b><br>
-      • Pairwise Ranking<br>
-      • Hard Negative Mining<br>
-      • Teacher-Student CoT<br><br>
-      <b>Tools & Frameworks</b><br>
-      • Hugging Face Ecosystem<br>
-      • GPT-4o (Teacher Model)<br>
-      • Custom Ranking Module
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🚗 Hecto Car Classification</h4>
-      <b>AI Models</b><br>
-      • ConvNeXt-Base (CLIP Pre-trained)<br>
-      • Vision Transformer Backbone<br><br>
-      <b>Core Techniques</b><br>
-      • GeM Pooling<br>
-      • Sub-center ArcFace (K=3)<br>
-      • Progressive Resizing (256→768px)<br>
-      • CutMix/MixUp Augmentation<br><br>
-      <b>Tools & Frameworks</b><br>
-      • timm (PyTorch Image Models)<br>
-      • albumentations<br>
-      • FAISS (Similarity Search)
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏥 갑상선암 진단 분류</h4>
-      <b>AI Models</b><br>
-      • CatBoost (GPU Accelerated)<br>
-      • XGBoost, LightGBM<br>
-      • RandomForest with ROS<br><br>
-      <b>Core Techniques</b><br>
-      • Threshold Optimization (F1)<br>
-      • RandomOverSampler<br>
-      • Soft Voting Ensemble<br>
-      • Nested Cross-Validation<br><br>
-      <b>Tools & Frameworks</b><br>
-      • Optuna (Hyperparameter Tuning)<br>
-      • imbalanced-learn<br>
-      • scikit-learn Pipeline
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧮 AI Mathematical Olympiad</h4>
-      <b>AI Models</b><br>
-      • DeepSeek-R1 Distilled<br>
-      • Qwen-7B (AWQ Quantized)<br><br>
-      <b>Core Techniques</b><br>
-      • rStar-Math Algorithm<br>
-      • Monte Carlo Tree Search<br>
-      • Self-Verification Loop<br>
-      • QLoRA Fine-tuning<br><br>
-      <b>Tools & Frameworks</b><br>
-      • vLLM (Inference Optimization)<br>
-      • 4-bit Quantization<br>
-      • Dynamic Batch Processing
-    </td>
-    <td width="50%" valign="top">
-      <h4>💳 고객 세그먼트 분류</h4>
-      <b>AI Models</b><br>
-      • Multi-stage Binary Classifier<br>
-      • Gradient Boosting Ensemble<br><br>
-      <b>Core Techniques</b><br>
-      • Extensive Feature Engineering<br>
-      • Customer Behavior Segmentation<br>
-      • Domain Knowledge Integration<br><br>
-      <b>Tools & Frameworks</b><br>
-      • XGBoost<br>
-      • pandas (Feature Engineering)<br>
-      • scikit-learn (Pipeline)
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+### 🔬 **Bacterial Motor Detection**
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`YOLOv10` `MHAF` `3D Object Detection`
+
+**⚡ Core Techniques**  
+`3D NMS` `Test Time Augmentation` `5-Fold Cross Validation`
+
+**🛠️ Infrastructure**  
+`WandB` `CUDA` `Docker` `PyTorch`
+
+</div>
+</div>
+
+---
+
+### 📝 **문맥 기반 문장 순서 예측**
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`BART-NAON` `Transformers` `GPT-4o Teacher`
+
+**⚡ Core Techniques**  
+`Pairwise Ranking` `Hard Negative Mining` `Teacher-Student CoT`
+
+**🛠️ Infrastructure**  
+`Hugging Face` `Custom Ranking Module` `CUDA`
+
+</div>
+</div>
+
+---
+
+### 🚗 **Hecto Car Classification**
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`ConvNeXt-Base` `CLIP` `Vision Transformer`
+
+**⚡ Core Techniques**  
+`GeM Pooling` `Sub-center ArcFace` `Progressive Resizing` `CutMix/MixUp`
+
+**🛠️ Infrastructure**  
+`timm` `albumentations` `FAISS` `PyTorch 2.0`
+
+</div>
+</div>
+
+---
+
+### 🏥 **갑상선암 진단 분류**
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`CatBoost GPU` `XGBoost` `LightGBM` `RandomForest`
+
+**⚡ Core Techniques**  
+`Threshold Optimization` `RandomOverSampler` `Soft Voting` `Nested CV`
+
+**🛠️ Infrastructure**  
+`Optuna` `imbalanced-learn` `scikit-learn` `GPU Acceleration`
+
+</div>
+</div>
+
+---
+
+### 🧮 **AI Mathematical Olympiad**
+<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`DeepSeek-R1` `Qwen-7B` `AWQ Quantization`
+
+**⚡ Core Techniques**  
+`rStar-Math` `MCTS` `Self-Verification` `QLoRA`
+
+**🛠️ Infrastructure**  
+`vLLM` `4-bit Quantization` `Dynamic Batching`
+
+</div>
+</div>
+
+---
+
+### 💳 **고객 세그먼트 분류**
+<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); padding: 2px; border-radius: 10px; margin: 10px;">
+<div style="background: white; border-radius: 8px; padding: 15px;">
+
+**🤖 AI Models**  
+`Multi-stage Binary` `Gradient Boosting` `Ensemble Methods`
+
+**⚡ Core Techniques**  
+`Feature Engineering` `Customer Segmentation` `Domain Knowledge`
+
+**🛠️ Infrastructure**  
+`XGBoost` `pandas` `scikit-learn Pipeline`
+
+</div>
+</div>
+
+</div>
 
 </details>
 
