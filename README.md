@@ -271,115 +271,129 @@
 <summary><b>💡 프로젝트별 상세 기술 스택 (클릭하여 펼치기)</b></summary>
 <br>
 
-<div align="center">
-
-### 🔬 **Bacterial Motor Detection**
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`YOLOv10` `MHAF` `3D Object Detection`
-
-**⚡ Core Techniques**  
-`3D NMS` `Test Time Augmentation` `5-Fold Cross Validation`
-
-**🛠️ Infrastructure**  
-`WandB` `CUDA` `Docker` `PyTorch`
-
-</div>
-</div>
-
----
-
-### 📝 **문맥 기반 문장 순서 예측**
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`BART-NAON` `Transformers` `GPT-4o Teacher`
-
-**⚡ Core Techniques**  
-`Pairwise Ranking` `Hard Negative Mining` `Teacher-Student CoT`
-
-**🛠️ Infrastructure**  
-`Hugging Face` `Custom Ranking Module` `CUDA`
-
-</div>
-</div>
-
----
-
-### 🚗 **Hecto Car Classification**
-<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`ConvNeXt-Base` `CLIP` `Vision Transformer`
-
-**⚡ Core Techniques**  
-`GeM Pooling` `Sub-center ArcFace` `Progressive Resizing` `CutMix/MixUp`
-
-**🛠️ Infrastructure**  
-`timm` `albumentations` `FAISS` `PyTorch 2.0`
-
-</div>
-</div>
-
----
-
-### 🏥 **갑상선암 진단 분류**
-<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`CatBoost GPU` `XGBoost` `LightGBM` `RandomForest`
-
-**⚡ Core Techniques**  
-`Threshold Optimization` `RandomOverSampler` `Soft Voting` `Nested CV`
-
-**🛠️ Infrastructure**  
-`Optuna` `imbalanced-learn` `scikit-learn` `GPU Acceleration`
-
-</div>
-</div>
-
----
-
-### 🧮 **AI Mathematical Olympiad**
-<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`DeepSeek-R1` `Qwen-7B` `AWQ Quantization`
-
-**⚡ Core Techniques**  
-`rStar-Math` `MCTS` `Self-Verification` `QLoRA`
-
-**🛠️ Infrastructure**  
-`vLLM` `4-bit Quantization` `Dynamic Batching`
-
-</div>
-</div>
-
----
-
-### 💳 **고객 세그먼트 분류**
-<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); padding: 2px; border-radius: 10px; margin: 10px;">
-<div style="background: white; border-radius: 8px; padding: 15px;">
-
-**🤖 AI Models**  
-`Multi-stage Binary` `Gradient Boosting` `Ensemble Methods`
-
-**⚡ Core Techniques**  
-`Feature Engineering` `Customer Segmentation` `Domain Knowledge`
-
-**🛠️ Infrastructure**  
-`XGBoost` `pandas` `scikit-learn Pipeline`
-
-</div>
-</div>
-
-</div>
+<table align="center" style="width: 95%; margin: auto;">
+  <thead>
+    <tr style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); color: white;">
+      <th width="20%">프로젝트</th>
+      <th width="28%">🤖 AI Models</th>
+      <th width="28%">⚡ Core Techniques</th>
+      <th width="24%">🛠️ Infrastructure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>🔬 Bacterial Motor<br>Detection</b></td>
+      <td>
+        <code>YOLOv10</code><br>
+        <code>MHAF</code><br>
+        <code>3D Object Detection</code>
+      </td>
+      <td>
+        <code>3D NMS</code><br>
+        <code>Test Time Augmentation</code><br>
+        <code>5-Fold Cross Validation</code>
+      </td>
+      <td>
+        <code>WandB</code> <code>CUDA</code><br>
+        <code>Docker</code> <code>PyTorch</code>
+      </td>
+    </tr>
+    <tr style="background: #f9f9f9;">
+      <td align="center"><b>📝 문맥 기반<br>문장 순서 예측</b></td>
+      <td>
+        <code>BART-NAON</code><br>
+        <code>Transformers</code><br>
+        <code>GPT-4o Teacher</code>
+      </td>
+      <td>
+        <code>Pairwise Ranking</code><br>
+        <code>Hard Negative Mining</code><br>
+        <code>Teacher-Student CoT</code>
+      </td>
+      <td>
+        <code>Hugging Face</code><br>
+        <code>Custom Ranking Module</code><br>
+        <code>CUDA</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>🚗 Hecto Car<br>Classification</b></td>
+      <td>
+        <code>ConvNeXt-Base</code><br>
+        <code>CLIP</code><br>
+        <code>Vision Transformer</code>
+      </td>
+      <td>
+        <code>GeM Pooling</code><br>
+        <code>Sub-center ArcFace</code><br>
+        <code>Progressive Resizing</code><br>
+        <code>CutMix/MixUp</code>
+      </td>
+      <td>
+        <code>timm</code> <code>albumentations</code><br>
+        <code>FAISS</code> <code>PyTorch 2.0</code>
+      </td>
+    </tr>
+    <tr style="background: #f9f9f9;">
+      <td align="center"><b>🏥 갑상선암<br>진단 분류</b></td>
+      <td>
+        <code>CatBoost GPU</code><br>
+        <code>XGBoost</code><br>
+        <code>LightGBM</code><br>
+        <code>RandomForest</code>
+      </td>
+      <td>
+        <code>Threshold Optimization</code><br>
+        <code>RandomOverSampler</code><br>
+        <code>Soft Voting</code><br>
+        <code>Nested CV</code>
+      </td>
+      <td>
+        <code>Optuna</code><br>
+        <code>imbalanced-learn</code><br>
+        <code>scikit-learn</code><br>
+        <code>GPU Acceleration</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>🧮 AI Mathematical<br>Olympiad</b></td>
+      <td>
+        <code>DeepSeek-R1</code><br>
+        <code>Qwen-7B</code><br>
+        <code>AWQ Quantization</code>
+      </td>
+      <td>
+        <code>rStar-Math</code><br>
+        <code>MCTS</code><br>
+        <code>Self-Verification</code><br>
+        <code>QLoRA</code>
+      </td>
+      <td>
+        <code>vLLM</code><br>
+        <code>4-bit Quantization</code><br>
+        <code>Dynamic Batching</code>
+      </td>
+    </tr>
+    <tr style="background: #f9f9f9;">
+      <td align="center"><b>💳 고객 세그먼트<br>분류</b></td>
+      <td>
+        <code>Multi-stage Binary</code><br>
+        <code>Gradient Boosting</code><br>
+        <code>Ensemble Methods</code>
+      </td>
+      <td>
+        <code>Feature Engineering</code><br>
+        <code>Customer Segmentation</code><br>
+        <code>Domain Knowledge</code>
+      </td>
+      <td>
+        <code>XGBoost</code><br>
+        <code>pandas</code><br>
+        <code>scikit-learn Pipeline</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 </details>
 
