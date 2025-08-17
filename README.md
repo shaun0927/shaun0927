@@ -271,23 +271,102 @@
 <summary><b>🔧 프로젝트별 상세 기술 스택 (클릭하여 펼치기)</b></summary>
 <br>
 
-### 🔬 **Bacterial Motor Detection** 
-**Models:** YOLOv10, MHAF | **Techniques:** 3D NMS, TTA, Cross Validation | **Tools:** WandB, CUDA, Docker
-
-### 📝 **문맥 기반 문장 순서 예측**
-**Models:** BART-NAON, Transformers | **Techniques:** Pairwise Ranking, Hard Negative Mining, Teacher-Student CoT | **Tools:** Hugging Face, GPT-4o
-
-### 🚗 **Hecto Car Classification**
-**Models:** ConvNeXt-Base, CLIP | **Techniques:** GeM Pooling, Sub-center ArcFace, Progressive Resizing | **Tools:** timm, albumentations, FAISS
-
-### 🏥 **갑상선암 진단 분류**
-**Models:** CatBoost, XGBoost, LightGBM, RandomForest | **Techniques:** Threshold Optimization, RandomOverSampler, Ensemble Voting | **Tools:** Optuna, scikit-learn, imbalanced-learn
-
-### 🧮 **AI Mathematical Olympiad**
-**Models:** DeepSeek-R1, Qwen-7B | **Techniques:** rStar-Math, MCTS, Self-Verification, QLoRA | **Tools:** vLLM, 4-bit Quantization
-
-### 💳 **고객 세그먼트 분류**
-**Models:** Multi-stage Binary, Ensemble Methods | **Techniques:** Feature Engineering, Customer Segmentation | **Tools:** scikit-learn, pandas, XGBoost
+<table align="center" style="width: 100%; margin: auto;">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔬 Bacterial Motor Detection</h4>
+      <b>AI Models</b><br>
+      • YOLOv10 (3D Object Detection)<br>
+      • MHAF (Multi-Head Attention Fusion)<br><br>
+      <b>Core Techniques</b><br>
+      • 3D Non-Maximum Suppression<br>
+      • Test Time Augmentation<br>
+      • 5-Fold Cross Validation<br><br>
+      <b>Tools & Frameworks</b><br>
+      • WandB (Experiment Tracking)<br>
+      • CUDA (GPU Acceleration)<br>
+      • Docker (Containerization)
+    </td>
+    <td width="50%" valign="top">
+      <h4>📝 문맥 기반 문장 순서 예측</h4>
+      <b>AI Models</b><br>
+      • BART-NAON (Non-Autoregressive)<br>
+      • Transformers (Sequence Modeling)<br><br>
+      <b>Core Techniques</b><br>
+      • Pairwise Ranking<br>
+      • Hard Negative Mining<br>
+      • Teacher-Student CoT<br><br>
+      <b>Tools & Frameworks</b><br>
+      • Hugging Face Ecosystem<br>
+      • GPT-4o (Teacher Model)<br>
+      • Custom Ranking Module
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🚗 Hecto Car Classification</h4>
+      <b>AI Models</b><br>
+      • ConvNeXt-Base (CLIP Pre-trained)<br>
+      • Vision Transformer Backbone<br><br>
+      <b>Core Techniques</b><br>
+      • GeM Pooling<br>
+      • Sub-center ArcFace (K=3)<br>
+      • Progressive Resizing (256→768px)<br>
+      • CutMix/MixUp Augmentation<br><br>
+      <b>Tools & Frameworks</b><br>
+      • timm (PyTorch Image Models)<br>
+      • albumentations<br>
+      • FAISS (Similarity Search)
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏥 갑상선암 진단 분류</h4>
+      <b>AI Models</b><br>
+      • CatBoost (GPU Accelerated)<br>
+      • XGBoost, LightGBM<br>
+      • RandomForest with ROS<br><br>
+      <b>Core Techniques</b><br>
+      • Threshold Optimization (F1)<br>
+      • RandomOverSampler<br>
+      • Soft Voting Ensemble<br>
+      • Nested Cross-Validation<br><br>
+      <b>Tools & Frameworks</b><br>
+      • Optuna (Hyperparameter Tuning)<br>
+      • imbalanced-learn<br>
+      • scikit-learn Pipeline
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧮 AI Mathematical Olympiad</h4>
+      <b>AI Models</b><br>
+      • DeepSeek-R1 Distilled<br>
+      • Qwen-7B (AWQ Quantized)<br><br>
+      <b>Core Techniques</b><br>
+      • rStar-Math Algorithm<br>
+      • Monte Carlo Tree Search<br>
+      • Self-Verification Loop<br>
+      • QLoRA Fine-tuning<br><br>
+      <b>Tools & Frameworks</b><br>
+      • vLLM (Inference Optimization)<br>
+      • 4-bit Quantization<br>
+      • Dynamic Batch Processing
+    </td>
+    <td width="50%" valign="top">
+      <h4>💳 고객 세그먼트 분류</h4>
+      <b>AI Models</b><br>
+      • Multi-stage Binary Classifier<br>
+      • Gradient Boosting Ensemble<br><br>
+      <b>Core Techniques</b><br>
+      • Extensive Feature Engineering<br>
+      • Customer Behavior Segmentation<br>
+      • Domain Knowledge Integration<br><br>
+      <b>Tools & Frameworks</b><br>
+      • XGBoost<br>
+      • pandas (Feature Engineering)<br>
+      • scikit-learn (Pipeline)
+    </td>
+  </tr>
+</table>
 
 </details>
 
