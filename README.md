@@ -3,6 +3,53 @@
 </a>
 
 <div align="center">
+  <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🚀 About Me</h2>
+  <p><b>생물학 전공자에서 머신러닝 엔지니어로 진로를 전환한 AI 전문가</b></p>
+</div>
+
+<table align="center" style="width: 90%; margin: 20px auto; border: none;">
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding-right: 20px; border: none;">
+      <h3>💡 핵심 역량</h3>
+      <ul style="text-align: left;">
+        <li><b>빠른 Task 파악과 논문 구현</b><br>
+        <sub>다수의 경진대회 입상 경험으로 검증된 문제 해결 능력</sub></li>
+        <li><b>실패를 통한 성장 마인드셋</b><br>
+        <sub>관련 논문과 모든 가능한 방법론을 시도하는 철저한 접근</sub></li>
+        <li><b>ML 전분야 역량</b><br>
+        <sub>CV, LLM 대회 입상 등 머신러닝 전분야 실전 경험</sub></li>
+        <li><b>과학적 실험 설계</b><br>
+        <sub>생물학 배경의 통계적 검증과 체계적 접근법</sub></li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding-left: 20px; border: none;">
+      <h3>🛠️ 기술 스택 & 경험</h3>
+      <ul style="text-align: left;">
+        <li><b>Cloud & Infra</b><br>
+        <sub>Azure 기반 AI 애플리케이션 배포, 엣지-클라우드 하이브리드 아키텍처</sub></li>
+        <li><b>Development Environment</b><br>
+        <sub>Runpod Linux 환경에서 대규모 모델 학습 및 실험</sub></li>
+        <li><b>Collaboration Tools</b><br>
+        <sub>Jira, Confluence를 활용한 팀 리더십과 프로젝트 관리</sub></li>
+        <li><b>Soft Skills</b><br>
+        <sub>8년간 출판 번역가로 20권 출간, 설득력 있는 문서화 능력</sub></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div align="center" style="margin: 30px 0;">
+  <blockquote style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; margin: 20px auto; width: 80%;">
+    <p style="margin: 0; font-size: 16px;">
+      <b>"우수한 개발자는 정확한 접근뿐만 아니라 많은 실패 위에 결과를 낸다"</b><br>
+      <small style="opacity: 0.9;">수많은 실패와 팀 협업을 통해 지속적으로 성장하는 ML 엔지니어</small>
+    </p>
+  </blockquote>
+</div>
+
+<br>
+
+<div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🏆 Data Science Competitions</h2>
   <p>데이터 분석/AI 경진대회 플랫폼 데이콘(Dacon) 참여 기록입니다.</p>
 
