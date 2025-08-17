@@ -1,5 +1,5 @@
 <a href="https://github.com/shaun0927">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&text=Shaun's%20GitHub&animation=fadeIn&fontSize=50&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&text=Shaun0927's%20GitHub&animation=fadeIn&fontSize=50&fontColor=ffffff" />
 </a>
 
 <div align="center">
