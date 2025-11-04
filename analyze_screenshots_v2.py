@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-개선된 스크린샷 분석 스크립트 (Anthropic API 사용)
+개선된 스크린샷 분석 스크립트 (OpenAI GPT-4o-mini 사용)
 - 더 정확한 프롬프트
 - 데이터 검증 레이어
 - 자동 통계 집계
@@ -11,12 +11,16 @@ import json
 import base64
 import os
 import re
-from anthropic import Anthropic
+from openai import OpenAI
+from dotenv import load_dotenv
+
+# .env 파일 로드
+load_dotenv()
 
 def encode_image(image_path):
     """이미지를 base64로 인코딩"""
     with open(image_path, 'rb') as f:
-        return base64.standard_b64encode(f.read()).decode('utf-8')
+        return base64.b64encode(f.read()).decode('utf-8')
 
 def analyze_dacon_screenshot(client):
     """Dacon 스크린샷 분석 - 개선된 버전"""
@@ -90,35 +94,33 @@ JSON 형식으로만 응답해주세요:
 }
 """
 
-    message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=8192,  # 토큰 수 증가
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": "image/png",
-                            "data": image_data,
-                        },
-                    },
-                    {
-                        "type": "text",
-                        "text": prompt
-                    }
-                ],
-            }
-        ],
-    )
-
-    response_text = message.content[0].text
-    print(f"\n[DEBUG] Dacon AI Response:\n{response_text}\n")
-
-    # JSON 파싱
     try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": prompt
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/png;base64,{image_data}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=4096
+        )
+
+        response_text = response.choices[0].message.content
+        print(f"\n[DEBUG] Dacon AI Response:\n{response_text}\n")
+
+        # JSON 파싱
         if "```json" in response_text:
             response_text = response_text.split("```json")[1].split("```")[0].strip()
         elif "```" in response_text:
@@ -131,9 +133,9 @@ JSON 형식으로만 응답해주세요:
         print(f"[VALIDATION] Ongoing: {len(data.get('ongoing', []))} competitions")
 
         return data
+
     except Exception as e:
-        print(f"[ERROR] Failed to parse Dacon response: {e}")
-        print(f"Response: {response_text}")
+        print(f"[ERROR] Failed to analyze Dacon screenshot: {e}")
         return None
 
 def analyze_kaggle_screenshot(client):
@@ -187,34 +189,33 @@ JSON 형식으로만 응답:
 }
 """
 
-    message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=8192,
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": "image/png",
-                            "data": image_data,
-                        },
-                    },
-                    {
-                        "type": "text",
-                        "text": prompt
-                    }
-                ],
-            }
-        ],
-    )
-
-    response_text = message.content[0].text
-    print(f"\n[DEBUG] Kaggle AI Response:\n{response_text}\n")
-
     try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": prompt
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/png;base64,{image_data}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=4096
+        )
+
+        response_text = response.choices[0].message.content
+        print(f"\n[DEBUG] Kaggle AI Response:\n{response_text}\n")
+
+        # JSON 파싱
         if "```json" in response_text:
             response_text = response_text.split("```json")[1].split("```")[0].strip()
         elif "```" in response_text:
@@ -227,9 +228,9 @@ JSON 형식으로만 응답:
         print(f"[VALIDATION] Ongoing: {len(data.get('ongoing', []))} competitions")
 
         return data
+
     except Exception as e:
-        print(f"[ERROR] Failed to parse Kaggle response: {e}")
-        print(f"Response: {response_text}")
+        print(f"[ERROR] Failed to analyze Kaggle screenshot: {e}")
         return None
 
 def calculate_ranking_percentage(ranking_str):
@@ -454,17 +455,18 @@ def update_competitions_json(dacon_data, kaggle_data):
 def main():
     print("=" * 60)
     print("IMPROVED Screenshot Analysis System")
+    print("Using OpenAI GPT-4o-mini")
     print("=" * 60)
 
     # API 키 확인
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    api_key = os.environ.get('OPENAI_API_KEY')
     if not api_key:
-        print("[ERROR] ANTHROPIC_API_KEY environment variable not set!")
-        print("[TIP] Set it with: set ANTHROPIC_API_KEY=your_key_here")
+        print("[ERROR] OPENAI_API_KEY environment variable not set!")
+        print("[TIP] Check your .env file or set it with: set OPENAI_API_KEY=your_key_here")
         return
 
-    # Anthropic 클라이언트 초기화
-    client = Anthropic(api_key=api_key)
+    # OpenAI 클라이언트 초기화
+    client = OpenAI(api_key=api_key)
 
     # Dacon 스크린샷 분석
     dacon_data = analyze_dacon_screenshot(client)

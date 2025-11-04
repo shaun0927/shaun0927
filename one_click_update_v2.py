@@ -98,13 +98,14 @@ class VisionAIAgent(UpdateAgent):
         self.log("Starting Vision AI analysis...", "AGENT")
 
         # API 키 확인
-        if not os.environ.get('ANTHROPIC_API_KEY'):
-            self.log("ANTHROPIC_API_KEY not found!", "ERROR")
+        if not os.environ.get('OPENAI_API_KEY'):
+            self.log("OPENAI_API_KEY not found!", "ERROR")
+            self.log("Please check your .env file", "ERROR")
             return False
 
         success, output = self.run_command(
             "python analyze_screenshots_v2.py",
-            "Analyzing screenshots with Vision AI"
+            "Analyzing screenshots with Vision AI (GPT-4o-mini)"
         )
 
         if success:
