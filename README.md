@@ -41,14 +41,14 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
           <img src="https://cdn-icons-png.flaticon.com/512/179/179249.png" width="80" alt="Gold Tier"/>
         </a>
         <br>
-        <strong>Overall Rank: 131 of 135,189</strong> <br> Competition Gold (Top 0.1%)
+        <strong>Overall Rank: 27 of 144,839</strong> <br> Competition Challenger (Top 0.01%)
       </td>
       <td style="width: 50%; text-align: left; border: none; padding-left: 20px;">
         <h3>Key Achievements</h3>
         <p>
-          🥇 <strong>Top 1% Finishes: 1 time</strong><br>
-          🏅 <strong>Top 4% Finishes: 4 times</strong><br>
-          🎖️ <strong>Top 10% Finishes: 6 times</strong><br>
+          🥇 <strong>Top 1% Finishes: 2 times</strong><br>
+          🏅 <strong>Top 4% Finishes: 5 times</strong><br>
+          🎖️ <strong>Top 10% Finishes: 9 times</strong><br>
           👥 <strong>Team Competitions: 14 times</strong><br>
         </p>
       </td>
@@ -75,6 +75,27 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="center">2025.10 ~ 2025.11</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">토스 NEXT ML CHALLENGE : CTR 모델 개발</a></td>
+      <td align="center">추천시스템, 금융</td>
+      <td align="center"><b>🥇 1 / 709</b> (1st Place)</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
+      <td align="center">2025.08 ~ 2025.09</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">2025 자동차 데이터 분석 경진대회</a></td>
+      <td align="center">AI Agent</td>
+      <td align="center"><b>🥇 1 / 771</b> (1st Place)</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
+      <td align="center">2025.07 ~ 2025.09</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/236530/overview/description">Jump AI(.py) 2025 : 제 3회 AI 신약개발</a></td>
+      <td align="center">정형, 회귀, 바이오</td>
+      <td align="center"><b>20 / 502</b> (Top 4%)</td>
+      <td align="center">-</td>
+    </tr>
     <tr>
       <td align="center">2025.06 ~ 2025.07</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236518/overview/description">Boost up AI 2025 : 신약 개발</a></td>
@@ -138,12 +159,6 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center"><a href="https://dacon.io/competitions/official/236531/overview/description">2025 전력사용량 예측</a></td>
       <td align="center">시계열, 에너지</td>
       <td align="center">109 / 269</td>
-    </tr>
-     <tr>
-      <td align="center">2025.07 ~ 2025.08</td>
-      <td align="center"><a href="https://dacon.io/competitions/official/236530/overview/description">Jump AI(.py) 2025 : 제 3회 AI 신약개발</a></td>
-      <td align="center">정형, 회귀, 바이오</td>
-      <td align="center"><b>38 / 1066</b> (Top 4%)</td>
     </tr>
     <tr>
       <td align="center">2025.08 ~ 2025.09</td>
