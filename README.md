@@ -33,7 +33,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🏆 Data Science Competitions</h2>
   <!-- LAST_UPDATED -->
-  <p><em>Last updated: 2025-11-04 11:05:16 KST</em></p>
+  <p><em>Last updated: 2025-11-04 11:22:46 KST</em></p>
   <p>데이터 분석/AI 경진대회 플랫폼 데이콘(Dacon) 참여 기록입니다.</p>
 
   <a href="https://dacon.io/myprofile/499579/home">
@@ -52,9 +52,9 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td style="width: 50%; text-align: left; border: none; padding-left: 20px;">
         <h3>Key Achievements</h3>
         <p>
-          🥇 <strong>Top 1% Finishes: 2 times</strong><br>
-          🏅 <strong>Top 4% Finishes: 5 times</strong><br>
-          🎖️ <strong>Top 10% Finishes: 10 times</strong><br>
+          🥇 <strong>Top 1% Finishes: 3 times</strong><br>
+          🏅 <strong>Top 4% Finishes: 6 times</strong><br>
+          🎖️ <strong>Top 10% Finishes: 8 times</strong><br>
           👥 <strong>Team Competitions: 14 times</strong><br>
         </p>
       </td>
@@ -164,7 +164,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">2025.10 ~ 2025.11</td>
       <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회</a></td>
       <td align="center">정형, 회귀, 데이터 분석</td>
-      <td align="center">TBD</td>
+      <td align="center">16 / 364</td>
     </tr>
     </tbody>
 </table>

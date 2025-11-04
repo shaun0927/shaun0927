@@ -3,10 +3,10 @@
     "rank": "27 of 144,839",
     "tier": "Competition Challenger (Top 0.01%)",
     "achievements": {
-      "top1": 2,
-      "top4": 5,
-      "top10": 10,
-      "teams": 16
+      "top1": 3,
+      "top4": 6,
+      "top10": 8,
+      "teams": 15
     },
     "completed": [
       {
@@ -96,7 +96,7 @@
         "period": "2025.10 ~ 2025.11",
         "name": "운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회",
         "category": "정형, 회귀, 데이터 분석",
-        "ranking": "TBD",
+        "ranking": "16 / 364",
         "link": "https://dacon.io/competitions/official/XXXXX/overview/description"
       }
     ]

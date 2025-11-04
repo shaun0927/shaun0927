@@ -21,7 +21,7 @@ echo.
 echo Starting automated update process...
 echo.
 
-python one_click_update_v2.py
+python auto_updater.py
 
 echo.
 echo ============================================================

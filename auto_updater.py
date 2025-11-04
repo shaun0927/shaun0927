@@ -71,7 +71,7 @@ class ScreenshotAgent(UpdateAgent):
         """스크린샷 캡처 실행"""
         self.log("Starting screenshot capture...", "AGENT")
         success, _ = self.run_command(
-            "python auto_update.py",
+            "python capture_screenshots.py",
             "Capturing Dacon and Kaggle screenshots"
         )
         if success:
@@ -104,7 +104,7 @@ class VisionAIAgent(UpdateAgent):
             return False
 
         success, output = self.run_command(
-            "python analyze_screenshots_v2.py",
+            "python analyze_with_ai.py",
             "Analyzing screenshots with Vision AI (GPT-4o-mini)"
         )
 
@@ -186,7 +186,7 @@ class READMEAgent(UpdateAgent):
         """README 업데이트"""
         self.log("Generating README...", "AGENT")
         success, _ = self.run_command(
-            "python update_readme_simple.py",
+            "python update_readme.py",
             "Updating README.md"
         )
 
