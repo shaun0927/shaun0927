@@ -3,7 +3,8 @@ REM One-Click Update Script for GitHub Profile
 REM Double-click this file to update your profile automatically!
 
 echo ============================================================
-echo ONE-CLICK GITHUB PROFILE UPDATER
+echo ONE-CLICK GITHUB PROFILE UPDATER v2
+echo Improved with modular agent system
 echo ============================================================
 echo.
 
@@ -20,7 +21,7 @@ echo.
 echo Starting automated update process...
 echo.
 
-python one_click_update.py
+python one_click_update_v2.py
 
 echo.
 echo ============================================================
