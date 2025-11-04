@@ -247,16 +247,16 @@ def calculate_ranking_percentage(ranking_str):
         pass
     return None
 
-def calculate_achievements(dacon_completed, kaggle_completed):
+def calculate_achievements(dacon_completed, kaggle_completed, dacon_ongoing, kaggle_ongoing):
     """
-    자동 통계 집계 - 해커톤 제외, Dacon + Kaggle 합산
+    자동 통계 집계 - 해커톤 제외, Dacon + Kaggle 합산, Ongoing 포함
 
     Returns:
         dict: {
             "top1": Top 1% 횟수,
             "top4": Top 4% 횟수,
             "top10": Top 10% 횟수,
-            "teams": 총 참여 대회 수 (해커톤 제외)
+            "teams": 총 참여 대회 수 (completed + ongoing, 해커톤 제외)
         }
     """
     print("\n[INFO] Calculating achievements statistics...")
@@ -338,8 +338,11 @@ def calculate_achievements(dacon_completed, kaggle_completed):
             if percentage <= 10:
                 top10_count += 1
 
-    # 총 대회 수 (해커톤 제외)
-    total_teams = len([c for c in dacon_completed if not c.get('is_hackathon', False)]) + len(kaggle_completed)
+    # 총 대회 수 (completed + ongoing, 해커톤 제외)
+    dacon_count = len([c for c in dacon_completed if not c.get('is_hackathon', False)])
+    kaggle_count = len(kaggle_completed)
+    ongoing_count = len(dacon_ongoing) + len(kaggle_ongoing)
+    total_teams = dacon_count + kaggle_count + ongoing_count
 
     result = {
         "top1": top1_count,
@@ -348,7 +351,8 @@ def calculate_achievements(dacon_completed, kaggle_completed):
         "teams": total_teams
     }
 
-    print(f"\n[STATISTICS] Top 1%: {top1_count}, Top 4%: {top4_count}, Top 10%: {top10_count}, Total: {total_teams}")
+    print(f"\n[STATISTICS] Top 1%: {top1_count}, Top 4%: {top4_count}, Top 10%: {top10_count}")
+    print(f"[STATISTICS] Teams: Dacon {dacon_count} + Kaggle {kaggle_count} + Ongoing {ongoing_count} = Total {total_teams}")
 
     return result
 
@@ -425,10 +429,12 @@ def update_competitions_json(dacon_data, kaggle_data):
     # 해커톤 및 코드 링크 보존
     new_data = preserve_hackathons(current_data, new_data)
 
-    # 업적 통계 자동 계산 (해커톤 제외)
+    # 업적 통계 자동 계산 (ongoing 포함, 해커톤 제외)
     new_data["dacon"]["achievements"] = calculate_achievements(
         new_data["dacon"]["completed"],
-        new_data["kaggle"]["completed"]
+        new_data["kaggle"]["completed"],
+        new_data["dacon"]["ongoing"],
+        new_data["kaggle"]["ongoing"]
     )
 
     # 저장

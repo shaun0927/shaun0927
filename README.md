@@ -33,7 +33,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🏆 Data Science Competitions</h2>
   <!-- LAST_UPDATED -->
-  <p><em>Last updated: 2025-11-04 11:22:46 KST</em></p>
+  <p><em>Last updated: 2025-11-04 11:37:04 KST</em></p>
   <p>데이터 분석/AI 경진대회 플랫폼 데이콘(Dacon) 참여 기록입니다.</p>
 
   <a href="https://dacon.io/myprofile/499579/home">
