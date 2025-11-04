@@ -32,6 +32,8 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🏆 Data Science Competitions</h2>
+  <!-- LAST_UPDATED -->
+  <p><em>Last updated: 2025-11-04 09:38:27 KST</em></p>
   <p>데이터 분석/AI 경진대회 플랫폼 데이콘(Dacon) 참여 기록입니다.</p>
 
   <table style="width: 80%; border: none; margin: auto;">
@@ -101,7 +103,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center"><a href="https://dacon.io/competitions/official/236518/overview/description">Boost up AI 2025 : 신약 개발</a></td>
       <td align="center">정형, 회귀, 바이오</td>
       <td align="center"><b>🏆 2 / 739</b> (Top 1%)</td>
-      <td align="center"><a href="https://github.com/shaun0927/Awesome-CYP3A4">논문 정리</a></td>
+      <td align="center"><a href="https://github.com/shaun0927/Awesome-CYP3A4">코드 보기</a></td>
     </tr>
     <tr>
       <td align="center">2025.05 ~ 2025.06</td>
@@ -114,7 +116,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">2025.05 ~ 2025.06</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236493/overview/description">HAI(하이)! - Hecto AI Challenge</a></td>
       <td align="center">비전, 분류</td>
-      <td align="center">44 / 748 (Top 6%)</td>
+      <td align="center"><b>44 / 748</b> (Top 6%)</td>
       <td align="center"><a href="https://github.com/shaun0927/hecto-car-classification-2025">코드 보기</a></td>
     </tr>
     <tr>
@@ -138,7 +140,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">115 / 486</td>
       <td align="center">-</td>
     </tr>
-  </tbody>
+    </tbody>
 </table>
 </details>
 
@@ -164,15 +166,15 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">2025.08 ~ 2025.09</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236562/overview/description">고객 지원 등급 분류 해커톤</a></td>
       <td align="center">NLP, 분류</td>
-      <td align="center"><b>🥈 2 / 110</b></td>
+      <td align="center">🥈 2 / 110</td>
     </tr>
     <tr>
       <td align="center">2025.07 ~ 2025.08</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236526/overview/description">스트레스 지수 예측 해커톤</a></td>
       <td align="center">정형, 회귀</td>
-      <td align="center"><b>12 / 221</b></td>
+      <td align="center">12 / 221</td>
     </tr>
-  </tbody>
+    </tbody>
 </table>
 </details>
 
@@ -217,7 +219,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">1148 / 1608</td>
       <td align="center">-</td>
     </tr>
-  </tbody>
+    </tbody>
 </table>
 </details>
 <br>

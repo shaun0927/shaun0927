@@ -1,0 +1,155 @@
+{
+  "dacon": {
+    "rank": "27 of 144,839",
+    "tier": "Competition Challenger (Top 0.01%)",
+    "achievements": {
+      "top1": 2,
+      "top4": 5,
+      "top10": 9,
+      "teams": 14
+    },
+    "completed": [
+      {
+        "period": "2025.10 ~ 2025.11",
+        "name": "토스 NEXT ML CHALLENGE : CTR 모델 개발",
+        "category": "추천시스템, 금융",
+        "ranking": "🥇 1 / 709",
+        "ranking_text": "1st Place",
+        "link": "https://dacon.io/competitions/official/XXXXX/overview/description",
+        "code_link": "-"
+      },
+      {
+        "period": "2025.08 ~ 2025.09",
+        "name": "2025 자동차 데이터 분석 경진대회",
+        "category": "AI Agent",
+        "ranking": "🥇 1 / 771",
+        "ranking_text": "1st Place",
+        "link": "https://dacon.io/competitions/official/XXXXX/overview/description",
+        "code_link": "-"
+      },
+      {
+        "period": "2025.07 ~ 2025.09",
+        "name": "Jump AI(.py) 2025 : 제 3회 AI 신약개발",
+        "category": "정형, 회귀, 바이오",
+        "ranking": "20 / 502",
+        "ranking_text": "Top 4%",
+        "link": "https://dacon.io/competitions/official/236530/overview/description",
+        "code_link": "-"
+      },
+      {
+        "period": "2025.06 ~ 2025.07",
+        "name": "Boost up AI 2025 : 신약 개발",
+        "category": "정형, 회귀, 바이오",
+        "ranking": "🏆 2 / 739",
+        "ranking_text": "Top 1%",
+        "link": "https://dacon.io/competitions/official/236518/overview/description",
+        "code_link": "https://github.com/shaun0927/Awesome-CYP3A4"
+      },
+      {
+        "period": "2025.05 ~ 2025.06",
+        "name": "문맥 기반 문장 순서 예측",
+        "category": "NLP, LLM",
+        "ranking": "4 / 204",
+        "ranking_text": "Top 2%",
+        "link": "https://dacon.io/competitions/official/236489/overview/description",
+        "code_link": "https://dacon.io/competitions/official/236489/codeshare/12508"
+      },
+      {
+        "period": "2025.05 ~ 2025.06",
+        "name": "HAI(하이)! - Hecto AI Challenge",
+        "category": "비전, 분류",
+        "ranking": "44 / 748",
+        "ranking_text": "Top 6%",
+        "link": "https://dacon.io/competitions/official/236493/overview/description",
+        "code_link": "https://github.com/shaun0927/hecto-car-classification-2025"
+      },
+      {
+        "period": "2025.04 ~ 2025.05",
+        "name": "갑상선암 진단 분류 해커톤",
+        "category": "의료, 분류",
+        "ranking": "15 / 990",
+        "ranking_text": "Top 2%",
+        "link": "https://dacon.io/competitions/official/236488/overview/description",
+        "code_link": "https://github.com/shaun0927/thyroid-cancer-classification",
+        "is_hackathon": true
+      },
+      {
+        "period": "2025.03 ~ 2025.04",
+        "name": "신용카드 고객 세그먼트 분류",
+        "category": "정형, 분류",
+        "ranking": "8 / 236",
+        "ranking_text": "Top 4%",
+        "link": "https://dacon.io/competitions/official/236460/overview/description",
+        "code_link": "https://dacon.io/competitions/official/236460/codeshare/12330"
+      },
+      {
+        "period": "2024.11 ~ 2024.12",
+        "name": "제4회 K-water AI 경진대회",
+        "category": "시계열, 이상탐지",
+        "ranking": "115 / 486",
+        "link": "https://dacon.io/competitions/official/236423/overview/description",
+        "code_link": "-"
+      }
+    ],
+    "ongoing": [
+      {
+        "period": "2025.07 ~ 2025.08",
+        "name": "2025 전력사용량 예측",
+        "category": "시계열, 에너지",
+        "ranking": "109 / 269",
+        "link": "https://dacon.io/competitions/official/236531/overview/description"
+      },
+      {
+        "period": "2025.08 ~ 2025.09",
+        "name": "고객 지원 등급 분류 해커톤",
+        "category": "NLP, 분류",
+        "ranking": "🥈 2 / 110",
+        "link": "https://dacon.io/competitions/official/236562/overview/description",
+        "is_hackathon": true
+      },
+      {
+        "period": "2025.07 ~ 2025.08",
+        "name": "스트레스 지수 예측 해커톤",
+        "category": "정형, 회귀",
+        "ranking": "12 / 221",
+        "link": "https://dacon.io/competitions/official/236526/overview/description",
+        "is_hackathon": true
+      }
+    ]
+  },
+  "kaggle": [
+    {
+      "period": "2025.03 ~ 2025.06",
+      "name": "Locating Bacterial Flagellar Motors",
+      "category": "Computer Vision, 3D Object Detection",
+      "ranking": "318 / 1136",
+      "link": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025",
+      "code_link": "https://github.com/shaun0927/motor2025"
+    },
+    {
+      "period": "2024.10 ~ 2025.04",
+      "name": "AI Mathematical Olympiad - Progress Prize 2",
+      "category": "NLP, Mathematical Reasoning",
+      "ranking": "🥉 157 / 2212",
+      "ranking_text": "Top 7%",
+      "link": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2",
+      "code_link": "https://github.com/shaun0927/AIMO-2-Solution"
+    },
+    {
+      "period": "2024.11 ~ 2025.02",
+      "name": "CZII - CryoET Object Identification",
+      "category": "Computer Vision, 3D Object Detection",
+      "ranking": "305 / 931",
+      "link": "https://www.kaggle.com/competitions/czii-cryo-et-object-identification",
+      "code_link": "-"
+    },
+    {
+      "period": "2024.09 ~ 2024.12",
+      "name": "Game-Playing Strength of MCTS Variants",
+      "category": "Reinforcement Learning, Predictive Modeling",
+      "ranking": "1148 / 1608",
+      "link": "https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants",
+      "code_link": "-"
+    }
+  ]
+}
