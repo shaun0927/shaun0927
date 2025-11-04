@@ -495,7 +495,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 <div align="center">
   <!-- Microsoft AI School Team Photo -->
   <div style="margin: 20px 0;">
-    <img src="./123.png" alt="Microsoft AI School Team" style="width: 80%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="assets/123.png" alt="Microsoft AI School Team" style="width: 80%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <p><i>Microsoft AI School 5기 - 최우수 프로젝트 팀</i></p>
   </div>
   
