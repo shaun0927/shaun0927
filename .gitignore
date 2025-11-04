@@ -45,3 +45,6 @@ Thumbs.db
 
 # Environment
 .env
+
+# Temporary files
+temp_commit_msg.txt
