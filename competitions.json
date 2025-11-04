@@ -6,7 +6,7 @@
       "top1": 2,
       "top4": 5,
       "top10": 10,
-      "teams": 17
+      "teams": 16
     },
     "completed": [
       {
@@ -94,23 +94,9 @@
     "ongoing": [
       {
         "period": "2025.10 ~ 2025.11",
-        "name": "중소상인 AI 전환지원",
-        "category": "정형, 분류",
-        "ranking": "16 / 264",
-        "link": "https://dacon.io/competitions/official/XXXXX/overview/description"
-      },
-      {
-        "period": "2025.07 ~ 2025.08",
-        "name": "2025 전력사용량 예측",
-        "category": "시계열, 에너지",
-        "ranking": "353 / 636",
-        "link": "https://dacon.io/competitions/official/236531/overview/description"
-      },
-      {
-        "period": "2025.09 ~ 2025.10",
-        "name": "라이온 x BDA 학습자 수준 예측",
-        "category": "정형, 분류",
-        "ranking": "129 / 239",
+        "name": "운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 AI 경진대회",
+        "category": "정형, 회귀, 데이터 분석",
+        "ranking": "TBD",
         "link": "https://dacon.io/competitions/official/XXXXX/overview/description"
       }
     ]
