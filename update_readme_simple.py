@@ -208,7 +208,14 @@ def update_readme(data):
 
     # 5. Kaggle 대회 테이블 업데이트
     if data.get('kaggle'):
-        kaggle_table = generate_kaggle_table(data['kaggle'])
+        # Kaggle 구조 변경: completed만 표시
+        kaggle_data = data['kaggle']
+        if isinstance(kaggle_data, dict):
+            kaggle_competitions = kaggle_data.get('completed', [])
+        else:
+            kaggle_competitions = kaggle_data
+
+        kaggle_table = generate_kaggle_table(kaggle_competitions)
         pattern_kaggle = r'(캐글 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>)'
         if re.search(pattern_kaggle, readme, re.DOTALL):
             readme = re.sub(

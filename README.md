@@ -33,7 +33,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
 <div align="center">
   <h2 style="border-bottom: 2px solid #2391d9; display: inline-block; padding-bottom: 5px;">🏆 Data Science Competitions</h2>
   <!-- LAST_UPDATED -->
-  <p><em>Last updated: 2025-11-04 09:49:19 KST</em></p>
+  <p><em>Last updated: 2025-11-04 10:15:40 KST</em></p>
   <p>데이터 분석/AI 경진대회 플랫폼 데이콘(Dacon) 참여 기록입니다.</p>
 
   <a href="https://dacon.io/myprofile/499579/home">
@@ -54,7 +54,7 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
         <p>
           🥇 <strong>Top 1% Finishes: 2 times</strong><br>
           🏅 <strong>Top 4% Finishes: 5 times</strong><br>
-          🎖️ <strong>Top 10% Finishes: 9 times</strong><br>
+          🎖️ <strong>Top 10% Finishes: 10 times</strong><br>
           👥 <strong>Team Competitions: 14 times</strong><br>
         </p>
       </td>
@@ -92,14 +92,14 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center">2025.08 ~ 2025.09</td>
       <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">2025 자동차 데이터 분석 경진대회</a></td>
       <td align="center">AI Agent</td>
-      <td align="center"><b>🥇 1 / 771</b> (1st Place)</td>
+      <td align="center"><b>🥈 2 / 771</b> (2nd Place)</td>
       <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">2025.07 ~ 2025.09</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236530/overview/description">Jump AI(.py) 2025 : 제 3회 AI 신약개발</a></td>
       <td align="center">정형, 회귀, 바이오</td>
-      <td align="center"><b>20 / 502</b> (Top 4%)</td>
+      <td align="center"><b>20 / 802</b> (Top 3%)</td>
       <td align="center">-</td>
     </tr>
     <tr>
@@ -161,22 +161,22 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
   </thead>
   <tbody>
     <tr>
+      <td align="center">2025.10 ~ 2025.11</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">중소상인 AI 전환지원</a></td>
+      <td align="center">정형, 분류</td>
+      <td align="center">16 / 264</td>
+    </tr>
+    <tr>
       <td align="center">2025.07 ~ 2025.08</td>
       <td align="center"><a href="https://dacon.io/competitions/official/236531/overview/description">2025 전력사용량 예측</a></td>
       <td align="center">시계열, 에너지</td>
-      <td align="center">109 / 269</td>
+      <td align="center">353 / 636</td>
     </tr>
     <tr>
-      <td align="center">2025.08 ~ 2025.09</td>
-      <td align="center"><a href="https://dacon.io/competitions/official/236562/overview/description">고객 지원 등급 분류 해커톤</a></td>
-      <td align="center">NLP, 분류</td>
-      <td align="center">🥈 2 / 110</td>
-    </tr>
-    <tr>
-      <td align="center">2025.07 ~ 2025.08</td>
-      <td align="center"><a href="https://dacon.io/competitions/official/236526/overview/description">스트레스 지수 예측 해커톤</a></td>
-      <td align="center">정형, 회귀</td>
-      <td align="center">12 / 221</td>
+      <td align="center">2025.09 ~ 2025.10</td>
+      <td align="center"><a href="https://dacon.io/competitions/official/XXXXX/overview/description">라이온 x BDA 학습자 수준 예측</a></td>
+      <td align="center">정형, 분류</td>
+      <td align="center">129 / 239</td>
     </tr>
     </tbody>
 </table>
@@ -221,6 +221,27 @@ CV 및 LLM 대회 입상 경험 등 **머신러닝 전 분야**에 관심을 두
       <td align="center"><a href="https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants">Game-Playing Strength of MCTS Variants</a></td>
       <td align="center">Reinforcement Learning, Predictive Modeling</td>
       <td align="center">1148 / 1608</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
+      <td align="center">2024.08 ~ 2024.11</td>
+      <td align="center"><a href="https://www.kaggle.com/competitions/make-data-count-finding-data-references">Make Data Count - Finding Data References</a></td>
+      <td align="center">NLP, Text Classification</td>
+      <td align="center">264 / 1282</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
+      <td align="center">2024.06 ~ 2024.09</td>
+      <td align="center"><a href="https://www.kaggle.com/competitions/ariel-data-challenge-2025">NeurIPS - Ariel Data Challenge 2025</a></td>
+      <td align="center">Time Series, Astrophysics</td>
+      <td align="center">623 / 860</td>
+      <td align="center">-</td>
+    </tr>
+    <tr>
+      <td align="center">2024.04 ~ 2024.07</td>
+      <td align="center"><a href="https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states">CMI - Detect Behavior with Sensor Data</a></td>
+      <td align="center">Time Series, Multi-modal</td>
+      <td align="center">618 / 2657</td>
       <td align="center">-</td>
     </tr>
     </tbody>

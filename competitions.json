@@ -5,8 +5,8 @@
     "achievements": {
       "top1": 2,
       "top4": 5,
-      "top10": 9,
-      "teams": 14
+      "top10": 10,
+      "teams": 17
     },
     "completed": [
       {
@@ -22,8 +22,8 @@
         "period": "2025.08 ~ 2025.09",
         "name": "2025 자동차 데이터 분석 경진대회",
         "category": "AI Agent",
-        "ranking": "🥇 1 / 771",
-        "ranking_text": "1st Place",
+        "ranking": "🥈 2 / 771",
+        "ranking_text": "2nd Place",
         "link": "https://dacon.io/competitions/official/XXXXX/overview/description",
         "code_link": "-"
       },
@@ -31,8 +31,8 @@
         "period": "2025.07 ~ 2025.09",
         "name": "Jump AI(.py) 2025 : 제 3회 AI 신약개발",
         "category": "정형, 회귀, 바이오",
-        "ranking": "20 / 502",
-        "ranking_text": "Top 4%",
+        "ranking": "20 / 802",
+        "ranking_text": "Top 3%",
         "link": "https://dacon.io/competitions/official/236530/overview/description",
         "code_link": "-"
       },
@@ -93,63 +93,96 @@
     ],
     "ongoing": [
       {
+        "period": "2025.10 ~ 2025.11",
+        "name": "중소상인 AI 전환지원",
+        "category": "정형, 분류",
+        "ranking": "16 / 264",
+        "link": "https://dacon.io/competitions/official/XXXXX/overview/description"
+      },
+      {
         "period": "2025.07 ~ 2025.08",
         "name": "2025 전력사용량 예측",
         "category": "시계열, 에너지",
-        "ranking": "109 / 269",
+        "ranking": "353 / 636",
         "link": "https://dacon.io/competitions/official/236531/overview/description"
       },
       {
-        "period": "2025.08 ~ 2025.09",
-        "name": "고객 지원 등급 분류 해커톤",
-        "category": "NLP, 분류",
-        "ranking": "🥈 2 / 110",
-        "link": "https://dacon.io/competitions/official/236562/overview/description",
-        "is_hackathon": true
-      },
-      {
-        "period": "2025.07 ~ 2025.08",
-        "name": "스트레스 지수 예측 해커톤",
-        "category": "정형, 회귀",
-        "ranking": "12 / 221",
-        "link": "https://dacon.io/competitions/official/236526/overview/description",
-        "is_hackathon": true
+        "period": "2025.09 ~ 2025.10",
+        "name": "라이온 x BDA 학습자 수준 예측",
+        "category": "정형, 분류",
+        "ranking": "129 / 239",
+        "link": "https://dacon.io/competitions/official/XXXXX/overview/description"
       }
     ]
   },
-  "kaggle": [
-    {
-      "period": "2025.03 ~ 2025.06",
-      "name": "Locating Bacterial Flagellar Motors",
-      "category": "Computer Vision, 3D Object Detection",
-      "ranking": "318 / 1136",
-      "link": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025",
-      "code_link": "https://github.com/shaun0927/motor2025"
-    },
-    {
-      "period": "2024.10 ~ 2025.04",
-      "name": "AI Mathematical Olympiad - Progress Prize 2",
-      "category": "NLP, Mathematical Reasoning",
-      "ranking": "🥉 157 / 2212",
-      "ranking_text": "Top 7%",
-      "link": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2",
-      "code_link": "https://github.com/shaun0927/AIMO-2-Solution"
-    },
-    {
-      "period": "2024.11 ~ 2025.02",
-      "name": "CZII - CryoET Object Identification",
-      "category": "Computer Vision, 3D Object Detection",
-      "ranking": "305 / 931",
-      "link": "https://www.kaggle.com/competitions/czii-cryo-et-object-identification",
-      "code_link": "-"
-    },
-    {
-      "period": "2024.09 ~ 2024.12",
-      "name": "Game-Playing Strength of MCTS Variants",
-      "category": "Reinforcement Learning, Predictive Modeling",
-      "ranking": "1148 / 1608",
-      "link": "https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants",
-      "code_link": "-"
-    }
-  ]
+  "kaggle": {
+    "completed": [
+      {
+        "period": "2025.03 ~ 2025.06",
+        "name": "Locating Bacterial Flagellar Motors",
+        "category": "Computer Vision, 3D Object Detection",
+        "ranking": "318 / 1136",
+        "link": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025",
+        "code_link": "https://github.com/shaun0927/motor2025"
+      },
+      {
+        "period": "2024.10 ~ 2025.04",
+        "name": "AI Mathematical Olympiad - Progress Prize 2",
+        "category": "NLP, Mathematical Reasoning",
+        "ranking": "🥉 157 / 2212",
+        "ranking_text": "Top 7%",
+        "link": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2",
+        "code_link": "https://github.com/shaun0927/AIMO-2-Solution"
+      },
+      {
+        "period": "2024.11 ~ 2025.02",
+        "name": "CZII - CryoET Object Identification",
+        "category": "Computer Vision, 3D Object Detection",
+        "ranking": "305 / 931",
+        "link": "https://www.kaggle.com/competitions/czii-cryo-et-object-identification",
+        "code_link": "-"
+      },
+      {
+        "period": "2024.09 ~ 2024.12",
+        "name": "Game-Playing Strength of MCTS Variants",
+        "category": "Reinforcement Learning, Predictive Modeling",
+        "ranking": "1148 / 1608",
+        "link": "https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants",
+        "code_link": "-"
+      },
+      {
+        "period": "2024.08 ~ 2024.11",
+        "name": "Make Data Count - Finding Data References",
+        "category": "NLP, Text Classification",
+        "ranking": "264 / 1282",
+        "link": "https://www.kaggle.com/competitions/make-data-count-finding-data-references",
+        "code_link": "-"
+      },
+      {
+        "period": "2024.06 ~ 2024.09",
+        "name": "NeurIPS - Ariel Data Challenge 2025",
+        "category": "Time Series, Astrophysics",
+        "ranking": "623 / 860",
+        "link": "https://www.kaggle.com/competitions/ariel-data-challenge-2025",
+        "code_link": "-"
+      },
+      {
+        "period": "2024.04 ~ 2024.07",
+        "name": "CMI - Detect Behavior with Sensor Data",
+        "category": "Time Series, Multi-modal",
+        "ranking": "618 / 2657",
+        "link": "https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states",
+        "code_link": "-"
+      }
+    ],
+    "ongoing": [
+      {
+        "period": "2025.09 ~ 2026.01",
+        "name": "NFL Big Data Bowl 2026 - Prediction",
+        "category": "Sports Analytics, Predictive Modeling",
+        "ranking": "TBD",
+        "link": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2026"
+      }
+    ]
+  }
 }
