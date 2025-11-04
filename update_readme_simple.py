@@ -184,32 +184,39 @@ def update_readme(data):
 
     # 3. 완료된 대회 테이블 업데이트
     completed_table = generate_dacon_completed_table(dacon_data['completed'])
-    readme = re.sub(
-        r'(<summary><strong>✅ 데이콘 완료된 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>\s*</table>)',
-        rf'\1\n{completed_table}\n    \3',
-        readme,
-        flags=re.DOTALL
-    )
+    # 더 안전한 패턴 사용 (이모지 없이)
+    pattern_completed = r'(데이콘 완료된 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>)'
+    if re.search(pattern_completed, readme, re.DOTALL):
+        readme = re.sub(
+            pattern_completed,
+            rf'\1\n{completed_table}\n    \3',
+            readme,
+            flags=re.DOTALL
+        )
 
     # 4. 진행중인 대회 테이블 업데이트 (있는 경우)
     if dacon_data.get('ongoing'):
         ongoing_table = generate_dacon_ongoing_table(dacon_data['ongoing'])
-        readme = re.sub(
-            r'(<summary><strong>⏳ 데이콘 진행 중인 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>\s*</table>)',
-            rf'\1\n{ongoing_table}\n    \3',
-            readme,
-            flags=re.DOTALL
-        )
+        pattern_ongoing = r'(데이콘 진행 중인 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>)'
+        if re.search(pattern_ongoing, readme, re.DOTALL):
+            readme = re.sub(
+                pattern_ongoing,
+                rf'\1\n{ongoing_table}\n    \3',
+                readme,
+                flags=re.DOTALL
+            )
 
     # 5. Kaggle 대회 테이블 업데이트
     if data.get('kaggle'):
         kaggle_table = generate_kaggle_table(data['kaggle'])
-        readme = re.sub(
-            r'(<summary><strong>🏆 캐글 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>\s*</table>)',
-            rf'\1\n{kaggle_table}\n    \3',
-            readme,
-            flags=re.DOTALL
-        )
+        pattern_kaggle = r'(캐글 대회.*?</thead>\s*<tbody>)(.*?)(</tbody>)'
+        if re.search(pattern_kaggle, readme, re.DOTALL):
+            readme = re.sub(
+                pattern_kaggle,
+                rf'\1\n{kaggle_table}\n    \3',
+                readme,
+                flags=re.DOTALL
+            )
 
     # 6. 업데이트 시간 추가
     kst = pytz.timezone('Asia/Seoul')
