@@ -181,6 +181,11 @@ def update_readme(data):
         f'🎖️ <strong>Top 10% Finishes: {achievements["top10"]} times</strong>',
         readme
     )
+    readme = re.sub(
+        r'👥 <strong>Team Competitions: \d+ times?</strong>',
+        f'👥 <strong>Team Competitions: {achievements["teams"]} times</strong>',
+        readme
+    )
 
     # 3. 완료된 대회 테이블 업데이트
     completed_table = generate_dacon_completed_table(dacon_data['completed'])
