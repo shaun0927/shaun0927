@@ -265,10 +265,7 @@
         <p>When composite metrics include F1 or AUC, directly optimizing them is computationally intractable and non-differentiable. Our solution trains with <strong>BCE</strong> while using <strong>AUC for early stopping</strong>, then applies <strong>Temperature scaling</strong> as post-processing.</p>
 
         <div class="figure">
-            <img src="images/figure_1.png" alt="Restricted Platt Scaling for CTR probability Calibration" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 1: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_1.png" alt="Restricted Platt Scaling for CTR probability Calibration">
             <div class="figure-caption">Figure 1: Restricted Platt Scaling for CTR probability Calibration</div>
         </div>
 
@@ -324,10 +321,7 @@
         <p>The dataset contains variable-length sequence columns (max_len=6590) representing user behavior. Through EDA analysis:</p>
 
         <div class="figure">
-            <img src="images/figure_2.png" alt="Sequence Data EDA" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 2: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_2.png" alt="Sequence Data EDA">
             <div class="figure-caption">Figure 2: Cohen's d and Lorenz curve analysis showing sequence length has negligible impact on CTR</div>
         </div>
 
@@ -340,10 +334,7 @@
         <p><strong>Conclusion:</strong> Long sequences are repetition of the same information. We used <span class="highlight">truncation to ~1000 length</span> with <strong>Bi-GRU sequence embedding</strong>.</p>
 
         <div class="figure">
-            <img src="images/figure_3.png" alt="Bi-GRU Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 3: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_3.png" alt="Bi-GRU Architecture">
             <div class="figure-caption">Figure 3: Simple Bi-GRU sequence embedding architecture</div>
         </div>
 
@@ -356,10 +347,7 @@
         <h2>5. Our Solution: GPU-Hill Climbing Ensemble</h2>
 
         <div class="figure">
-            <img src="images/figure_4.png" alt="GPU-Hill Climbing Ensemble Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 4: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_4.png" alt="GPU-Hill Climbing Ensemble Architecture">
             <div class="figure-caption">Figure 4: GPU-Hill Climbing Ensemble Architecture</div>
         </div>
 
@@ -373,10 +361,7 @@
         </ul>
 
         <div class="figure">
-            <img src="images/figure_5.png" alt="Weight Distribution" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 5: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_5.png" alt="Weight Distribution">
             <div class="figure-caption">Figure 5: GPU-Hill Climbing Ensemble Weight Distribution</div>
         </div>
 
@@ -428,26 +413,17 @@
         <h2>6. Neural Network Architectures</h2>
 
         <div class="figure">
-            <img src="images/figure_6.png" alt="xDeepFM Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 6: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_6.png" alt="xDeepFM Architecture">
             <div class="figure-caption">Figure 6: xDeepFM Architecture - CIN for explicit interactions + DNN for implicit interactions</div>
         </div>
 
         <div class="figure">
-            <img src="images/figure_7.png" alt="DCNv3 Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 7: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_7.png" alt="DCNv3 Architecture">
             <div class="figure-caption">Figure 7: DCNv3 Architecture - LCN + ECN + DNN with Tri-BCE Loss</div>
         </div>
 
         <div class="figure">
-            <img src="images/figure_8.png" alt="Wide&Deep Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
-                [Figure 8: Run extract_images.py to display this image]
-            </div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_8.png" alt="Wide&Deep Architecture">
             <div class="figure-caption">Figure 8: Wide&Deep Architecture with BiGRU + Attention</div>
         </div>
 
