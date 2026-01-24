@@ -99,7 +99,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 **DevOps & Testing**
 
-<img src="https://skillicons.dev/icons?i=linux,bash,selenium,playwright,jest&theme=dark" alt="DevOps"/>
+<img src="https://skillicons.dev/icons?i=linux,bash,selenium,vitest,jest&theme=dark" alt="DevOps"/>
 
 </div>
 
