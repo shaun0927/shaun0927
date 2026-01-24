@@ -321,8 +321,13 @@
         <p>The dataset contains variable-length sequence columns (max_len=6590) representing user behavior. Through EDA analysis:</p>
 
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_2.png" alt="Sequence Data EDA">
-            <div class="figure-caption">Figure 2: Cohen's d and Lorenz curve analysis showing sequence length has negligible impact on CTR</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_3.png" alt="Sequence Data EDA - Cohen's d and Lorenz curve">
+            <div class="figure-caption">Figure 2: (a) Cohen's d = 0.182 shows negligible effect size between sequence length and CTR. (b) Lorenz curve with Gini coefficient = 0.936 shows extreme item inequality.</div>
+        </div>
+
+        <div class="figure">
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_4.png" alt="Sequence Data EDA - Self-loop and Cycle">
+            <div class="figure-caption">Figure 3: (c) Self-loop distribution showing 70%+ self-transition rates. (d) Cycle presence ratio - 85.85% of non-click and 77.62% of click sequences contain repetitive patterns.</div>
         </div>
 
         <ul>
@@ -334,8 +339,8 @@
         <p><strong>Conclusion:</strong> Long sequences are repetition of the same information. We used <span class="highlight">truncation to ~1000 length</span> with <strong>Bi-GRU sequence embedding</strong>.</p>
 
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_3.png" alt="Bi-GRU Architecture">
-            <div class="figure-caption">Figure 3: Simple Bi-GRU sequence embedding architecture</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_5.png" alt="Bi-GRU Architecture">
+            <div class="figure-caption">Figure 4: Simple Bi-GRU sequence embedding - truncate to 1024, BiGRU encoding, then project 196-dim to 32-dim feature vector</div>
         </div>
 
         <h3>4.2 Stratified 10-fold CV</h3>
@@ -347,8 +352,8 @@
         <h2>5. Our Solution: GPU-Hill Climbing Ensemble</h2>
 
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_4.png" alt="GPU-Hill Climbing Ensemble Architecture">
-            <div class="figure-caption">Figure 4: GPU-Hill Climbing Ensemble Architecture</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_6.png" alt="GPU-Hill Climbing Ensemble Architecture">
+            <div class="figure-caption">Figure 5: GPU-Hill Climbing Optimization for Ensemble Model Weight Selection</div>
         </div>
 
         <h3>5.1 Hill Climbing Ensemble</h3>
@@ -361,8 +366,8 @@
         </ul>
 
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_5.png" alt="Weight Distribution">
-            <div class="figure-caption">Figure 5: GPU-Hill Climbing Ensemble Weight Distribution</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_7.png" alt="Weight Distribution">
+            <div class="figure-caption">Figure 6: GPU-Hill Climbing Ensemble Weight Distribution (36 models)</div>
         </div>
 
         <h3>5.2 Model Components</h3>
@@ -412,19 +417,28 @@
 
         <h2>6. Neural Network Architectures</h2>
 
-        <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_6.png" alt="xDeepFM Architecture">
-            <div class="figure-caption">Figure 6: xDeepFM Architecture - CIN for explicit interactions + DNN for implicit interactions</div>
-        </div>
+        <h3>6.1 xDeepFM</h3>
+        <p>xDeepFM consists of CIN (Compressed Interaction Network) for explicit high-order feature interactions and DNN for implicit interactions. CIN learns vector-wise interactions while DNN captures complex non-linear patterns.</p>
 
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_7.png" alt="DCNv3 Architecture">
-            <div class="figure-caption">Figure 7: DCNv3 Architecture - LCN + ECN + DNN with Tri-BCE Loss</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_8.png" alt="xDeepFM Architecture">
+            <div class="figure-caption">Figure 7: xDeepFM Architecture - CIN (2-layer, 128 feature maps each) + DNN [512, 384, 256] with Temperature Scaling</div>
         </div>
 
+        <h3>6.2 DCNv3</h3>
+        <p>DCNv3 (2024 SOTA) uses uniform 128-dim embeddings for all features, then passes through LCN (Linear Cross Network), ECN (Exponential Cross Network), and DNN in parallel with Tri-BCE loss.</p>
+
         <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_8.png" alt="Wide&Deep Architecture">
-            <div class="figure-caption">Figure 8: Wide&Deep Architecture with BiGRU + Attention</div>
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_9.png" alt="DCNv3 Architecture">
+            <div class="figure-caption">Figure 8: DCNv3 Architecture - LCN (3 layers) + ECN (2 layers) + DNN with Tri-BCE Loss (3 output heads)</div>
+        </div>
+
+        <h3>6.3 Wide&Deep</h3>
+        <p>Wide&Deep with BiGRU + Attention directly incorporates sequence embeddings in the gradient. Uses 512-length truncated sequences with mask-attention over all hidden states.</p>
+
+        <div class="figure">
+            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_10.png" alt="Wide&Deep Architecture">
+            <div class="figure-caption">Figure 9: Wide&Deep CTR Model Architecture with BiGRU + Attention (192-dim output) and Cross Network (2 layers)</div>
         </div>
 
         <h2>7. Accelerating Inference</h2>
@@ -488,22 +502,6 @@
             <p>[5] Chung, J., et al. (2014). Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling. arXiv:1412.3555.</p>
             <p>[6] Benjamini, Y., & Hochberg, Y. (1995). Controlling the False Discovery Rate. Journal of the Royal Statistical Society.</p>
             <p>[7] Caruana, R., et al. (2004). Ensemble Selection from Libraries of Models. ICML'04.</p>
-        </div>
-
-        <hr>
-
-        <h2>Appendix A: Neural Network Model Architecture</h2>
-
-        <h3>A-1. xDeepFM</h3>
-        <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_9.png" alt="xDeepFM Detailed Architecture">
-            <div class="figure-caption">Figure A-1: Detailed xDeepFM Architecture - CIN + DNN with Temperature Scaling</div>
-        </div>
-
-        <h3>A-2. DCNv3</h3>
-        <div class="figure">
-            <img src="https://raw.githubusercontent.com/shaun0927/shaun0927/main/papers/images/figure_10.png" alt="DCNv3 Detailed Architecture">
-            <div class="figure-caption">Figure A-2: Detailed DCNv3 Architecture - LCN + ECN + DNN with Tri-BCE Loss</div>
         </div>
 
         <hr>
