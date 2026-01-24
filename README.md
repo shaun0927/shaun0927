@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="shaun0927 - ML Engineer | CTO @ Rivetta | CEO @ AlphaView" />
+  <img src="./assets/header.svg?v=2" width="100%" alt="shaun0927 - AI/ML Product Builder | CTO @ Rivetta | CEO @ AlphaView" />
 </div>
 
 <!-- Social Links -->
