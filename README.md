@@ -74,7 +74,9 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 **GPU Hill Climbing Ensemble for Merlin Framework**
 <br/>
-📄 [Technical Report (English)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.md) | [기술 보고서 (한국어)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_KR.pdf)
+<sub>CTR prediction on 10M rows of real financial data (Recommender System)</sub>
+<br/>
+📄 [Technical Report (EN)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.md) | [(KR)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_KR.pdf)
 
 <br/>
 
@@ -82,6 +84,10 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ![Dacon Top 0.01%](https://img.shields.io/badge/Dacon_(Korean_ML_Competition)-Top_0.01%25_(%2327)-00d084?style=flat-square)
 
 </div>
+
+### Competition Domains
+
+`Recommender System` `CTR Prediction` `NLP` `Prompt Engineering` `Time Series` `Computer Vision` `Tabular ML` `Anomaly Detection`
 
 ---
 
