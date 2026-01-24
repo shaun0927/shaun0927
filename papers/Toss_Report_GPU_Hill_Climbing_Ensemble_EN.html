@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss Report: GPU Hill Climbing Ensemble for Merlin Framework</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #1a1a2e;
+            --accent: #00d084;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
+            color: var(--text-primary);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(26, 26, 46, 0.8);
+            padding: 40px 50px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 2em;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 15px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.5em;
+            margin-top: 40px;
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: var(--text-primary);
+            font-size: 1.2em;
+            margin-top: 30px;
+        }
+
+        .authors {
+            color: var(--text-secondary);
+            font-size: 0.95em;
+            margin-bottom: 30px;
+        }
+
+        .abstract {
+            background: rgba(0, 208, 132, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .keywords {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg-primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin: 15px 0;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        code {
+            background: rgba(0, 208, 132, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9em;
+        }
+
+        pre {
+            background: #0d0d0d;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid #333;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .figure {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+        }
+
+        .figure img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .figure-caption {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        th {
+            background: rgba(0, 208, 132, 0.2);
+            color: var(--accent);
+        }
+
+        .metric-box {
+            background: rgba(0, 208, 132, 0.1);
+            border: 1px solid var(--accent);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .metric-box .formula {
+            font-family: 'Times New Roman', serif;
+            font-size: 1.1em;
+            color: var(--text-primary);
+        }
+
+        ul, ol {
+            color: var(--text-secondary);
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .references {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+        }
+
+        .references p {
+            margin: 8px 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #333;
+            margin: 40px 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            background: rgba(0, 208, 132, 0.2);
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://github.com/shaun0927" class="back-link">← Back to Profile</a>
+
+        <h1>Toss Report: GPU Hill Climbing Ensemble for Merlin Framework</h1>
+
+        <div class="authors">
+            <strong>JUNGHWAN NA</strong>*, Seoul National University, Laboratory of Molecular Developmental Genetics<br>
+            <strong>SUNGHOON BYUN</strong>**, Soongsil University, Laboratory of Computer Vision
+        </div>
+
+        <div class="abstract">
+            <h3 style="margin-top: 0; color: var(--accent);">Abstract</h3>
+            <p>This report presents the <span class="highlight">1st place solution</span> for the "Toss NEXT ML CHALLENGE: Ad Click Prediction (CTR) Model Development Competition." The training dataset consists of approximately <strong>10M rows</strong> with 119 columns including the 'clicked' target column.</p>
+
+            <p>Our solution achieved 1st place on both Public and Private leaderboards, consisting of a <strong>Hill-Climbing ensemble of 36 models</strong>. By leveraging NVIDIA-Merlin framework, we reduced training and inference time by approximately <span class="highlight">50x or more</span>, demonstrating that ensemble models can be deployed in production environments.</p>
+
+            <span class="keywords">Recommender Systems → CTR Prediction</span>
+        </div>
+
+        <h2>1. Introduction</h2>
+
+        <p>CTR (Click-Through Rate) represents the probability that a user will click on a given item or advertisement. This directly leads to revenue generation for advertisers and service providers, where increasing CTR is directly linked to service provider revenue.</p>
+
+        <p>The competition evaluates both probability accuracy and ranking quality using a composite metric:</p>
+
+        <div class="metric-box">
+            <div class="formula">Score = 0.5 × AP + 0.5 × 1/(1 + WLL)</div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><strong>AP (Average Precision)</strong></td>
+                <td>Measures ranking quality - rewards correct ordering of predictions</td>
+            </tr>
+            <tr>
+                <td><strong>WLL (Weighted LogLoss)</strong></td>
+                <td>Measures probability calibration with 50:50 click/no-click weighting</td>
+            </tr>
+        </table>
+
+        <h2>2. Complex Metric Optimization</h2>
+
+        <h3>BCE with AUC Early Stopping, Temperature Scaling</h3>
+
+        <p>When composite metrics include F1 or AUC, directly optimizing them is computationally intractable and non-differentiable. Our solution trains with <strong>BCE</strong> while using <strong>AUC for early stopping</strong>, then applies <strong>Temperature scaling</strong> as post-processing.</p>
+
+        <div class="figure">
+            <img src="images/figure_1.png" alt="Restricted Platt Scaling for CTR probability Calibration" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 1: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 1: Restricted Platt Scaling for CTR probability Calibration</div>
+        </div>
+
+        <p>This approach first increases rank during training, then maximizes final score through post-processing, with each stage individually optimizable using methods like Optuna.</p>
+
+        <h2>3. NVIDIA Merlin Framework</h2>
+
+        <p>NVIDIA Merlin is an <strong>end-to-end GPU-accelerated framework</strong> for recommendation systems, designed to perform the entire process from data processing to model training and inference on GPU.</p>
+
+        <h3>3.1 Framework Components</h3>
+
+        <table>
+            <tr>
+                <th>Component</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td><strong>NVTabular</strong></td>
+                <td>GPU-accelerated feature engineering with cuDF-based API</td>
+            </tr>
+            <tr>
+                <td><strong>Merlin Models</strong></td>
+                <td>TensorFlow/PyTorch recommendation models (Wide&Deep, DLRM, DCN)</td>
+            </tr>
+            <tr>
+                <td><strong>HugeCTR</strong></td>
+                <td>C++-based high-performance CTR training (excluded due to constraints)</td>
+            </tr>
+            <tr>
+                <td><strong>Merlin Systems</strong></td>
+                <td>Triton Inference Server integration for production deployment</td>
+            </tr>
+        </table>
+
+        <h3>3.2 GPU Categorify: Revolutionary Parallel Processing</h3>
+
+        <p>NVTabular's GPU Categorify processes our 10.7M row dataset with <strong>massive parallelism</strong>:</p>
+        <ul>
+            <li>10,700 blocks × 1,000 threads = 10,700,000 simultaneous operations</li>
+            <li>O(1) time complexity through GPU Hash Table</li>
+            <li>Theoretically tens of thousands of times throughput improvement</li>
+        </ul>
+
+        <h3>3.3 Zero-Copy I/O</h3>
+
+        <p><strong>Pandas Pipeline:</strong> Disk → OS Buffer → User Space → pandas → numpy → GPU (5 copies)</p>
+        <p><strong>NVTabular Pipeline:</strong> Parquet → Memory Map → GPU DMA (<span class="highlight">Zero-copy</span>)</p>
+
+        <h2>4. Data Preprocessing</h2>
+
+        <h3>4.1 Sequence Processing</h3>
+
+        <p>The dataset contains variable-length sequence columns (max_len=6590) representing user behavior. Through EDA analysis:</p>
+
+        <div class="figure">
+            <img src="images/figure_2.png" alt="Sequence Data EDA" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 2: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 2: Cohen's d and Lorenz curve analysis showing sequence length has negligible impact on CTR</div>
+        </div>
+
+        <ul>
+            <li><strong>Cohen's d = 0.182</strong> - Negligible effect size (sequence length vs CTR)</li>
+            <li><strong>Gini coefficient = 0.936</strong> - Extreme inequality (few items dominate)</li>
+            <li><strong>High self-loop rates</strong> - Redundant information in sequences</li>
+        </ul>
+
+        <p><strong>Conclusion:</strong> Long sequences are repetition of the same information. We used <span class="highlight">truncation to ~1000 length</span> with <strong>Bi-GRU sequence embedding</strong>.</p>
+
+        <div class="figure">
+            <img src="images/figure_3.png" alt="Bi-GRU Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 3: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 3: Simple Bi-GRU sequence embedding architecture</div>
+        </div>
+
+        <h3>4.2 Stratified 10-fold CV</h3>
+
+        <p>Key insight: "Matching Sunday patterns in test is key, and to match Sunday patterns, Sunday must be learned in training" — essentially a <strong>Domain Adaptation task</strong>.</p>
+
+        <p>We finalized stratified 10-fold CV where [day_of_week, clicked] values are evenly distributed across each fold.</p>
+
+        <h2>5. Our Solution: GPU-Hill Climbing Ensemble</h2>
+
+        <div class="figure">
+            <img src="images/figure_4.png" alt="GPU-Hill Climbing Ensemble Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 4: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 4: GPU-Hill Climbing Ensemble Architecture</div>
+        </div>
+
+        <h3>5.1 Hill Climbing Ensemble</h3>
+
+        <p>Hill climbing ensemble finds optimal weighted averages of multiple OOF models. Key findings:</p>
+        <ul>
+            <li><strong>Different model architectures</strong> showed more performance improvement than multiple seeds of one model</li>
+            <li>25 of 36 ensemble models had actual weights used</li>
+            <li>Single-seed <code>wide_deep</code> had the highest influence (~25%)</li>
+        </ul>
+
+        <div class="figure">
+            <img src="images/figure_5.png" alt="Weight Distribution" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 5: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 5: GPU-Hill Climbing Ensemble Weight Distribution</div>
+        </div>
+
+        <h3>5.2 Model Components</h3>
+
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>Type</th>
+                <th>Seeds</th>
+            </tr>
+            <tr>
+                <td>XGBoost Depthwise</td>
+                <td>Tree-based</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>XGBoost Lossguide</td>
+                <td>Tree-based</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>CatBoost</td>
+                <td>Tree-based</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>PyTorch MLP</td>
+                <td>Deep Learning</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>xDeepFM</td>
+                <td>Deep Learning</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DCNv3</td>
+                <td>Deep Learning</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Wide&Deep</td>
+                <td>Deep Learning</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <h2>6. Neural Network Architectures</h2>
+
+        <div class="figure">
+            <img src="images/figure_6.png" alt="xDeepFM Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 6: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 6: xDeepFM Architecture - CIN for explicit interactions + DNN for implicit interactions</div>
+        </div>
+
+        <div class="figure">
+            <img src="images/figure_7.png" alt="DCNv3 Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 7: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 7: DCNv3 Architecture - LCN + ECN + DNN with Tri-BCE Loss</div>
+        </div>
+
+        <div class="figure">
+            <img src="images/figure_8.png" alt="Wide&Deep Architecture" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div style="display:none; padding: 40px; background: #1a1a1a; border-radius: 8px; color: #666;">
+                [Figure 8: Run extract_images.py to display this image]
+            </div>
+            <div class="figure-caption">Figure 8: Wide&Deep Architecture with BiGRU + Attention</div>
+        </div>
+
+        <h2>7. Accelerating Inference</h2>
+
+        <h3>Two-Phase Caching Architecture</h3>
+
+        <table>
+            <tr>
+                <th>Phase</th>
+                <th>Operation</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td><strong>Phase 1</strong></td>
+                <td>Preprocessing Caching (run once)</td>
+                <td>~10 min</td>
+            </tr>
+            <tr>
+                <td><strong>Phase 2</strong></td>
+                <td>Model Inference (cache reuse)</td>
+                <td>~3 min</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Without caching</strong></td>
+                <td>103 min</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>With caching</strong></td>
+                <td><span class="highlight">13 min</span></td>
+            </tr>
+        </table>
+
+        <h2>8. Conclusion</h2>
+
+        <div class="metric-box">
+            <p style="margin: 0;"><strong>Final Results</strong></p>
+            <p style="font-size: 1.2em; margin: 10px 0;">
+                CV: <span class="highlight">0.359380</span> |
+                Public LB: <span class="highlight">0.35297</span> |
+                Private LB: <span class="highlight">0.35179</span>
+            </p>
+            <p style="margin: 0; font-size: 1.3em;"><span class="highlight">🥇 1st Place</span> (Public & Private)</p>
+        </div>
+
+        <h3>Key Contributions</h3>
+
+        <ol>
+            <li><strong>Production-viable Large-scale Ensemble:</strong> 36-model ensemble operable in production using NVIDIA Merlin framework. <span class="highlight">50x+ speedup</span> in training and inference.</li>
+            <li><strong>Effective Sequence Processing:</strong> Bi-GRU with embedding projection for 6,590-length sequences. Validated truncation strategy through information-theoretic analysis.</li>
+            <li><strong>Composite Metric Optimization:</strong> 3-stage pipeline (BCE + AUC early stopping + Temperature scaling) for simultaneous ranking and probability calibration.</li>
+        </ol>
+
+        <hr>
+
+        <div class="references">
+            <h2>References</h2>
+            <p>[1] Narasimhan, H., Vaish, R., & Agarwal, S. (2014). On the Statistical Consistency of Plug-in Classifiers for Non-decomposable Performance Measures. NIPS'14.</p>
+            <p>[2] Yan, L., et al. (2003). Optimizing Classifier Performance via an Approximation to the Wilcoxon-Mann-Whitney Statistic. ICML'03.</p>
+            <p>[3] Guo, C., et al. (2017). On Calibration of Modern Neural Networks. ICML'17.</p>
+            <p>[4] Nickolls, J., et al. (2008). Scalable Parallel Programming with CUDA. ACM Queue.</p>
+            <p>[5] Chung, J., et al. (2014). Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling. arXiv:1412.3555.</p>
+            <p>[6] Benjamini, Y., & Hochberg, Y. (1995). Controlling the False Discovery Rate. Journal of the Royal Statistical Society.</p>
+            <p>[7] Caruana, R., et al. (2004). Ensemble Selection from Libraries of Models. ICML'04.</p>
+        </div>
+
+        <hr>
+
+        <p style="font-size: 0.85em; color: var(--text-secondary);">
+            * Contributed to NVIDIA Merlin framework introduction, NVTabular optimization, and ~40 model ensemble baseline.<br>
+            ** Contributed to Wide&Deep single model enhancement and final ensemble performance improvement through preprocessing variations.
+        </p>
+    </div>
+</body>
+</html>
