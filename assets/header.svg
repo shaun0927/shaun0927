@@ -104,8 +104,8 @@
   </rect>
 
   <!-- Typing Effect Title -->
-  <text x="400" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#a0a0a0">
-    <tspan fill="url(#greenGradient)">ML Engineer</tspan>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#a0a0a0">
+    <tspan fill="url(#greenGradient)">AI/ML Product Builder</tspan>
     <tspan fill="#666"> | </tspan>
     <tspan fill="#ffffff">CTO @ Rivetta</tspan>
     <tspan fill="#666"> | </tspan>
