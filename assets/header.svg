@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#0f0f1a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+
+    <!-- Green Accent Gradient -->
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d084"/>
+      <stop offset="100%" style="stop-color:#00f5a0"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Particle Glow -->
+    <filter id="particleGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bgGradient)"/>
+
+  <!-- Animated Grid Lines -->
+  <g opacity="0.1">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#00d084" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#00d084" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#00d084" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Floating Particles -->
+  <g filter="url(#particleGlow)">
+    <circle cx="50" cy="30" r="2" fill="#00d084">
+      <animate attributeName="cy" values="30;20;30" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="170" r="1.5" fill="#00f5a0">
+      <animate attributeName="cy" values="170;160;170" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="40" r="2.5" fill="#00d084">
+      <animate attributeName="cy" values="40;25;40" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="160" r="1.5" fill="#00f5a0">
+      <animate attributeName="cy" values="160;150;160" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="25" r="1" fill="#00d084">
+      <animate attributeName="cy" values="25;18;25" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="175" r="2" fill="#00f5a0">
+      <animate attributeName="cy" values="175;165;175" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Wave Animation -->
+  <path fill="none" stroke="url(#greenGradient)" stroke-width="1" opacity="0.2">
+    <animate
+      attributeName="d"
+      values="M0,180 Q200,160 400,180 T800,180;M0,180 Q200,200 400,180 T800,180;M0,180 Q200,160 400,180 T800,180"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="url(#greenGradient)" stroke-width="0.5" opacity="0.15">
+    <animate
+      attributeName="d"
+      values="M0,190 Q200,175 400,190 T800,190;M0,190 Q200,205 400,190 T800,190;M0,190 Q200,175 400,190 T800,190"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </path>
+
+  <!-- Main Name -->
+  <text x="400" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#glow)">
+    Shaun
+  </text>
+
+  <!-- Accent Underline -->
+  <rect x="320" y="85" width="160" height="3" rx="1.5" fill="url(#greenGradient)">
+    <animate attributeName="width" values="0;160" dur="1s" fill="freeze"/>
+    <animate attributeName="x" values="400;320" dur="1s" fill="freeze"/>
+  </rect>
+
+  <!-- Typing Effect Title -->
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#a0a0a0">
+    <tspan fill="url(#greenGradient)">ML Engineer</tspan>
+    <tspan fill="#666"> | </tspan>
+    <tspan fill="#ffffff">CTO @ Rivetta</tspan>
+    <tspan fill="#666"> | </tspan>
+    <tspan fill="#ffffff">CEO @ AlphaView</tspan>
+  </text>
+
+  <!-- Blinking Cursor -->
+  <rect x="598" y="115" width="2" height="20" fill="#00d084">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tagline -->
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#666" font-style="italic">
+    Building AI products that matter
+  </text>
+</svg>
