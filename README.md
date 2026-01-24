@@ -87,19 +87,19 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 **Languages & ML**
 
-<img src="https://skillicons.dev/icons?i=python,rust,typescript,javascript,pytorch,tensorflow&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,rust,typescript,pytorch,tensorflow,sklearn&theme=dark" alt="Languages & ML"/>
 
-**Backend & Infrastructure**
+**Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=fastapi,redis,postgres,docker,aws,linux&theme=dark" alt="Backend"/>
+<img src="https://skillicons.dev/icons?i=fastapi,redis,postgres,docker,aws,nginx&theme=dark" alt="Backend"/>
 
-**Frontend & Testing**
+**Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,playwright,jest&theme=dark" alt="Frontend"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" alt="Frontend"/>
 
-**Tools & Platforms**
+**DevOps & Testing**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,selenium,vercel,sentry&theme=dark" alt="Tools"/>
+<img src="https://skillicons.dev/icons?i=linux,bash,selenium,playwright,jest&theme=dark" alt="DevOps"/>
 
 </div>
 
@@ -108,8 +108,13 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shaun0927&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=00d084&icon_color=00d084&text_color=ffffff&count_private=true&include_all_commits=true" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff" width="49%" alt="GitHub Streak"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shaun0927&theme=github_dark" width="100%" alt="GitHub Profile Summary"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark" width="32%" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark" width="32%" alt="Most Commit Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shaun0927&theme=github_dark" width="32%" alt="Stats"/>
 </div>
 
 ---
