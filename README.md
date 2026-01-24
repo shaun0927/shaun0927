@@ -130,8 +130,3 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark" width="49%" alt="Most Commit Language"/>
 </div>
 
----
-
-<div align="center">
-  <sub>Building the future of AI-powered translation and financial analysis.</sub>
-</div>
