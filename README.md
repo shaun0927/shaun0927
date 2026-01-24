@@ -112,13 +112,16 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ## GitHub Stats
 
 <div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888" width="60%" alt="GitHub Streak Stats"/>
+</div>
+
+<div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shaun0927&theme=github_dark" width="100%" alt="GitHub Profile Summary"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark" width="32%" alt="Repos per Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark" width="32%" alt="Most Commit Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shaun0927&theme=github_dark" width="32%" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark" width="49%" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark" width="49%" alt="Most Commit Language"/>
 </div>
 
 ---
