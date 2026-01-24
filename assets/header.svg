@@ -93,14 +93,14 @@
   </path>
 
   <!-- Main Name -->
-  <text x="400" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#glow)">
-    Shaun
+  <text x="400" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" filter="url(#glow)">
+    shaun0927
   </text>
 
   <!-- Accent Underline -->
-  <rect x="320" y="85" width="160" height="3" rx="1.5" fill="url(#greenGradient)">
-    <animate attributeName="width" values="0;160" dur="1s" fill="freeze"/>
-    <animate attributeName="x" values="400;320" dur="1s" fill="freeze"/>
+  <rect x="290" y="85" width="220" height="3" rx="1.5" fill="url(#greenGradient)">
+    <animate attributeName="width" values="0;220" dur="1s" fill="freeze"/>
+    <animate attributeName="x" values="400;290" dur="1s" fill="freeze"/>
   </rect>
 
   <!-- Typing Effect Title -->

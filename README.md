@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Shaun - ML Engineer | CTO @ Rivetta | CEO @ AlphaView" />
+  <img src="./assets/header.svg" width="100%" alt="shaun0927 - ML Engineer | CTO @ Rivetta | CEO @ AlphaView" />
 </div>
 
 <!-- Social Links -->
@@ -8,11 +8,8 @@
   <a href="https://alphaview.kr">
     <img src="https://img.shields.io/badge/AlphaView-00d084?style=for-the-badge&logo=google-analytics&logoColor=white" alt="AlphaView"/>
   </a>
-  <a href="https://linkedin.com/in/shaun0927">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:shaun@rivetta.io">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="mailto:shaun0927@naver.com">
+    <img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email"/>
   </a>
 </div>
 
@@ -59,6 +56,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 | | Experience | Focus |
 |:---:|:---|:---|
+| 🧬 | **Neuroscience** | Trans-synaptic retrograde signaling research |
 | 📚 | **8 Years** Literary Translation | Novels, webtoons, creative content |
 | 🔧 | **3 Years** Technical Translation | Documentation, ML papers, technical specs |
 
@@ -76,8 +74,8 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <br/>
 
-![20+ Competitions](https://img.shields.io/badge/ML_Competitions-20+-1a1a2e?style=flat-square&labelColor=0a0a0a)
-![Dacon Top 0.01%](https://img.shields.io/badge/Dacon-Top_0.01%25_(#27)-00d084?style=flat-square&labelColor=0a0a0a)
+![20+ Competitions](https://img.shields.io/badge/ML_Competitions-20+-00d084?style=flat-square)
+![Dacon Top 0.01%](https://img.shields.io/badge/Dacon_(Korean_ML_Competition)-Top_0.01%25_(%2327)-00d084?style=flat-square)
 
 </div>
 
@@ -86,7 +84,23 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ## Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,react,nextjs,typescript,postgresql,docker,aws&theme=dark" alt="Tech Stack"/>
+
+**Languages & ML**
+
+<img src="https://skillicons.dev/icons?i=python,rust,typescript,javascript,pytorch,tensorflow&theme=dark" alt="Languages"/>
+
+**Backend & Infrastructure**
+
+<img src="https://skillicons.dev/icons?i=fastapi,redis,postgres,docker,aws,linux&theme=dark" alt="Backend"/>
+
+**Frontend & Testing**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,playwright,jest&theme=dark" alt="Frontend"/>
+
+**Tools & Platforms**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,selenium,vercel,sentry&theme=dark" alt="Tools"/>
+
 </div>
 
 ---
@@ -94,8 +108,8 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shaun0927&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=00d084&icon_color=00d084&text_color=ffffff" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084" width="49%" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=shaun0927&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=00d084&icon_color=00d084&text_color=ffffff&count_private=true&include_all_commits=true" width="49%" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff" width="49%" alt="GitHub Streak"/>
 </div>
 
 ---
