@@ -91,6 +91,46 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ---
 
+## Open Source Contributions
+
+<div align="center">
+
+### [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)
+**Multi-agent orchestration for Claude Code**
+
+[![Stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&color=00d084)](https://github.com/Yeachan-Heo/oh-my-claudecode)
+[![Role](https://img.shields.io/badge/Role-Contributor_(Write_Access)-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
+[![PRs](https://img.shields.io/badge/Merged_PRs-10-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+| Category | Contributions |
+|:---------|:--------------|
+| **Features** | Rate limit auto-resume, session analytics implementation |
+| **Bug Fixes** | Windows path compatibility, JSON validation, race conditions, credential leakage prevention |
+| **Testing** | 247 new unit tests for `keyword-detector`, `empty-message-sanitizer`, `think-mode` hooks |
+| **Cross-Platform** | Windows dynamic import fix, cross-platform date conversion |
+
+<details>
+<summary><b>Merged PRs</b></summary>
+
+| PR | Title |
+|:---|:------|
+| [#161](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/161) | fix(session-end): simplify HookOutput to avoid JSON validation errors |
+| [#159](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/159) | fix(subagent-tracker): replace CPU busy-wait loops with syncSleep |
+| [#157](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/157) | fix(permission-handler): remove dead code and add swarm marker support |
+| [#155](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/155) | fix(daemon): filter environment variables to prevent credential leakage |
+| [#151](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/151) | fix(omc-setup): use cross-platform date conversion |
+| [#141](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/141) | fix(installer): add pathToFileURL for Windows dynamic import |
+| [#132](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/132) | feat: Add rate limit auto-resume functionality |
+| [#117](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/117) | fix(analytics): support Windows-encoded paths in transcript scanner |
+| [#116](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/116) | feat(analytics): add hook tests and implement session analytics fields |
+| [#104](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/104) | fix(hud): use correct flat API structure for Sonnet quota |
+
+</details>
+
+---
+
 ## Tech Stack
 
 <div align="center">
