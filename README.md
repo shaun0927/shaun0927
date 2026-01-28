@@ -100,14 +100,14 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 [![Stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&color=00d084)](https://github.com/Yeachan-Heo/oh-my-claudecode)
 [![Role](https://img.shields.io/badge/Role-Contributor_(Write_Access)-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
-[![PRs](https://img.shields.io/badge/Merged_PRs-10-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged)
+[![PRs](https://img.shields.io/badge/Merged_PRs-11-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
 | Category | Contributions |
 |:---------|:--------------|
 | **Features** | Rate limit auto-resume, session analytics implementation |
-| **Bug Fixes** | Windows path compatibility, JSON validation, race conditions, credential leakage prevention |
+| **Bug Fixes** | Windows path compatibility, JSON validation, race conditions, credential leakage prevention, ESM compatibility |
 | **Testing** | 247 new unit tests for `keyword-detector`, `empty-message-sanitizer`, `think-mode` hooks |
 | **Cross-Platform** | Windows dynamic import fix, cross-platform date conversion |
 
@@ -116,6 +116,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 | PR | Title |
 |:---|:------|
+| [#172](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/172) | fix(rate-limit-wait): add ESM compatibility for __filename in daemon |
 | [#161](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/161) | fix(session-end): simplify HookOutput to avoid JSON validation errors |
 | [#159](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/159) | fix(subagent-tracker): replace CPU busy-wait loops with syncSleep |
 | [#157](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/157) | fix(permission-handler): remove dead code and add swarm marker support |
