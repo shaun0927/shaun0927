@@ -119,8 +119,6 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
-**Key Contributions:** Amazon Bedrock provider support
-
 ---
 
 ## Tech Stack
