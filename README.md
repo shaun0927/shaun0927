@@ -111,7 +111,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <div align="center">
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
-**Ultra-lightweight Implementation of Openclaw/Clawdbot (~4K lines)**
+**Ultra-lightweight Implementation of [![Openclaw/Clawdbot](https://img.shields.io/badge/Openclaw%2FClawdbot-FF6B6B?style=flat-square)](https://github.com/OpenClaw/ClawdBot) (~4K lines)**
 
 [![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&color=00d084)](https://github.com/HKUDS/nanobot)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/HKUDS/nanobot)
