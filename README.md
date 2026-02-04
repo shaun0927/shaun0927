@@ -105,35 +105,6 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
-**Key Contributions:** Rate limit auto-resume, session analytics, LSP multi-language support (6 languages), 247 unit tests, Windows compatibility fixes, credential security
-
-<details>
-<summary><b>Details</b></summary>
-
-| Category | Contributions |
-|:---------|:--------------|
-| **Features** | Rate limit auto-resume, session analytics implementation, LSP multi-language support (6 languages) |
-| **Bug Fixes** | Windows path compatibility, JSON validation, race conditions, credential leakage prevention, ESM compatibility |
-| **Testing** | 247 new unit tests for `keyword-detector`, `empty-message-sanitizer`, `think-mode` hooks |
-| **Cross-Platform** | Windows dynamic import fix, cross-platform date conversion |
-
-| PR | Title |
-|:---|:------|
-| [#191](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/191) | feat(lsp): add 6 new languages with tests and bug fixes |
-| [#172](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/172) | fix(rate-limit-wait): add ESM compatibility for __filename in daemon |
-| [#161](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/161) | fix(session-end): simplify HookOutput to avoid JSON validation errors |
-| [#159](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/159) | fix(subagent-tracker): replace CPU busy-wait loops with syncSleep |
-| [#157](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/157) | fix(permission-handler): remove dead code and add swarm marker support |
-| [#155](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/155) | fix(daemon): filter environment variables to prevent credential leakage |
-| [#151](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/151) | fix(omc-setup): use cross-platform date conversion |
-| [#141](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/141) | fix(installer): add pathToFileURL for Windows dynamic import |
-| [#132](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/132) | feat: Add rate limit auto-resume functionality |
-| [#117](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/117) | fix(analytics): support Windows-encoded paths in transcript scanner |
-| [#116](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/116) | feat(analytics): add hook tests and implement session analytics fields |
-| [#104](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/104) | fix(hud): use correct flat API structure for Sonnet quota |
-
-</details>
-
 <br/>
 
 <!-- nanobot -->
