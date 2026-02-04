@@ -140,23 +140,15 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <div align="center">
 
 ### [nanobot](https://github.com/HKUDS/nanobot)
-**Ultra-lightweight personal AI assistant (~4K lines)**
+**Ultra-lightweight Implementation of Openclaw/Clawdbot (~4K lines)**
 
 [![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&color=00d084)](https://github.com/HKUDS/nanobot)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/HKUDS/nanobot)
 [![PRs](https://img.shields.io/badge/Merged_PRs-1-00d084?style=flat-square)](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
 **Key Contributions:** Amazon Bedrock provider support
-
-<details>
-<summary><b>Details</b></summary>
-
-| PR | Title |
-|:---|:------|
-| [#21](https://github.com/HKUDS/nanobot/pull/21) | feat: add Amazon Bedrock support |
-
-</details>
 
 ---
 
