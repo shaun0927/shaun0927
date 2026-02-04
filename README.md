@@ -93,6 +93,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ## Open Source Contributions
 
+<!-- oh-my-claudecode -->
 <div align="center">
 
 ### [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)
@@ -104,15 +105,17 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
+**Key Contributions:** Rate limit auto-resume, session analytics, LSP multi-language support (6 languages), 247 unit tests, Windows compatibility fixes, credential security
+
+<details>
+<summary><b>Details</b></summary>
+
 | Category | Contributions |
 |:---------|:--------------|
 | **Features** | Rate limit auto-resume, session analytics implementation, LSP multi-language support (6 languages) |
 | **Bug Fixes** | Windows path compatibility, JSON validation, race conditions, credential leakage prevention, ESM compatibility |
 | **Testing** | 247 new unit tests for `keyword-detector`, `empty-message-sanitizer`, `think-mode` hooks |
 | **Cross-Platform** | Windows dynamic import fix, cross-platform date conversion |
-
-<details>
-<summary><b>Merged PRs</b></summary>
 
 | PR | Title |
 |:---|:------|
@@ -128,6 +131,30 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 | [#117](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/117) | fix(analytics): support Windows-encoded paths in transcript scanner |
 | [#116](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/116) | feat(analytics): add hook tests and implement session analytics fields |
 | [#104](https://github.com/Yeachan-Heo/oh-my-claudecode/pull/104) | fix(hud): use correct flat API structure for Sonnet quota |
+
+</details>
+
+<br/>
+
+<!-- nanobot -->
+<div align="center">
+
+### [nanobot](https://github.com/HKUDS/nanobot)
+**Ultra-lightweight personal AI assistant (~4K lines)**
+
+[![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&color=00d084)](https://github.com/HKUDS/nanobot)
+[![PRs](https://img.shields.io/badge/Merged_PRs-1-00d084?style=flat-square)](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+**Key Contributions:** Amazon Bedrock provider support
+
+<details>
+<summary><b>Details</b></summary>
+
+| PR | Title |
+|:---|:------|
+| [#21](https://github.com/HKUDS/nanobot/pull/21) | feat: add Amazon Bedrock support |
 
 </details>
 
@@ -171,4 +198,3 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark" width="49%" alt="Repos per Language"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark" width="49%" alt="Most Commit Language"/>
 </div>
-
