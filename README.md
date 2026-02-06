@@ -151,7 +151,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888" width="60%" alt="GitHub Streak Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&v=2" width="60%" alt="GitHub Streak Stats"/>
 </div>
 
 <div align="center">
