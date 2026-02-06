@@ -70,9 +70,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <div align="center">
 
-<img src="./assets/toss-next-ml-leaderboard.png" width="80%" alt="Toss NEXT ML Challenge - 1st Place Leaderboard"/>
-
-<br/>
+<img src="./assets/toss-next-ml-leaderboard.png" width="100%" alt="Toss NEXT ML Challenge - 1st Place Leaderboard"/>
 
 [![Toss ML 1st](https://img.shields.io/badge/Toss_NEXT_ML_Challenge_2025-🥇_1st_Place-00d084?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/shaun0927/shaun0927/blob/main/papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.html)
 
@@ -82,11 +80,9 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <br/>
 📄 [Technical Report (EN)](https://htmlpreview.github.io/?https://github.com/shaun0927/shaun0927/blob/main/papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.html) | [(KR)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_KR.pdf)
 
-<br/>
+<br/><br/>
 
-<img src="./assets/dacon-challenger-badge.png" width="120" alt="Competition Challenger Badge"/>
-
-<br/>
+<img src="./assets/dacon-challenger-badge.png" width="80" alt="Competition Challenger Badge"/>
 
 ![20+ Competitions](https://img.shields.io/badge/ML_Competitions-20+-00d084?style=flat-square)
 ![Dacon Top 0.01%](https://img.shields.io/badge/Dacon_(Korean_ML_Competition)-Top_0.01%25_(%2327)-00d084?style=flat-square)
