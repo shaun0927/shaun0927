@@ -70,6 +70,10 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <div align="center">
 
+<img src="./assets/toss-next-ml-leaderboard.png" width="80%" alt="Toss NEXT ML Challenge - 1st Place Leaderboard"/>
+
+<br/>
+
 [![Toss ML 1st](https://img.shields.io/badge/Toss_NEXT_ML_Challenge_2025-🥇_1st_Place-00d084?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/shaun0927/shaun0927/blob/main/papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.html)
 
 **GPU Hill Climbing Ensemble for Merlin Framework**
@@ -77,6 +81,10 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <sub>CTR prediction on 10M rows of real financial data (Recommender System)</sub>
 <br/>
 📄 [Technical Report (EN)](https://htmlpreview.github.io/?https://github.com/shaun0927/shaun0927/blob/main/papers/Toss_Report_GPU_Hill_Climbing_Ensemble_EN.html) | [(KR)](./papers/Toss_Report_GPU_Hill_Climbing_Ensemble_KR.pdf)
+
+<br/>
+
+<img src="./assets/dacon-challenger-badge.png" width="120" alt="Competition Challenger Badge"/>
 
 <br/>
 
