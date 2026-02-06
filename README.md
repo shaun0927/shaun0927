@@ -82,7 +82,9 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <br/><br/>
 
-<img src="./assets/dacon-challenger-badge.png" width="28" alt="Competition Challenger Badge" style="vertical-align: middle;"/> ![20+ Competitions](https://img.shields.io/badge/ML_Competitions-20+-00d084?style=flat-square) ![Dacon Top 0.01%](https://img.shields.io/badge/Dacon_(Korean_ML_Competition)-Top_0.01%25_(%2327)-00d084?style=flat-square)
+![Dacon Challenger](https://img.shields.io/badge/Dacon-Challenger-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyTDkgOUgybDcgNS0yLjUgOEwxMiAxOGw1LjUgNC0yLjUtOCA3LTVoLTdMMTIgMnoiLz48L3N2Zz4=)
+![20+ Competitions](https://img.shields.io/badge/ML_Competitions-20+-00d084?style=flat-square)
+![Dacon Top 0.01%](https://img.shields.io/badge/Dacon_(Korean_ML_Competition)-Top_0.01%25_(%2324)-00d084?style=flat-square)
 
 </div>
 
