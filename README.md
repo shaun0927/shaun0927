@@ -23,6 +23,8 @@ Building AI products that matter.
 
 **CEO @ [AlphaView](https://alphaview.kr)** — AI-driven stock news analysis platform.
 
+February - Official Launch. Reached MAU 20k
+
 ---
 
 ## What I Do
