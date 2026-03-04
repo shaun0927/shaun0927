@@ -21,7 +21,7 @@ Building AI products that matter.
 
 **CTO @ Rivetta** — Designing context engineering architectures for AI-powered K-webnovel translation. While many claim LLMs have "solved" translation, real-world demands prove otherwise: readers need cultural nuance and domain expertise that raw AI cannot deliver. I architect systems that bridge this gap.
 
-**CEO @ [AlphaView](https://alphaview.kr)** — AI-driven stock news analysis platform.(Solopreneur)
+**CEO @ [AlphaView](https://alphaview.kr)** — AI-driven stock news analysis platform. (Solopreneur)
 
 26.02 Official Launch / Reached MAU 20k
 
