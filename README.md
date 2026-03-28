@@ -104,7 +104,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ### [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)
 **Multi-agent orchestration for Claude Code**
 
-[![Stars](https://img.shields.io/badge/⭐_Stars-13.5k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
+[![Stars](https://img.shields.io/badge/⭐_Stars-14.4k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
 [![Role](https://img.shields.io/badge/Role-Collaborator_(Write_Access)-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
 [![PRs](https://img.shields.io/badge/Merged_PRs-13-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged)
 
