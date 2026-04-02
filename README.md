@@ -134,34 +134,46 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <div align="center">
 
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-$20,052-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Messages-313,862-00d084?style=for-the-badge&logo=chatbot&logoColor=white" alt="Messages"/>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2325-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-20,061-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
 <img src="https://img.shields.io/badge/Tokens-26.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Claude_Code-$18,683-cc9b7a?style=flat-square" alt="Claude Code"/>
-<img src="https://img.shields.io/badge/Codex_CLI-$1,368-74aa9c?style=flat-square" alt="Codex CLI"/>
-<img src="https://img.shields.io/badge/Gemini_CLI-$0.40-8E75B2?style=flat-square" alt="Gemini CLI"/>
+<img src="https://img.shields.io/badge/Streak-66_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
+<img src="https://img.shields.io/badge/Active_Days-66-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Best_Day-1,120-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
+<img src="https://img.shields.io/badge/Messages-313,902-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Models-10-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
-
-<br/>
 
 <div align="center">
 
-| Platform | Models | Messages | Tokens | Cost |
-|:---------|:-------|-------:|-------:|-----:|
-| **Claude Code** | opus-4-6, sonnet-4-6, sonnet-4-5 +3 | 276,581 | 22.3B | **$18,683** |
-| **Codex CLI** | 5.3-codex, 5.3-codex-spark | 37,262 | 4.2B | **$1,368** |
-| **Gemini CLI** | gemini-2.5-pro, gemini-2.5-flash | 19 | 540.4K | **$0.40** |
-| **Total** | | **313,862** | **26.4B** | **$20,052** |
+<table>
+<tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-6</code> <code>sonnet-4-6</code> <code>sonnet-4-5</code> <code>+3</code></td><td><code>███████████████████░</code> 93.2%</td><td align="right">276,621</td><td align="right">22.3B</td><td align="right"><b>$18,692</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 6.8%</td><td align="right">37,262</td><td align="right">4.2B</td><td align="right"><b>$1,368</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">540.4K</td><td align="right"><b>$0.40</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>313,902</b></td><td align="right"><b>26.4B</b></td><td align="right"><b>$20,061</b></td></tr>
+</table>
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | Updated 2026-04-02</sub></div>
+<div align="center">
+
+**Token Composition**
+
+<img src="https://img.shields.io/badge/Cache_Read_(93.3%25)-24.7B-2ECC71?style=flat-square" alt="Cache Read (93.3%25)"/>
+<img src="https://img.shields.io/badge/Cache_Write_(5.4%25)-1.4B-27AE60?style=flat-square" alt="Cache Write (5.4%25)"/>
+<img src="https://img.shields.io/badge/Input_(0.8%25)-202.5M-3498DB?style=flat-square" alt="Input (0.8%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.5%25)-119.4M-9B59B6?style=flat-square" alt="Output (0.5%25)"/>
+
+</div>
+
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-04-02</sub></div>
 
 <!-- TOKSCALE_END -->
 
