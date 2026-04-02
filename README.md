@@ -128,6 +128,45 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ---
 
+<!-- TOKSCALE_START -->
+
+## AI Coding Agent Usage
+
+<div align="center">
+
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-$20,052-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Messages-313,862-00d084?style=for-the-badge&logo=chatbot&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Tokens-26.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Claude_Code-$18,683-cc9b7a?style=flat-square" alt="Claude Code"/>
+<img src="https://img.shields.io/badge/Codex_CLI-$1,368-74aa9c?style=flat-square" alt="Codex CLI"/>
+<img src="https://img.shields.io/badge/Gemini_CLI-$0.40-8E75B2?style=flat-square" alt="Gemini CLI"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Platform | Models | Messages | Tokens | Cost |
+|:---------|:-------|-------:|-------:|-----:|
+| **Claude Code** | opus-4-6, sonnet-4-6, sonnet-4-5 +3 | 276,581 | 22.3B | **$18,683** |
+| **Codex CLI** | 5.3-codex, 5.3-codex-spark | 37,262 | 4.2B | **$1,368** |
+| **Gemini CLI** | gemini-2.5-pro, gemini-2.5-flash | 19 | 540.4K | **$0.40** |
+| **Total** | | **313,862** | **26.4B** | **$20,052** |
+
+</div>
+
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | Updated 2026-04-02</sub></div>
+
+<!-- TOKSCALE_END -->
+
+---
+
 ## Tech Stack
 
 <div align="center">
