@@ -7,8 +7,7 @@ competitions.json 파일의 대회 정보를 읽어서 README.md를 업데이트
 
 import json
 import re
-from datetime import datetime
-import pytz
+from datetime import datetime, timezone, timedelta
 
 
 def load_competitions():
@@ -231,7 +230,7 @@ def update_readme(data):
             )
 
     # 6. 업데이트 시간 추가
-    kst = pytz.timezone('Asia/Seoul')
+    kst = timezone(timedelta(hours=9))
     update_time = datetime.now(kst).strftime('%Y-%m-%d %H:%M:%S KST')
 
     # 업데이트 시간 표시 추가 (Data Science Competitions 섹션 상단)

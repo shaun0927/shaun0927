@@ -11,9 +11,7 @@ import re
 import subprocess
 import sys
 import urllib.request
-from datetime import datetime
-
-import pytz
+from datetime import datetime, timezone, timedelta
 
 
 def fetch_tokscale_data():
@@ -229,7 +227,7 @@ def generate_dashboard(data, profile):
     sorted_clients = sorted(client_stats.items(), key=lambda x: x[1]["cost"], reverse=True)
     num_models = sum(len(s["models"]) for _, s in sorted_clients)
 
-    kst = pytz.timezone("Asia/Seoul")
+    kst = timezone(timedelta(hours=9))
     update_time = datetime.now(kst).strftime("%Y-%m-%d")
 
     L = []  # lines
