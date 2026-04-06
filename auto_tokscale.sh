@@ -28,7 +28,7 @@ git pull --rebase --quiet 2>> "$LOG_FILE" || true
 python3 update_tokscale.py >> "$LOG_FILE" 2>&1
 
 # Submit to tokscale.ai as well
-npx tokscale@latest submit --dry-run=false >> "$LOG_FILE" 2>&1 || true
+npx tokscale@latest submit >> "$LOG_FILE" 2>&1 || true
 
 # Check for changes
 if git diff --quiet README.md; then
