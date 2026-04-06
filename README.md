@@ -144,7 +144,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <img src="https://img.shields.io/badge/Streak-70_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
 <img src="https://img.shields.io/badge/Active_Days-70-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Best_Day-1,120-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
+<img src="https://img.shields.io/badge/Best_Day-1,370-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
 <img src="https://img.shields.io/badge/Messages-343,324-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-12-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
@@ -173,7 +173,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-04-06</sub></div>
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-04-07</sub></div>
 
 <!-- TOKSCALE_END -->
 
