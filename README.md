@@ -187,7 +187,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-04-12</sub></div>
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-04-13</sub></div>
 
 <!-- TOKSCALE_END -->
 
