@@ -105,7 +105,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 **Multi-agent orchestration for Claude Code**
 
 [![Trending](https://img.shields.io/badge/🔥_GitHub_Trending_%231-FF6B35?style=flat-square&logo=github&logoColor=white)](https://github.com/Yeachan-Heo/oh-my-claudecode)
-[![Stars](https://img.shields.io/badge/⭐_Stars-28.2k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
+[![Stars](https://img.shields.io/badge/⭐_Stars-28.9k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
 [![Role](https://img.shields.io/badge/Role-Collaborator_(Write_Access)-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode)
 [![PRs](https://img.shields.io/badge/Merged_PRs-48-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged)
 
@@ -120,7 +120,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 **Ultra-lightweight Implementation of [![OpenClaw](https://img.shields.io/badge/🦞_OpenClaw-FF6B6B?style=flat-square)](https://github.com/openclaw/openclaw) (~4K lines)**
 
 [![Trending](https://img.shields.io/badge/🔥_GitHub_Trending_%231-FF6B35?style=flat-square&logo=github&logoColor=white)](https://github.com/HKUDS/nanobot)
-[![Stars](https://img.shields.io/badge/⭐_Stars-37.4k-00d084?style=flat-square)](https://github.com/HKUDS/nanobot)
+[![Stars](https://img.shields.io/badge/⭐_Stars-39.5k-00d084?style=flat-square)](https://github.com/HKUDS/nanobot)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/HKUDS/nanobot)
 [![PRs](https://img.shields.io/badge/Merged_PRs-1-00d084?style=flat-square)](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged)
 
@@ -134,9 +134,9 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ### [ouroboros](https://github.com/Q00/ouroboros)
 **Specification-first workflow engine for AI coding agents**
 
-[![Stars](https://img.shields.io/badge/⭐_Stars-2.1k-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
+[![Stars](https://img.shields.io/badge/⭐_Stars-2.4k-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
-[![PRs](https://img.shields.io/badge/Merged_PRs-7-00d084?style=flat-square)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
+[![PRs](https://img.shields.io/badge/Merged_PRs-15-00d084?style=flat-square)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
