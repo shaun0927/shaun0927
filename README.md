@@ -119,6 +119,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ### [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
 **Hooks, agent teams, and HUDs for Codex CLI**
 
+[![Trending](https://img.shields.io/badge/🔥_GitHub_Trending_%231-FF6B35?style=flat-square&logo=github&logoColor=white)](https://github.com/Yeachan-Heo/oh-my-codex)
 [![Stars](https://img.shields.io/badge/⭐_Stars-23.5k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
 [![PRs](https://img.shields.io/badge/Merged_PRs-9-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged)
