@@ -136,7 +136,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 [![Stars](https://img.shields.io/badge/⭐_Stars-2.4k-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
-[![PRs](https://img.shields.io/badge/Merged_PRs-15-00d084?style=flat-square)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
+[![PRs](https://img.shields.io/badge/Merged_PRs-35-00d084?style=flat-square)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
