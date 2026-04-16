@@ -113,6 +113,20 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <br/>
 
+<!-- oh-my-codex -->
+<div align="center">
+
+### [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
+**Hooks, agent teams, and HUDs for Codex CLI**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-23.5k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
+[![PRs](https://img.shields.io/badge/Merged_PRs-9-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+<br/>
+
 <!-- nanobot -->
 <div align="center">
 
@@ -137,20 +151,6 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 [![Stars](https://img.shields.io/badge/⭐_Stars-2.4k-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Q00/ouroboros)
 [![PRs](https://img.shields.io/badge/Merged_PRs-35-00d084?style=flat-square)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
-
-</div>
-
-<br/>
-
-<!-- oh-my-codex -->
-<div align="center">
-
-### [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
-**Hooks, agent teams, and HUDs for Codex CLI**
-
-[![Stars](https://img.shields.io/badge/⭐_Stars-23.5k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
-[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
-[![PRs](https://img.shields.io/badge/Merged_PRs-9-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
@@ -193,20 +193,6 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 [![Stars](https://img.shields.io/badge/⭐_Stars-10.0k-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR)
 [![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR)
 [![PRs](https://img.shields.io/badge/Merged_PRs-3-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged)
-
-</div>
-
-<br/>
-
-<!-- map-to-poster -->
-<div align="center">
-
-### [map-to-poster](https://github.com/dimartarmizi/map-to-poster)
-**Client-side map poster generator**
-
-[![Stars](https://img.shields.io/badge/⭐_Stars-764-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster)
-[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster)
-[![PRs](https://img.shields.io/badge/Merged_PRs-1-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 </div>
 
