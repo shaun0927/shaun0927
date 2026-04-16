@@ -140,6 +140,76 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 </div>
 
+<br/>
+
+<!-- oh-my-codex -->
+<div align="center">
+
+### [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
+**Hooks, agent teams, and HUDs for Codex CLI**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-23.5k-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex)
+[![PRs](https://img.shields.io/badge/Merged_PRs-9-00d084?style=flat-square)](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+<br/>
+
+<!-- voicebox -->
+<div align="center">
+
+### [voicebox](https://github.com/jamiepine/voicebox)
+**Open-source voice synthesis studio**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-18.8k-00d084?style=flat-square)](https://github.com/jamiepine/voicebox)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/jamiepine/voicebox)
+[![PRs](https://img.shields.io/badge/Merged_PRs-2-00d084?style=flat-square)](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+<br/>
+
+<!-- multica -->
+<div align="center">
+
+### [multica](https://github.com/multica-ai/multica)
+**Open-source managed agents platform**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-14.2k-00d084?style=flat-square)](https://github.com/multica-ai/multica)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/multica-ai/multica)
+[![PRs](https://img.shields.io/badge/Merged_PRs-3-00d084?style=flat-square)](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+<br/>
+
+<!-- PLFM_RADAR -->
+<div align="center">
+
+### [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
+**Low-cost 10.5 GHz PLFM phased array RADAR**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-10.0k-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR)
+[![PRs](https://img.shields.io/badge/Merged_PRs-3-00d084?style=flat-square)](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
+<br/>
+
+<!-- map-to-poster -->
+<div align="center">
+
+### [map-to-poster](https://github.com/dimartarmizi/map-to-poster)
+**Client-side map poster generator**
+
+[![Stars](https://img.shields.io/badge/⭐_Stars-764-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster)
+[![Role](https://img.shields.io/badge/Role-Contributor-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster)
+[![PRs](https://img.shields.io/badge/Merged_PRs-1-00d084?style=flat-square)](https://github.com/dimartarmizi/map-to-poster/pulls?q=author%3Ashaun0927+is%3Amerged)
+
+</div>
+
 ---
 
 <!-- TOKSCALE_START -->
