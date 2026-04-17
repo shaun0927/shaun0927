@@ -104,139 +104,97 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <img src="https://img.shields.io/badge/Repositories-12-00d084?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/>
 <img src="https://img.shields.io/badge/Combined_Stars-300k%2B-00d084?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Combined Stars"/>
 
-<br/><br/>
-
-<a href="#-harness-engineering"><img src="https://img.shields.io/badge/Harness_Engineering-8_·_104_PRs-00d084?style=for-the-badge&labelColor=0a0a0a" alt="Harness Engineering"/></a>
-<a href="#-ml"><img src="https://img.shields.io/badge/ML-3_·_5_PRs-1ABC9C?style=for-the-badge&labelColor=0a0a0a" alt="ML"/></a>
-<a href="#-other"><img src="https://img.shields.io/badge/Other-1_·_3_PRs-9B59B6?style=for-the-badge&labelColor=0a0a0a" alt="Other"/></a>
-
 </div>
 
 <br/>
 
-### 🔧 Harness Engineering
+### 🔧 Harness Engineering <sub>&nbsp;·&nbsp; 8 repos &nbsp;·&nbsp; 104 merged PRs</sub>
 
-<sub><i>AI coding-agent runtimes · orchestration · hooks · skills · memory</i></sub>
+<sub>AI coding-agent runtimes · orchestration · hooks · skills · memory</sub>
 
-<table align="center">
+<table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/Yeachan-Heo/oh-my-claudecode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yeachan-Heo&repo=oh-my-claudecode&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="oh-my-claudecode"/>
-</a>
-<br/>
-<a href="https://github.com/Yeachan-Heo/oh-my-claudecode"><img src="https://img.shields.io/badge/🔥_Trending_%231-FF6B35?style=flat-square&labelColor=0a0a0a"/></a>
-<a href="https://github.com/Yeachan-Heo/oh-my-claudecode"><img src="https://img.shields.io/badge/🛡_Collaborator-00d084?style=flat-square&labelColor=0a0a0a"/></a>
-<a href="https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-48-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/Yeachan-Heo/oh-my-claudecode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Yeachan-Heo&repo=oh-my-claudecode&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="oh-my-claudecode"/></a><br/>
+<a href="https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-48-00d084?style=flat-square&labelColor=0d1117"/></a>
+<img src="https://img.shields.io/badge/🛡_Collaborator-00d084?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/🔥_Trending-00d084?style=flat-square&labelColor=0d1117"/>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/Q00/ouroboros">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Q00&repo=ouroboros&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="ouroboros"/>
-</a>
-<br/>
-<a href="https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-35-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/Q00/ouroboros"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Q00&repo=ouroboros&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="ouroboros"/></a><br/>
+<a href="https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-35-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/Yeachan-Heo/oh-my-codex">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yeachan-Heo&repo=oh-my-codex&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="oh-my-codex"/>
-</a>
-<br/>
-<a href="https://github.com/Yeachan-Heo/oh-my-codex"><img src="https://img.shields.io/badge/🔥_Trending_%231-FF6B35?style=flat-square&labelColor=0a0a0a"/></a>
-<a href="https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-13-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/Yeachan-Heo/oh-my-codex"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Yeachan-Heo&repo=oh-my-codex&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="oh-my-codex"/></a><br/>
+<a href="https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-13-00d084?style=flat-square&labelColor=0d1117"/></a>
+<img src="https://img.shields.io/badge/🔥_Trending-00d084?style=flat-square&labelColor=0d1117"/>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/multica-ai/multica">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=multica-ai&repo=multica&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="multica"/>
-</a>
-<br/>
-<a href="https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-4-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/multica-ai/multica"><img src="https://github-readme-stats.vercel.app/api/pin/?username=multica-ai&repo=multica&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="multica"/></a><br/>
+<a href="https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-4-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/HKUDS/nanobot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&repo=nanobot&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="nanobot"/>
-</a>
-<br/>
-<a href="https://github.com/HKUDS/nanobot"><img src="https://img.shields.io/badge/🔥_Trending_%231-FF6B35?style=flat-square&labelColor=0a0a0a"/></a>
-<a href="https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-1-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/HKUDS/nanobot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HKUDS&repo=nanobot&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="nanobot"/></a><br/>
+<a href="https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-1-00d084?style=flat-square&labelColor=0d1117"/></a>
+<img src="https://img.shields.io/badge/🔥_Trending-00d084?style=flat-square&labelColor=0d1117"/>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/addyosmani/agent-skills">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=addyosmani&repo=agent-skills&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="agent-skills"/>
-</a>
-<br/>
-<a href="https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-1-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/addyosmani/agent-skills"><img src="https://github-readme-stats.vercel.app/api/pin/?username=addyosmani&repo=agent-skills&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="agent-skills"/></a><br/>
+<a href="https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-1-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/rohitg00/agentmemory">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohitg00&repo=agentmemory&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="agentmemory"/>
-</a>
-<br/>
-<a href="https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-1-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/rohitg00/agentmemory"><img src="https://github-readme-stats.vercel.app/api/pin/?username=rohitg00&repo=agentmemory&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="agentmemory"/></a><br/>
+<a href="https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-1-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/chrysb/alphaclaw">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=chrysb&repo=alphaclaw&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="alphaclaw"/>
-</a>
-<br/>
-<a href="https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-1-00d084?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/chrysb/alphaclaw"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chrysb&repo=alphaclaw&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="alphaclaw"/></a><br/>
+<a href="https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-1-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 </table>
 
 <br/>
 
-### 🧠 ML
+### 🧠 ML <sub>&nbsp;·&nbsp; 3 repos &nbsp;·&nbsp; 5 merged PRs</sub>
 
-<sub><i>LLM app platforms · recommender systems · voice synthesis</i></sub>
+<sub>LLM app platforms · recommender systems · voice synthesis</sub>
 
-<table align="center">
+<table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/langgenius/dify">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=langgenius&repo=dify&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C" alt="dify"/>
-</a>
-<br/>
-<a href="https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-2-1ABC9C?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/langgenius/dify"><img src="https://github-readme-stats.vercel.app/api/pin/?username=langgenius&repo=dify&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="dify"/></a><br/>
+<a href="https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-2-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/jamiepine/voicebox">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jamiepine&repo=voicebox&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C" alt="voicebox"/>
-</a>
-<br/>
-<a href="https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-2-1ABC9C?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/jamiepine/voicebox"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jamiepine&repo=voicebox&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="voicebox"/></a><br/>
+<a href="https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-2-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 <tr>
 <td colspan="2" align="center" valign="top">
-<a href="https://github.com/gorse-io/gorse">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gorse-io&repo=gorse&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C" alt="gorse"/>
-</a>
-<br/>
-<a href="https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-1-1ABC9C?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/gorse-io/gorse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gorse-io&repo=gorse&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="gorse"/></a><br/>
+<a href="https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-1-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 </table>
 
 <br/>
 
-### 📡 Other
+### 📡 Other <sub>&nbsp;·&nbsp; 1 repo &nbsp;·&nbsp; 3 merged PRs</sub>
 
-<sub><i>RF / DSP / hardware</i></sub>
+<sub>RF / DSP / hardware</sub>
 
-<table align="center">
+<table>
 <tr>
 <td align="center" valign="top">
-<a href="https://github.com/NawfalMotii79/PLFM_RADAR">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NawfalMotii79&repo=PLFM_RADAR&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=9B59B6&icon_color=9B59B6" alt="PLFM_RADAR"/>
-</a>
-<br/>
-<a href="https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged_PRs-3-9B59B6?style=for-the-badge&labelColor=0a0a0a&logo=git&logoColor=white"/></a>
+<a href="https://github.com/NawfalMotii79/PLFM_RADAR"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NawfalMotii79&repo=PLFM_RADAR&theme=github_dark&show_owner=true&hide_border=true&bg_color=0d1117&title_color=00d084&icon_color=00d084" alt="PLFM_RADAR"/></a><br/>
+<a href="https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged"><img src="https://img.shields.io/badge/Merged-3-00d084?style=flat-square&labelColor=0d1117"/></a>
 </td>
 </tr>
 </table>
