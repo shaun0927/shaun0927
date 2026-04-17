@@ -243,13 +243,8 @@ def generate_dashboard(data, profile):
     L.append("")
 
     if rank:
-        rank_label = f"Global Rank"
         rank_value = f"%23{rank}"  # URL-encoded #
-        if total_users:
-            rank_value += f" of {total_users}"
-            top_pct = round(rank / total_users * 100, 1)
-            rank_label = f"Global Top {top_pct}%25"
-        L.append(badge_link(rank_label, rank_value, "FFD700", "https://tokscale.ai/leaderboard", "for-the-badge", "trophy"))
+        L.append(badge_link("Global Rank", rank_value, "FFD700", "https://tokscale.ai/leaderboard", "for-the-badge", "trophy"))
         L.append(badge_link("Total Cost", format_cost(total_cost), "00d084", "https://tokscale.ai/u/shaun0927", "for-the-badge", "cashapp"))
         L.append(badge(f"Tokens", format_tokens(total_tokens), "00d084", "for-the-badge", "stackblitz"))
     else:

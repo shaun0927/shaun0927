@@ -135,9 +135,9 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Top_2.9%25-%2323_of_785-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Top 2.9%25"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-33,154-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-48.5B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2323-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-33,107-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Tokens-48.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
@@ -147,7 +147,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <img src="https://img.shields.io/badge/Active_Days-81-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
 <img src="https://img.shields.io/badge/Avg_Daily-391.04-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,490-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-462,140-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-461,909-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-13-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -156,10 +156,10 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-6</code> <code>sonnet-4-6</code> <code>opus-4-7</code> <code>+4</code></td><td><code>████████████████░░░░</code> 78.0%</td><td align="right">332,197</td><td align="right">29.9B</td><td align="right"><b>$25,875</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-6</code> <code>sonnet-4-6</code> <code>opus-4-7</code> <code>+4</code></td><td><code>████████████████░░░░</code> 78.0%</td><td align="right">331,966</td><td align="right">29.9B</td><td align="right"><b>$25,828</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.4</code> <code>5.3-codex</code> <code>5.3-codex-spark</code> <code>+1</code></td><td><code>████░░░░░░░░░░░░░░░░</code> 22.0%</td><td align="right">129,924</td><td align="right">18.6B</td><td align="right"><b>$7,279</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">540.4K</td><td align="right"><b>$0.40</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>462,140</b></td><td align="right"><b>48.5B</b></td><td align="right"><b>$33,154</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>461,909</b></td><td align="right"><b>48.4B</b></td><td align="right"><b>$33,107</b></td></tr>
 </table>
 
 </div>
@@ -168,10 +168,10 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 **Token Composition**
 
-<img src="https://img.shields.io/badge/Cache_Read_(93.4%25)-45.3B-2ECC71?style=flat-square" alt="Cache Read (93.4%25)"/>
+<img src="https://img.shields.io/badge/Cache_Read_(93.4%25)-45.2B-2ECC71?style=flat-square" alt="Cache Read (93.4%25)"/>
 <img src="https://img.shields.io/badge/Cache_Write_(4.2%25)-2.0B-27AE60?style=flat-square" alt="Cache Write (4.2%25)"/>
 <img src="https://img.shields.io/badge/Input_(2.0%25)-979.7M-3498DB?style=flat-square" alt="Input (2.0%25)"/>
-<img src="https://img.shields.io/badge/Output_(0.4%25)-182.6M-9B59B6?style=flat-square" alt="Output (0.4%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.4%25)-182.5M-9B59B6?style=flat-square" alt="Output (0.4%25)"/>
 
 </div>
 
