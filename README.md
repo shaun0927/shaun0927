@@ -104,54 +104,48 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 <img src="https://img.shields.io/badge/Repositories-12-00d084?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/>
 <img src="https://img.shields.io/badge/Combined_Stars-300k%2B-00d084?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Combined Stars"/>
 
-<br/><br/>
-
-<a href="#harness-engineering"><img src="https://img.shields.io/badge/Harness_Engineering-8_repos_·_104_PRs-00d084?style=for-the-badge&labelColor=0a0a0a&logo=anthropic&logoColor=white" alt="Harness Engineering"/></a>
-<a href="#ml"><img src="https://img.shields.io/badge/ML-3_repos_·_5_PRs-1ABC9C?style=for-the-badge&labelColor=0a0a0a&logo=pytorch&logoColor=white" alt="ML"/></a>
-<a href="#etc"><img src="https://img.shields.io/badge/etc-1_repo_·_3_PRs-9B59B6?style=for-the-badge&labelColor=0a0a0a&logo=raspberrypi&logoColor=white" alt="etc"/></a>
-
-<sub>Sorted by merged-PR count &nbsp;·&nbsp; <img src="https://img.shields.io/badge/🔥-GitHub_Trending_%231-FF6B35?style=flat-square"/> <img src="https://img.shields.io/badge/🛡-Collaborator-00d084?style=flat-square"/></sub>
+<sub>🔥 <i>GitHub Trending #1</i> &nbsp;·&nbsp; 🛡 <i>Collaborator (write access)</i> &nbsp;·&nbsp; sorted by merged-PR count</sub>
 
 </div>
 
 <br/>
 
-<h3 id="harness-engineering"><a href="#harness-engineering"><img src="https://img.shields.io/badge/-Harness_Engineering-00d084?style=for-the-badge&labelColor=0a0a0a&logo=anthropic&logoColor=white" height="30" alt="Harness Engineering"/></a></h3>
+### 🔧 Harness Engineering &nbsp;·&nbsp; <sub>8 repos · 104 merged PRs</sub>
 
-<sub>AI coding-agent runtimes · orchestration · hooks · skills · memory</sub>
+<sub><i>AI coding-agent runtimes · orchestration · hooks · skills · memory</i></sub>
 
-| Project | What it is | ⭐ Stars | Role | Merged |
-|:--|:--|--:|:--|--:|
-| 🔥 🛡 [**oh-my-claudecode**](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first multi-agent orchestration for Claude Code | `29.5k` | <img src="https://img.shields.io/badge/Collaborator-00d084?style=flat-square&labelColor=0a0a0a"/> | [**48**](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**ouroboros**](https://github.com/Q00/ouroboros) | Specification-first workflow engine — *"Stop prompting. Start specifying."* | `2.4k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**35**](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| 🔥 [**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) | Hooks, agent teams, and HUDs for Codex CLI | `23.7k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**13**](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**multica**](https://github.com/multica-ai/multica) | Managed agents platform — turn coding agents into teammates | `14.9k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**4**](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| 🔥 [**nanobot**](https://github.com/HKUDS/nanobot) | Ultra-lightweight personal AI agent (~4K lines, OpenClaw-style) | `39.8k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**1**](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**agent-skills**](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents | `16.7k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**1**](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**agentmemory**](https://github.com/rohitg00/agentmemory) | #1 persistent memory for AI coding agents | `1.7k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**1**](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**alphaclaw**](https://github.com/chrysb/alphaclaw) | Setup harness for OpenClaw — deploy in minutes, no CLI | `1.2k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**1**](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |
-
-<br/>
-
-<h3 id="ml"><a href="#ml"><img src="https://img.shields.io/badge/-ML-1ABC9C?style=for-the-badge&labelColor=0a0a0a&logo=pytorch&logoColor=white" height="30" alt="ML"/></a></h3>
-
-<sub>LLM app platforms · recommender systems · voice synthesis</sub>
-
-| Project | What it is | ⭐ Stars | Role | Merged |
-|:--|:--|--:|:--|--:|
-| [**dify**](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development | `138k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**2**](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**voicebox**](https://github.com/jamiepine/voicebox) | Open-source voice synthesis studio | `19.3k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**2**](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [**gorse**](https://github.com/gorse-io/gorse) | AI-powered recommender system (classical + LLM rankers) | `9.6k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**1**](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| Project | Focus | ⭐ Stars | Merged |
+|:--|:--|:-:|:-:|
+| 🔥 🛡 &nbsp;[**oh-my-claudecode**](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first multi-agent orchestration for Claude Code | `29.5k` | [![](https://img.shields.io/badge/-48-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**ouroboros**](https://github.com/Q00/ouroboros) | Specification-first workflow engine — *Stop prompting. Start specifying.* | `2.4k` | [![](https://img.shields.io/badge/-35-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| 🔥 &nbsp;&nbsp;&nbsp;[**oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) | Hooks, agent teams, and HUDs for Codex CLI | `23.7k` | [![](https://img.shields.io/badge/-13-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**multica**](https://github.com/multica-ai/multica) | Managed agents platform — coding agents as teammates | `14.9k` | [![](https://img.shields.io/badge/-4-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| 🔥 &nbsp;&nbsp;&nbsp;[**nanobot**](https://github.com/HKUDS/nanobot) | Ultra-lightweight personal AI agent (~4K lines) | `39.8k` | [![](https://img.shields.io/badge/-1-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**agent-skills**](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents | `16.7k` | [![](https://img.shields.io/badge/-1-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**agentmemory**](https://github.com/rohitg00/agentmemory) | #1 persistent memory for AI coding agents | `1.7k` | [![](https://img.shields.io/badge/-1-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**alphaclaw**](https://github.com/chrysb/alphaclaw) | Setup harness for OpenClaw — deploy in minutes, no CLI | `1.2k` | [![](https://img.shields.io/badge/-1-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 <br/>
 
-<h3 id="etc"><a href="#etc"><img src="https://img.shields.io/badge/-etc-9B59B6?style=for-the-badge&labelColor=0a0a0a&logo=raspberrypi&logoColor=white" height="30" alt="etc"/></a></h3>
+### 🧠 ML &nbsp;·&nbsp; <sub>3 repos · 5 merged PRs</sub>
 
-<sub>RF / DSP / hardware</sub>
+<sub><i>LLM app platforms · recommender systems · voice synthesis</i></sub>
 
-| Project | What it is | ⭐ Stars | Role | Merged |
-|:--|:--|--:|:--|--:|
-| [**PLFM_RADAR**](https://github.com/NawfalMotii79/PLFM_RADAR) | Open-source low-cost 10.5 GHz PLFM phased array RADAR | `12.2k` | <img src="https://img.shields.io/badge/Contributor-606060?style=flat-square&labelColor=0a0a0a"/> | [**3**](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| Project | Focus | ⭐ Stars | Merged |
+|:--|:--|:-:|:-:|
+| [**dify**](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development | `138k` | [![](https://img.shields.io/badge/-2-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [**voicebox**](https://github.com/jamiepine/voicebox) | Open-source voice synthesis studio | `19.3k` | [![](https://img.shields.io/badge/-2-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [**gorse**](https://github.com/gorse-io/gorse) | AI recommender system (classical + LLM rankers) | `9.6k` | [![](https://img.shields.io/badge/-1-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
+
+<br/>
+
+### 📡 Other &nbsp;·&nbsp; <sub>1 repo · 3 merged PRs</sub>
+
+<sub><i>RF / DSP / hardware</i></sub>
+
+| Project | Focus | ⭐ Stars | Merged |
+|:--|:--|:-:|:-:|
+| [**PLFM_RADAR**](https://github.com/NawfalMotii79/PLFM_RADAR) | Open-source low-cost 10.5 GHz PLFM phased array RADAR | `12.2k` | [![](https://img.shields.io/badge/-3-00d084?style=flat-square&labelColor=0a0a0a)](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ---
 
