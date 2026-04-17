@@ -102,24 +102,30 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ### Harness engineering
 
-- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) — multi-agent orchestration for Claude Code. 29.5k★ · 2.7k forks · [48 merged](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) · collaborator · trending
-- [ouroboros](https://github.com/Q00/ouroboros) — workflow engine driven by specs instead of prompts. 2.4k★ · 223 forks · [35 merged](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — hooks, agent teams, and HUDs for Codex CLI. 23.7k★ · 2.0k forks · [13 merged](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) · trending
-- [multica](https://github.com/multica-ai/multica) — managed coding-agents platform. 15.0k★ · 1.8k forks · [4 merged](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [nanobot](https://github.com/HKUDS/nanobot) — lightweight personal AI agent. 39.9k★ · 7.0k forks · [1 merged](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) · trending
-- [agent-skills](https://github.com/addyosmani/agent-skills) — engineering skills library for coding agents. 16.7k★ · 2.1k forks · [1 merged](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [agentmemory](https://github.com/rohitg00/agentmemory) — persistent memory for coding agents. 1.7k★ · 168 forks · [1 merged](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [alphaclaw](https://github.com/chrysb/alphaclaw) — setup harness for OpenClaw. 1.2k★ · 139 forks · [1 merged](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged)
+| Project | Description | Stars | Forks | Merged |
+|:--|:--|--:|--:|--:|
+| [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code · collaborator · trending | 29.5k | 2.7k | [48](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | 2.4k | 223 | [35](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI · trending | 23.7k | 2.0k | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | 15.0k | 1.8k | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent · trending | 39.9k | 7.0k | [1](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | 16.7k | 2.1k | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | 1.7k | 168 | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | 1.2k | 139 | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ### ML
 
-- [dify](https://github.com/langgenius/dify) — platform for agentic workflow development. 138k★ · 21.6k forks · [2 merged](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [voicebox](https://github.com/jamiepine/voicebox) — voice synthesis studio. 19.4k★ · 2.2k forks · [2 merged](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged)
-- [gorse](https://github.com/gorse-io/gorse) — recommender system engine. 9.6k★ · 888 forks · [1 merged](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged)
+| Project | Description | Stars | Forks | Merged |
+|:--|:--|--:|--:|--:|
+| [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | 138k | 21.6k | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [voicebox](https://github.com/jamiepine/voicebox) | voice synthesis studio | 19.4k | 2.2k | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [gorse](https://github.com/gorse-io/gorse) | recommender system engine | 9.6k | 888 | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ### Other
 
-- [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) — 10.5 GHz phased-array radar. 12.4k★ · 2.5k forks · [3 merged](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged)
+| Project | Description | Stars | Forks | Merged |
+|:--|:--|--:|--:|--:|
+| [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 10.5 GHz phased-array radar | 12.4k | 2.5k | [3](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ---
 
