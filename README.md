@@ -98,27 +98,33 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ## Open Source Contributions
 
-112 PRs merged across 12 external projects.
+123 PRs merged across 18 external projects.
 
 ### Harness engineering
 
 | Project | Description | Stars | Merged | Notes |
 |:--|:--|:-:|:-:|:--|
 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code | ![](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [48](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/collaborator-238636?style=flat-square&labelColor=30363d) ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | ![](https://img.shields.io/github/stars/Q00/ouroboros?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [35](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | ![](https://img.shields.io/github/stars/Q00/ouroboros?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [37](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 | [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI | ![](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-codex?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
 | [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | ![](https://img.shields.io/github/stars/multica-ai/multica?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [OpenHarness](https://github.com/HKUDS/OpenHarness) | open harness for coding agents | ![](https://img.shields.io/github/stars/HKUDS/OpenHarness?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/HKUDS/OpenHarness/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 | [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent | ![](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | ![](https://img.shields.io/github/stars/addyosmani/agent-skills?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 | [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | ![](https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 | [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | ![](https://img.shields.io/github/stars/chrysb/alphaclaw?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [GenericAgent](https://github.com/lsdefine/GenericAgent) | generic agent framework | ![](https://img.shields.io/github/stars/lsdefine/GenericAgent?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/lsdefine/GenericAgent/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [osaurus](https://github.com/osaurus-ai/osaurus) | native macOS runtime for local LLMs | ![](https://img.shields.io/github/stars/osaurus-ai/osaurus?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/osaurus-ai/osaurus/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 
 ### ML
 
 | Project | Description | Stars | Merged |
 |:--|:--|:-:|:-:|
 | [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [darts](https://github.com/unit8co/darts) | time-series forecasting library | ![](https://img.shields.io/github/stars/unit8co/darts?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/unit8co/darts/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [dflash](https://github.com/z-lab/dflash) | flash-attention kernels for diffusion LLMs | ![](https://img.shields.io/github/stars/z-lab/dflash?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/z-lab/dflash/pulls?q=author%3Ashaun0927+is%3Amerged) |
 | [voicebox](https://github.com/jamiepine/voicebox) | voice synthesis studio | ![](https://img.shields.io/github/stars/jamiepine/voicebox?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) | foundation models for time-series forecasting | ![](https://img.shields.io/github/stars/amazon-science/chronos-forecasting?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/amazon-science/chronos-forecasting/pulls?q=author%3Ashaun0927+is%3Amerged) |
 | [gorse](https://github.com/gorse-io/gorse) | recommender system engine | ![](https://img.shields.io/github/stars/gorse-io/gorse?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ### Other
