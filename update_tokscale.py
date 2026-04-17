@@ -88,8 +88,8 @@ def fetch_profile_data(username="shaun0927"):
         else:
             profile["best_day_cost"] = float(val)
 
-    # Average daily cost
-    m = re.search(r'Avg[^<]*Daily[^<]*</div>.*?StatItemValue[^>]*>\$([0-9,.]+)', html, re.DOTALL)
+    # Average daily cost (tokscale page label is "Avg / Day" or "Avg Daily" depending on version)
+    m = re.search(r'Avg[^<]*(?:Daily|/\s*Day)[^<]*</div>.*?StatItemValue[^>]*>\$([0-9,.]+)', html, re.DOTALL)
     if m:
         profile["avg_daily_cost"] = float(m.group(1).replace(",", ""))
 
@@ -106,7 +106,10 @@ def fetch_profile_data(username="shaun0927"):
         )
         with urllib.request.urlopen(lb_req, timeout=15) as resp:
             lb_html = resp.read().decode("utf-8")
-        m = re.search(r'(\d+)\s*(?:total\s*)?[Uu]sers', lb_html)
+        # Try JSON payload first (Next.js SSR), then fall back to rendered text.
+        m = re.search(r'totalUsers\\?":\s*(\d+)', lb_html)
+        if not m:
+            m = re.search(r'(\d+)\s*(?:total\s*)?[Uu]sers', lb_html)
         if m:
             profile["total_users"] = int(m.group(1))
     except Exception:
