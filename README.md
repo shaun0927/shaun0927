@@ -103,29 +103,29 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 ### Harness engineering
 
 | Project | Description | Stars | Merged | Notes |
-|:--|:--|--:|--:|:--|
-| [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code | 29.5k | [48](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) | collaborator, trending |
-| [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | 2.4k | [35](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) | |
-| [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI | 23.7k | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) | trending |
-| [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | 15.0k | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) | |
-| [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent | 39.9k | [1](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) | trending |
-| [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | 16.7k | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) | |
-| [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | 1.7k | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) | |
-| [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | 1.2k | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+|:--|:--|:-:|--:|:--|
+| [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code | ![](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [48](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/collaborator-238636?style=flat-square&labelColor=30363d) ![](https://img.shields.io/badge/trending-f78166?style=flat-square&labelColor=30363d) |
+| [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | ![](https://img.shields.io/github/stars/Q00/ouroboros?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [35](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI | ![](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-codex?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/trending-f78166?style=flat-square&labelColor=30363d) |
+| [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | ![](https://img.shields.io/github/stars/multica-ai/multica?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent | ![](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/trending-f78166?style=flat-square&labelColor=30363d) |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | ![](https://img.shields.io/github/stars/addyosmani/agent-skills?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | ![](https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) | |
+| [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | ![](https://img.shields.io/github/stars/chrysb/alphaclaw?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) | |
 
 ### ML
 
 | Project | Description | Stars | Merged |
-|:--|:--|--:|--:|
-| [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | 138k | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [voicebox](https://github.com/jamiepine/voicebox) | voice synthesis studio | 19.4k | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
-| [gorse](https://github.com/gorse-io/gorse) | recommender system engine | 9.6k | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
+|:--|:--|:-:|--:|
+| [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | ![](https://img.shields.io/github/stars/langgenius/dify?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [voicebox](https://github.com/jamiepine/voicebox) | voice synthesis studio | ![](https://img.shields.io/github/stars/jamiepine/voicebox?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) |
+| [gorse](https://github.com/gorse-io/gorse) | recommender system engine | ![](https://img.shields.io/github/stars/gorse-io/gorse?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ### Other
 
 | Project | Description | Stars | Merged |
-|:--|:--|--:|--:|
-| [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 10.5 GHz phased-array radar | 12.4k | [3](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |
+|:--|:--|:-:|--:|
+| [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 10.5 GHz phased-array radar | ![](https://img.shields.io/github/stars/NawfalMotii79/PLFM_RADAR?style=flat-square&color=e3b341&labelColor=30363d&label=%E2%98%85) | [3](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |
 
 ---
 
