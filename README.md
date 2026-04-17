@@ -100,7 +100,7 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 112 PRs merged across 12 external projects.
 
-### Agent tooling
+### Harness engineering
 
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) — multi-agent orchestration for Claude Code. 29.5k★ · 2.7k forks · [48 merged](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) · collaborator · trending
 - [ouroboros](https://github.com/Q00/ouroboros) — workflow engine driven by specs instead of prompts. 2.4k★ · 223 forks · [35 merged](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
