@@ -98,55 +98,28 @@ Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analy
 
 ## Open Source Contributions
 
-<sub><b>112 merged PRs</b> &nbsp;·&nbsp; <b>12 external repos</b> &nbsp;·&nbsp; <b>300k+ combined ⭐</b></sub>
+112 PRs merged across 12 external projects.
 
-### 🔧 Harness Engineering <sub>· 8 repos · 104 merged PRs</sub>
+### Agent tooling
 
-<sub>AI coding-agent runtimes · orchestration · hooks · skills · memory</sub>
+- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) — multi-agent orchestration for Claude Code. 29.5k★ · 2.7k forks · [48 merged](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) · collaborator · trending
+- [ouroboros](https://github.com/Q00/ouroboros) — workflow engine driven by specs instead of prompts. 2.4k★ · 223 forks · [35 merged](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — hooks, agent teams, and HUDs for Codex CLI. 23.7k★ · 2.0k forks · [13 merged](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) · trending
+- [multica](https://github.com/multica-ai/multica) — managed coding-agents platform. 15.0k★ · 1.8k forks · [4 merged](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [nanobot](https://github.com/HKUDS/nanobot) — lightweight personal AI agent. 39.9k★ · 7.0k forks · [1 merged](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) · trending
+- [agent-skills](https://github.com/addyosmani/agent-skills) — engineering skills library for coding agents. 16.7k★ · 2.1k forks · [1 merged](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [agentmemory](https://github.com/rohitg00/agentmemory) — persistent memory for coding agents. 1.7k★ · 168 forks · [1 merged](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [alphaclaw](https://github.com/chrysb/alphaclaw) — setup harness for OpenClaw. 1.2k★ · 139 forks · [1 merged](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged)
 
-- **[Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** — Teams-first multi-agent orchestration for Claude Code  
-  <sub>⭐ **29.5k** · 🍴 2.7k · ✅ [**48 merged**](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) · 🛡 Collaborator · 🔥 Trending #1</sub>
+### ML
 
-- **[Q00/ouroboros](https://github.com/Q00/ouroboros)** — Specification-first workflow engine ("Stop prompting. Start specifying.")  
-  <sub>⭐ **2.4k** · 🍴 223 · ✅ [**35 merged**](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
+- [dify](https://github.com/langgenius/dify) — platform for agentic workflow development. 138k★ · 21.6k forks · [2 merged](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [voicebox](https://github.com/jamiepine/voicebox) — voice synthesis studio. 19.4k★ · 2.2k forks · [2 merged](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged)
+- [gorse](https://github.com/gorse-io/gorse) — recommender system engine. 9.6k★ · 888 forks · [1 merged](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged)
 
-- **[Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)** — Hooks, agent teams, and HUDs for Codex CLI  
-  <sub>⭐ **23.7k** · 🍴 2.0k · ✅ [**13 merged**](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) · 🔥 Trending #1</sub>
+### Other
 
-- **[multica-ai/multica](https://github.com/multica-ai/multica)** — Managed agents platform — coding agents as teammates  
-  <sub>⭐ **15.0k** · 🍴 1.8k · ✅ [**4 merged**](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-- **[HKUDS/nanobot](https://github.com/HKUDS/nanobot)** — Ultra-lightweight personal AI agent (~4K lines)  
-  <sub>⭐ **39.9k** · 🍴 7.0k · ✅ [**1 merged**](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) · 🔥 Trending #1</sub>
-
-- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** — Production-grade engineering skills for AI coding agents  
-  <sub>⭐ **16.7k** · 🍴 2.1k · ✅ [**1 merged**](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-- **[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)** — #1 persistent memory for AI coding agents  
-  <sub>⭐ **1.7k** · 🍴 168 · ✅ [**1 merged**](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-- **[chrysb/alphaclaw](https://github.com/chrysb/alphaclaw)** — Setup harness for OpenClaw — deploy in minutes  
-  <sub>⭐ **1.2k** · 🍴 139 · ✅ [**1 merged**](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-### 🧠 ML <sub>· 3 repos · 5 merged PRs</sub>
-
-<sub>LLM app platforms · recommender systems · voice synthesis</sub>
-
-- **[langgenius/dify](https://github.com/langgenius/dify)** — Production-ready platform for agentic workflow development  
-  <sub>⭐ **138k** · 🍴 21.6k · ✅ [**2 merged**](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-- **[jamiepine/voicebox](https://github.com/jamiepine/voicebox)** — Open-source voice synthesis studio  
-  <sub>⭐ **19.4k** · 🍴 2.2k · ✅ [**2 merged**](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-- **[gorse-io/gorse](https://github.com/gorse-io/gorse)** — AI recommender system (classical + LLM rankers)  
-  <sub>⭐ **9.6k** · 🍴 888 · ✅ [**1 merged**](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
-
-### 📡 Other <sub>· 1 repo · 3 merged PRs</sub>
-
-<sub>RF / DSP / hardware</sub>
-
-- **[NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)** — Open-source low-cost 10.5 GHz PLFM phased array RADAR  
-  <sub>⭐ **12.4k** · 🍴 2.5k · ✅ [**3 merged**](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged)</sub>
+- [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) — 10.5 GHz phased-array radar. 12.4k★ · 2.5k forks · [3 merged](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged)
 
 ---
 
