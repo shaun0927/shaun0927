@@ -4,7 +4,7 @@
 
 set -e
 
-REPO_DIR="$HOME/shaun0927"
+REPO_DIR="${TOKSCALE_REPO_DIR:-$HOME/shaun0927}"
 LOG_FILE="$REPO_DIR/.tokscale-update.log"
 
 log() {

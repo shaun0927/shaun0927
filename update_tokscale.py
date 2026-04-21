@@ -6,7 +6,9 @@ Fetches token usage data via tokscale CLI + profile scraping,
 then updates README.md with a visual dashboard section.
 """
 
+import codecs
 import json
+import os
 import re
 import subprocess
 import sys
@@ -39,6 +41,103 @@ def fetch_tokscale_data():
     except json.JSONDecodeError as e:
         print(f"[ERROR] Failed to parse JSON: {e}")
         return None
+
+
+def fetch_ssr_data(username="shaun0927"):
+    """Rebuild CLI-shaped data from tokscale.ai profile SSR payload.
+
+    Used when the local tokscale CLI has no session logs (e.g. CI runners).
+    """
+    print(f"[INFO] Fetching SSR data for @{username}...")
+    url = f"https://tokscale.ai/u/{username}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            html = resp.read().decode("utf-8")
+    except Exception as e:
+        print(f"[ERROR] Failed to fetch profile page: {e}")
+        return None
+
+    pushes = re.findall(r'self\.__next_f\.push\(\[1,\s*"(.*?)"\]\)', html, re.DOTALL)
+    if not pushes:
+        print("[ERROR] No SSR payload found")
+        return None
+    try:
+        payload = codecs.decode("".join(pushes), "unicode_escape")
+    except Exception as e:
+        print(f"[ERROR] Unescape failed: {e}")
+        return None
+
+    # Locate the profile totals block
+    m = re.search(
+        r'"totalTokens":(\d+),"totalCost":([0-9.]+),'
+        r'"inputTokens":(\d+),"outputTokens":(\d+),'
+        r'"cacheReadTokens":(\d+),"cacheWriteTokens":(\d+)',
+        payload,
+    )
+    if not m:
+        print("[ERROR] SSR totals not found")
+        return None
+    total_cost = float(m.group(2))
+    total_input = int(m.group(3))
+    total_output = int(m.group(4))
+    total_cache_read = int(m.group(5))
+    total_cache_write = int(m.group(6))
+
+    # Walk each per-model record directly. Each model entry carries its own
+    # "cost"/"input"/"output"/"tokens"/"messages"/"cacheRead"/"reasoning"/"cacheWrite".
+    # We attribute each model to the nearest preceding "client":"..." marker.
+    entries = []
+    total_messages = 0
+    model_pat = re.compile(
+        r'"([A-Za-z0-9._<>\-]+)":\{"cost":([0-9.eE+-]+),'
+        r'"input":(\d+),"output":(\d+),'
+        r'"tokens":\d+,"messages":(\d+),'
+        r'"cacheRead":(\d+),"reasoning":\d+,'
+        r'"cacheWrite":(\d+)\}'
+    )
+    client_starts = [(m.start(), m.group(1)) for m in re.finditer(r'"client":"([^"]+)"', payload)]
+    for mm in model_pat.finditer(payload):
+        model = mm.group(1)
+        if model in ("<synthetic>",):
+            continue
+        pos = mm.start()
+        # find the nearest client marker before this model entry
+        client = None
+        for cs, cname in client_starts:
+            if cs < pos:
+                client = cname
+            else:
+                break
+        if not client:
+            continue
+        msg = int(mm.group(5))
+        total_messages += msg
+        entries.append({
+            "client": client,
+            "model": model,
+            "cost": float(mm.group(2)),
+            "input": int(mm.group(3)),
+            "output": int(mm.group(4)),
+            "messageCount": msg,
+            "cacheRead": int(mm.group(6)),
+            "cacheWrite": int(mm.group(7)),
+        })
+
+    if not entries:
+        print("[ERROR] SSR parsed zero entries")
+        return None
+
+    print(f"[INFO] SSR entries: {len(entries)}, messages: {total_messages}")
+    return {
+        "entries": entries,
+        "totalCost": total_cost,
+        "totalMessages": total_messages,
+        "totalInput": total_input,
+        "totalOutput": total_output,
+        "totalCacheRead": total_cache_read,
+        "totalCacheWrite": total_cache_write,
+    }
 
 
 def fetch_profile_data(username="shaun0927"):
@@ -405,12 +504,22 @@ def main():
     print("Tokscale Dashboard Updater v2")
     print("=" * 60)
 
-    data = fetch_tokscale_data()
+    username = os.environ.get("TOKSCALE_USERNAME", "shaun0927")
+    source = os.environ.get("TOKSCALE_SOURCE", "").lower()
+
+    data = None
+    if source != "ssr":
+        data = fetch_tokscale_data()
+        if data and not data.get("entries"):
+            print("[WARN] CLI returned no entries, falling back to SSR")
+            data = None
+    if data is None:
+        data = fetch_ssr_data(username)
     if data is None:
         print("[ERROR] Failed to fetch tokscale data")
         sys.exit(1)
 
-    profile = fetch_profile_data("shaun0927")
+    profile = fetch_profile_data(username)
 
     dashboard = generate_dashboard(data, profile)
     if not dashboard:
