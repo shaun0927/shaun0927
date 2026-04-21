@@ -36,7 +36,7 @@ Translating Korean webnovels for the US market. LLMs alone fail to satisfy reade
 ### AlphaView
 **CEO** — AI Stock Analysis
 
-Building [alphaview.kr](https://alphaview.kr), an AI-powered platform that analyzes stock news and market signals to help investors make informed decisions.
+Building alphaview.kr, an AI-powered platform that analyzes stock news and market signals to help investors make informed decisions.
 
 </td>
 </tr>
