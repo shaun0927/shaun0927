@@ -5,9 +5,6 @@
 
 <!-- Social Links -->
 <div align="center">
-  <a href="https://alphaview.kr">
-    <img src="https://img.shields.io/badge/AlphaView-00d084?style=for-the-badge&logo=google-analytics&logoColor=white" alt="AlphaView"/>
-  </a>
   <a href="mailto:shaun0927@naver.com">
     <img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email"/>
   </a>
