@@ -95,8 +95,8 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2326-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-35,685-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2327-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-35,686-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
 <img src="https://img.shields.io/badge/Tokens-53.8B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
@@ -105,9 +105,9 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 <img src="https://img.shields.io/badge/Streak-86_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
 <img src="https://img.shields.io/badge/Active_Days-86-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-412.13-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Avg_Daily-414.95-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,670-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-483,224-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-481,610-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-14-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -116,10 +116,10 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-6</code> <code>opus-4-7</code> <code>sonnet-4-6</code> <code>+4</code></td><td><code>███████████████░░░░░</code> 75.5%</td><td align="right">339,463</td><td align="right">31.0B</td><td align="right"><b>$26,937</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.4</code> <code>5.3-codex</code> <code>5.3-codex-spark</code> <code>+2</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 24.5%</td><td align="right">143,742</td><td align="right">22.9B</td><td align="right"><b>$8,748</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>sonnet-4-5</code> <code>+4</code></td><td><code>███████████████░░░░░</code> 75.5%</td><td align="right">337,841</td><td align="right">31.0B</td><td align="right"><b>$26,937</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 24.5%</td><td align="right">143,750</td><td align="right">22.9B</td><td align="right"><b>$8,749</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>483,224</b></td><td align="right"><b>53.8B</b></td><td align="right"><b>$35,685</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>481,610</b></td><td align="right"><b>53.8B</b></td><td align="right"><b>$35,686</b></td></tr>
 </table>
 
 </div>
