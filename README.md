@@ -157,7 +157,7 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2327-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2326-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
 <a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-35,969-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
 <img src="https://img.shields.io/badge/Tokens-55.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
