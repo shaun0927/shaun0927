@@ -165,7 +165,6 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Streak-88_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
 <img src="https://img.shields.io/badge/Active_Days-88-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
 <img src="https://img.shields.io/badge/Avg_Daily-403.89-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,670-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
