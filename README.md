@@ -210,7 +210,7 @@ _Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-05-04</sub></div>
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-05-05</sub></div>
 
 <!-- TOKSCALE_END -->
 
