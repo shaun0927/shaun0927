@@ -92,7 +92,7 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 205 PRs merged across 53 external public projects.
 
-_Refreshed 2026-05-02 from GitHub GraphQL search. Star counts are pinned as text to avoid delayed badge-cache updates._
+_Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text to avoid delayed badge-cache updates._
 
 ### Harness engineering
 
