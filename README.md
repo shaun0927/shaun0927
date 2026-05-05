@@ -171,18 +171,18 @@ _Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text
 <div align="center">
 
 <a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2331-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-33,139-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-52.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-33,420-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Tokens-52.7B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Streak-97_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
-<img src="https://img.shields.io/badge/Active_Days-97-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-350.80-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Streak-98_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
+<img src="https://img.shields.io/badge/Active_Days-98-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-341.03-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,670-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-450,295-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-450,976-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-14-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -191,10 +191,10 @@ _Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-6</code> <code>opus-4-7</code> <code>sonnet-4-6</code> <code>+4</code></td><td><code>█████████████░░░░░░░</code> 66.2%</td><td align="right">279,869</td><td align="right">25.1B</td><td align="right"><b>$21,945</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.4</code> <code>5.5</code> <code>5.3-codex</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 33.8%</td><td align="right">170,407</td><td align="right">27.3B</td><td align="right"><b>$11,194</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>sonnet-4-5</code> <code>+4</code></td><td><code>█████████████░░░░░░░</code> 66.5%</td><td align="right">280,543</td><td align="right">25.4B</td><td align="right"><b>$22,226</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 33.5%</td><td align="right">170,414</td><td align="right">27.3B</td><td align="right"><b>$11,194</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>450,295</b></td><td align="right"><b>52.4B</b></td><td align="right"><b>$33,139</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>450,976</b></td><td align="right"><b>52.7B</b></td><td align="right"><b>$33,420</b></td></tr>
 </table>
 
 </div>
@@ -203,10 +203,10 @@ _Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text
 
 **Token Composition**
 
-<img src="https://img.shields.io/badge/Cache_Read_(94.0%25)-49.3B-2ECC71?style=flat-square" alt="Cache Read (94.0%25)"/>
+<img src="https://img.shields.io/badge/Cache_Read_(94.0%25)-49.5B-2ECC71?style=flat-square" alt="Cache Read (94.0%25)"/>
 <img src="https://img.shields.io/badge/Cache_Write_(3.4%25)-1.8B-27AE60?style=flat-square" alt="Cache Write (3.4%25)"/>
 <img src="https://img.shields.io/badge/Input_(2.2%25)-1.2B-3498DB?style=flat-square" alt="Input (2.2%25)"/>
-<img src="https://img.shields.io/badge/Output_(0.3%25)-174.0M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.3%25)-175.1M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
 
 </div>
 
