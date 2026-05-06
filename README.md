@@ -11,7 +11,7 @@
 
 Building AI products that matter.
 
-**CTO @ Rivetta** — Designing context engineering architectures for AI-powered K-webnovel translation. While many claim LLMs have "solved" translation, real-world demands prove otherwise: readers need cultural nuance and domain expertise that raw AI cannot deliver. I architect systems that bridge this gap.
+**CTO @ Rivetta** — Designing the core IP memory-system for K-webnovels. A single source of truth that powers webtoons, dramas, shorts, character chat, and licensing downstream. Harness engineering architecture for translation is step one.
 
 **CEO @ AlphaView** — AI-driven stock news analysis platform. (Solopreneur)
 
@@ -26,9 +26,7 @@ Building AI products that matter.
 <td width="50%" valign="top">
 
 ### Rivetta
-**CTO** — K-Webnovel AI Translation
-
-Translating Korean webnovels for the US market. LLMs alone fail to satisfy readers—lacking domain knowledge and cultural understanding. I design **context engineering architectures** that deliver translations readers actually want.
+**CTO** — Core IP memory-system for K-webnovels
 
 </td>
 <td width="50%" valign="top">
@@ -56,7 +54,6 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 </div>
 
-> *"This domain expertise informs my approach to AI systems that truly understand context—something raw LLMs consistently fail to achieve."*
 
 ---
 
