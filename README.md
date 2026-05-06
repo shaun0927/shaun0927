@@ -87,7 +87,11 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 
 ## Open Source Contributions
 
-205 PRs merged across 53 external public projects.
+First Developer got banned/recovered from github by uploading "too many merged PRs"
+(https://x.com/JunghwanNa8355/status/2046224197672984824?s=20)
+
+300+ PRs merged across 100+ external public projects.
+(Total 1000K+ stars contribution)
 
 _Refreshed 2026-04-30 from GitHub GraphQL search. Star counts are pinned as text to avoid delayed badge-cache updates._
 
