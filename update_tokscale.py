@@ -16,6 +16,15 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 
 
+# Server-side synthetic buckets that should be folded into a canonical model.
+# `reconstructed-claude-history` is the tokscale.ai-side recovery bucket for
+# pre-erosion Claude usage (see tokscale_floor.json `_recovery_methodology`);
+# attribute it to the most recent Opus generation it actually represents.
+MODEL_RENAME = {
+    "reconstructed-claude-history": "claude-opus-4-7",
+}
+
+
 def fetch_tokscale_data():
     """Run tokscale CLI and return JSON data."""
     print("[INFO] Fetching tokscale CLI data...")
@@ -101,6 +110,7 @@ def fetch_ssr_data(username="shaun0927"):
         model = mm.group(1)
         if model in ("<synthetic>",):
             continue
+        model = MODEL_RENAME.get(model, model)
         pos = mm.start()
         # find the nearest client marker before this model entry
         client = None
