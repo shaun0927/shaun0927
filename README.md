@@ -163,7 +163,7 @@ _Auto-refreshed 2026-05-12 via `gh` CLI (`update_oss_contributions.py`): Star co
 | <img src="https://github.com/siddharthvaddem.png" width="18" align="top"/> [openscreen](https://github.com/siddharthvaddem/openscreen) | open-source screen demo recorder | ⭐ 35,885 | [1](https://github.com/siddharthvaddem/openscreen/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/apify.png" width="18" align="top"/> [crawlee](https://github.com/apify/crawlee) | web scraping and browser automation library | ⭐ 23,231 | [1](https://github.com/apify/crawlee/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/dimartarmizi.png" width="18" align="top"/> [map-to-poster](https://github.com/dimartarmizi/map-to-poster) | map-to-poster generator | ⭐ 823 | [1](https://github.com/dimartarmizi/map-to-poster/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/steipete.png" width="18" align="top"/> [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | ⭐ 2,346 | [0](https://github.com/steipete/wacli/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/steipete.png" width="18" align="top"/> [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | ⭐ 2,346 | [1](https://github.com/steipete/wacli/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 
 <!-- OSS_END -->
 ---
