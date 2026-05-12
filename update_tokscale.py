@@ -218,6 +218,128 @@ def fetch_profile_data(username="shaun0927"):
     return profile
 
 
+FLOOR_PATH = "tokscale_floor.json"
+
+
+def load_floor():
+    """Load the floor (ratchet) values used to prevent display regression
+    when tokscale.ai server data shrinks because Claude Code/Codex local logs
+    have been rotated."""
+    if not os.path.exists(FLOOR_PATH):
+        return None
+    try:
+        with open(FLOOR_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[WARN] Failed to load {FLOOR_PATH}: {e}")
+        return None
+
+
+def save_floor(floor):
+    """Persist the updated floor file."""
+    if not floor:
+        return
+    kst = timezone(timedelta(hours=9))
+    floor["last_updated"] = datetime.now(kst).strftime("%Y-%m-%d")
+    with open(FLOOR_PATH, "w", encoding="utf-8") as f:
+        json.dump(floor, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def apply_floor(data, profile, floor):
+    """Ratchet logic: floor = max(server, floor).
+
+    When the floor exceeds the current snapshot (server data was clobbered by a
+    past `tokscale submit` of a log-rotated local snapshot), scale the per-model
+    entries proportionally so the breakdown still adds up to the floor totals.
+    Profile fields (active_days, streak, best_day) are also ratcheted.
+    """
+    if not floor:
+        return floor
+
+    ft = floor.setdefault("totals", {})
+
+    cur_cost = data.get("totalCost", 0.0)
+    cur_msg = data.get("totalMessages", 0)
+    cur_in = data.get("totalInput", 0)
+    cur_out = data.get("totalOutput", 0)
+    cur_cr = data.get("totalCacheRead", 0)
+    cur_cw = data.get("totalCacheWrite", 0)
+    cur_tok = cur_in + cur_out + cur_cr + cur_cw
+
+    cur_streak = profile.get("streak", 0) or 0
+    cur_active = profile.get("active_days", 0) or 0
+    cur_best = profile.get("best_day_cost", 0) or 0
+
+    new_floor = {
+        "cost": max(cur_cost, ft.get("cost", 0) or 0),
+        "tokens": max(cur_tok, ft.get("tokens", 0) or 0),
+        "messages": max(cur_msg, ft.get("messages", 0) or 0),
+        "input": max(cur_in, ft.get("input", 0) or 0),
+        "output": max(cur_out, ft.get("output", 0) or 0),
+        "cache_read": max(cur_cr, ft.get("cache_read", 0) or 0),
+        "cache_write": max(cur_cw, ft.get("cache_write", 0) or 0),
+        "active_days": max(cur_active, ft.get("active_days", 0) or 0),
+        # Streak is a current-state metric (it legitimately drops to 0 if a
+        # day is missed), so we record the current value rather than ratchet.
+        "streak": cur_streak,
+        "best_day_cost": max(cur_best, ft.get("best_day_cost", 0) or 0),
+    }
+    if cur_best >= (ft.get("best_day_cost", 0) or 0):
+        new_floor["best_day_date"] = profile.get("best_day_date") or ft.get("best_day_date")
+    else:
+        new_floor["best_day_date"] = ft.get("best_day_date")
+    floor["totals"] = new_floor
+
+    floor_applied = (
+        new_floor["cost"] > cur_cost
+        or new_floor["messages"] > cur_msg
+        or new_floor["tokens"] > cur_tok
+    )
+
+    if floor_applied and cur_cost > 0:
+        ratios = {
+            "cost": (new_floor["cost"] / cur_cost) if cur_cost else 1.0,
+            "msg": (new_floor["messages"] / cur_msg) if cur_msg else 1.0,
+            "input": (new_floor["input"] / cur_in) if cur_in else 1.0,
+            "output": (new_floor["output"] / cur_out) if cur_out else 1.0,
+            "cache_read": (new_floor["cache_read"] / cur_cr) if cur_cr else 1.0,
+            "cache_write": (new_floor["cache_write"] / cur_cw) if cur_cw else 1.0,
+        }
+        for e in data.get("entries", []):
+            e["cost"] = e.get("cost", 0) * ratios["cost"]
+            e["messageCount"] = round(e.get("messageCount", 0) * ratios["msg"])
+            e["input"] = round(e.get("input", 0) * ratios["input"])
+            e["output"] = round(e.get("output", 0) * ratios["output"])
+            e["cacheRead"] = round(e.get("cacheRead", 0) * ratios["cache_read"])
+            e["cacheWrite"] = round(e.get("cacheWrite", 0) * ratios["cache_write"])
+
+        data["totalCost"] = new_floor["cost"]
+        data["totalMessages"] = new_floor["messages"]
+        data["totalInput"] = new_floor["input"]
+        data["totalOutput"] = new_floor["output"]
+        data["totalCacheRead"] = new_floor["cache_read"]
+        data["totalCacheWrite"] = new_floor["cache_write"]
+        data["_floor_applied"] = True
+        print(
+            f"[INFO] Floor applied: cost ${cur_cost:.2f} -> ${new_floor['cost']:.2f}, "
+            f"tokens {cur_tok:,} -> {new_floor['tokens']:,}, "
+            f"messages {cur_msg:,} -> {new_floor['messages']:,}"
+        )
+    else:
+        print("[INFO] Server data >= floor, ratcheting floor up")
+
+    profile["active_days"] = new_floor["active_days"]
+    profile["streak"] = new_floor["streak"]
+    profile["best_day_cost"] = new_floor["best_day_cost"]
+    if new_floor.get("best_day_date"):
+        profile["best_day_date"] = new_floor["best_day_date"]
+    if new_floor["active_days"]:
+        profile["avg_daily_cost"] = new_floor["cost"] / new_floor["active_days"]
+
+    return floor
+
+
 def format_cost(cost):
     """Format cost as dollar string."""
     if cost >= 1000:
@@ -520,6 +642,11 @@ def main():
         sys.exit(1)
 
     profile = fetch_profile_data(username)
+
+    floor = load_floor()
+    floor = apply_floor(data, profile, floor)
+    if floor:
+        save_floor(floor)
 
     dashboard = generate_dashboard(data, profile)
     if not dashboard:

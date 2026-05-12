@@ -1,0 +1,338 @@
+{
+  "username": "shaun0927",
+  "categories": [
+    {
+      "name": "Harness engineering",
+      "repos": [
+        {
+          "owner": "Yeachan-Heo",
+          "name": "oh-my-claudecode",
+          "description": "multi-agent orchestration for Claude Code",
+          "notes_markdown": "![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "Q00",
+          "name": "ouroboros",
+          "description": "workflow engine driven by specs instead of prompts",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "Yeachan-Heo",
+          "name": "oh-my-codex",
+          "description": "hooks, agent teams, and HUDs for Codex CLI",
+          "notes_markdown": "![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "zeroclaw-labs",
+          "name": "zeroclaw",
+          "description": "autonomous AI personal assistant infrastructure",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "multica-ai",
+          "name": "multica",
+          "description": "managed coding-agents platform",
+          "notes_markdown": "![](https://img.shields.io/badge/GitHub_Trending_%234-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "jarrodwatts",
+          "name": "claude-hud",
+          "description": "Claude Code plugin with context/tool HUD",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "HKUDS",
+          "name": "nanobot",
+          "description": "lightweight personal AI agent",
+          "notes_markdown": "![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "camel-ai",
+          "name": "camel",
+          "description": "multi-agent framework",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "langgenius",
+          "name": "dify",
+          "description": "platform for agentic workflow development",
+          "notes_markdown": "![](https://img.shields.io/badge/Python_Trending_%233-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "FlowiseAI",
+          "name": "Flowise",
+          "description": "visual builder for AI agents",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "MemPalace",
+          "name": "mempalace",
+          "description": "open-source AI memory system",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "BasedHardware",
+          "name": "omi",
+          "description": "AI wearable assistant that sees and listens",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "HKUDS",
+          "name": "OpenHarness",
+          "description": "open harness for coding agents",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "lsdefine",
+          "name": "GenericAgent",
+          "description": "self-evolving generic agent framework",
+          "notes_markdown": "![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "name": "goclaw",
+          "description": "Go rebuild of OpenClaw with multi-tenant agent isolation",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "lobehub",
+          "name": "lobehub",
+          "description": "multi-agent collaboration space",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "agno-agi",
+          "name": "agno",
+          "description": "framework for running agents as production software",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "sipeed",
+          "name": "picoclaw",
+          "description": "tiny deployable coding agent",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "addyosmani",
+          "name": "agent-skills",
+          "description": "engineering skills library for coding agents",
+          "notes_markdown": "![](https://img.shields.io/badge/Addy_Osmani-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=30363d) ![](https://img.shields.io/badge/GitHub_Trending_%2310-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "deepset-ai",
+          "name": "haystack",
+          "description": "AI orchestration framework for LLM applications",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "mastra-ai",
+          "name": "mastra",
+          "description": "TypeScript framework for AI apps and agents",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "mksglu",
+          "name": "context-mode",
+          "description": "context-window optimization for AI coding agents",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "getsentry",
+          "name": "XcodeBuildMCP",
+          "description": "MCP server for iOS and macOS build tooling",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "osaurus-ai",
+          "name": "osaurus",
+          "description": "native macOS runtime for local LLMs",
+          "notes_markdown": "![](https://img.shields.io/badge/Swift_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "xerrors",
+          "name": "Yuxi",
+          "description": "multi-tenant agent harness with LightRAG knowledge base",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "can1357",
+          "name": "oh-my-pi",
+          "description": "terminal-native AI coding agent",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "revfactory",
+          "name": "harness",
+          "description": "meta-skill that designs domain-specific agent teams",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "openclaw",
+          "name": "acpx",
+          "description": "headless CLI for Agent Client Protocol sessions",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "walkinglabs",
+          "name": "awesome-harness-engineering",
+          "description": "curated list of harness engineering tools and guides",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "rohitg00",
+          "name": "agentmemory",
+          "description": "persistent memory for coding agents",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "chrysb",
+          "name": "alphaclaw",
+          "description": "setup harness for OpenClaw",
+          "notes_markdown": ""
+        }
+      ]
+    },
+    {
+      "name": "ML",
+      "repos": [
+        {
+          "owner": "jacobgil",
+          "name": "pytorch-grad-cam",
+          "description": "visual explainability for CNNs and vision transformers",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "MSAI3rdTeam5",
+          "name": "FootTrafficReport",
+          "description": "foot-traffic analytics report project",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "WenjieDu",
+          "name": "PyPOTS",
+          "description": "toolkit for partially-observed time-series modeling",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "roboflow",
+          "name": "supervision",
+          "description": "reusable computer vision tools",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "unit8co",
+          "name": "darts",
+          "description": "time-series forecasting library",
+          "notes_markdown": "![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "jamiepine",
+          "name": "voicebox",
+          "description": "open-source AI voice studio",
+          "notes_markdown": "![](https://img.shields.io/badge/GitHub_Trending_%237-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "marimo-team",
+          "name": "marimo",
+          "description": "reactive Python notebook for experiments and apps",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "open-edge-platform",
+          "name": "anomalib",
+          "description": "anomaly detection library",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "amazon-science",
+          "name": "chronos-forecasting",
+          "description": "foundation models for time-series forecasting",
+          "notes_markdown": "![](https://img.shields.io/badge/Amazon_Science-232F3E?style=flat-square&logo=amazon&logoColor=FF9900&labelColor=30363d) ![](https://img.shields.io/badge/Python_Trending_%232-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "z-lab",
+          "name": "dflash",
+          "description": "block-diffusion flash speculative decoding kernels",
+          "notes_markdown": "![](https://img.shields.io/badge/Python_Trending_%234-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "PaddlePaddle",
+          "name": "PaddleOCR",
+          "description": "OCR toolkit for structured document extraction",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "OpenBMB",
+          "name": "VoxCPM",
+          "description": "tokenizer-free multilingual TTS",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "mlfoundations",
+          "name": "open_clip",
+          "description": "open source CLIP implementation",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "sktime",
+          "name": "sktime",
+          "description": "unified framework for ML on time series",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "gorse-io",
+          "name": "gorse",
+          "description": "recommender system engine",
+          "notes_markdown": "![](https://img.shields.io/badge/Go_Trending_%231-f78166?style=flat-square&labelColor=30363d)"
+        },
+        {
+          "owner": "Nixtla",
+          "name": "statsforecast",
+          "description": "fast statistical and econometric forecasting",
+          "notes_markdown": ""
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "repos": [
+        {
+          "owner": "NawfalMotii79",
+          "name": "PLFM_RADAR",
+          "description": "10.5 GHz phased-array radar",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "steipete",
+          "name": "wacli",
+          "description": "WhatsApp CLI",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "immich-app",
+          "name": "immich",
+          "description": "self-hosted photo and video management",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "siddharthvaddem",
+          "name": "openscreen",
+          "description": "open-source screen demo recorder",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "apify",
+          "name": "crawlee",
+          "description": "web scraping and browser automation library",
+          "notes_markdown": ""
+        },
+        {
+          "owner": "dimartarmizi",
+          "name": "map-to-poster",
+          "description": "map-to-poster generator",
+          "notes_markdown": ""
+        }
+      ]
+    }
+  ]
+}

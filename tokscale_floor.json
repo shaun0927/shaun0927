@@ -1,0 +1,19 @@
+{
+  "_note": "Floor values to prevent display regression when tokscale.ai server data shrinks due to local Claude Code/Codex log rotation (~30 days). update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower.",
+  "_initial_source": "Peak observed across .tokscale-update.log submit snapshots through 2026-05-12",
+  "last_updated": "2026-05-12",
+  "totals": {
+    "cost": 46195.6715,
+    "tokens": 67388990365,
+    "messages": 566552,
+    "input": 1190566652,
+    "output": 176040327,
+    "cache_read": 64213872135,
+    "cache_write": 1808511251,
+    "active_days": 99,
+    "streak": 98,
+    "best_day_cost": 2720.0,
+    "best_day_date": "Apr 17, 2026"
+  },
+  "by_client_model": {}
+}

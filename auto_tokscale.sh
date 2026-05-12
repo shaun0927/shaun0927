@@ -24,11 +24,21 @@ log "Starting tokscale dashboard update..."
 # Pull latest
 git pull --rebase --quiet 2>> "$LOG_FILE" || true
 
-# Run updater
+# Refresh AI Coding Agent Usage dashboard (uses tokscale_floor.json to prevent
+# regressions when tokscale.ai server data shrinks due to local log rotation).
 python3 update_tokscale.py >> "$LOG_FILE" 2>&1
 
-# Submit to tokscale.ai as well
-npx tokscale@latest submit >> "$LOG_FILE" 2>&1 || true
+# Refresh Open Source Contributions section (PR & star counts via gh CLI).
+if command -v gh >/dev/null 2>&1 && [ -f update_oss_contributions.py ]; then
+  python3 update_oss_contributions.py >> "$LOG_FILE" 2>&1 || true
+else
+  log "WARN: gh CLI not found or update_oss_contributions.py missing; skipping OSS refresh"
+fi
+
+# Do NOT submit local snapshots automatically. Claude Code may have cleaned old logs,
+# and tokscale submit is merge/replace, so auto-submit can erase reconstructed history.
+# Server/profile refresh should only read tokscale.ai state here.
+# npx tokscale@latest submit >> "$LOG_FILE" 2>&1 || true
 
 # Check for changes
 if git diff --quiet README.md; then
