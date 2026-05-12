@@ -35,10 +35,15 @@ else
   log "WARN: gh CLI not found or update_oss_contributions.py missing; skipping OSS refresh"
 fi
 
-# Do NOT submit local snapshots automatically. Claude Code may have cleaned old logs,
-# and tokscale submit is merge/replace, so auto-submit can erase reconstructed history.
-# Server/profile refresh should only read tokscale.ai state here.
-# npx tokscale@latest submit >> "$LOG_FILE" 2>&1 || true
+# Push new local usage to the server, but only when it is safe.
+#
+# `tokscale submit` is merge/replace and Claude Code/Codex rotate their
+# local session logs every ~30 days, so a naive auto-submit can shrink
+# the server total. safe_submit.py compares local cumulative against
+# server cumulative and only submits when local meets-or-exceeds the
+# server in cost, tokens, AND messages. If the local snapshot is smaller
+# (logs rotated out), it logs the reason and exits without submitting.
+python3 safe_submit.py >> "$LOG_FILE" 2>&1 || true
 
 # Check for changes
 if git diff --quiet README.md; then
