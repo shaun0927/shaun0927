@@ -395,6 +395,7 @@ def get_client_display(client):
         "gemini": "Gemini CLI",
         "cursor": "Cursor",
         "opencode": "OpenCode",
+        "hermes": "Hermes Agent",
     }
     return mapping.get(client, client.title())
 
@@ -406,6 +407,7 @@ def get_client_color(client):
         "codex": "74aa9c",
         "gemini": "8E75B2",
         "cursor": "00A67E",
+        "hermes": "FFB400",
     }
     return colors.get(client, "555555")
 
@@ -416,6 +418,7 @@ def get_client_logo(client):
         "claude": "anthropic",
         "codex": "openai",
         "gemini": "google",
+        "hermes": "rocket",
     }
     return logos.get(client)
 
@@ -650,6 +653,29 @@ def main():
     if data is None:
         print("[ERROR] Failed to fetch tokscale data")
         sys.exit(1)
+
+    # Merge in SSR-only clients (e.g. Hermes agent running on a remote box
+    # the local tokscale CLI can't scan). The CLI sees only sessions on this
+    # machine, so any client that submits from elsewhere is missing from the
+    # CLI snapshot — pull those entries from the public SSR payload.
+    if source != "ssr":
+        cli_clients = {e.get("client") for e in data.get("entries", [])}
+        ssr = fetch_ssr_data(username)
+        if ssr:
+            added_clients = set()
+            for e in ssr.get("entries", []):
+                c = e.get("client")
+                if c and c not in cli_clients:
+                    data["entries"].append(e)
+                    added_clients.add(c)
+                    data["totalCost"] = data.get("totalCost", 0) + e.get("cost", 0)
+                    data["totalMessages"] = data.get("totalMessages", 0) + e.get("messageCount", 0)
+                    data["totalInput"] = data.get("totalInput", 0) + e.get("input", 0)
+                    data["totalOutput"] = data.get("totalOutput", 0) + e.get("output", 0)
+                    data["totalCacheRead"] = data.get("totalCacheRead", 0) + e.get("cacheRead", 0)
+                    data["totalCacheWrite"] = data.get("totalCacheWrite", 0) + e.get("cacheWrite", 0)
+            if added_clients:
+                print(f"[INFO] Merged SSR-only clients: {sorted(added_clients)}")
 
     profile = fetch_profile_data(username)
 
