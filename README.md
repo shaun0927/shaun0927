@@ -90,12 +90,12 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 First Developer got banned/recovered from github by uploading "too many merged PRs"
 (https://x.com/JunghwanNa8355/status/2046224197672984824?s=20)
 
-300+ PRs merged across 100+ external public projects.
+350+ PRs merged across 100+ external public projects.
 (Total 1000K+ stars contribution)
 
 <!-- OSS_START -->
 
-_Auto-refreshed 2026-05-12 via `gh` CLI (`update_oss_contributions.py`): **351 PRs** merged across **52 curated repos** below. Star counts via repos API; merged-PR counts via GraphQL search._
+_Auto-refreshed 2026-05-12 via `gh` CLI (`update_oss_contributions.py`): Star counts via repos API; merged-PR counts via GraphQL search._
 
 ### Harness engineering
 
