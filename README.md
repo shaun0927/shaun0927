@@ -137,7 +137,6 @@ First Developer got banned/recovered from github by uploading "too many merged P
 | Project | Description | Stars | Merged | Notes |
 |:--|:--|--:|:-:|:--|
 | <img src="https://github.com/jacobgil.png" width="18" align="top"/> [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | visual explainability for CNNs and vision transformers | ⭐ 12,801 | [7](https://github.com/jacobgil/pytorch-grad-cam/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/MSAI3rdTeam5.png" width="18" align="top"/> [FootTrafficReport](https://github.com/MSAI3rdTeam5/FootTrafficReport) | foot-traffic analytics report project | ⭐ 6 | [5](https://github.com/MSAI3rdTeam5/FootTrafficReport/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/WenjieDu.png" width="18" align="top"/> [PyPOTS](https://github.com/WenjieDu/PyPOTS) | toolkit for partially-observed time-series modeling | ⭐ 2,011 | [4](https://github.com/WenjieDu/PyPOTS/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/roboflow.png" width="18" align="top"/> [supervision](https://github.com/roboflow/supervision) | reusable computer vision tools | ⭐ 38,524 | [3](https://github.com/roboflow/supervision/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/unit8co.png" width="18" align="top"/> [darts](https://github.com/unit8co/darts) | time-series forecasting library | ⭐ 9,369 | [3](https://github.com/unit8co/darts/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
@@ -162,7 +161,6 @@ First Developer got banned/recovered from github by uploading "too many merged P
 | <img src="https://github.com/siddharthvaddem.png" width="18" align="top"/> [openscreen](https://github.com/siddharthvaddem/openscreen) | open-source screen demo recorder | ⭐ 35,954 | [1](https://github.com/siddharthvaddem/openscreen/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/apify.png" width="18" align="top"/> [crawlee](https://github.com/apify/crawlee) | web scraping and browser automation library | ⭐ 23,237 | [1](https://github.com/apify/crawlee/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/dimartarmizi.png" width="18" align="top"/> [map-to-poster](https://github.com/dimartarmizi/map-to-poster) | map-to-poster generator | ⭐ 824 | [1](https://github.com/dimartarmizi/map-to-poster/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/steipete.png" width="18" align="top"/> [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | ⭐ 2,353 | [0](https://github.com/steipete/wacli/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 
 <!-- OSS_END -->
 ---
