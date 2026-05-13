@@ -95,7 +95,6 @@ First Developer got banned/recovered from github by uploading "too many merged P
 
 <!-- OSS_START -->
 
-_Auto-refreshed 2026-05-13 via `gh` CLI (`update_oss_contributions.py`): **356 PRs** merged across **52 curated repos** below. Star counts via repos API; merged-PR counts via GraphQL search._
 
 ### Harness engineering
 
