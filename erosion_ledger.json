@@ -8,7 +8,15 @@
       "first_seen": "2026-05-14 10:29:12",
       "events": 1,
       "last_seen": "2026-05-14 10:29:12"
+    },
+    "codex:gpt-5.4-mini": {
+      "cost": 0.0,
+      "tokens": 1429101,
+      "messages": 0,
+      "first_seen": "2026-05-14 11:50:06",
+      "events": 1,
+      "last_seen": "2026-05-14 11:50:06"
     }
   },
-  "_last_updated": "2026-05-14 10:29:28"
+  "_last_updated": "2026-05-14 11:50:50"
 }

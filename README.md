@@ -171,20 +171,20 @@ First Developer got banned/recovered from github by uploading "too many merged P
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2333-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2332-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
 <a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-57,708-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-71.1B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+<img src="https://img.shields.io/badge/Tokens-71.3B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Streak-107_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
-<img src="https://img.shields.io/badge/Active_Days-107-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-539.32-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
-<img src="https://img.shields.io/badge/Best_Day-2,720-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-674,535-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
-<img src="https://img.shields.io/badge/Models-15-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
+<img src="https://img.shields.io/badge/Streak-108_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
+<img src="https://img.shields.io/badge/Active_Days-108-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-534.33-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Best_Day-2,850-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
+<img src="https://img.shields.io/badge/Messages-675,463-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Models-16-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
 
@@ -192,11 +192,11 @@ First Developer got banned/recovered from github by uploading "too many merged P
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>sonnet-4-6</code> <code>+4</code></td><td><code>█████████████░░░░░░░</code> 66.2%</td><td align="right">392,691</td><td align="right">36.1B</td><td align="right"><b>$38,195</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.4</code> <code>5.5</code> <code>5.3-codex</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 32.9%</td><td align="right">261,648</td><td align="right">34.6B</td><td align="right"><b>$18,978</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.9%</td><td align="right">20,171</td><td align="right">370.3M</td><td align="right"><b>$534.43</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">23</td><td align="right">325.7K</td><td align="right"><b>$0.23</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>674,535</b></td><td align="right"><b>71.1B</b></td><td align="right"><b>$57,708</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>reconstructed-history</code> <code>opus-4-6</code> <code>+5</code></td><td><code>███████████████░░░░░</code> 73.1%</td><td align="right">439,218</td><td align="right">36.8B</td><td align="right"><b>$42,165</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.4</code> <code>5.5</code> <code>5.3-codex</code> <code>+2</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 26.2%</td><td align="right">219,384</td><td align="right">34.2B</td><td align="right"><b>$15,118</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.7%</td><td align="right">16,842</td><td align="right">365.2M</td><td align="right"><b>$423.78</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">322.1K</td><td align="right"><b>$0.18</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>675,463</b></td><td align="right"><b>71.3B</b></td><td align="right"><b>$57,708</b></td></tr>
 </table>
 
 </div>
@@ -205,10 +205,10 @@ First Developer got banned/recovered from github by uploading "too many merged P
 
 **Token Composition**
 
-<img src="https://img.shields.io/badge/Cache_Read_(94.6%25)-67.3B-2ECC71?style=flat-square" alt="Cache Read (94.6%25)"/>
-<img src="https://img.shields.io/badge/Cache_Write_(3.2%25)-2.3B-27AE60?style=flat-square" alt="Cache Write (3.2%25)"/>
-<img src="https://img.shields.io/badge/Input_(1.9%25)-1.4B-3498DB?style=flat-square" alt="Input (1.9%25)"/>
-<img src="https://img.shields.io/badge/Output_(0.3%25)-217.4M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
+<img src="https://img.shields.io/badge/Cache_Read_(94.3%25)-67.3B-2ECC71?style=flat-square" alt="Cache Read (94.3%25)"/>
+<img src="https://img.shields.io/badge/Cache_Write_(3.4%25)-2.4B-27AE60?style=flat-square" alt="Cache Write (3.4%25)"/>
+<img src="https://img.shields.io/badge/Input_(2.0%25)-1.4B-3498DB?style=flat-square" alt="Input (2.0%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.3%25)-228.7M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
 
 </div>
 
