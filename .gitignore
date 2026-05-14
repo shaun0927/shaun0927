@@ -48,3 +48,9 @@ Thumbs.db
 
 # Temporary files
 temp_commit_msg.txt
+
+# Script backups (kept locally for safety, not for repo)
+*.bak.*
+
+# OMC scratch (autopilot/team state from local Claude Code sessions)
+.omc/

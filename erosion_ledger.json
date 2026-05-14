@@ -1,0 +1,14 @@
+{
+  "_note": "Cumulative erosion of real models, recorded each time a submit accepts a per-model loss. Reset by deleting this file.",
+  "by_client_model": {
+    "claude:claude-opus-4-6": {
+      "cost": 210.46,
+      "tokens": 264063168,
+      "messages": 697,
+      "first_seen": "2026-05-14 10:29:12",
+      "events": 1,
+      "last_seen": "2026-05-14 10:29:12"
+    }
+  },
+  "_last_updated": "2026-05-14 10:29:28"
+}
