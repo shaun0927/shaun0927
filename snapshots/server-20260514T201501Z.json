@@ -1,0 +1,90 @@
+{
+  "claude": {
+    "claude-opus-4-5": {
+      "cost": 399.9230265,
+      "tokens": 309894183,
+      "messages": 5119
+    },
+    "claude-haiku-4-5": {
+      "cost": 414.94658104999996,
+      "tokens": 1933951412,
+      "messages": 30310
+    },
+    "reconstructed-claude-history": {
+      "cost": 12527.973115000004,
+      "tokens": 2002157100,
+      "messages": 115006
+    },
+    "claude-sonnet-4-5": {
+      "cost": 1083.21617055,
+      "tokens": 1918736560,
+      "messages": 33599
+    },
+    "claude-sonnet-4": {
+      "cost": 0.210345,
+      "tokens": 76499,
+      "messages": 4
+    },
+    "claude-opus-4-6": {
+      "cost": 11711.22724325,
+      "tokens": 11533782394,
+      "messages": 110303
+    },
+    "claude-sonnet-4-6": {
+      "cost": 2234.5222807500004,
+      "tokens": 3273530951,
+      "messages": 67567
+    },
+    "claude-opus-4-7": {
+      "cost": 14120.891913999996,
+      "tokens": 15580234481,
+      "messages": 79209
+    }
+  },
+  "gemini": {
+    "gemini-2.5-pro": {
+      "cost": 0.1720905,
+      "tokens": 267372,
+      "messages": 14
+    },
+    "gemini-2.5-flash": {
+      "cost": 0.00649651,
+      "tokens": 51054,
+      "messages": 5
+    }
+  },
+  "codex": {
+    "gpt-5.3-codex": {
+      "cost": 726.6401589999999,
+      "tokens": 2183012963,
+      "messages": 21415
+    },
+    "gpt-5.3-codex-spark": {
+      "cost": 253.06154650000002,
+      "tokens": 747949501,
+      "messages": 12049
+    },
+    "gpt-5.4": {
+      "cost": 8481.047838,
+      "tokens": 22060408174,
+      "messages": 123983
+    },
+    "gpt-5.4-mini": {
+      "cost": 66.37055744999999,
+      "tokens": 347333706,
+      "messages": 2522
+    },
+    "gpt-5.5": {
+      "cost": 6379.1631259999995,
+      "tokens": 9284406879,
+      "messages": 72736
+    }
+  },
+  "hermes": {
+    "gpt-5.5": {
+      "cost": 419.1390189999999,
+      "tokens": 355095014,
+      "messages": 16842
+    }
+  }
+}
