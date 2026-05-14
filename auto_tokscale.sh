@@ -44,6 +44,20 @@ fi
 cd "$REPO_DIR"
 log "=== auto_tokscale start (cwd=$REPO_DIR) ==="
 
+# ---------- 0. Preflight integrity check ----------
+# Verifies the recovery JSONL directory, server-side recovery bucket, and
+# safe_submit guard variables are all in their expected post-2026-05-14
+# state. If anything looks regressed, abort the cycle WITHOUT touching the
+# server so a human can investigate. The 2026-05-14 incident showed how a
+# single bad submit can erase $11K of recovery data — preflight is the
+# cheapest insurance against a repeat.
+log "phase 0: preflight_check.py"
+if ! "$PYTHON_BIN" preflight_check.py >> "$LOG_FILE" 2>&1; then
+  log "FATAL: preflight failed; ABORT (no submit, no commit, no push)."
+  log "       Investigate $LOG_FILE then re-run after fixing."
+  exit 1
+fi
+
 # ---------- 1. Sync with origin/main (fast-forward, autostash) ----------
 # `--autostash` puts any local uncommitted edits aside, fast-forwards, then
 # pops them back. Avoids the "fetch first" loop the previous version was
