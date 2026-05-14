@@ -90,8 +90,7 @@ Building alphaview.kr, an AI-powered platform that analyzes stock news and marke
 First Developer got banned/recovered from github by uploading "too many merged PRs"
 (https://x.com/JunghwanNa8355/status/2046224197672984824?s=20)
 
-350+ PRs merged across 100+ external public projects.
-(Total 1000K+ stars contribution)
+Total 1000K+ stars contribution in external public projects.
 
 <!-- OSS_START -->
 
