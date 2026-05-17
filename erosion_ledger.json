@@ -11,12 +11,12 @@
     },
     "codex:gpt-5.4-mini": {
       "cost": 0.0,
-      "tokens": 4287303,
+      "tokens": 5716404,
       "messages": 0,
       "first_seen": "2026-05-14 11:50:06",
-      "events": 3,
-      "last_seen": "2026-05-15 17:23:42"
+      "events": 4,
+      "last_seen": "2026-05-17 22:18:08"
     }
   },
-  "_last_updated": "2026-05-17 15:38:41"
+  "_last_updated": "2026-05-17 22:18:15"
 }
