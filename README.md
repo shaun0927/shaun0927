@@ -186,7 +186,7 @@ _Auto-refreshed 2026-05-22 via `gh` CLI (`update_oss_contributions.py`): **492 P
 <img src="https://img.shields.io/badge/Avg_Daily-567.53-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,850-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
 <img src="https://img.shields.io/badge/Messages-752,841-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
-<img src="https://img.shields.io/badge/Models-16-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
+<img src="https://img.shields.io/badge/Models-15-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
 
@@ -194,10 +194,10 @@ _Auto-refreshed 2026-05-22 via `gh` CLI (`update_oss_contributions.py`): **492 P
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>reconstructed-history</code> <code>+5</code></td><td><code>██████████████░░░░░░</code> 69.6%</td><td align="right">457,244</td><td align="right">40.2B</td><td align="right"><b>$45,418</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.4</code> <code>5.3-codex</code> <code>+2</code></td><td><code>██████░░░░░░░░░░░░░░</code> 29.9%</td><td align="right">278,383</td><td align="right">39.7B</td><td align="right"><b>$19,499</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">17,195</td><td align="right">283.2M</td><td align="right"><b>$349.23</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>opus-4-7</code> <code>+4</code></td><td><code>██████████████░░░░░░</code> 68.2%</td><td align="right">450,692</td><td align="right">38.4B</td><td align="right"><b>$44,483</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>██████░░░░░░░░░░░░░░</code> 31.3%</td><td align="right">284,539</td><td align="right">41.5B</td><td align="right"><b>$20,417</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.6%</td><td align="right">17,570</td><td align="right">295.1M</td><td align="right"><b>$365.59</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">325.2K</td><td align="right"><b>$0.19</b></td></tr>
 <tr><td colspan="3"><b>Total</b></td><td align="right"><b>752,841</b></td><td align="right"><b>80.2B</b></td><td align="right"><b>$65,266</b></td></tr>
 </table>
 
