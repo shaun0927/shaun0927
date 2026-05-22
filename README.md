@@ -173,7 +173,7 @@ _Auto-refreshed 2026-05-22 via `gh` CLI (`update_oss_contributions.py`): **500 P
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2333-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2338-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
 <a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-65,870-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
 <img src="https://img.shields.io/badge/Tokens-80.8B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
@@ -194,10 +194,10 @@ _Auto-refreshed 2026-05-22 via `gh` CLI (`update_oss_contributions.py`): **500 P
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>opus-4-7</code> <code>+4</code></td><td><code>██████████████░░░░░░</code> 68.0%</td><td align="right">450,320</td><td align="right">38.6B</td><td align="right"><b>$44,760</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>██████░░░░░░░░░░░░░░</code> 31.5%</td><td align="right">287,254</td><td align="right">42.0B</td><td align="right"><b>$20,742</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.6%</td><td align="right">17,556</td><td align="right">296.3M</td><td align="right"><b>$367.86</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">326.3K</td><td align="right"><b>$0.19</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>opus-4-7</code> <code>+4</code></td><td><code>████████████████░░░░</code> 77.7%</td><td align="right">520,725</td><td align="right">45.4B</td><td align="right"><b>$51,150</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>████░░░░░░░░░░░░░░░░</code> 21.9%</td><td align="right">217,532</td><td align="right">35.2B</td><td align="right"><b>$14,409</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">16,916</td><td align="right">274.5M</td><td align="right"><b>$310.61</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">23</td><td align="right">392.0K</td><td align="right"><b>$0.21</b></td></tr>
 <tr><td colspan="3"><b>Total</b></td><td align="right"><b>755,173</b></td><td align="right"><b>80.8B</b></td><td align="right"><b>$65,870</b></td></tr>
 </table>
 
@@ -214,7 +214,7 @@ _Auto-refreshed 2026-05-22 via `gh` CLI (`update_oss_contributions.py`): **500 P
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-05-22</sub></div>
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-05-23</sub></div>
 
 <!-- TOKSCALE_END -->
 
