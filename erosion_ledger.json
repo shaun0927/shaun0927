@@ -11,11 +11,11 @@
     },
     "codex:gpt-5.4-mini": {
       "cost": 0.0,
-      "tokens": 8574606,
+      "tokens": 10003707,
       "messages": 0,
       "first_seen": "2026-05-14 11:50:06",
-      "events": 6,
-      "last_seen": "2026-05-21 22:46:52"
+      "events": 7,
+      "last_seen": "2026-05-24 11:14:21"
     },
     "claude:reconstructed-claude-history": {
       "cost": 2370.0,
@@ -42,5 +42,5 @@
       "last_seen": "2026-05-23 22:24:32"
     }
   },
-  "_last_updated": "2026-05-24 04:56:04"
+  "_last_updated": "2026-05-24 11:16:06"
 }
