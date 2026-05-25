@@ -1,14 +1,14 @@
 {
   "claude": {
     "claude-opus-4-5": {
-      "cost": 399.9230265,
+      "cost": 399.92302650000005,
       "tokens": 309894183,
       "messages": 5119
     },
     "claude-haiku-4-5": {
-      "cost": 414.94658104999996,
-      "tokens": 1933951412,
-      "messages": 30310
+      "cost": 423.12614814999995,
+      "tokens": 1979216627,
+      "messages": 30743
     },
     "reconstructed-claude-history": {
       "cost": 12527.973115000004,
@@ -26,19 +26,19 @@
       "messages": 4
     },
     "claude-opus-4-6": {
-      "cost": 11711.22724325,
-      "tokens": 11533782394,
-      "messages": 110303
+      "cost": 11754.496395499998,
+      "tokens": 11561300601,
+      "messages": 111511
     },
     "claude-sonnet-4-6": {
-      "cost": 2234.5222807500004,
-      "tokens": 3273530951,
-      "messages": 67567
+      "cost": 2299.7031961500006,
+      "tokens": 3397295742,
+      "messages": 69439
     },
     "claude-opus-4-7": {
-      "cost": 14120.891913999996,
-      "tokens": 15580234481,
-      "messages": 79209
+      "cost": 19468.314511999997,
+      "tokens": 21885601332,
+      "messages": 100732
     }
   },
   "gemini": {
@@ -55,17 +55,17 @@
   },
   "codex": {
     "gpt-5.3-codex": {
-      "cost": 726.640159,
+      "cost": 726.6401589999998,
       "tokens": 2183012963,
       "messages": 21415
     },
     "gpt-5.3-codex-spark": {
-      "cost": 114.77540095000003,
-      "tokens": 317671718,
-      "messages": 4635
+      "cost": 115.35996640000006,
+      "tokens": 319189972,
+      "messages": 4676
     },
     "gpt-5.4": {
-      "cost": 8476.349932000001,
+      "cost": 8476.349932,
       "tokens": 22052695423,
       "messages": 123897
     },
@@ -75,16 +75,16 @@
       "messages": 2522
     },
     "gpt-5.5": {
-      "cost": 2465.487570999999,
-      "tokens": 3153666146,
-      "messages": 29310
+      "cost": 2598.672487999999,
+      "tokens": 3265302409,
+      "messages": 31967
     }
   },
   "hermes": {
     "gpt-5.5": {
-      "cost": 248.42674700000003,
-      "tokens": 191027693,
-      "messages": 13213
+      "cost": 280.773856,
+      "tokens": 238583496,
+      "messages": 14994
     }
   }
 }
