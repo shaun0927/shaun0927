@@ -18,29 +18,29 @@
       "last_seen": "2026-05-24 11:14:21"
     },
     "claude:reconstructed-claude-history": {
-      "cost": 7900.0,
-      "tokens": 9000000000,
-      "messages": 36770,
+      "cost": 8690.0,
+      "tokens": 9900000000,
+      "messages": 40447,
       "first_seen": "2026-05-23 10:08:25",
-      "events": 10,
-      "last_seen": "2026-05-27 06:34:00"
+      "events": 11,
+      "last_seen": "2026-05-27 12:58:12"
     },
     "claude:claude-haiku-4-5": {
       "cost": 0.0,
       "tokens": 0,
       "messages": 0,
       "first_seen": "2026-05-23 14:33:09",
-      "events": 8,
-      "last_seen": "2026-05-27 06:34:00"
+      "events": 9,
+      "last_seen": "2026-05-27 12:58:12"
     },
     "claude:claude-sonnet-4-6": {
       "cost": 0.0,
       "tokens": 0,
       "messages": 0,
       "first_seen": "2026-05-23 14:33:09",
-      "events": 8,
-      "last_seen": "2026-05-27 06:34:00"
+      "events": 9,
+      "last_seen": "2026-05-27 12:58:12"
     }
   },
-  "_last_updated": "2026-05-27 06:34:47"
+  "_last_updated": "2026-05-27 12:59:00"
 }
