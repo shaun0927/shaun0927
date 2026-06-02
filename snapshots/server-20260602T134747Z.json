@@ -1,0 +1,95 @@
+{
+  "claude": {
+    "claude-opus-4-5": {
+      "cost": 399.92302650000005,
+      "tokens": 309894183,
+      "messages": 5119
+    },
+    "claude-haiku-4-5": {
+      "cost": 425.9665923999999,
+      "tokens": 1994467177,
+      "messages": 30883
+    },
+    "reconstructed-claude-history": {
+      "cost": 5211.416725000004,
+      "tokens": 2002157100,
+      "messages": 115006
+    },
+    "claude-sonnet-4-5": {
+      "cost": 1083.29281065,
+      "tokens": 1918863774,
+      "messages": 33601
+    },
+    "claude-sonnet-4": {
+      "cost": 0.210345,
+      "tokens": 76499,
+      "messages": 4
+    },
+    "claude-opus-4-6": {
+      "cost": 11760.5806255,
+      "tokens": 11565041015,
+      "messages": 111723
+    },
+    "claude-sonnet-4-6": {
+      "cost": 2321.4667219499997,
+      "tokens": 3433271688,
+      "messages": 70109
+    },
+    "claude-opus-4-7": {
+      "cost": 22707.714837499996,
+      "tokens": 25620041469,
+      "messages": 114141
+    },
+    "claude-opus-4-8": {
+      "cost": 164.74528750000002,
+      "tokens": 181144941,
+      "messages": 1264
+    }
+  },
+  "gemini": {
+    "gemini-2.5-pro": {
+      "cost": 0.1720905,
+      "tokens": 267372,
+      "messages": 14
+    },
+    "gemini-2.5-flash": {
+      "cost": 0.00649651,
+      "tokens": 51054,
+      "messages": 5
+    }
+  },
+  "codex": {
+    "gpt-5.3-codex": {
+      "cost": 726.6401589999997,
+      "tokens": 2183012963,
+      "messages": 21415
+    },
+    "gpt-5.3-codex-spark": {
+      "cost": 322.1332292500001,
+      "tokens": 950899609,
+      "messages": 16099
+    },
+    "gpt-5.4": {
+      "cost": 8477.703406499999,
+      "tokens": 22055598599,
+      "messages": 123964
+    },
+    "gpt-5.4-mini": {
+      "cost": 71.88817545,
+      "tokens": 374936681,
+      "messages": 2989
+    },
+    "gpt-5.5": {
+      "cost": 15663.716849999999,
+      "tokens": 22006522193,
+      "messages": 186922
+    }
+  },
+  "hermes": {
+    "gpt-5.5": {
+      "cost": 643.074636,
+      "tokens": 548474554,
+      "messages": 33577
+    }
+  }
+}
