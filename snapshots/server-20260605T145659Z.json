@@ -1,14 +1,14 @@
 {
   "claude": {
     "claude-opus-4-5": {
-      "cost": 399.92302650000005,
+      "cost": 399.9230265,
       "tokens": 309894183,
       "messages": 5119
     },
     "claude-haiku-4-5": {
-      "cost": 422.15907274999995,
-      "tokens": 1974923751,
-      "messages": 30706
+      "cost": 433.5437980999999,
+      "tokens": 2038002820,
+      "messages": 31245
     },
     "reconstructed-claude-history": {
       "cost": 12527.973115000004,
@@ -16,9 +16,9 @@
       "messages": 115006
     },
     "claude-sonnet-4-5": {
-      "cost": 1083.21617055,
-      "tokens": 1918736560,
-      "messages": 33599
+      "cost": 1083.29281065,
+      "tokens": 1918863774,
+      "messages": 33601
     },
     "claude-sonnet-4": {
       "cost": 0.210345,
@@ -26,19 +26,24 @@
       "messages": 4
     },
     "claude-opus-4-6": {
-      "cost": 11753.454789250001,
-      "tokens": 11560827693,
-      "messages": 111491
+      "cost": 11776.67197675,
+      "tokens": 11573705134,
+      "messages": 112162
     },
     "claude-sonnet-4-6": {
-      "cost": 2299.0827163500003,
-      "tokens": 3396604490,
-      "messages": 69418
+      "cost": 2349.9842305499997,
+      "tokens": 3472226149,
+      "messages": 71092
     },
     "claude-opus-4-7": {
-      "cost": 18827.905705249996,
-      "tokens": 21104920250,
-      "messages": 97846
+      "cost": 22736.232286999995,
+      "tokens": 25653492534,
+      "messages": 114278
+    },
+    "claude-opus-4-8": {
+      "cost": 1145.29151625,
+      "tokens": 1177205428,
+      "messages": 7460
     }
   },
   "gemini": {
@@ -55,14 +60,14 @@
   },
   "codex": {
     "gpt-5.3-codex": {
-      "cost": 726.6401589999998,
+      "cost": 726.640159,
       "tokens": 2183012963,
       "messages": 21415
     },
     "gpt-5.3-codex-spark": {
-      "cost": 115.35996640000006,
-      "tokens": 319189972,
-      "messages": 4676
+      "cost": 315.9048879,
+      "tokens": 928438927,
+      "messages": 15699
     },
     "gpt-5.4": {
       "cost": 8476.349932000001,
@@ -70,21 +75,21 @@
       "messages": 123897
     },
     "gpt-5.4-mini": {
-      "cost": 66.37055744999999,
-      "tokens": 347333706,
-      "messages": 2522
+      "cost": 103.96529565,
+      "tokens": 528884217,
+      "messages": 5472
     },
     "gpt-5.5": {
-      "cost": 2585.751069,
-      "tokens": 3254925166,
-      "messages": 31768
+      "cost": 19066.078953999997,
+      "tokens": 26586279980,
+      "messages": 224734
     }
   },
   "hermes": {
     "gpt-5.5": {
-      "cost": 261.50461,
-      "tokens": 222566938,
-      "messages": 14485
+      "cost": 816.1400960000003,
+      "tokens": 709333591,
+      "messages": 37026
     }
   }
 }
