@@ -181,9 +181,9 @@ _Auto-refreshed 2026-06-05 via `gh` CLI (`update_oss_contributions.py`): **546 P
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Streak-130_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
-<img src="https://img.shields.io/badge/Active_Days-130-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-643.97-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Streak-131_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
+<img src="https://img.shields.io/badge/Active_Days-131-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-639.05-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,850-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
 <img src="https://img.shields.io/badge/Messages-925,314-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-16-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
@@ -194,10 +194,10 @@ _Auto-refreshed 2026-06-05 via `gh` CLI (`update_oss_contributions.py`): **546 P
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>opus-4-7</code> <code>+5</code></td><td><code>█████████████░░░░░░░</code> 64.0%</td><td align="right">494,458</td><td align="right">49.4B</td><td align="right"><b>$53,537</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 34.9%</td><td align="right">393,289</td><td align="right">53.4B</td><td align="right"><b>$29,189</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.0%</td><td align="right">37,521</td><td align="right">729.1M</td><td align="right"><b>$839.42</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">320.0K</td><td align="right"><b>$0.18</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-5</code> <code>haiku-4-5</code> <code>opus-4-7</code> <code>+5</code></td><td><code>█████████████░░░░░░░</code> 63.9%</td><td align="right">493,557</td><td align="right">49.3B</td><td align="right"><b>$53,489</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.3-codex</code> <code>5.3-codex-spark</code> <code>5.4</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 34.9%</td><td align="right">392,748</td><td align="right">53.3B</td><td align="right"><b>$29,176</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.1%</td><td align="right">38,940</td><td align="right">776.0M</td><td align="right"><b>$890.80</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">319.8K</td><td align="right"><b>$0.18</b></td></tr>
 <tr><td colspan="3"><b>Total</b></td><td align="right"><b>925,314</b></td><td align="right"><b>103.7B</b></td><td align="right"><b>$83,716</b></td></tr>
 </table>
 
