@@ -1,0 +1,95 @@
+{
+  "claude": {
+    "claude-opus-4-5": {
+      "cost": 399.9230265,
+      "tokens": 309894183,
+      "messages": 5119
+    },
+    "claude-haiku-4-5": {
+      "cost": 433.5437980999999,
+      "tokens": 2038002820,
+      "messages": 31245
+    },
+    "reconstructed-claude-history": {
+      "cost": 12527.973115000004,
+      "tokens": 2002157100,
+      "messages": 115006
+    },
+    "claude-sonnet-4-5": {
+      "cost": 1083.29281065,
+      "tokens": 1918863774,
+      "messages": 33601
+    },
+    "claude-sonnet-4": {
+      "cost": 0.210345,
+      "tokens": 76499,
+      "messages": 4
+    },
+    "claude-opus-4-6": {
+      "cost": 11776.67197675,
+      "tokens": 11573705134,
+      "messages": 112162
+    },
+    "claude-sonnet-4-6": {
+      "cost": 2349.9842305499997,
+      "tokens": 3472226149,
+      "messages": 71092
+    },
+    "claude-opus-4-7": {
+      "cost": 22736.232286999995,
+      "tokens": 25653492534,
+      "messages": 114278
+    },
+    "claude-opus-4-8": {
+      "cost": 1145.29151625,
+      "tokens": 1177205428,
+      "messages": 7460
+    }
+  },
+  "gemini": {
+    "gemini-2.5-pro": {
+      "cost": 0.1720905,
+      "tokens": 267372,
+      "messages": 14
+    },
+    "gemini-2.5-flash": {
+      "cost": 0.00649651,
+      "tokens": 51054,
+      "messages": 5
+    }
+  },
+  "codex": {
+    "gpt-5.3-codex": {
+      "cost": 726.6401590000003,
+      "tokens": 2183012963,
+      "messages": 21415
+    },
+    "gpt-5.3-codex-spark": {
+      "cost": 294.33452090000003,
+      "tokens": 865260385,
+      "messages": 14656
+    },
+    "gpt-5.4": {
+      "cost": 8477.7034065,
+      "tokens": 22055598599,
+      "messages": 123964
+    },
+    "gpt-5.4-mini": {
+      "cost": 101.45831834999998,
+      "tokens": 514908215,
+      "messages": 5279
+    },
+    "gpt-5.5": {
+      "cost": 20001.653484,
+      "tokens": 27942287985,
+      "messages": 233566
+    }
+  },
+  "hermes": {
+    "gpt-5.5": {
+      "cost": 1056.142029,
+      "tokens": 886824290,
+      "messages": 44051
+    }
+  }
+}
