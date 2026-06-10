@@ -4,10 +4,10 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-11",
   "totals": {
-    "cost": 87004.35346556477,
+    "cost": 87423.44851520701,
     "tokens": 106823378075,
     "messages": 950522,
-    "input": 2307080328,
+    "input": 2308523850,
     "output": 337958356,
     "cache_read": 101134788470,
     "cache_write": 3261250152,
