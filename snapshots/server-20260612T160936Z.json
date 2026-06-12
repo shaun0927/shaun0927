@@ -1,0 +1,105 @@
+{
+  "claude": {
+    "claude-opus-4-5": {
+      "cost": 442.09129649999994,
+      "tokens": 318327837,
+      "messages": 5119
+    },
+    "claude-haiku-4-5": {
+      "cost": 514.5337982,
+      "tokens": 2199480560,
+      "messages": 33277
+    },
+    "reconstructed-claude-history": {
+      "cost": 5054.3888650000035,
+      "tokens": 2002157100,
+      "messages": 115006
+    },
+    "claude-sonnet-4-5": {
+      "cost": 1229.21085255,
+      "tokens": 1967401454,
+      "messages": 33599
+    },
+    "unknown": {
+      "cost": 0.0,
+      "tokens": 163273,
+      "messages": 0
+    },
+    "claude-sonnet-4": {
+      "cost": 0.210345,
+      "tokens": 76499,
+      "messages": 4
+    },
+    "claude-opus-4-6": {
+      "cost": 12422.68045725,
+      "tokens": 11701880147,
+      "messages": 112127
+    },
+    "claude-sonnet-4-6": {
+      "cost": 2664.4952572500015,
+      "tokens": 3662469785,
+      "messages": 72559
+    },
+    "claude-opus-4-7": {
+      "cost": 22898.872986750004,
+      "tokens": 25684549177,
+      "messages": 114273
+    },
+    "claude-opus-4-8": {
+      "cost": 6099.3243055,
+      "tokens": 6983916186,
+      "messages": 30940
+    }
+  },
+  "gemini": {
+    "gemini-2.5-pro": {
+      "cost": 0.1720905,
+      "tokens": 267372,
+      "messages": 14
+    },
+    "gemini-2.5-flash": {
+      "cost": 0.00649651,
+      "tokens": 51054,
+      "messages": 5
+    }
+  },
+  "codex": {
+    "gpt-5.3-codex": {
+      "cost": 726.6401590000003,
+      "tokens": 2183012963,
+      "messages": 21415
+    },
+    "gpt-5.3-codex-spark": {
+      "cost": 298.80451930000004,
+      "tokens": 877039658,
+      "messages": 14933
+    },
+    "gpt-5.4": {
+      "cost": 8477.7034065,
+      "tokens": 22055598599,
+      "messages": 123964
+    },
+    "gpt-5.4-mini": {
+      "cost": 100.8387036,
+      "tokens": 511684819,
+      "messages": 5233
+    },
+    "gpt-5.5": {
+      "cost": 20033.249097999997,
+      "tokens": 27966914682,
+      "messages": 234137
+    }
+  },
+  "hermes": {
+    "gpt-5.5": {
+      "cost": 1125.814578,
+      "tokens": 934979199,
+      "messages": 46115
+    },
+    "mimo-v2.5-pro-ultraspeed": {
+      "cost": 12.831110400000002,
+      "tokens": 34628330,
+      "messages": 1186
+    }
+  }
+}
