@@ -71,7 +71,7 @@ fi
 
 # ---------- 2. Refresh README dashboards ----------
 log "phase 2a: update_tokscale.py (dashboard refresh + floor ratchet)"
-if ! "$PYTHON_BIN" update_tokscale.py >> "$LOG_FILE" 2>&1; then
+if ! TOKSCALE_SOURCE=ssr "$PYTHON_BIN" update_tokscale.py >> "$LOG_FILE" 2>&1; then
   log "WARN: update_tokscale.py failed; continuing without dashboard refresh"
 fi
 
@@ -98,7 +98,7 @@ log "phase 3: safe_submit.py"
 # Re-render the dashboard now that server has fresh data.
 if [ "${TOKSCALE_RERENDER_AFTER_SUBMIT:-1}" = "1" ]; then
   log "phase 3b: update_tokscale.py (post-submit re-render)"
-  "$PYTHON_BIN" update_tokscale.py >> "$LOG_FILE" 2>&1 || \
+  TOKSCALE_SOURCE=ssr "$PYTHON_BIN" update_tokscale.py >> "$LOG_FILE" 2>&1 || \
     log "WARN: post-submit re-render failed"
 fi
 

@@ -25,6 +25,38 @@ MODEL_RENAME = {
 }
 
 
+def extract_json_object_after(text, marker):
+    """Return JSON object following marker by balanced-brace scan."""
+    idx = text.find(marker)
+    if idx < 0:
+        return None
+    start = text.find("{", idx + len(marker))
+    if start < 0:
+        return None
+    depth = 0
+    in_str = False
+    esc = False
+    for pos in range(start, len(text)):
+        ch = text[pos]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start:pos + 1]
+    return None
+
+
 def fetch_tokscale_data():
     """Run tokscale CLI and return JSON data."""
     print("[INFO] Fetching tokscale CLI data...")
@@ -76,6 +108,55 @@ def fetch_ssr_data(username="shaun0927"):
     except Exception as e:
         print(f"[ERROR] Unescape failed: {e}")
         return None
+
+    # Preferred path: parse Next.js initialData exactly. The profile payload
+    # contains both top-level modelUsage and per-day contribution data. Regexing
+    # every model-shaped object double-counts after submissions because the same
+    # model appears in summary and daily sections. Contributions are the
+    # authoritative per-client/per-model breakdown; stats is authoritative for
+    # top-level totals used by leaderboard.
+    initial_json = extract_json_object_after(payload, '"initialData":')
+    if initial_json:
+        try:
+            initial = json.loads(initial_json)
+            entries_by_key = {}
+            for day in initial.get("contributions", []) or []:
+                for client_info in day.get("clients", []) or []:
+                    client = client_info.get("client")
+                    for model, values in (client_info.get("models") or {}).items():
+                        model = MODEL_RENAME.get(model, model)
+                        key = (client, model)
+                        bucket = entries_by_key.setdefault(key, {
+                            "client": client,
+                            "model": model,
+                            "cost": 0.0,
+                            "input": 0,
+                            "output": 0,
+                            "messageCount": 0,
+                            "cacheRead": 0,
+                            "cacheWrite": 0,
+                        })
+                        bucket["cost"] += float(values.get("cost", 0) or 0)
+                        bucket["input"] += int(values.get("input", 0) or 0)
+                        bucket["output"] += int(values.get("output", 0) or 0)
+                        bucket["messageCount"] += int(values.get("messages", 0) or 0)
+                        bucket["cacheRead"] += int(values.get("cacheRead", 0) or 0)
+                        bucket["cacheWrite"] += int(values.get("cacheWrite", 0) or 0)
+            entries = list(entries_by_key.values())
+            stats = initial.get("stats") or {}
+            total_messages = sum(e["messageCount"] for e in entries)
+            print(f"[INFO] SSR entries: {len(entries)}, messages: {total_messages}")
+            return {
+                "entries": entries,
+                "totalCost": float(stats.get("totalCost", 0) or 0),
+                "totalMessages": total_messages,
+                "totalInput": int(stats.get("inputTokens", 0) or 0),
+                "totalOutput": int(stats.get("outputTokens", 0) or 0),
+                "totalCacheRead": int(stats.get("cacheReadTokens", 0) or 0),
+                "totalCacheWrite": int(stats.get("cacheWriteTokens", 0) or 0),
+            }
+        except Exception as e:
+            print(f"[WARN] initialData parse failed, falling back to regex: {e}")
 
     # Locate the profile totals block
     m = re.search(
@@ -370,6 +451,11 @@ def apply_floor(data, profile, floor):
     """
     if not floor:
         return floor
+
+    if os.environ.get("TOKSCALE_RESET_FLOOR_FROM_SERVER") == "1":
+        print("[INFO] Resetting tokscale floor from current server/local merged data")
+        floor["by_client_model"] = {}
+        floor["totals"] = {}
 
     ft = floor.setdefault("totals", {})
     by_client_model = floor.setdefault("by_client_model", {})
