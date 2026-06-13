@@ -174,8 +174,8 @@ _Auto-refreshed 2026-06-13 via `gh` CLI (`update_oss_contributions.py`): **546 P
 <div align="center">
 
 <a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2336-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-90,781-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-109.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-98,777-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Tokens-116.6B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
@@ -183,9 +183,9 @@ _Auto-refreshed 2026-06-13 via `gh` CLI (`update_oss_contributions.py`): **546 P
 
 <img src="https://img.shields.io/badge/Streak-137_days-FF6B35?style=flat-square&logo=fireship&logoColor=white" alt="Streak"/>
 <img src="https://img.shields.io/badge/Active_Days-137-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-662.63-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Avg_Daily-721.00-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-2,850-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-963,906-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-1,120,456-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-21-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -194,11 +194,11 @@ _Auto-refreshed 2026-06-13 via `gh` CLI (`update_oss_contributions.py`): **546 P
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>reconstructed-history</code> <code>+9</code></td><td><code>█████████████░░░░░░░</code> 65.3%</td><td align="right">525,625</td><td align="right">55.3B</td><td align="right"><b>$59,301</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.4</code> <code>5.3-codex</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 33.4%</td><td align="right">390,460</td><td align="right">53.1B</td><td align="right"><b>$30,341</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.3%</td><td align="right">47,801</td><td align="right">989.9M</td><td align="right"><b>$1,139</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">324.3K</td><td align="right"><b>$0.18</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>963,906</b></td><td align="right"><b>109.4B</b></td><td align="right"><b>$90,781</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>reconstructed-history</code> <code>+9</code></td><td><code>█████████████░░░░░░░</code> 65.1%</td><td align="right">636,613</td><td align="right">56.5B</td><td align="right"><b>$64,322</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.4</code> <code>5.3-codex</code> <code>+2</code></td><td><code>███████░░░░░░░░░░░░░</code> 33.7%</td><td align="right">436,517</td><td align="right">59.1B</td><td align="right"><b>$33,317</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.2%</td><td align="right">47,307</td><td align="right">968.4M</td><td align="right"><b>$1,139</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>1,120,456</b></td><td align="right"><b>116.6B</b></td><td align="right"><b>$98,777</b></td></tr>
 </table>
 
 </div>
@@ -207,10 +207,10 @@ _Auto-refreshed 2026-06-13 via `gh` CLI (`update_oss_contributions.py`): **546 P
 
 **Token Composition**
 
-<img src="https://img.shields.io/badge/Cache_Read_(94.3%25)-103.2B-2ECC71?style=flat-square" alt="Cache Read (94.3%25)"/>
-<img src="https://img.shields.io/badge/Cache_Write_(3.0%25)-3.3B-27AE60?style=flat-square" alt="Cache Write (3.0%25)"/>
-<img src="https://img.shields.io/badge/Input_(2.3%25)-2.6B-3498DB?style=flat-square" alt="Input (2.3%25)"/>
-<img src="https://img.shields.io/badge/Output_(0.3%25)-344.0M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
+<img src="https://img.shields.io/badge/Cache_Read_(94.3%25)-109.9B-2ECC71?style=flat-square" alt="Cache Read (94.3%25)"/>
+<img src="https://img.shields.io/badge/Cache_Write_(3.0%25)-3.5B-27AE60?style=flat-square" alt="Cache Write (3.0%25)"/>
+<img src="https://img.shields.io/badge/Input_(2.4%25)-2.8B-3498DB?style=flat-square" alt="Input (2.4%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.3%25)-367.3M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
 
 </div>
 
