@@ -747,7 +747,7 @@ def generate_dashboard(data, profile):
         name = get_client_display(client)
         color = get_client_color(client)
         logo = get_client_logo(client)
-        pct = (stats["cost"] / total_cost * 100) if total_cost > 0 else 0
+        pct = (stats["tokens"] / total_tokens * 100) if total_tokens > 0 else 0
 
         # Model names (shortened)
         models_short = []
