@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-16",
   "totals": {
-    "cost": 101772.61293981726,
-    "tokens": 127782554242,
-    "messages": 1112819,
-    "input": 3555947013,
-    "output": 371589887,
-    "cache_read": 120529558939,
-    "cache_write": 3325458403,
-    "active_days": 140,
-    "streak": 140,
+    "cost": 101942.41334106728,
+    "tokens": 128021953152,
+    "messages": 1114670,
+    "input": 3563857177,
+    "output": 372062233,
+    "cache_read": 120760535704,
+    "cache_write": 3325498038,
+    "active_days": 141,
+    "streak": 141,
     "best_day_cost": 4190.0,
     "best_day_date": "Jun 13, 2026"
   },
@@ -109,14 +109,14 @@
         "last_seen": "2026-06-15"
       },
       "claude-opus-4-8": {
-        "cost": 6532.962519000002,
-        "messageCount": 33918,
-        "input": 21667825,
-        "output": 28851512,
-        "cacheRead": 6989073138,
-        "cacheWrite": 353407844,
+        "cost": 6534.199873250002,
+        "messageCount": 33926,
+        "input": 21681816,
+        "output": 28881098,
+        "cacheRead": 6989433199,
+        "cacheWrite": 353447479,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-15"
+        "last_seen": "2026-06-16"
       },
       "claude-fable-5": {
         "cost": 1055.7865675000003,
@@ -203,11 +203,11 @@
         "last_seen": "2026-06-13"
       },
       "gpt-5.5": {
-        "cost": 27386.13244,
-        "messageCount": 316236,
-        "input": 1182497134,
-        "output": 82972113,
-        "cacheRead": 37126967680,
+        "cost": 27554.304142,
+        "messageCount": 317995,
+        "input": 1190196866,
+        "output": 83404049,
+        "cacheRead": 37356772224,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-16"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-13"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 14.1458206,
-        "messageCount": 1430,
-        "input": 7441534,
-        "output": 224087,
-        "cacheRead": 30160128,
+        "cost": 14.5371656,
+        "messageCount": 1514,
+        "input": 7637975,
+        "output": 234911,
+        "cacheRead": 30972288,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-16"
