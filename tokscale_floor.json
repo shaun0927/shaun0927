@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-22",
   "totals": {
-    "cost": 109579.49200061725,
-    "tokens": 138654886639,
-    "messages": 1202447,
-    "input": 3873948013,
-    "output": 396479293,
-    "cache_read": 131026072163,
+    "cost": 109907.66155641725,
+    "tokens": 139106509126,
+    "messages": 1205646,
+    "input": 3889566435,
+    "output": 397469726,
+    "cache_read": 131461085795,
     "cache_write": 3358387170,
-    "active_days": 146,
-    "streak": 146,
+    "active_days": 147,
+    "streak": 147,
     "best_day_cost": 4190.0,
     "best_day_date": "Jun 13, 2026"
   },
@@ -203,11 +203,11 @@
         "last_seen": "2026-06-20"
       },
       "gpt-5.5": {
-        "cost": 34742.68332800001,
-        "messageCount": 395281,
-        "input": 1487014824,
-        "output": 105165024,
-        "cacheRead": 47289342976,
+        "cost": 35070.843572000005,
+        "messageCount": 398474,
+        "input": 1502625518,
+        "output": 106155168,
+        "cacheRead": 47724353024,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-22"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 16.587269,
-        "messageCount": 1993,
-        "input": 8731755,
-        "output": 290782,
-        "cacheRead": 34915840,
+        "cost": 16.5965808,
+        "messageCount": 1999,
+        "input": 8739483,
+        "output": 291071,
+        "cacheRead": 34919424,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-22"
