@@ -173,7 +173,7 @@ _Auto-refreshed 2026-06-23 via `gh` CLI (`update_oss_contributions.py`): **545 P
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2331-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2332-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
 <a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-110,663-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
 <img src="https://img.shields.io/badge/Tokens-140.1B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
