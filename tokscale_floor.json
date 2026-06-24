@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-24",
   "totals": {
-    "cost": 112643.89028821727,
-    "tokens": 142770185270,
-    "messages": 1233628,
-    "input": 4034058180,
-    "output": 405183789,
-    "cache_read": 134972556131,
+    "cost": 113047.46721426726,
+    "tokens": 143299091437,
+    "messages": 1238067,
+    "input": 4055556256,
+    "output": 406656520,
+    "cache_read": 135478491491,
     "cache_write": 3358387170,
     "active_days": 149,
     "streak": 149,
@@ -193,21 +193,21 @@
         "last_seen": "2026-06-13"
       },
       "gpt-5.4-mini": {
-        "cost": 119.80777110000001,
-        "messageCount": 6478,
-        "input": 60238824,
-        "output": 4511422,
-        "cacheRead": 531490688,
+        "cost": 121.50577455000001,
+        "messageCount": 6577,
+        "input": 61039171,
+        "output": 4590073,
+        "cacheRead": 537516544,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-20"
+        "last_seen": "2026-06-24"
       },
       "gpt-5.5": {
-        "cost": 37805.646428000015,
-        "messageCount": 426173,
-        "input": 1646435382,
-        "output": 113837877,
-        "cacheRead": 51232573696,
+        "cost": 38207.51615600001,
+        "messageCount": 430507,
+        "input": 1667125392,
+        "output": 115231687,
+        "cacheRead": 51732479872,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-24"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 18.0224566,
-        "messageCount": 2282,
-        "input": 9421364,
-        "output": 322425,
-        "cacheRead": 38169088,
+        "cost": 18.0316512,
+        "messageCount": 2288,
+        "input": 9429083,
+        "output": 322695,
+        "cacheRead": 38172416,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-24"
