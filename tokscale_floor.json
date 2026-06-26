@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-26",
   "totals": {
-    "cost": 114175.12070941723,
-    "tokens": 144706859695,
-    "messages": 1251707,
-    "input": 4118275888,
-    "output": 411460026,
-    "cache_read": 136818736611,
-    "cache_write": 3358387170,
-    "active_days": 150,
-    "streak": 150,
+    "cost": 114975.19135196724,
+    "tokens": 145757308162,
+    "messages": 1261324,
+    "input": 4155896231,
+    "output": 414610001,
+    "cache_read": 137827288782,
+    "cache_write": 3359513148,
+    "active_days": 151,
+    "streak": 151,
     "best_day_cost": 4190.0,
     "best_day_date": "Jun 13, 2026"
   },
@@ -29,14 +29,14 @@
         "last_seen": "2026-06-13"
       },
       "claude-haiku-4-5": {
-        "cost": 527.6263296,
-        "messageCount": 34255,
-        "input": 65895617,
-        "output": 8919828,
-        "cacheRead": 2007389526,
-        "cacheWrite": 173114096,
+        "cost": 528.1316127499999,
+        "messageCount": 34298,
+        "input": 65962557,
+        "output": 8926641,
+        "cacheRead": 2009712645,
+        "cacheWrite": 173251669,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-21"
+        "last_seen": "2026-06-26"
       },
       "claude-opus-4-7": {
         "cost": 35426.846101750016,
@@ -99,24 +99,24 @@
         "last_seen": "2026-06-13"
       },
       "claude-sonnet-4-6": {
-        "cost": 2724.2516808000014,
-        "messageCount": 74381,
-        "input": 89638292,
-        "output": 27798355,
-        "cacheRead": 3372168416,
-        "cacheWrite": 273789588,
+        "cost": 2724.573409800001,
+        "messageCount": 74389,
+        "input": 89651610,
+        "output": 27802850,
+        "cacheRead": 3372381741,
+        "cacheWrite": 273829682,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-15"
+        "last_seen": "2026-06-26"
       },
       "claude-opus-4-8": {
-        "cost": 6968.714493250002,
-        "messageCount": 43154,
-        "input": 30350480,
-        "output": 30910983,
-        "cacheRead": 7273652874,
-        "cacheWrite": 385177773,
+        "cost": 6980.163114500002,
+        "messageCount": 43223,
+        "input": 30901728,
+        "output": 30974845,
+        "cacheRead": 7275990649,
+        "cacheWrite": 386126084,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-21"
+        "last_seen": "2026-06-26"
       },
       "claude-fable-5": {
         "cost": 1055.7865675000003,
@@ -193,21 +193,21 @@
         "last_seen": "2026-06-25"
       },
       "gpt-5.4-mini": {
-        "cost": 126.31054050000002,
-        "messageCount": 6908,
-        "input": 63289566,
-        "output": 4797245,
-        "cacheRead": 558326400,
+        "cost": 126.38547885000001,
+        "messageCount": 6912,
+        "input": 63362073,
+        "output": 4799874,
+        "cacheRead": 558402688,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-26"
       },
       "gpt-5.5": {
-        "cost": 39329.97136900001,
-        "messageCount": 443706,
-        "input": 1727400655,
-        "output": 119816137,
-        "cacheRead": 53051235328,
+        "cost": 40117.41320400001,
+        "messageCount": 453144,
+        "input": 1764149776,
+        "output": 122880599,
+        "cacheRead": 54054397568,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-26"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 18.3784344,
-        "messageCount": 2397,
-        "input": 9604799,
-        "output": 334559,
-        "cacheRead": 38849792,
+        "cost": 18.656670199999997,
+        "messageCount": 2452,
+        "input": 9772008,
+        "output": 342273,
+        "cacheRead": 39289216,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-26"
