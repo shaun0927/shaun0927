@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-28",
   "totals": {
-    "cost": 115979.41019826723,
-    "tokens": 146795885162,
-    "messages": 1272181,
-    "input": 4195952993,
-    "output": 421784641,
-    "cache_read": 138795564871,
+    "cost": 116852.74279386725,
+    "tokens": 147998229418,
+    "messages": 1281946,
+    "input": 4231566520,
+    "output": 425178666,
+    "cache_read": 139958901575,
     "cache_write": 3382582657,
-    "active_days": 152,
-    "streak": 152,
+    "active_days": 153,
+    "streak": 153,
     "best_day_cost": 4190.0,
     "best_day_date": "Jun 13, 2026"
   },
@@ -193,21 +193,21 @@
         "last_seen": "2026-06-25"
       },
       "gpt-5.4-mini": {
-        "cost": 126.53441520000001,
-        "messageCount": 6919,
-        "input": 63477708,
-        "output": 4804565,
-        "cacheRead": 558907136,
+        "cost": 126.67110540000002,
+        "messageCount": 6935,
+        "input": 63544238,
+        "output": 4809494,
+        "cacheRead": 559709952,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-27"
+        "last_seen": "2026-06-28"
       },
       "gpt-5.5": {
-        "cost": 40784.44352600001,
-        "messageCount": 460618,
-        "input": 1797987364,
-        "output": 125571026,
-        "cacheRead": 54870294912,
+        "cost": 41657.43546900001,
+        "messageCount": 470323,
+        "input": 1833403717,
+        "output": 128954874,
+        "cacheRead": 56032540928,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-28"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 19.0009782,
-        "messageCount": 2534,
-        "input": 9994600,
-        "output": 351357,
-        "cacheRead": 39761536,
+        "cost": 19.204940599999997,
+        "messageCount": 2578,
+        "input": 10125244,
+        "output": 356605,
+        "cacheRead": 40049408,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-28"
