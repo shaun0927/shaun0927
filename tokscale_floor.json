@@ -4,16 +4,16 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-30",
   "totals": {
-    "cost": 118266.24514166724,
-    "tokens": 149718244783,
-    "messages": 1298020,
-    "input": 4304456379,
-    "output": 431994924,
-    "cache_read": 141599210823,
-    "cache_write": 3382582657,
+    "cost": 119666.78488964123,
+    "tokens": 151500859687,
+    "messages": 1309967,
+    "input": 4344490163,
+    "output": 439053398,
+    "cache_read": 143305487705,
+    "cache_write": 3411828421,
     "active_days": 155,
     "streak": 155,
-    "best_day_cost": 4190.0,
+    "best_day_cost": 4200.0,
     "best_day_date": "Jun 13, 2026"
   },
   "by_client_model": {
@@ -232,6 +232,100 @@
         "cacheRead": 41466752,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
+        "last_seen": "2026-06-30"
+      }
+    },
+    "micode": {
+      "<synthetic>": {
+        "cost": 0.0,
+        "messageCount": 101,
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "claude-opus-4-8": {
+        "cost": 678.494437,
+        "messageCount": 3157,
+        "input": 271518,
+        "output": 3494457,
+        "cacheRead": 854059444,
+        "cacheWrite": 26039312,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "claude-opus-4-6": {
+        "cost": 2.4061994999999996,
+        "messageCount": 137,
+        "input": 254877,
+        "output": 27496,
+        "cacheRead": 560179,
+        "cacheWrite": 26292,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "claude-fable-5": {
+        "cost": 82.19886200000002,
+        "messageCount": 140,
+        "input": 67525,
+        "output": 278782,
+        "cacheRead": 27832512,
+        "cacheWrite": 3180160,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "mimo-v2.5-pro-ultraspeed": {
+        "cost": 4.936056174,
+        "messageCount": 202,
+        "input": 3494234,
+        "output": 76068,
+        "cacheRead": 15975680,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "mimo-auto": {
+        "cost": 2.6794374000000003,
+        "messageCount": 782,
+        "input": 2653389,
+        "output": 205088,
+        "cacheRead": 59700608,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "claude-sonnet-4-6": {
+        "cost": 0.0122529,
+        "messageCount": 1,
+        "input": 272,
+        "output": 0,
+        "cacheRead": 38123,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      }
+    },
+    "gjc": {
+      "gpt-5.5": {
+        "cost": 629.812503,
+        "messageCount": 7426,
+        "input": 33291969,
+        "output": 2976583,
+        "cacheRead": 748110336,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      "codex-auto-review": {
+        "cost": 0.0,
+        "messageCount": 1,
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "first_seen": "2026-06-30",
         "last_seen": "2026-06-30"
       }
     }

@@ -97,7 +97,7 @@ NET_GAIN_THRESHOLD_MESSAGES = 100
 SCAN_TIMEOUT = 240                    # local CLI scan budget
 HTTP_TIMEOUT = 30
 
-KNOWN_CLIENTS = ("claude", "codex", "gemini", "hermes")
+KNOWN_CLIENTS = ("claude", "codex", "gemini", "hermes", "gjc", "micode")
 
 # Server-side synthetic / recovery model entries that submit will never touch.
 # These must be excluded from the comparison or no real model decision is

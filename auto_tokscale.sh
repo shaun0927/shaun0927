@@ -113,7 +113,7 @@ log "phase 3: windowed submit (--since $SUBMIT_SINCE, per client)"
 curl -fsS "https://tokscale.ai/api/users/shaun0927" \
   -o "snapshots/server-$(date -u +%Y%m%dT%H%M%SZ).json" 2>/dev/null \
   || log "WARN: could not write pre-submit server snapshot"
-for client in codex claude gemini hermes; do
+for client in codex claude gemini hermes gjc micode; do
   if npx -y tokscale@latest submit -c "$client" --since "$SUBMIT_SINCE" >> "$LOG_FILE" 2>&1; then
     log "phase 3: submitted $client (--since $SUBMIT_SINCE)"
   else

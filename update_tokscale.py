@@ -618,6 +618,8 @@ def get_client_display(client):
         "cursor": "Cursor",
         "opencode": "OpenCode",
         "hermes": "Hermes Agent",
+        "gjc": "GJC",
+        "micode": "Micode",
     }
     return mapping.get(client, client.title())
 
@@ -630,6 +632,8 @@ def get_client_color(client):
         "gemini": "8E75B2",
         "cursor": "00A67E",
         "hermes": "FFB400",
+        "gjc": "2F80ED",
+        "micode": "A855F7",
     }
     return colors.get(client, "555555")
 
@@ -641,6 +645,8 @@ def get_client_logo(client):
         "codex": "openai",
         "gemini": "google",
         "hermes": "rocket",
+        "gjc": "google",
+        "micode": "terminal",
     }
     return logos.get(client)
 
