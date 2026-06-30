@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-06-30",
   "totals": {
-    "cost": 119666.78488964123,
-    "tokens": 151500859687,
-    "messages": 1309967,
-    "input": 4344490163,
-    "output": 439053398,
-    "cache_read": 143305487705,
+    "cost": 120033.64640364124,
+    "tokens": 151980686238,
+    "messages": 1314551,
+    "input": 4358232383,
+    "output": 441021761,
+    "cache_read": 143769603673,
     "cache_write": 3411828421,
     "active_days": 155,
     "streak": 155,
@@ -129,14 +129,14 @@
         "last_seen": "2026-06-15"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 14.616693007199993,
+        "cost": 14.616693007199999,
         "messageCount": 2444,
         "input": 8805186,
         "output": 883069,
         "cacheRead": 76029184,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-13"
+        "last_seen": "2026-06-30"
       }
     },
     "gemini": {
@@ -183,14 +183,14 @@
         "last_seen": "2026-06-13"
       },
       "gpt-5.4": {
-        "cost": 11663.644541000007,
+        "cost": 11663.644541000016,
         "messageCount": 173004,
         "input": 1575408074,
         "output": 44155250,
         "cacheRead": 27233467944,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-25"
+        "last_seen": "2026-06-30"
       },
       "gpt-5.4-mini": {
         "cost": 126.67110540000002,
@@ -203,11 +203,11 @@
         "last_seen": "2026-06-28"
       },
       "gpt-5.5": {
-        "cost": 43070.14599100001,
-        "messageCount": 486228,
-        "input": 1905848795,
-        "output": 135749940,
-        "cacheRead": 57671432832,
+        "cost": 43437.007504999994,
+        "messageCount": 490812,
+        "input": 1919591015,
+        "output": 137718303,
+        "cacheRead": 58135548800,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-06-30"
