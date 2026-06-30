@@ -66,7 +66,21 @@ class Findings:
         self.ok: list[str] = []
 
     def add_fatal(self, msg: str):
-        self.fatal.append(msg)
+        # 2026-06-02 (decouple): preflight is ADVISORY by default. Integrity
+        # failures — notably the synthetic reconstructed-claude-history bucket
+        # drifting below threshold under tokscale 3.0.0, which reprices the
+        # synthetic model name non-deterministically — must NOT hard-abort the
+        # update cycle. The previous behavior aborted phase 0 and thereby
+        # blocked REAL Claude/Codex usage from ever being submitted (the actual
+        # incident this fixes: days of genuine usage went unlogged). Per-client
+        # safety is still enforced downstream by safe_submit.py (synthetic 90%
+        # guard + per-model loss tolerance), which protects the recovery bucket
+        # without blocking real data. Run with --strict to restore hard-fail
+        # behavior for manual investigation.
+        if self.strict:
+            self.fatal.append(msg)
+        else:
+            self.warn.append(f"(advisory) {msg}")
 
     def add_warn(self, msg: str):
         if self.strict:

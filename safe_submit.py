@@ -128,8 +128,15 @@ def is_synthetic(model: str) -> bool:
 
 # ---------------------------------------------------------------- local scan
 
-def fetch_local_per_model(client: str) -> dict[str, dict] | None:
-    """Return {model: {cost, tokens, messages}} for a client via the CLI."""
+def fetch_local_per_model(client: str, include_synthetic: bool = False) -> dict[str, dict] | None:
+    """Return {model: {cost, tokens, messages}} for a client via the CLI.
+
+    By default synthetic/recovery models (`reconstructed-*`, etc.) are filtered
+    out so the comparison logic only reasons about real models. Pass
+    include_synthetic=True to keep them — used by the synthetic safety check
+    that confirms the local recovery JSONL still backs the server bucket
+    before allowing a submit that would REPLACE it.
+    """
     try:
         r = subprocess.run(
             ["npx", "tokscale@latest", "--json", "-c", client],
@@ -152,7 +159,7 @@ def fetch_local_per_model(client: str) -> dict[str, dict] | None:
     out: dict[str, dict] = {}
     for e in d.get("entries", []):
         model = e.get("model") or "?"
-        if is_synthetic(model):
+        if is_synthetic(model) and not include_synthetic:
             continue
         tok = (
             int(e.get("input", 0) or 0)
@@ -296,38 +303,71 @@ def submit_client(client: str) -> int:
 
 # --------------------------------------------------------------- decision
 
-def evaluate_client(client: str, server_models: dict, local_models: dict
+SYNTHETIC_SAFETY_RATIO = 0.90   # local synthetic must be ≥ 90% of server
+
+
+def evaluate_client(client: str, server_models: dict, local_models: dict,
+                    local_with_synthetic: dict | None = None
                     ) -> tuple[bool, str, list[tuple[str, dict]]]:
     """Return (should_submit, reason, accepted_losses).
 
     `accepted_losses` is a list of (model, {cost, tokens, messages}) for
     real-model losses that the client submit will incur if it proceeds. These
     are recorded into the erosion ledger when the submit succeeds.
+
+    `local_with_synthetic` is the unfiltered local CLI scan (real + synthetic).
+    When the server holds a synthetic bucket for this client, we verify that
+    the local recovery JSONL still re-creates ≥ SYNTHETIC_SAFETY_RATIO of the
+    server value — if so the CLI submit is safe because tokscale CLI sees the
+    same JSONL and will re-submit the synthetic bucket as part of the payload.
     """
     # Real (non-synthetic) server models only.
     server_real = {m: v for m, v in server_models.items() if not is_synthetic(m)}
     server_synthetic = {m: v for m, v in server_models.items() if is_synthetic(m)}
 
-    # CRITICAL SAFETY GUARD: tokscale CLI's `submit -c <client>` was originally
-    # documented (in safe_submit's earlier docstring) to operate at the
-    # (client, model) tuple level — leaving server-only models untouched. The
-    # 2026-05-14 incident demonstrated this is FALSE: submitting `claude`
-    # destroyed ~94% of the `reconstructed-claude-history` server-only bucket
-    # ($12,455 → $790, ~$11,665 erased). The CLI appears to wipe any
-    # client-scope models that local does not have.
+    # Synthetic safety check: the original `tokscale submit -c <client>` is
+    # CLIENT-level REPLACE — server models that local doesn't have get wiped.
+    # The 2026-05-14 incident demonstrated this when the recovery JSONL dir
+    # didn't exist yet ($12,455 -> $790, $11,665 erased).
     #
-    # Until tokscale ships a per-model submit (or an additive flag), the only
-    # safe behavior when the server holds an irreplaceable synthetic/recovery
-    # bucket is to NEVER submit that client. Override only if you understand
-    # the loss and have a recovery plan: TOKSCALE_FORCE_SYNTHETIC_DELETE=1.
-    if server_synthetic and not FORCE_SYNTHETIC_DELETE:
-        names = ", ".join(f"{m} (${v['cost']:,.2f})" for m, v in server_synthetic.items())
-        return (False,
-                f"BLOCK -- server holds synthetic/recovery model(s) for this "
-                f"client that the CLI submit will erase: {names}. "
-                f"Set TOKSCALE_FORCE_SYNTHETIC_DELETE=1 ONLY if you accept the "
-                f"loss and have updated tokscale_floor.json to absorb it.",
-                [])
+    # Post-recovery (2026-05-14 11:50+), the synthetic bucket is re-created
+    # locally under `~/.claude/projects/-tokscale-recovery-reconstructed/`, so
+    # the CLI's local scan DOES include it and the next submit re-pushes it
+    # alongside real Claude data. The block below verifies that's still true
+    # before allowing the submit. If the local recovery has shrunk below 90%
+    # of the server bucket (deleted, partially lost, or pricing-table drift),
+    # we refuse to submit so the server bucket isn't degraded further.
+    #
+    # Emergency override: TOKSCALE_FORCE_SYNTHETIC_DELETE=1 bypasses entirely.
+    if server_synthetic:
+        local_synth_view = local_with_synthetic if local_with_synthetic is not None else {}
+        unsafe = []
+        for m, sv in server_synthetic.items():
+            lv = local_synth_view.get(m, {})
+            lv_cost = float(lv.get("cost", 0) or 0)
+            threshold = sv["cost"] * SYNTHETIC_SAFETY_RATIO
+            if lv_cost < threshold:
+                unsafe.append((m, sv["cost"], lv_cost, threshold))
+        if unsafe and not FORCE_SYNTHETIC_DELETE:
+            details = "; ".join(
+                f"{m}: server ${s:,.2f} vs local ${l:,.2f} "
+                f"(< {SYNTHETIC_SAFETY_RATIO*100:.0f}% threshold ${t:,.2f})"
+                for m, s, l, t in unsafe
+            )
+            return (False,
+                    f"BLOCK -- local synthetic recovery shrunk below "
+                    f"{SYNTHETIC_SAFETY_RATIO*100:.0f}% of server: {details}. "
+                    f"Restore recovery JSONL or set "
+                    f"TOKSCALE_FORCE_SYNTHETIC_DELETE=1 only if you accept "
+                    f"the loss and have updated tokscale_floor.json.",
+                    [])
+        elif not unsafe:
+            covered = ", ".join(
+                f"{m} (local ${(local_synth_view.get(m, {}).get('cost', 0) or 0):,.2f} "
+                f">= server ${v['cost']:,.2f} * {SYNTHETIC_SAFETY_RATIO})"
+                for m, v in server_synthetic.items()
+            )
+            log(f"client={client} synthetic safety OK: {covered}")
 
     # Models considered: union of local and server-real.
     all_models = sorted(set(server_real.keys()) | set(local_models.keys()))
@@ -383,8 +423,22 @@ def evaluate_client(client: str, server_models: dict, local_models: dict
                 [])
 
     # 3) Approve. Soft drifts (within tolerance) are also recorded into erosion
-    #    ledger because they DO reduce the server entry on submit.
+    #    ledger because they DO reduce the server entry on submit. Synthetic
+    #    deltas (server bucket > local recovery) are also recorded so we can
+    #    track recovery-bucket attrition over time.
     accepted_losses = losses + soft_drift
+    if server_synthetic and local_with_synthetic is not None:
+        for m, sv in server_synthetic.items():
+            lv = local_with_synthetic.get(m, {})
+            d_cost = float(lv.get("cost", 0) or 0) - sv["cost"]
+            d_tok = int(lv.get("tokens", 0) or 0) - sv["tokens"]
+            d_msg = int(lv.get("messages", 0) or 0) - sv["messages"]
+            if d_cost < 0 or d_tok < 0 or d_msg < 0:
+                accepted_losses.append((m, {
+                    "cost": max(0.0, -d_cost),
+                    "tokens": max(0, -d_tok),
+                    "messages": max(0, -d_msg),
+                }))
     return (True,
             f"OK -- net +${net_cost:,.2f}/+{net_tokens:,}tok/+{net_messages:,}msg "
             f"across {len(gains)} growing models; accepting "
@@ -410,18 +464,34 @@ def main() -> int:
 
     for client in KNOWN_CLIENTS:
         server_models = server.get(client, {})
-        local_models = fetch_local_per_model(client)
-        if local_models is None or not local_models:
+        server_has_synth = any(is_synthetic(m) for m in server_models)
+
+        # One CLI scan, two views. include_synthetic=True only when the server
+        # holds a synthetic bucket for this client — avoids a second 2-minute
+        # scan for clients (codex, gemini, hermes) that don't need it.
+        local_full = fetch_local_per_model(client, include_synthetic=server_has_synth)
+        if local_full is None or not local_full:
+            log(f"client={client} local has no entries -- skip")
+            skipped.append(client)
+            continue
+
+        local_models = {m: v for m, v in local_full.items() if not is_synthetic(m)}
+        local_with_synth = local_full if server_has_synth else None
+
+        if not local_models:
             log(f"client={client} local has no real-model entries -- skip")
             skipped.append(client)
             continue
 
         # Surface counts for visibility.
-        log(f"client={client} local has {len(local_models)} models, "
+        log(f"client={client} local has {len(local_models)} real models "
+            f"({sum(1 for m in local_full if is_synthetic(m))} synthetic), "
             f"server has {len(server_models)} models "
             f"({sum(1 for m in server_models if is_synthetic(m))} synthetic)")
 
-        ok, reason, accepted_losses = evaluate_client(client, server_models, local_models)
+        ok, reason, accepted_losses = evaluate_client(
+            client, server_models, local_models, local_with_synth,
+        )
         log(f"client={client} {reason}")
         if not ok:
             skipped.append(client)

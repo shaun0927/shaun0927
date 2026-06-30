@@ -2,7 +2,7 @@ name: Update Tokscale Dashboard
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours
+    - cron: "17 0,12 * * *"   # twice daily UTC
   workflow_dispatch:
 
 permissions:

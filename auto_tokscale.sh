@@ -1,6 +1,6 @@
 #!/bin/bash
 # Auto-update tokscale dashboard and push to GitHub
-# Runs via macOS launchd on schedule (every 6 hours).
+# Runs via macOS launchd on schedule (twice daily).
 #
 # This script orchestrates four phases:
 #   1. Sync the local repo with origin/main (fast-forward, autostash).
@@ -83,17 +83,43 @@ else
   log "WARN: gh CLI not found or update_oss_contributions.py missing; skipping OSS refresh"
 fi
 
-# ---------- 3. Safe submit (per-(client, model) gated) ----------
-# safe_submit.py:
-#   - blocks if any real model would lose data above tolerance (unless
-#     TOKSCALE_FORCE_LOSS=1 is set, which is intentional one-time override)
-#   - excludes synthetic/recovery models (e.g. reconstructed-claude-history)
-#     from the comparison so they never block real-model decisions
-#   - writes a server snapshot to ./snapshots/ before each submission cycle
-#   - records accepted losses to erosion_ledger.json
-log "phase 3: safe_submit.py"
-"$PYTHON_BIN" safe_submit.py >> "$LOG_FILE" 2>&1 || \
-  log "WARN: safe_submit.py exited non-zero (a client submit failed)"
+# ---------- 3. Incremental date-windowed submit ----------
+# CHANGED 2026-06-14: switched from full-client replace (safe_submit.py) to a
+# trailing date-window submit.
+#
+# WHY: `tokscale submit -c <client>` with NO date filter sends the FULL local
+# scan. Local session logs rotate (e.g. ~/.codex/sessions holds data only from
+# 2026-05-30 onward while the server accumulates back to 2026-01-26), so the
+# local aggregate is permanently far below the server aggregate. safe_submit.py
+# compared all-time local-vs-server totals and therefore BLOCKED every codex
+# submit ("per-model loss above tolerance"), stalling all new usage from
+# 2026-06-13 until a manual backfill on 2026-06-14.
+#
+# WHY THIS IS SAFE: the tokscale server merges per (device, day, client) with a
+# server-side regression guard (mergeClientBreakdownsWithRegressionGuard). A
+# resubmit can only GROW a given (device, day, client) cell, never shrink it,
+# and any day/client absent from the payload is preserved untouched. Submitting
+# a bounded trailing window is therefore idempotent and cannot erode history; the
+# reconstructed-claude-history recovery bucket lives on historical recovery days
+# outside normal Codex rotation windows. safe_submit.py is retained for manual/full audits,
+# but is no longer the scheduled path.
+#
+# Default to a 28-day trailing window: safely inside Codex/Claude 30-day local
+# retention while still wide enough to survive vacations/offline periods.
+# Override TOKSCALE_SUBMIT_SINCE for one-time wider backfills.
+SUBMIT_SINCE="${TOKSCALE_SUBMIT_SINCE:-$(date -v-28d +%Y-%m-%d)}"
+log "phase 3: windowed submit (--since $SUBMIT_SINCE, per client)"
+# Best-effort pre-submit audit snapshot of server state.
+curl -fsS "https://tokscale.ai/api/users/shaun0927" \
+  -o "snapshots/server-$(date -u +%Y%m%dT%H%M%SZ).json" 2>/dev/null \
+  || log "WARN: could not write pre-submit server snapshot"
+for client in codex claude gemini hermes; do
+  if npx -y tokscale@latest submit -c "$client" --since "$SUBMIT_SINCE" >> "$LOG_FILE" 2>&1; then
+    log "phase 3: submitted $client (--since $SUBMIT_SINCE)"
+  else
+    log "WARN: submit failed for client=$client"
+  fi
+done
 
 # Re-render the dashboard now that server has fresh data.
 if [ "${TOKSCALE_RERENDER_AFTER_SUBMIT:-1}" = "1" ]; then
