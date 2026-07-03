@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-07-03",
   "totals": {
-    "cost": 129325.86146379542,
-    "tokens": 164476980172,
-    "messages": 1407202,
-    "input": 4765421389,
-    "output": 480195175,
-    "cache_read": 155819025970,
+    "cost": 130927.56190089541,
+    "tokens": 166730582422,
+    "messages": 1424533,
+    "input": 4832020736,
+    "output": 485765502,
+    "cache_read": 158000458546,
     "cache_write": 3412337638,
     "active_days": 158,
     "streak": 158,
@@ -193,21 +193,21 @@
         "last_seen": "2026-06-30"
       },
       "gpt-5.4-mini": {
-        "cost": 128.04092085000002,
-        "messageCount": 7034,
-        "input": 64503033,
-        "output": 4854800,
-        "cacheRead": 564658048,
+        "cost": 128.27951415,
+        "messageCount": 7043,
+        "input": 64726555,
+        "output": 4860496,
+        "cacheRead": 565213952,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-02"
+        "last_seen": "2026-07-03"
       },
       "gpt-5.5": {
-        "cost": 52712.806815,
-        "messageCount": 582729,
-        "input": 2319637487,
-        "output": 176705792,
-        "cacheRead": 70134136960,
+        "cost": 54313.895569,
+        "messageCount": 599968,
+        "input": 2385825337,
+        "output": 182259389,
+        "cacheRead": 72314253568,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-03"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 20.9892136,
-        "messageCount": 2918,
-        "input": 11180468,
-        "output": 396272,
-        "cacheRead": 43099648,
+        "cost": 21.3623034,
+        "messageCount": 3001,
+        "input": 11368443,
+        "output": 407306,
+        "cacheRead": 43859712,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-03"
