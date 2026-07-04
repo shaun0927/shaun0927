@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-07-04",
   "totals": {
-    "cost": 131857.0037144954,
-    "tokens": 168077160107,
-    "messages": 1434200,
-    "input": 4867411198,
-    "output": 488822037,
-    "cache_read": 159308589234,
+    "cost": 132009.85848789537,
+    "tokens": 168271282219,
+    "messages": 1435675,
+    "input": 4875695084,
+    "output": 489404583,
+    "cache_read": 159493844914,
     "cache_write": 3412337638,
     "active_days": 159,
     "streak": 159,
@@ -203,11 +203,11 @@
         "last_seen": "2026-07-03"
       },
       "gpt-5.5": {
-        "cost": 55243.31914900002,
-        "messageCount": 609623,
-        "input": 2421200601,
-        "output": 185315390,
-        "cacheRead": 73622377088,
+        "cost": 55395.710782999995,
+        "messageCount": 611006,
+        "input": 2429278363,
+        "output": 185887221,
+        "cacheRead": 73806508416,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-04"
@@ -225,11 +225,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 21.380537,
-        "messageCount": 3013,
-        "input": 11383641,
-        "output": 407840,
-        "cacheRead": 43866880,
+        "cost": 21.8436764,
+        "messageCount": 3105,
+        "input": 11589765,
+        "output": 418555,
+        "cacheRead": 44991232,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-04"
@@ -319,14 +319,14 @@
     },
     "gjc": {
       "gpt-5.5": {
-        "cost": 631.0995379999999,
+        "cost": 631.099538,
         "messageCount": 7427,
         "input": 33501028,
         "output": 2984641,
         "cacheRead": 748110336,
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
-        "last_seen": "2026-07-01"
+        "last_seen": "2026-07-04"
       },
       "codex-auto-review": {
         "cost": 0.0,
