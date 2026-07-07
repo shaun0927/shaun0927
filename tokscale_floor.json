@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-07-07",
   "totals": {
-    "cost": 134379.06185360407,
-    "tokens": 171114443410,
-    "messages": 1455572,
-    "input": 5021588994,
-    "output": 498759544,
-    "cache_read": 162181757234,
+    "cost": 134856.44401007783,
+    "tokens": 171872621078,
+    "messages": 1461310,
+    "input": 5071816195,
+    "output": 503891899,
+    "cache_read": 162884575346,
     "cache_write": 3412337638,
     "active_days": 162,
     "streak": 162,
@@ -50,7 +50,7 @@
       },
       "<synthetic>": {
         "cost": 0.0,
-        "messageCount": 2225,
+        "messageCount": 2240,
         "input": 422,
         "output": 0,
         "cacheRead": 0,
@@ -147,6 +147,16 @@
         "cacheWrite": 0,
         "first_seen": "2026-07-07",
         "last_seen": "2026-07-07"
+      },
+      "glm-5.2": {
+        "cost": 56.06017515999999,
+        "messageCount": 999,
+        "input": 3334709,
+        "output": 958322,
+        "cacheRead": 181442176,
+        "cacheWrite": 0,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
       }
     },
     "gemini": {
@@ -213,11 +223,11 @@
         "last_seen": "2026-07-07"
       },
       "gpt-5.5": {
-        "cost": 57761.76310900001,
-        "messageCount": 630600,
-        "input": 2573129335,
-        "output": 195171734,
-        "cacheRead": 76484238208,
+        "cost": 58177.97078200002,
+        "messageCount": 633140,
+        "input": 2609851886,
+        "output": 197328492,
+        "cacheRead": 76800927744,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-07"
@@ -235,11 +245,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 22.7202464,
-        "messageCount": 3293,
-        "input": 12029438,
-        "output": 438918,
-        "cacheRead": 46870272,
+        "cost": 22.937334600000003,
+        "messageCount": 3347,
+        "input": 12167133,
+        "output": 445824,
+        "cacheRead": 47163648,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-07"
@@ -248,13 +258,13 @@
     "micode": {
       "<synthetic>": {
         "cost": 0.0,
-        "messageCount": 103,
+        "messageCount": 109,
         "input": 0,
         "output": 0,
         "cacheRead": 0,
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
-        "last_seen": "2026-07-02"
+        "last_seen": "2026-07-07"
       },
       "claude-opus-4-8": {
         "cost": 683.80805775,
@@ -287,11 +297,11 @@
         "last_seen": "2026-06-30"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 13.971723885,
-        "messageCount": 708,
-        "input": 9711897,
-        "output": 189411,
-        "cacheRead": 61744000,
+        "cost": 17.1847131588,
+        "messageCount": 841,
+        "input": 12017276,
+        "output": 206534,
+        "cacheRead": 73617536,
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
         "last_seen": "2026-07-07"
@@ -325,6 +335,26 @@
         "cacheWrite": 0,
         "first_seen": "2026-07-02",
         "last_seen": "2026-07-02"
+      },
+      "glm-4.7": {
+        "cost": 0.08736088,
+        "messageCount": 3,
+        "input": 131388,
+        "output": 382,
+        "cacheRead": 69888,
+        "cacheWrite": 0,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
+      },
+      "glm-5.2": {
+        "cost": 1.5968699599999998,
+        "messageCount": 38,
+        "input": 206027,
+        "output": 21926,
+        "cacheRead": 4661376,
+        "cacheWrite": 0,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
       }
     },
     "gjc": {
@@ -347,6 +377,16 @@
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
         "last_seen": "2026-06-30"
+      },
+      "glm-5.2": {
+        "cost": 0.0,
+        "messageCount": 1950,
+        "input": 7389452,
+        "output": 1970938,
+        "cacheRead": 187788224,
+        "cacheWrite": 0,
+        "first_seen": "2026-07-07",
+        "last_seen": "2026-07-07"
       }
     }
   }
