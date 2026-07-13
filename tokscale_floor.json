@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-07-13",
   "totals": {
-    "cost": 143075.8806209778,
-    "tokens": 186188324820,
-    "messages": 1567972,
-    "input": 5576733730,
-    "output": 562857370,
-    "cache_read": 176636396082,
+    "cost": 144936.46793172782,
+    "tokens": 188560621503,
+    "messages": 1584149,
+    "input": 5701432354,
+    "output": 572951813,
+    "cache_read": 178873899698,
     "cache_write": 3412337638,
     "active_days": 168,
     "streak": 0,
@@ -149,14 +149,14 @@
         "last_seen": "2026-07-07"
       },
       "glm-5.2": {
-        "cost": 56.06017516,
+        "cost": 56.06017516000001,
         "messageCount": 999,
         "input": 3334709,
         "output": 958322,
         "cacheRead": 181442176,
         "cacheWrite": 0,
         "first_seen": "2026-07-07",
-        "last_seen": "2026-07-08"
+        "last_seen": "2026-07-13"
       }
     },
     "gemini": {
@@ -213,31 +213,31 @@
         "last_seen": "2026-07-07"
       },
       "gpt-5.4-mini": {
-        "cost": 308.41004985000006,
-        "messageCount": 13771,
-        "input": 152957409,
-        "output": 14921810,
-        "cacheRead": 1079769728,
+        "cost": 369.2908638,
+        "messageCount": 16473,
+        "input": 183865370,
+        "output": 17925221,
+        "cacheRead": 1300008064,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-13"
       },
       "gpt-5.5": {
-        "cost": 62049.90566299999,
-        "messageCount": 676938,
-        "input": 2822512529,
-        "output": 217590233,
-        "cacheRead": 80946688256,
+        "cost": 62461.548223000005,
+        "messageCount": 681402,
+        "input": 2854190355,
+        "output": 219958558,
+        "cacheRead": 81270417536,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-13"
       },
       "gpt-5.6-sol": {
-        "cost": 3389.9680810000004,
-        "messageCount": 26207,
-        "input": 111549701,
-        "output": 10423763,
-        "cacheRead": 4732077184,
+        "cost": 4777.665551000001,
+        "messageCount": 35137,
+        "input": 173480699,
+        "output": 15136281,
+        "cacheRead": 6424842880,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
         "last_seen": "2026-07-13"
@@ -265,11 +265,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 24.7971494,
-        "messageCount": 3795,
-        "input": 13136685,
-        "output": 495086,
-        "cacheRead": 50876032,
+        "cost": 25.1636162,
+        "messageCount": 3876,
+        "input": 13318524,
+        "output": 505275,
+        "cacheRead": 51646336,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-07-13"
