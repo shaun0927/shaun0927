@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="./assets/header.svg?v=2" width="100%" alt="shaun0927 - AI/ML Product Builder | CTO @ Rivetta | CEO @ AlphaView" />
+  <img src="./assets/header.svg?v=2" width="100%" alt="shaun0927 - AI/ML Product Builder | CTO @ Daedal Games | CEO @ AlphaView" />
 </div>
 
 <!-- Social Links -->
@@ -11,11 +11,7 @@
 
 Building AI products that matter.
 
-**CTO @ Rivetta** — Designing the core IP memory-system for K-webnovels. A single source of truth that powers webtoons, dramas, shorts, character chat, and licensing downstream. Harness engineering architecture for translation is step one.
-
-**CEO @ AlphaView** — AI-driven stock news analysis platform. (Solopreneur)
-
-26.02 Official Launch / Reached MAU 20k
+**CTO @ Daedal Games** — Building 1M+ games powered by AI.
 
 ---
 
