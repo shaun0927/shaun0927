@@ -21,16 +21,13 @@ Building AI products that matter.
 <tr>
 <td width="50%" valign="top">
 
-### Rivetta
-**CTO** — Core IP memory-system for K-webnovels
+### Daedal Games
+**CTO** — Building 1M+ games powered by AI.
 
 </td>
 <td width="50%" valign="top">
 
-### AlphaView
-**CEO** — AI Stock Analysis
 
-Building alphaview.kr, an AI-powered platform that analyzes stock news and market signals to help investors make informed decisions.
 
 </td>
 </tr>
