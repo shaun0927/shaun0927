@@ -13,23 +13,6 @@ Building AI products that matter.
 
 **CTO @ Daedal Games** — Building 1M+ games powered by AI.
 
----
-
-## What I Do
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Daedal Games
-**CTO** — Building 1M+ games powered by AI.
-
-</td>
-
-</table>
-
----
-
 ## Background
 
 <div align="center">
