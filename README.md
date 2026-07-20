@@ -25,7 +25,6 @@ Building AI products that matter.
 **CTO** — Building 1M+ games powered by AI.
 
 </td>
-<td width="50%" valign="top">
 
 </table>
 
