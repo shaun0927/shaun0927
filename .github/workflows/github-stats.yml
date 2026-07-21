@@ -1,0 +1,58 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "31 18 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/github-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats-cards
+  cancel-in-progress: false
+
+jobs:
+  summary-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          USERNAME: shaun0927
+          BRANCH_NAME: main
+          UTC_OFFSET: 9
+          THEME: github_dark
+          AUTO_PUSH: true
+
+  streak-card:
+    runs-on: ubuntu-latest
+    needs: summary-cards
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Refresh branch
+        run: git pull --ff-only origin main
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ github.token }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update GitHub streak stats" || exit 0
+          git push
