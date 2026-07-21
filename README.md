@@ -24,16 +24,16 @@ Building AI products that matter.
 ## GitHub Stats
 
 <div align="center">
-  <img src="./profile/streak.svg" width="60%" alt="GitHub Streak Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&v=2&cache_bust=20260721" width="60%" alt="GitHub Streak Stats"/>
 </div>
 
 <div align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="GitHub Profile Summary"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shaun0927&theme=github_dark&cache_bust=20260721" width="100%" alt="GitHub Profile Summary"/>
 </div>
 
 <div align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repos per Language"/>
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Most Commit Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Most Commit Language"/>
 </div>
 
 ---
