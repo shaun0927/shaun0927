@@ -21,20 +21,57 @@ Building AI products that matter.
 
 ---
 
-## GitHub Stats
+<!-- TOKSCALE_START -->
+
+## AI Coding Agent Usage
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&v=2&cache_bust=20260721" width="60%" alt="GitHub Streak Stats"/>
+
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2326-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-164,977-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Tokens-213.9B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shaun0927&theme=github_dark&cache_bust=20260721" width="100%" alt="GitHub Profile Summary"/>
+
+<img src="https://img.shields.io/badge/Active_Days-175-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-942.73-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Best_Day-5,210-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
+<img src="https://img.shields.io/badge/Messages-1,771,185-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Models-36-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
+
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Repos per Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Most Commit Language"/>
+
+<table>
+<tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.6-sol</code> <code>5.4</code> <code>+4</code></td><td><code>██████████████░░░░░░</code> 69.7%</td><td align="right">1,110,267</td><td align="right">149.2B</td><td align="right"><b>$99,113</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>opus-4-8</code> <code>+10</code></td><td><code>██████░░░░░░░░░░░░░░</code> 27.6%</td><td align="right">573,685</td><td align="right">59.1B</td><td align="right"><b>$63,278</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">52,984</td><td align="right">1.0B</td><td align="right"><b>$1,164</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Micode-A855F7?style=flat-square&logo=terminal&logoColor=white" alt="Micode"/></td><td><code>opus-4-8</code> <code>fable-5</code> <code>mimo-v2.5-pro-ultraspeed</code> <code>+6</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">5,325</td><td align="right">1.1B</td><td align="right"><b>$791.52</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/GJC-2F80ED?style=flat-square&logo=google&logoColor=white" alt="GJC"/></td><td><code>5.5</code> <code>codex-auto-review</code> <code>glm-5.2</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.7%</td><td align="right">28,904</td><td align="right">3.6B</td><td align="right"><b>$631.10</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>1,771,185</b></td><td align="right"><b>213.9B</b></td><td align="right"><b>$164,977</b></td></tr>
+</table>
+
 </div>
+
+<div align="center">
+
+**Token Composition**
+
+<img src="https://img.shields.io/badge/Cache_Read_(94.9%25)-203.0B-2ECC71?style=flat-square" alt="Cache Read (94.9%25)"/>
+<img src="https://img.shields.io/badge/Cache_Write_(1.7%25)-3.5B-27AE60?style=flat-square" alt="Cache Write (1.7%25)"/>
+<img src="https://img.shields.io/badge/Input_(3.1%25)-6.7B-3498DB?style=flat-square" alt="Input (3.1%25)"/>
+<img src="https://img.shields.io/badge/Output_(0.3%25)-664.5M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
+
+</div>
+
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-07-21</sub></div>
+
+<!-- TOKSCALE_END -->
 
 ---
 
@@ -148,59 +185,6 @@ _Auto-refreshed 2026-07-18 via `gh` CLI (`update_oss_contributions.py`): **560 P
 <!-- OSS_END -->
 ---
 
-<!-- TOKSCALE_START -->
-
-## AI Coding Agent Usage
-
-<div align="center">
-
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2326-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-164,977-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-213.9B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Active_Days-175-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-942.73-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
-<img src="https://img.shields.io/badge/Best_Day-5,210-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-1,771,185-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
-<img src="https://img.shields.io/badge/Models-36-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
-
-</div>
-
-<div align="center">
-
-<table>
-<tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.6-sol</code> <code>5.4</code> <code>+4</code></td><td><code>██████████████░░░░░░</code> 69.7%</td><td align="right">1,110,267</td><td align="right">149.2B</td><td align="right"><b>$99,113</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>opus-4-8</code> <code>+10</code></td><td><code>██████░░░░░░░░░░░░░░</code> 27.6%</td><td align="right">573,685</td><td align="right">59.1B</td><td align="right"><b>$63,278</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">52,984</td><td align="right">1.0B</td><td align="right"><b>$1,164</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Micode-A855F7?style=flat-square&logo=terminal&logoColor=white" alt="Micode"/></td><td><code>opus-4-8</code> <code>fable-5</code> <code>mimo-v2.5-pro-ultraspeed</code> <code>+6</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.5%</td><td align="right">5,325</td><td align="right">1.1B</td><td align="right"><b>$791.52</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/GJC-2F80ED?style=flat-square&logo=google&logoColor=white" alt="GJC"/></td><td><code>5.5</code> <code>codex-auto-review</code> <code>glm-5.2</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.7%</td><td align="right">28,904</td><td align="right">3.6B</td><td align="right"><b>$631.10</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>1,771,185</b></td><td align="right"><b>213.9B</b></td><td align="right"><b>$164,977</b></td></tr>
-</table>
-
-</div>
-
-<div align="center">
-
-**Token Composition**
-
-<img src="https://img.shields.io/badge/Cache_Read_(94.9%25)-203.0B-2ECC71?style=flat-square" alt="Cache Read (94.9%25)"/>
-<img src="https://img.shields.io/badge/Cache_Write_(1.7%25)-3.5B-27AE60?style=flat-square" alt="Cache Write (1.7%25)"/>
-<img src="https://img.shields.io/badge/Input_(3.1%25)-6.7B-3498DB?style=flat-square" alt="Input (3.1%25)"/>
-<img src="https://img.shields.io/badge/Output_(0.3%25)-664.5M-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
-
-</div>
-
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-07-21</sub></div>
-
-<!-- TOKSCALE_END -->
-
----
 
 ## Tech Stack
 
@@ -222,4 +206,23 @@ _Auto-refreshed 2026-07-18 via `gh` CLI (`update_oss_contributions.py`): **560 P
 
 <img src="https://skillicons.dev/icons?i=linux,bash,selenium,vitest,jest&theme=dark" alt="DevOps"/>
 
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center"><sub>These cards occasionally fail to render when GitHub's contribution aggregation API returns errors, often after unusually high pull-request activity.</sub></div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=shaun0927&theme=dark&hide_border=true&background=0a0a0a&ring=00d084&fire=00d084&currStreakLabel=00d084&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&v=2&cache_bust=20260721" width="60%" alt="GitHub Streak Stats"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shaun0927&theme=github_dark&cache_bust=20260721" width="100%" alt="GitHub Profile Summary"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shaun0927&theme=github_dark&cache_bust=20260721" width="49%" alt="Most Commit Language"/>
 </div>
