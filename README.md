@@ -1,10 +1,3 @@
-<!-- Header -->
-<div align="center">
-  <img src="./assets/header.svg?v=2" width="100%" alt="shaun0927-AI/ML Product Builder | CTO @ Daedal Games"/>
-</div>
-
-<!-- Social Links -->
-
 <br/>
 
 ## About
