@@ -4,7 +4,7 @@
 
 Building AI products that matter.
 
-**CTO @ Daedal Games** — Building 1M+ games powered by AI.
+**Co-founder & CTO @ Daedal Games** — Building 1M+ games powered by AI.
 <br/>
 #1 github Contributions in South Korea
 
