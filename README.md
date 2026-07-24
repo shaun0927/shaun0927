@@ -38,8 +38,8 @@ Building AI products that matter.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Active_Days-196-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-872.06-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Active_Days-197-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-867.63-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-5,210-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
 <img src="https://img.shields.io/badge/Messages-1,917,354-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-38-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
