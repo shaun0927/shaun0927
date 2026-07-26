@@ -38,10 +38,10 @@ Building AI products that matter.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Active_Days-198-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-908.25-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Active_Days-199-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-903.69-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-5,210-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-1,994,259-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-1,994,265-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-41-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -53,10 +53,10 @@ Building AI products that matter.
 <tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.6-sol</code> <code>5.4</code> <code>+4</code></td><td><code>██████████████░░░░░░</code> 69.0%</td><td align="right">1,186,734</td><td align="right">160.6B</td><td align="right"><b>$108,134</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-4-6</code> <code>opus-4-8</code> <code>+10</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 25.4%</td><td align="right">573,685</td><td align="right">59.1B</td><td align="right"><b>$63,278</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Micode-A855F7?style=flat-square&logo=terminal&logoColor=white" alt="Micode"/></td><td><code>opus-4-7</code> <code>opus-4-8</code> <code>opus-4-6</code> <code>+11</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 3.5%</td><td align="right">147,747</td><td align="right">8.1B</td><td align="right"><b>$6,625</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.4%</td><td align="right">53,580</td><td align="right">1.0B</td><td align="right"><b>$1,167</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.4%</td><td align="right">53,586</td><td align="right">1.0B</td><td align="right"><b>$1,167</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/GJC-2F80ED?style=flat-square&logo=google&logoColor=white" alt="GJC"/></td><td><code>5.5</code> <code>codex-auto-review</code> <code>glm-5.2</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.7%</td><td align="right">32,494</td><td align="right">4.0B</td><td align="right"><b>$631.10</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">314.5K</td><td align="right"><b>$0.18</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>1,994,259</b></td><td align="right"><b>232.8B</b></td><td align="right"><b>$179,834</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>1,994,265</b></td><td align="right"><b>232.8B</b></td><td align="right"><b>$179,834</b></td></tr>
 </table>
 
 </div>
