@@ -2,16 +2,16 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "totals": {
-    "cost": 186996.40963178268,
-    "tokens": 245674428395,
-    "messages": 2088867,
-    "input": 7685111522,
-    "output": 785460764,
-    "cache_read": 233090615452,
-    "cache_write": 4113240657,
-    "active_days": 204,
+    "cost": 187172.07412658265,
+    "tokens": 245870631899,
+    "messages": 2090407,
+    "input": 7696504552,
+    "output": 786211614,
+    "cache_read": 233274609124,
+    "cache_write": 4113306609,
+    "active_days": 205,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -159,14 +159,14 @@
         "last_seen": "2026-07-29"
       },
       "claude-opus-5": {
-        "cost": 254.56362575,
-        "messageCount": 1170,
-        "input": 943439,
-        "output": 2106785,
-        "cacheRead": 259846849,
-        "cacheWrite": 10760541,
+        "cost": 255.21366775,
+        "messageCount": 1175,
+        "input": 943899,
+        "output": 2109539,
+        "cacheRead": 260180233,
+        "cacheWrite": 10826493,
         "first_seen": "2026-07-30",
-        "last_seen": "2026-07-31"
+        "last_seen": "2026-08-01"
       }
     },
     "gemini": {
@@ -233,24 +233,24 @@
         "last_seen": "2026-07-31"
       },
       "gpt-5.5": {
-        "cost": 77862.81444500001,
-        "messageCount": 837126,
-        "input": 3599616409,
-        "output": 288500479,
-        "cacheRead": 99812152320,
+        "cost": 78022.73893700002,
+        "messageCount": 838506,
+        "input": 3610026525,
+        "output": 289184510,
+        "cacheRead": 99980393344,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-31"
+        "last_seen": "2026-08-01"
       },
       "gpt-5.6-sol": {
-        "cost": 22328.508991000002,
-        "messageCount": 152292,
-        "input": 1041320962,
-        "output": 78026041,
-        "cacheRead": 26863236224,
+        "cost": 22343.586118000007,
+        "messageCount": 152435,
+        "input": 1042294961,
+        "output": 78089568,
+        "cacheRead": 26878641664,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
-        "last_seen": "2026-07-31"
+        "last_seen": "2026-08-01"
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -275,14 +275,14 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 44.015991599999985,
-        "messageCount": 8188,
-        "input": 21909600,
-        "output": 1003946,
-        "cacheRead": 95472768,
+        "cost": 44.02882539999999,
+        "messageCount": 8200,
+        "input": 21918055,
+        "output": 1004484,
+        "cacheRead": 95486592,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-31"
+        "last_seen": "2026-08-01"
       }
     },
     "micode": {
