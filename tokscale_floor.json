@@ -2,16 +2,16 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "totals": {
-    "cost": 187195.76774358266,
-    "tokens": 245898703548,
-    "messages": 2090764,
-    "input": 7698367053,
-    "output": 786298266,
-    "cache_read": 233300731620,
-    "cache_write": 4113306609,
-    "active_days": 206,
+    "cost": 190340.42871865263,
+    "tokens": 248798890082,
+    "messages": 2105736,
+    "input": 7719319870,
+    "output": 797470096,
+    "cache_read": 236137120592,
+    "cache_write": 4144979524,
+    "active_days": 207,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -50,13 +50,13 @@
       },
       "<synthetic>": {
         "cost": 0.0,
-        "messageCount": 2313,
+        "messageCount": 2334,
         "input": 715,
         "output": 0,
         "cacheRead": 0,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-30"
+        "last_seen": "2026-08-03"
       },
       "claude-sonnet-4-5": {
         "cost": 1259.6800787999996,
@@ -109,24 +109,24 @@
         "last_seen": "2026-06-26"
       },
       "claude-opus-4-8": {
-        "cost": 7319.288960000001,
-        "messageCount": 45980,
-        "input": 36202080,
-        "output": 35233620,
-        "cacheRead": 7418368770,
-        "cacheWrite": 407720588,
+        "cost": 7513.20435375,
+        "messageCount": 46689,
+        "input": 36942301,
+        "output": 36464497,
+        "cacheRead": 7679877160,
+        "cacheWrite": 412310695,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-30"
+        "last_seen": "2026-08-03"
       },
       "claude-fable-5": {
-        "cost": 1238.2570759999999,
-        "messageCount": 4242,
-        "input": 2996283,
-        "output": 3339631,
-        "cacheRead": 668801196,
-        "cacheWrite": 29800920,
+        "cost": 3974.064178,
+        "messageCount": 11759,
+        "input": 6400887,
+        "output": 10889521,
+        "cacheRead": 2654532658,
+        "cacheWrite": 56883728,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-30"
+        "last_seen": "2026-08-03"
       },
       "mimo-v2.5-pro-ultraspeed": {
         "cost": 14.6166930072,
@@ -233,24 +233,24 @@
         "last_seen": "2026-07-31"
       },
       "gpt-5.5": {
-        "cost": 78045.76118700001,
-        "messageCount": 838705,
-        "input": 3611728685,
-        "output": 289247698,
-        "cacheRead": 100004796544,
+        "cost": 78045.925048,
+        "messageCount": 838708,
+        "input": 3611759038,
+        "output": 289247922,
+        "cacheRead": 100004807296,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-01"
+        "last_seen": "2026-08-03"
       },
       "gpt-5.6-sol": {
-        "cost": 22343.707481,
-        "messageCount": 152436,
-        "input": 1042318828,
-        "output": 78089578,
-        "cacheRead": 26878645120,
+        "cost": 22389.702713000006,
+        "messageCount": 152927,
+        "input": 1044998400,
+        "output": 78232297,
+        "cacheRead": 26932571264,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
-        "last_seen": "2026-08-02"
+        "last_seen": "2026-08-03"
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -275,14 +275,14 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 44.57882939999999,
-        "messageCount": 8357,
-        "input": 22054529,
-        "output": 1027938,
-        "cacheRead": 97202432,
+        "cost": 44.59131079999999,
+        "messageCount": 8369,
+        "input": 22062717,
+        "output": 1028439,
+        "cacheRead": 97216384,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-02"
+        "last_seen": "2026-08-03"
       }
     },
     "micode": {
@@ -459,14 +459,14 @@
         "last_seen": "2026-07-30"
       },
       "glm-5.2": {
-        "cost": 429.43618824,
-        "messageCount": 55885,
-        "input": 149368814,
-        "output": 37809965,
-        "cacheRead": 7366252039,
+        "cost": 598.2030931600001,
+        "messageCount": 62104,
+        "input": 163458693,
+        "output": 40057584,
+        "cacheRead": 7901450311,
         "cacheWrite": 0,
         "first_seen": "2026-07-07",
-        "last_seen": "2026-07-30"
+        "last_seen": "2026-08-03"
       }
     }
   }
