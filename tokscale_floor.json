@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-08-13",
   "totals": {
-    "cost": 220476.19034250264,
-    "tokens": 286713959347,
-    "messages": 2377657,
-    "input": 9542400166,
-    "output": 924823308,
-    "cache_read": 272100570496,
+    "cost": 220476.29002310266,
+    "tokens": 286714182278,
+    "messages": 2377691,
+    "input": 9542447999,
+    "output": 924829318,
+    "cache_read": 272100739584,
     "cache_write": 4146165377,
-    "active_days": 216,
+    "active_days": 217,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -275,11 +275,11 @@
         "last_seen": "2026-06-17"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 48.4825778,
-        "messageCount": 9473,
-        "input": 22836880,
-        "output": 1160039,
-        "cacheRead": 110827904,
+        "cost": 48.58225840000001,
+        "messageCount": 9507,
+        "input": 22884713,
+        "output": 1166049,
+        "cacheRead": 110996992,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-08-13"
