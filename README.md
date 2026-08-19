@@ -76,10 +76,6 @@ Building AI products that matter.
 
 <!-- TOKSCALE_END -->
 
-<!-- TOKSCALE_LOCAL_ADDENDUM_START -->
-<div align="center"><sub>➕ Not countable above: +6.78B tokens (≈$6,101) of local Claude Code usage — aggregate stats whose session transcripts were pruned before scanning (opus-5 3.49B · fable-5 2.89B · opus-4-8 0.40B) · measured 2026-08-19</sub></div>
-<!-- TOKSCALE_LOCAL_ADDENDUM_END -->
-
 ---
 
 ## Achievements
