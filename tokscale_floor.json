@@ -4,13 +4,13 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-08-25",
   "totals": {
-    "cost": 238393.29800818267,
-    "tokens": 311244985679,
-    "messages": 2504568,
-    "input": 9949603841,
-    "output": 996522577,
-    "cache_read": 296003812511,
-    "cache_write": 4295046750,
+    "cost": 246836.55121373263,
+    "tokens": 322027235906,
+    "messages": 2544935,
+    "input": 10186253484,
+    "output": 1017795307,
+    "cache_read": 306523501508,
+    "cache_write": 4299685607,
     "active_days": 229,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -159,12 +159,12 @@
         "last_seen": "2026-08-02"
       },
       "claude-opus-5": {
-        "cost": 5316.693231999998,
-        "messageCount": 24599,
-        "input": 1194867,
-        "output": 23621165,
-        "cacheRead": 7879270994,
-        "cacheWrite": 124888684,
+        "cost": 5419.843972749998,
+        "messageCount": 25751,
+        "input": 1220019,
+        "output": 24842983,
+        "cacheRead": 7966244343,
+        "cacheWrite": 129527541,
         "first_seen": "2026-07-30",
         "last_seen": "2026-08-25"
       },
@@ -233,34 +233,34 @@
         "last_seen": "2026-07-18"
       },
       "gpt-5.4-mini": {
-        "cost": 692.47073505,
-        "messageCount": 33315,
-        "input": 338143919,
-        "output": 35641140,
-        "cacheRead": 2418788864,
+        "cost": 716.4115435499998,
+        "messageCount": 34415,
+        "input": 348324609,
+        "output": 37082433,
+        "cacheRead": 2491357184,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-05"
+        "last_seen": "2026-08-25"
       },
       "gpt-5.5": {
-        "cost": 101336.40413200003,
-        "messageCount": 1057471,
-        "input": 4742320788,
-        "output": 378097301,
-        "cacheRead": 129236618624,
+        "cost": 103265.04877250001,
+        "messageCount": 1075894,
+        "input": 4866998435,
+        "output": 386551065,
+        "cacheRead": 131447394688,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-24"
+        "last_seen": "2026-08-25"
       },
       "gpt-5.6-sol": {
-        "cost": 36811.234257000004,
-        "messageCount": 254010,
-        "input": 1818739560,
-        "output": 143313316,
-        "cacheRead": 42042251520,
+        "cost": 43198.567614800006,
+        "messageCount": 270121,
+        "input": 1904530145,
+        "output": 152165711,
+        "cacheRead": 49274004736,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
-        "last_seen": "2026-08-16"
+        "last_seen": "2026-08-25"
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -285,11 +285,11 @@
         "last_seen": "2026-08-24"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 50.77073400000001,
-        "messageCount": 10218,
-        "input": 23626683,
-        "output": 1247697,
-        "cacheRead": 117004800,
+        "cost": 50.954392000000006,
+        "messageCount": 10266,
+        "input": 23682397,
+        "output": 1254121,
+        "cacheRead": 117548160,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-08-25"
@@ -490,12 +490,24 @@
       },
       "glm-5.3": {
         "cost": 323.44194696,
-        "messageCount": 16686,
-        "input": 60305732,
-        "output": 7343471,
-        "cacheRead": 1881590336,
+        "messageCount": 16702,
+        "input": 60775356,
+        "output": 7350960,
+        "cacheRead": 1882575744,
         "cacheWrite": 0,
         "first_seen": "2026-08-19",
+        "last_seen": "2026-08-25"
+      }
+    },
+    "opencode": {
+      "x-preview-f-free": {
+        "cost": 0.0,
+        "messageCount": 3517,
+        "input": 15450231,
+        "output": 1289547,
+        "cacheRead": 916089280,
+        "cacheWrite": 0,
+        "first_seen": "2026-08-25",
         "last_seen": "2026-08-25"
       }
     }
