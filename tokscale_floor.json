@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-08-26",
   "totals": {
-    "cost": 246913.26130878268,
-    "tokens": 322122618895,
-    "messages": 2545552,
-    "input": 10187253387,
-    "output": 1018660572,
-    "cache_read": 306614834460,
-    "cache_write": 4301870476,
-    "active_days": 229,
+    "cost": 246955.89540223268,
+    "tokens": 322154422110,
+    "messages": 2546058,
+    "input": 10187320381,
+    "output": 1019204792,
+    "cache_read": 306643660196,
+    "cache_write": 4304236741,
+    "active_days": 230,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -159,14 +159,14 @@
         "last_seen": "2026-08-02"
       },
       "claude-opus-5": {
-        "cost": 5496.534667999999,
-        "messageCount": 26292,
-        "input": 1225507,
-        "output": 25665067,
-        "cacheRead": 8051155791,
-        "cacheWrite": 131712410,
+        "cost": 5539.000139249999,
+        "messageCount": 26753,
+        "input": 1239678,
+        "output": 26202235,
+        "cacheRead": 8079508311,
+        "cacheWrite": 134078675,
         "first_seen": "2026-07-30",
-        "last_seen": "2026-08-25"
+        "last_seen": "2026-08-26"
       },
       "claude-sonnet-5": {
         "cost": 23.639069300000003,
@@ -285,11 +285,11 @@
         "last_seen": "2026-08-24"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 50.973791800000015,
-        "messageCount": 10284,
-        "input": 23694990,
-        "output": 1254999,
-        "cacheRead": 117569024,
+        "cost": 51.14241400000002,
+        "messageCount": 10329,
+        "input": 23747813,
+        "output": 1262051,
+        "cacheRead": 118042240,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-08-26"
