@@ -4,12 +4,12 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-08-28",
   "totals": {
-    "cost": 247140.51097433266,
-    "tokens": 322415530852,
-    "messages": 2547182,
-    "input": 10196482017,
-    "output": 1019632276,
-    "cache_read": 306895047072,
+    "cost": 247473.71549833266,
+    "tokens": 322892120761,
+    "messages": 2548790,
+    "input": 10209161860,
+    "output": 1020318022,
+    "cache_read": 307358271392,
     "cache_write": 4304369487,
     "active_days": 232,
     "streak": 0,
@@ -159,7 +159,7 @@
         "last_seen": "2026-08-02"
       },
       "claude-opus-5": {
-        "cost": 5543.086433749998,
+        "cost": 5543.086433749999,
         "messageCount": 26816,
         "input": 1239797,
         "output": 26249210,
@@ -253,11 +253,11 @@
         "last_seen": "2026-08-25"
       },
       "gpt-5.6-sol": {
-        "cost": 43378.87093320001,
-        "messageCount": 271110,
-        "input": 1913486388,
-        "output": 152504823,
-        "cacheRead": 49517509888,
+        "cost": 43711.74367720001,
+        "messageCount": 272642,
+        "input": 1925575285,
+        "output": 153161746,
+        "cacheRead": 49978723072,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
         "last_seen": "2026-08-28"
@@ -273,11 +273,11 @@
         "last_seen": "2026-07-26"
       },
       "gpt-5.6-luna": {
-        "cost": 0.0381522,
-        "messageCount": 5,
-        "input": 131199,
-        "output": 5073,
-        "cacheRead": 272640,
+        "cost": 0.20826999999999998,
+        "messageCount": 35,
+        "input": 668958,
+        "output": 27536,
+        "cacheRead": 1836800,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
         "last_seen": "2026-08-28"
@@ -295,11 +295,11 @@
         "last_seen": "2026-08-27"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 51.330221000000016,
-        "messageCount": 10396,
-        "input": 23821888,
-        "output": 1268047,
-        "cacheRead": 118520960,
+        "cost": 51.49188320000002,
+        "messageCount": 10442,
+        "input": 23875075,
+        "output": 1274407,
+        "cacheRead": 118967936,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-08-28"
