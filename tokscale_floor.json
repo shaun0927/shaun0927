@@ -2,16 +2,16 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-30",
   "totals": {
-    "cost": 248145.99693721268,
-    "tokens": 324842678032,
-    "messages": 2560136,
-    "input": 10277434925,
-    "output": 1025702672,
-    "cache_read": 309235098810,
+    "cost": 248630.63051569264,
+    "tokens": 325612991091,
+    "messages": 2563041,
+    "input": 10301684271,
+    "output": 1026598641,
+    "cache_read": 309980266554,
     "cache_write": 4304441625,
-    "active_days": 233,
+    "active_days": 234,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -253,14 +253,14 @@
         "last_seen": "2026-08-29"
       },
       "gpt-5.6-sol": {
-        "cost": 43711.74367720001,
-        "messageCount": 275987,
-        "input": 1952157088,
-        "output": 154721843,
-        "cacheRead": 50800328704,
+        "cost": 44195.631682600004,
+        "messageCount": 278748,
+        "input": 1974126721,
+        "output": 155534901,
+        "cacheRead": 51537166592,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
-        "last_seen": "2026-08-29"
+        "last_seen": "2026-08-30"
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -273,14 +273,14 @@
         "last_seen": "2026-07-26"
       },
       "gpt-5.6-luna": {
-        "cost": 1.2945473999999997,
-        "messageCount": 236,
-        "input": 3935509,
-        "output": 159912,
-        "cacheRead": 14612480,
+        "cost": 2.027433079999999,
+        "messageCount": 368,
+        "input": 6207035,
+        "output": 242253,
+        "cacheRead": 22928384,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
-        "last_seen": "2026-08-29"
+        "last_seen": "2026-08-30"
       }
     },
     "hermes": {
@@ -295,14 +295,14 @@
         "last_seen": "2026-08-27"
       },
       "mimo-v2.5-pro-ultraspeed": {
-        "cost": 51.69503820000001,
-        "messageCount": 10508,
-        "input": 23942947,
-        "output": 1280888,
-        "cacheRead": 119547136,
+        "cost": 51.70772560000002,
+        "messageCount": 10520,
+        "input": 23951134,
+        "output": 1281458,
+        "cacheRead": 119561088,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-29"
+        "last_seen": "2026-08-30"
       }
     },
     "micode": {
