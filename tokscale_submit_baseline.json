@@ -280,37 +280,55 @@
         },
         "2026-09-01|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 7.121046000000001,
+          "cost": 7.775910000000001,
           "date": "2026-09-01",
-          "messages": 48,
+          "messages": 60,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 8404352,
+            "cacheRead": 8946560,
             "cacheWrite": 0,
-            "input": 446872,
-            "output": 19321,
-            "reasoning": 3496
+            "input": 498820,
+            "output": 22470,
+            "reasoning": 4481
           }
         },
         "2026-09-01|codex|gpt-5.6-luna|openai": {
           "client": "codex",
-          "cost": 0.03991128,
+          "cost": 0.05442616000000001,
           "date": "2026-09-01",
-          "messages": 17,
+          "messages": 26,
           "model": "gpt-5.6-luna",
           "provider": "openai",
           "tokens": {
-            "cacheRead": 552704,
+            "cacheRead": 777728,
             "cacheWrite": 0,
-            "input": 111454,
-            "output": 4115,
-            "reasoning": 1357
+            "input": 149322,
+            "output": 4981,
+            "reasoning": 2525
+          }
+        },
+        "2026-09-01|codex|gpt-5.6-sol|openai": {
+          "client": "codex",
+          "cost": 3.1400648,
+          "date": "2026-09-01",
+          "messages": 55,
+          "model": "gpt-5.6-sol",
+          "provider": "openai",
+          "tokens": {
+            "cacheRead": 2838272,
+            "cacheWrite": 0,
+            "input": 372954,
+            "output": 11444,
+            "reasoning": 14203
           }
         }
       },
+      "floorReason": "Local tokscale graph later returned a shorter 2026-08-21..2026-09-01 window; do not resubmit this device until local total exceeds the last known submitted high-water mark.",
+      "floorSource": ".tokscale-update.log:14366 submitted codex --since 2026-08-03 at 2026-08-31 21:19:00 KST",
       "since": "2026-08-03",
-      "updatedAt": "2026-08-31T15:28:09.584766+00:00"
+      "totalFloorTokens": 3861836429,
+      "updatedAt": "2026-08-31T15:54:42.765630+00:00"
     },
     "gemini": {
       "cells": {},
@@ -663,5 +681,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T15:28:17.043105+00:00"
+  "updatedAt": "2026-08-31T15:58:32.283925+00:00"
 }

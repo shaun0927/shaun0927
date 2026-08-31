@@ -93,6 +93,12 @@ def delta(current: dict, previous: dict) -> dict:
     }
 
 
+def total_floor(previous_record: dict | None, previous_total: int) -> int:
+    if not previous_record:
+        return previous_total
+    return max(previous_total, int(previous_record.get("totalFloorTokens", 0) or 0))
+
+
 def submit_client(client: str, since: str | None, dry_run: bool) -> int:
     cmd = ["npx", "--yes", "tokscale", "submit", "-c", client]
     if since:
@@ -127,23 +133,32 @@ def main() -> int:
         growth = delta(current, previous)
         current_total = sum(cell_total(cell) for cell in current.values())
         previous_total = sum(cell_total(cell) for cell in previous.values())
+        floor_total = total_floor(previous_record, previous_total)
 
         print(
             f"[delta-submit] {client}: current={current_total:,} "
-            f"baseline={previous_total:,} growth={growth['tokens']:,} "
+            f"baseline={previous_total:,} floor={floor_total:,} growth={growth['tokens']:,} "
             f"messages=+{growth['messages']:,} cells=+{growth['changedCells']}"
         )
 
         if args.init_only:
             baseline_clients[client] = {
                 "since": args.since,
+                "totalFloorTokens": max(current_total, floor_total),
                 "updatedAt": datetime.now(timezone.utc).isoformat(),
                 "cells": current,
             }
             initialized.append(client)
             continue
 
-        should_submit = previous_record is None or growth["tokens"] > 0 or growth["messages"] > 0 or growth["cost"] > 0
+        below_submitted_floor = previous_record is not None and current_total <= floor_total
+        should_submit = (
+            previous_record is None
+            or (
+                not below_submitted_floor
+                and (growth["tokens"] > 0 or growth["messages"] > 0 or growth["cost"] > 0)
+            )
+        )
         if not should_submit:
             skipped.append(client)
             continue
@@ -156,6 +171,7 @@ def main() -> int:
         if not args.dry_run:
             baseline_clients[client] = {
                 "since": args.since,
+                "totalFloorTokens": max(current_total, floor_total),
                 "updatedAt": datetime.now(timezone.utc).isoformat(),
                 "cells": current,
             }
