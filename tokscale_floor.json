@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-09-01",
   "totals": {
-    "cost": 250941.98102939263,
-    "tokens": 329426408412,
-    "messages": 2581510,
-    "input": 10395243602,
-    "output": 1035151396,
-    "cache_read": 313521927336,
+    "cost": 250952.73232499263,
+    "tokens": 329437169897,
+    "messages": 2581710,
+    "input": 10395385786,
+    "output": 1035169926,
+    "cache_read": 313532473640,
     "cache_write": 4304895146,
-    "reasoning": 169190932,
+    "reasoning": 169245399,
     "active_days": 236,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -250,26 +250,26 @@
         "reasoning": 22543411
       },
       "gpt-5.5": {
-        "cost": 103843.53778849999,
-        "messageCount": 1081173,
-        "input": 4889830413,
-        "output": 389237672,
-        "cacheRead": 132203099520,
+        "cost": 103846.6772865,
+        "messageCount": 1081216,
+        "input": 4889972597,
+        "output": 389256202,
+        "cacheRead": 132206547456,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-09-01",
-        "reasoning": 57118727
+        "reasoning": 57123684
       },
       "gpt-5.6-sol": {
-        "cost": 46340.62503300002,
-        "messageCount": 295284,
+        "cost": 46348.23683060002,
+        "messageCount": 295432,
         "input": 2052367399,
         "output": 162864321,
-        "cacheRead": 54710733184,
+        "cacheRead": 54717606528,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
         "last_seen": "2026-09-01",
-        "reasoning": 61746781
+        "reasoning": 61795123
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -284,14 +284,14 @@
       },
       "gpt-5.6-luna": {
         "cost": 2.83703268,
-        "messageCount": 504,
+        "messageCount": 513,
         "input": 8618601,
         "output": 359023,
-        "cacheRead": 32539648,
+        "cacheRead": 32764672,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
         "last_seen": "2026-09-01",
-        "reasoning": 54823
+        "reasoning": 55991
       }
     },
     "hermes": {

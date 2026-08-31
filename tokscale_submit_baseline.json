@@ -280,17 +280,17 @@
         },
         "2026-09-01|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 7.775910000000001,
+          "cost": 10.260544,
           "date": "2026-09-01",
-          "messages": 60,
+          "messages": 91,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 8946560,
+            "cacheRead": 11852288,
             "cacheWrite": 0,
-            "input": 498820,
-            "output": 22470,
-            "reasoning": 4481
+            "input": 589056,
+            "output": 37851,
+            "reasoning": 8453
           }
         },
         "2026-09-01|codex|gpt-5.6-luna|openai": {
@@ -310,25 +310,22 @@
         },
         "2026-09-01|codex|gpt-5.6-sol|openai": {
           "client": "codex",
-          "cost": 3.1400648,
+          "cost": 7.6117976,
           "date": "2026-09-01",
-          "messages": 55,
+          "messages": 148,
           "model": "gpt-5.6-sol",
           "provider": "openai",
           "tokens": {
-            "cacheRead": 2838272,
+            "cacheRead": 6873344,
             "cacheWrite": 0,
-            "input": 372954,
-            "output": 11444,
-            "reasoning": 14203
+            "input": 804730,
+            "output": 33835,
+            "reasoning": 48342
           }
         }
       },
-      "floorReason": "Local tokscale graph later returned a shorter 2026-08-21..2026-09-01 window; do not resubmit this device until local total exceeds the last known submitted high-water mark.",
-      "floorSource": ".tokscale-update.log:14366 submitted codex --since 2026-08-03 at 2026-08-31 21:19:00 KST",
       "since": "2026-08-03",
-      "totalFloorTokens": 3861836429,
-      "updatedAt": "2026-08-31T15:54:42.765630+00:00"
+      "updatedAt": "2026-08-31T16:23:01.032971+00:00"
     },
     "gemini": {
       "cells": {},
@@ -681,5 +678,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T15:58:32.283925+00:00"
+  "updatedAt": "2026-08-31T16:23:10.787567+00:00"
 }
