@@ -32,6 +32,14 @@ DISPLAY_MODEL_RENAME = {
     "x-preview-f-free": "ox-alpha",
 }
 
+DISPLAY_CLIENT_MODEL_RENAME = {
+    ("gjc", "gpt-5.5"): "grok-4.6",
+    ("gjc", "glm-5.2"): "grok-4.6",
+    ("gjc", "glm-5.3"): "grok-4.6",
+    ("gjc", "solar-pro4"): "grok-4.6",
+    ("gjc", "codex-auto-review"): "grok-4.6",
+}
+
 
 def extract_json_object_after(text, marker):
     """Return JSON object following marker by balanced-brace scan."""
@@ -714,7 +722,10 @@ def generate_dashboard(data, profile):
         )
         client_stats[client]["tokens"] += entry_tokens
         raw_model = entry.get("model", "")
-        model = DISPLAY_MODEL_RENAME.get(raw_model, raw_model)
+        model = DISPLAY_CLIENT_MODEL_RENAME.get(
+            (raw_client, raw_model),
+            DISPLAY_MODEL_RENAME.get(raw_model, raw_model),
+        )
         if model and model != "<synthetic>" and model not in client_stats[client]["models"]:
             client_stats[client]["models"].append(model)
         if model and model != "<synthetic>":
