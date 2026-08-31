@@ -113,13 +113,11 @@ log "phase 3: windowed submit (--since $SUBMIT_SINCE, per client)"
 curl -fsS "https://tokscale.ai/api/users/shaun0927" \
   -o "snapshots/server-$(date -u +%Y%m%dT%H%M%SZ).json" 2>/dev/null \
   || log "WARN: could not write pre-submit server snapshot"
-for client in codex claude gemini hermes gjc grok micode opencode; do
-  if npx -y tokscale@latest submit -c "$client" --since "$SUBMIT_SINCE" >> "$LOG_FILE" 2>&1; then
-    log "phase 3: submitted $client (--since $SUBMIT_SINCE)"
-  else
-    log "WARN: submit failed for client=$client"
-  fi
-done
+if "$PYTHON_BIN" submit_local_delta.py --since "$SUBMIT_SINCE" >> "$LOG_FILE" 2>&1; then
+  log "phase 3: local delta submit completed (--since $SUBMIT_SINCE)"
+else
+  log "WARN: local delta submit failed"
+fi
 
 # Re-render the dashboard now that server has fresh data.
 if [ "${TOKSCALE_RERENDER_AFTER_SUBMIT:-1}" = "1" ]; then
@@ -131,7 +129,7 @@ fi
 # ---------- 4. Commit and push ----------
 # Stage everything that the pipeline can touch. The repo's .gitignore is
 # expected to keep secrets and personal logs out.
-git add -- README.md tokscale_floor.json erosion_ledger.json snapshots/ 2>/dev/null || true
+git add -- README.md tokscale_floor.json tokscale_submit_baseline.json erosion_ledger.json snapshots/ 2>/dev/null || true
 
 if git diff --cached --quiet; then
   log "phase 4: no staged changes, skipping commit"

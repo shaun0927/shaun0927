@@ -1,0 +1,652 @@
+{
+  "clients": {
+    "claude": {
+      "cells": {
+        "2026-08-04|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 6.747399250000002,
+          "date": "2026-08-04",
+          "messages": 87,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 8645661,
+            "cacheWrite": 146167,
+            "input": 165,
+            "output": 60408,
+            "reasoning": 0
+          }
+        },
+        "2026-08-05|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 0.22875825000000002,
+          "date": "2026-08-05",
+          "messages": 3,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 80769,
+            "cacheWrite": 18555,
+            "input": 6,
+            "output": 2895,
+            "reasoning": 0
+          }
+        },
+        "2026-08-23|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 282.4678750000003,
+          "date": "2026-08-23",
+          "messages": 2072,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 313115940,
+            "cacheWrite": 7641576,
+            "input": 24871,
+            "output": 3121028,
+            "reasoning": 0
+          }
+        },
+        "2026-08-24|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 1787.5489522500031,
+          "date": "2026-08-24",
+          "messages": 9276,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 2572514627,
+            "cacheWrite": 48393687,
+            "input": 82879,
+            "output": 7936668,
+            "reasoning": 0
+          }
+        },
+        "2026-08-24|claude|claude-sonnet-5|anthropic": {
+          "client": "claude",
+          "cost": 18.8220679,
+          "date": "2026-08-24",
+          "messages": 722,
+          "model": "claude-sonnet-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 22627552,
+            "cacheWrite": 3886463,
+            "input": 61860,
+            "output": 445668,
+            "reasoning": 0
+          }
+        },
+        "2026-08-25|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 575.8668874999979,
+          "date": "2026-08-25",
+          "messages": 4062,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 745370625,
+            "cacheWrite": 16772796,
+            "input": 100615,
+            "output": 3913941,
+            "reasoning": 0
+          }
+        },
+        "2026-08-25|claude|claude-sonnet-5|anthropic": {
+          "client": "claude",
+          "cost": 4.8170014,
+          "date": "2026-08-25",
+          "messages": 157,
+          "model": "claude-sonnet-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 6427427,
+            "cacheWrite": 904324,
+            "input": 8483,
+            "output": 125374,
+            "reasoning": 0
+          }
+        },
+        "2026-08-26|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 42.46547125000001,
+          "date": "2026-08-26",
+          "messages": 461,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 28352520,
+            "cacheWrite": 2366265,
+            "input": 14171,
+            "output": 537168,
+            "reasoning": 0
+          }
+        },
+        "2026-08-27|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 4.0862945,
+          "date": "2026-08-27",
+          "messages": 63,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 4163324,
+            "cacheWrite": 132746,
+            "input": 119,
+            "output": 46975,
+            "reasoning": 0
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:05.887989+00:00"
+    },
+    "codex": {
+      "cells": {
+        "2026-08-21|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 6.583170999999999,
+          "date": "2026-08-21",
+          "messages": 91,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 7865472,
+            "cacheWrite": 0,
+            "input": 338375,
+            "output": 27259,
+            "reasoning": 4693
+          }
+        },
+        "2026-08-26|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 0.137775,
+          "date": "2026-08-26",
+          "messages": 1,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 9600,
+            "cacheWrite": 0,
+            "input": 18861,
+            "output": 773,
+            "reasoning": 516
+          }
+        },
+        "2026-08-26|codex|gpt-5.6-sol|cliproxyapi": {
+          "client": "codex",
+          "cost": 1.7056728,
+          "date": "2026-08-26",
+          "messages": 18,
+          "model": "gpt-5.6-sol",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 965632,
+            "cacheWrite": 0,
+            "input": 152450,
+            "output": 13764,
+            "reasoning": 21717
+          }
+        },
+        "2026-08-28|codex|gpt-5.6-luna|cliproxyapi": {
+          "client": "codex",
+          "cost": 1.0117784800000005,
+          "date": "2026-08-28",
+          "messages": 174,
+          "model": "gpt-5.6-luna",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 12127744,
+            "cacheWrite": 0,
+            "input": 3034414,
+            "output": 113904,
+            "reasoning": 21380
+          }
+        },
+        "2026-08-28|codex|gpt-5.6-sol|cliproxyapi": {
+          "client": "codex",
+          "cost": 553.857879200001,
+          "date": "2026-08-28",
+          "messages": 2113,
+          "model": "gpt-5.6-sol",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 790316672,
+            "cacheWrite": 0,
+            "input": 14922038,
+            "output": 733393,
+            "reasoning": 560040
+          }
+        },
+        "2026-08-29|codex|gpt-5.6-luna|cliproxyapi": {
+          "client": "codex",
+          "cost": 0.6374535599999998,
+          "date": "2026-08-29",
+          "messages": 116,
+          "model": "gpt-5.6-luna",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 7431168,
+            "cacheWrite": 0,
+            "input": 1921401,
+            "output": 76058,
+            "reasoning": 11067
+          }
+        },
+        "2026-08-29|codex|gpt-5.6-sol|cliproxyapi": {
+          "client": "codex",
+          "cost": 842.1784200000001,
+          "date": "2026-08-29",
+          "messages": 3267,
+          "model": "gpt-5.6-sol",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 1145214592,
+            "cacheWrite": 0,
+            "input": 26932011,
+            "output": 1493303,
+            "reasoning": 1344812
+          }
+        },
+        "2026-08-30|codex|gpt-5.6-sol|cliproxyapi": {
+          "client": "codex",
+          "cost": 56.203435199999994,
+          "date": "2026-08-30",
+          "messages": 206,
+          "model": "gpt-5.6-sol",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 76659584,
+            "cacheWrite": 0,
+            "input": 1241964,
+            "output": 69733,
+            "reasoning": 52088
+          }
+        },
+        "2026-08-31|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 4.408497999999999,
+          "date": "2026-08-31",
+          "messages": 39,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 4372096,
+            "cacheWrite": 0,
+            "input": 324022,
+            "output": 14637,
+            "reasoning": 5441
+          }
+        },
+        "2026-09-01|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 4.234937,
+          "date": "2026-09-01",
+          "messages": 32,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 6262784,
+            "cacheWrite": 0,
+            "input": 126689,
+            "output": 12906,
+            "reasoning": 2764
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:19:25.127724+00:00"
+    },
+    "gemini": {
+      "cells": {},
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:07.850685+00:00"
+    },
+    "gjc": {
+      "cells": {
+        "2026-08-06|gjc|solar-pro4|upstage": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-06",
+          "messages": 18,
+          "model": "solar-pro4",
+          "provider": "upstage",
+          "tokens": {
+            "cacheRead": 22848,
+            "cacheWrite": 0,
+            "input": 140565,
+            "output": 2857,
+            "reasoning": 0
+          }
+        },
+        "2026-08-07|gjc|solar-pro4|upstage": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-07",
+          "messages": 3601,
+          "model": "solar-pro4",
+          "provider": "upstage",
+          "tokens": {
+            "cacheRead": 200159360,
+            "cacheWrite": 0,
+            "input": 57761241,
+            "output": 665530,
+            "reasoning": 0
+          }
+        },
+        "2026-08-08|gjc|solar-pro4|upstage": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-08",
+          "messages": 16008,
+          "model": "solar-pro4",
+          "provider": "upstage",
+          "tokens": {
+            "cacheRead": 1056567680,
+            "cacheWrite": 0,
+            "input": 145512050,
+            "output": 2300832,
+            "reasoning": 0
+          }
+        },
+        "2026-08-09|gjc|solar-pro4|upstage": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-09",
+          "messages": 2528,
+          "model": "solar-pro4",
+          "provider": "upstage",
+          "tokens": {
+            "cacheRead": 153351424,
+            "cacheWrite": 0,
+            "input": 38016646,
+            "output": 352889,
+            "reasoning": 0
+          }
+        },
+        "2026-08-24|gjc|glm-5.3|glm-proxy": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-24",
+          "messages": 550,
+          "model": "glm-5.3",
+          "provider": "glm-proxy",
+          "tokens": {
+            "cacheRead": 52350208,
+            "cacheWrite": 0,
+            "input": 1792799,
+            "output": 341938,
+            "reasoning": 0
+          }
+        },
+        "2026-08-25|gjc|glm-5.3|glm-proxy": {
+          "client": "gjc",
+          "cost": 0.0,
+          "date": "2026-08-25",
+          "messages": 193,
+          "model": "glm-5.3",
+          "provider": "glm-proxy",
+          "tokens": {
+            "cacheRead": 19230976,
+            "cacheWrite": 0,
+            "input": 2953483,
+            "output": 131814,
+            "reasoning": 0
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:15.662750+00:00"
+    },
+    "grok": {
+      "cells": {
+        "2026-08-05|grok|grok-4.5|xai": {
+          "client": "grok",
+          "cost": 19.061221200000006,
+          "date": "2026-08-05",
+          "messages": 26,
+          "model": "grok-4.5",
+          "provider": "xai",
+          "tokens": {
+            "cacheRead": 29361152,
+            "cacheWrite": 0,
+            "input": 921275,
+            "output": 48478,
+            "reasoning": 49342
+          }
+        },
+        "2026-08-06|grok|grok-4.5|xai": {
+          "client": "grok",
+          "cost": 47.867714400000004,
+          "date": "2026-08-06",
+          "messages": 31,
+          "model": "grok-4.5",
+          "provider": "xai",
+          "tokens": {
+            "cacheRead": 57149184,
+            "cacheWrite": 0,
+            "input": 3016809,
+            "output": 43690,
+            "reasoning": 82224
+          }
+        },
+        "2026-08-07|grok|grok-4.5|xai": {
+          "client": "grok",
+          "cost": 0.49922120000000003,
+          "date": "2026-08-07",
+          "messages": 6,
+          "model": "grok-4.5",
+          "provider": "xai",
+          "tokens": {
+            "cacheRead": 1143424,
+            "cacheWrite": 0,
+            "input": 46900,
+            "output": 5692,
+            "reasoning": 4707
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:17.390390+00:00"
+    },
+    "hermes": {
+      "cells": {
+        "2026-08-12|hermes|gpt-5.5|custom, openai": {
+          "client": "hermes",
+          "cost": 259.447362,
+          "date": "2026-08-12",
+          "messages": 572,
+          "model": "gpt-5.5",
+          "provider": "custom, openai",
+          "tokens": {
+            "cacheRead": 146456576,
+            "cacheWrite": 0,
+            "input": 7806572,
+            "output": 913163,
+            "reasoning": 104101
+          }
+        },
+        "2026-08-15|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 127.36382899999998,
+          "date": "2026-08-15",
+          "messages": 623,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 90918400,
+            "cacheWrite": 0,
+            "input": 2513979,
+            "output": 366360,
+            "reasoning": 38360
+          }
+        },
+        "2026-08-16|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 2.0702710000000004,
+          "date": "2026-08-16",
+          "messages": 21,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 293376,
+            "cacheWrite": 0,
+            "input": 184195,
+            "output": 32712,
+            "reasoning": 352
+          }
+        },
+        "2026-08-17|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 0.627543,
+          "date": "2026-08-17",
+          "messages": 29,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 254976,
+            "cacheWrite": 0,
+            "input": 53691,
+            "output": 7350,
+            "reasoning": 370
+          }
+        },
+        "2026-08-18|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 10.120871000000001,
+          "date": "2026-08-18",
+          "messages": 182,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 3818496,
+            "cacheWrite": 0,
+            "input": 692074,
+            "output": 24341,
+            "reasoning": 7836
+          }
+        },
+        "2026-08-20|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 89.70271199999999,
+          "date": "2026-08-20",
+          "messages": 328,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 58117632,
+            "cacheWrite": 0,
+            "input": 2657150,
+            "output": 196707,
+            "reasoning": 20279
+          }
+        },
+        "2026-08-27|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 7.027544,
+          "date": "2026-08-27",
+          "messages": 95,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 1723904,
+            "cacheWrite": 0,
+            "input": 551156,
+            "output": 26456,
+            "reasoning": 16480
+          }
+        },
+        "2026-08-30|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 58.10868,
+          "date": "2026-08-30",
+          "messages": 321,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 31070720,
+            "cacheWrite": 0,
+            "input": 2294288,
+            "output": 198494,
+            "reasoning": 37742
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:10.268948+00:00"
+    },
+    "micode": {
+      "cells": {},
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:21.708003+00:00"
+    },
+    "opencode": {
+      "cells": {
+        "2026-08-23|opencode|x-preview-f-free|opencode": {
+          "client": "opencode",
+          "cost": 0.0,
+          "date": "2026-08-23",
+          "messages": 6,
+          "model": "x-preview-f-free",
+          "provider": "opencode",
+          "tokens": {
+            "cacheRead": 128,
+            "cacheWrite": 0,
+            "input": 3796,
+            "output": 9,
+            "reasoning": 2
+          }
+        },
+        "2026-08-24|opencode|x-preview-f-free|opencode": {
+          "client": "opencode",
+          "cost": 0.0,
+          "date": "2026-08-24",
+          "messages": 3419,
+          "model": "x-preview-f-free",
+          "provider": "opencode",
+          "tokens": {
+            "cacheRead": 905408576,
+            "cacheWrite": 0,
+            "input": 15037975,
+            "output": 1270217,
+            "reasoning": 343571
+          }
+        },
+        "2026-08-25|opencode|x-preview-f-free|opencode": {
+          "client": "opencode",
+          "cost": 0.0,
+          "date": "2026-08-25",
+          "messages": 314,
+          "model": "x-preview-f-free",
+          "provider": "opencode",
+          "tokens": {
+            "cacheRead": 42136832,
+            "cacheWrite": 0,
+            "input": 2150277,
+            "output": 71646,
+            "reasoning": 56789
+          }
+        },
+        "2026-08-26|opencode|x-preview-f-free|opencode": {
+          "client": "opencode",
+          "cost": 0.0,
+          "date": "2026-08-26",
+          "messages": 276,
+          "model": "x-preview-f-free",
+          "provider": "opencode",
+          "tokens": {
+            "cacheRead": 29246272,
+            "cacheWrite": 0,
+            "input": 2280086,
+            "output": 56086,
+            "reasoning": 46478
+          }
+        }
+      },
+      "since": "2026-08-03",
+      "updatedAt": "2026-08-31T15:18:23.535965+00:00"
+    }
+  },
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-31T15:19:35.279771+00:00"
+}
