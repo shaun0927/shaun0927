@@ -24,6 +24,14 @@ MODEL_RENAME = {
     "reconstructed-claude-history": "claude-opus-4-7",
 }
 
+DISPLAY_CLIENT_ALIAS = {
+    "gjc": "grok",
+}
+
+DISPLAY_MODEL_RENAME = {
+    "x-preview-f-free": "ox-alpha",
+}
+
 
 def extract_json_object_after(text, marker):
     """Return JSON object following marker by balanced-brace scan."""
@@ -135,6 +143,7 @@ def fetch_ssr_data(username="shaun0927"):
                             "messageCount": 0,
                             "cacheRead": 0,
                             "cacheWrite": 0,
+                            "reasoning": 0,
                         })
                         bucket["cost"] += float(values.get("cost", 0) or 0)
                         bucket["input"] += int(values.get("input", 0) or 0)
@@ -142,6 +151,7 @@ def fetch_ssr_data(username="shaun0927"):
                         bucket["messageCount"] += int(values.get("messages", 0) or 0)
                         bucket["cacheRead"] += int(values.get("cacheRead", 0) or 0)
                         bucket["cacheWrite"] += int(values.get("cacheWrite", 0) or 0)
+                        bucket["reasoning"] += int(values.get("reasoning", 0) or 0)
             entries = list(entries_by_key.values())
             stats = initial.get("stats") or {}
             total_messages = sum(e["messageCount"] for e in entries)
@@ -154,6 +164,7 @@ def fetch_ssr_data(username="shaun0927"):
                 "totalOutput": int(stats.get("outputTokens", 0) or 0),
                 "totalCacheRead": int(stats.get("cacheReadTokens", 0) or 0),
                 "totalCacheWrite": int(stats.get("cacheWriteTokens", 0) or 0),
+                "totalReasoning": int(stats.get("reasoningTokens", 0) or 0),
             }
         except Exception as e:
             print(f"[WARN] initialData parse failed, falling back to regex: {e}")
@@ -183,7 +194,7 @@ def fetch_ssr_data(username="shaun0927"):
         r'"([A-Za-z0-9._<>\-]+)":\{"cost":([0-9.eE+-]+),'
         r'"input":(\d+),"output":(\d+),'
         r'"tokens":\d+,"messages":(\d+),'
-        r'"cacheRead":(\d+),"reasoning":\d+,'
+        r'"cacheRead":(\d+),"reasoning":(\d+),'
         r'"cacheWrite":(\d+)\}'
     )
     client_starts = [(m.start(), m.group(1)) for m in re.finditer(r'"client":"([^"]+)"', payload)]
@@ -212,7 +223,8 @@ def fetch_ssr_data(username="shaun0927"):
             "output": int(mm.group(4)),
             "messageCount": msg,
             "cacheRead": int(mm.group(6)),
-            "cacheWrite": int(mm.group(7)),
+            "reasoning": int(mm.group(7)),
+            "cacheWrite": int(mm.group(8)),
         })
 
     if not entries:
@@ -228,6 +240,7 @@ def fetch_ssr_data(username="shaun0927"):
         "totalOutput": total_output,
         "totalCacheRead": total_cache_read,
         "totalCacheWrite": total_cache_write,
+        "totalReasoning": 0,
     }
 
 
@@ -311,7 +324,7 @@ def fetch_profile_data(username="shaun0927"):
 
 FLOOR_PATH = "tokscale_floor.json"
 
-ENTRY_FIELDS = ("cost", "messageCount", "input", "output", "cacheRead", "cacheWrite")
+ENTRY_FIELDS = ("cost", "messageCount", "input", "output", "cacheRead", "cacheWrite", "reasoning")
 
 
 def entry_key(entry):
@@ -335,6 +348,7 @@ def aggregate_entries(entries):
                 "output": 0,
                 "cacheRead": 0,
                 "cacheWrite": 0,
+                "reasoning": 0,
             },
         )
         bucket["cost"] += float(entry.get("cost", 0) or 0)
@@ -343,6 +357,7 @@ def aggregate_entries(entries):
         bucket["output"] += int(entry.get("output", 0) or 0)
         bucket["cacheRead"] += int(entry.get("cacheRead", 0) or 0)
         bucket["cacheWrite"] += int(entry.get("cacheWrite", 0) or 0)
+        bucket["reasoning"] += int(entry.get("reasoning", 0) or 0)
     return by_key
 
 
@@ -355,6 +370,7 @@ def recompute_totals_from_entries(data):
     data["totalOutput"] = sum(int(e.get("output", 0) or 0) for e in entries)
     data["totalCacheRead"] = sum(int(e.get("cacheRead", 0) or 0) for e in entries)
     data["totalCacheWrite"] = sum(int(e.get("cacheWrite", 0) or 0) for e in entries)
+    data["totalReasoning"] = sum(int(e.get("reasoning", 0) or 0) for e in entries)
     return data
 
 
@@ -473,6 +489,7 @@ def apply_floor(data, profile, floor):
                 "output": 0,
                 "cacheRead": 0,
                 "cacheWrite": 0,
+                "reasoning": 0,
                 "first_seen": datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
             },
         )
@@ -503,6 +520,7 @@ def apply_floor(data, profile, floor):
                 "output": int(values.get("output", 0) or 0),
                 "cacheRead": int(values.get("cacheRead", 0) or 0),
                 "cacheWrite": int(values.get("cacheWrite", 0) or 0),
+                "reasoning": int(values.get("reasoning", 0) or 0),
             })
 
     data["entries"] = ratcheted_entries
@@ -514,7 +532,8 @@ def apply_floor(data, profile, floor):
     cur_out = data.get("totalOutput", 0)
     cur_cr = data.get("totalCacheRead", 0)
     cur_cw = data.get("totalCacheWrite", 0)
-    cur_tok = cur_in + cur_out + cur_cr + cur_cw
+    cur_reasoning = data.get("totalReasoning", 0)
+    cur_tok = cur_in + cur_out + cur_cr + cur_cw + cur_reasoning
 
     cur_streak = profile.get("streak", 0) or 0
     cur_active = profile.get("active_days", 0) or 0
@@ -532,6 +551,7 @@ def apply_floor(data, profile, floor):
         "output": max(cur_out, ft.get("output", 0) or 0),
         "cache_read": max(cur_cr, ft.get("cache_read", 0) or 0),
         "cache_write": max(cur_cw, ft.get("cache_write", 0) or 0),
+        "reasoning": max(cur_reasoning, ft.get("reasoning", 0) or 0),
         "active_days": max(cur_active, ft.get("active_days", 0) or 0),
         # Streak is a current-state metric (it legitimately drops to 0 if a
         # day is missed), so we record the current value rather than ratchet.
@@ -619,6 +639,7 @@ def get_client_display(client):
         "opencode": "OpenCode",
         "hermes": "Hermes Agent",
         "gjc": "GJC",
+        "grok": "Grok",
         "micode": "Micode",
     }
     return mapping.get(client, client.title())
@@ -633,6 +654,8 @@ def get_client_color(client):
         "cursor": "00A67E",
         "hermes": "FFB400",
         "gjc": "2F80ED",
+        "grok": "1DA1F2",
+        "opencode": "111111",
         "micode": "A855F7",
     }
     return colors.get(client, "555555")
@@ -646,6 +669,8 @@ def get_client_logo(client):
         "gemini": "google",
         "hermes": "rocket",
         "gjc": "google",
+        "grok": "x",
+        "opencode": "opencode",
         "micode": "terminal",
     }
     return logos.get(client)
@@ -663,7 +688,8 @@ def generate_dashboard(data, profile):
     total_output = data.get("totalOutput", 0)
     total_cache_read = data.get("totalCacheRead", 0)
     total_cache_write = data.get("totalCacheWrite", 0)
-    total_tokens = total_input + total_output + total_cache_read + total_cache_write
+    total_reasoning = data.get("totalReasoning", 0)
+    total_tokens = total_input + total_output + total_cache_read + total_cache_write + total_reasoning
 
     rank = profile.get("rank")
     total_users = profile.get("total_users")
@@ -675,7 +701,8 @@ def generate_dashboard(data, profile):
     # Group by client
     client_stats = {}
     for entry in entries:
-        client = entry.get("client", "unknown")
+        raw_client = entry.get("client", "unknown")
+        client = DISPLAY_CLIENT_ALIAS.get(raw_client, raw_client)
         if client not in client_stats:
             client_stats[client] = {"cost": 0, "messages": 0, "models": [], "model_costs": {}, "tokens": 0}
         client_stats[client]["cost"] += entry.get("cost", 0)
@@ -683,9 +710,11 @@ def generate_dashboard(data, profile):
         entry_tokens = (
             entry.get("input", 0) + entry.get("output", 0)
             + entry.get("cacheRead", 0) + entry.get("cacheWrite", 0)
+            + entry.get("reasoning", 0)
         )
         client_stats[client]["tokens"] += entry_tokens
-        model = entry.get("model", "")
+        raw_model = entry.get("model", "")
+        model = DISPLAY_MODEL_RENAME.get(raw_model, raw_model)
         if model and model != "<synthetic>" and model not in client_stats[client]["models"]:
             client_stats[client]["models"].append(model)
         if model and model != "<synthetic>":
@@ -809,6 +838,7 @@ def generate_dashboard(data, profile):
         ("Cache Write", total_cache_write, "27AE60"),
         ("Input", total_input, "3498DB"),
         ("Output", total_output, "9B59B6"),
+        ("Reasoning", total_reasoning, "F59E0B"),
     ]
     for label, val, color in compositions:
         if val > 0:

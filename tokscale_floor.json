@@ -2,15 +2,16 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "totals": {
-    "cost": 250611.78380839262,
-    "tokens": 328665283789,
-    "messages": 2580588,
-    "input": 10383995800,
-    "output": 1034639267,
-    "cache_read": 312941753576,
+    "cost": 250715.95703599261,
+    "tokens": 329053842274,
+    "messages": 2581259,
+    "input": 10394462395,
+    "output": 1035105649,
+    "cache_read": 313150416680,
     "cache_write": 4304895146,
+    "reasoning": 168962404,
     "active_days": 235,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -188,7 +189,8 @@
         "cacheRead": 183684,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-13"
+        "last_seen": "2026-09-01",
+        "reasoning": 3428
       },
       "gemini-2.5-flash": {
         "cost": 0.00649651,
@@ -198,7 +200,8 @@
         "cacheRead": 42207,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-13"
+        "last_seen": "2026-09-01",
+        "reasoning": 487
       }
     },
     "codex": {
@@ -210,7 +213,8 @@
         "cacheRead": 2066139520,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-06-13"
+        "last_seen": "2026-09-01",
+        "reasoning": 4505733
       },
       "gpt-5.3-codex-spark": {
         "cost": 363.30118335,
@@ -220,7 +224,8 @@
         "cacheRead": 1006134016,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-04"
+        "last_seen": "2026-09-01",
+        "reasoning": 2131543
       },
       "gpt-5.4": {
         "cost": 11663.887908999997,
@@ -230,7 +235,8 @@
         "cacheRead": 27233702056,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-07-18"
+        "last_seen": "2026-09-01",
+        "reasoning": 16959150
       },
       "gpt-5.4-mini": {
         "cost": 716.4115435499998,
@@ -240,7 +246,8 @@
         "cacheRead": 2491357184,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-25"
+        "last_seen": "2026-09-01",
+        "reasoning": 22543411
       },
       "gpt-5.5": {
         "cost": 103829.9022085,
@@ -250,7 +257,8 @@
         "cacheRead": 132186850560,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-31"
+        "last_seen": "2026-09-01",
+        "reasoning": 57110022
       },
       "gpt-5.6-sol": {
         "cost": 46128.242921000005,
@@ -260,7 +268,8 @@
         "cacheRead": 54356619904,
         "cacheWrite": 0,
         "first_seen": "2026-07-11",
-        "last_seen": "2026-08-31"
+        "last_seen": "2026-09-01",
+        "reasoning": 61536346
       },
       "gpt-5.6-terra": {
         "cost": 776.9493170000001,
@@ -270,7 +279,8 @@
         "cacheRead": 2075673600,
         "cacheWrite": 0,
         "first_seen": "2026-07-13",
-        "last_seen": "2026-07-26"
+        "last_seen": "2026-09-01",
+        "reasoning": 1950560
       },
       "gpt-5.6-luna": {
         "cost": 2.83703268,
@@ -280,7 +290,8 @@
         "cacheRead": 31398144,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
-        "last_seen": "2026-08-31"
+        "last_seen": "2026-09-01",
+        "reasoning": 45435
       }
     },
     "hermes": {
@@ -292,7 +303,8 @@
         "cacheRead": 963883008,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-08-31"
+        "last_seen": "2026-09-01",
+        "reasoning": 1146418
       },
       "mimo-v2.5-pro-ultraspeed": {
         "cost": 52.01981340000002,
@@ -354,7 +366,8 @@
         "cacheRead": 91218944,
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
-        "last_seen": "2026-07-26"
+        "last_seen": "2026-09-01",
+        "reasoning": 71090
       },
       "mimo-auto": {
         "cost": 5.440053649999999,
@@ -364,7 +377,8 @@
         "cacheRead": 124617472,
         "cacheWrite": 0,
         "first_seen": "2026-06-30",
-        "last_seen": "2026-07-26"
+        "last_seen": "2026-09-01",
+        "reasoning": 142141
       },
       "claude-sonnet-4-6": {
         "cost": 0.9878077500000003,
@@ -384,7 +398,8 @@
         "cacheRead": 3004032,
         "cacheWrite": 0,
         "first_seen": "2026-07-02",
-        "last_seen": "2026-07-26"
+        "last_seen": "2026-09-01",
+        "reasoning": 4477
       },
       "glm-4.7": {
         "cost": 0.08736088,
@@ -512,13 +527,27 @@
     "opencode": {
       "x-preview-f-free": {
         "cost": 0.0,
-        "messageCount": 3517,
-        "input": 15450231,
-        "output": 1289547,
-        "cacheRead": 916089280,
+        "messageCount": 4015,
+        "input": 19472134,
+        "output": 1397958,
+        "cacheRead": 976791808,
         "cacheWrite": 0,
         "first_seen": "2026-08-25",
-        "last_seen": "2026-08-25"
+        "last_seen": "2026-09-01",
+        "reasoning": 446840
+      }
+    },
+    "grok": {
+      "grok-4.5": {
+        "cost": 104.17322760000002,
+        "messageCount": 173,
+        "input": 6444692,
+        "output": 357971,
+        "cacheRead": 147960576,
+        "cacheWrite": 0,
+        "first_seen": "2026-08-31",
+        "last_seen": "2026-09-01",
+        "reasoning": 365323
       }
     }
   }
