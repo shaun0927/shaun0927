@@ -885,10 +885,25 @@
             "output": 198494,
             "reasoning": 37742
           }
+        },
+        "2026-09-02|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 10.349247,
+          "date": "2026-09-02",
+          "messages": 265,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 5678592,
+            "cacheWrite": 0,
+            "input": 522345,
+            "output": 85813,
+            "reasoning": 10018
+          }
         }
       },
-      "since": "2026-08-03",
-      "updatedAt": "2026-08-31T15:18:10.268948+00:00"
+      "since": "2026-08-05",
+      "updatedAt": "2026-09-02T12:21:04.433647+00:00"
     },
     "micode": {
       "cells": {},
@@ -963,5 +978,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T00:19:03.191527+00:00"
+  "updatedAt": "2026-09-02T12:21:12.457504+00:00"
 }
