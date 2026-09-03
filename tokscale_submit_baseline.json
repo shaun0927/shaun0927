@@ -888,22 +888,37 @@
         },
         "2026-09-02|hermes|gpt-5.5|custom": {
           "client": "hermes",
-          "cost": 10.349247,
+          "cost": 11.230987,
           "date": "2026-09-02",
-          "messages": 265,
+          "messages": 297,
           "model": "gpt-5.5",
           "provider": "custom",
           "tokens": {
-            "cacheRead": 5678592,
+            "cacheRead": 6170112,
             "cacheWrite": 0,
-            "input": 522345,
-            "output": 85813,
-            "reasoning": 10018
+            "input": 570775,
+            "output": 93773,
+            "reasoning": 11527
+          }
+        },
+        "2026-09-03|hermes|gpt-5.5|custom": {
+          "client": "hermes",
+          "cost": 0.859157,
+          "date": "2026-09-03",
+          "messages": 24,
+          "model": "gpt-5.5",
+          "provider": "custom",
+          "tokens": {
+            "cacheRead": 371712,
+            "cacheWrite": 0,
+            "input": 83577,
+            "output": 4242,
+            "reasoning": 2610
           }
         }
       },
-      "since": "2026-08-05",
-      "updatedAt": "2026-09-02T12:21:04.433647+00:00"
+      "since": "2026-08-06",
+      "updatedAt": "2026-09-03T00:18:53.135185+00:00"
     },
     "micode": {
       "cells": {},
@@ -978,5 +993,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T12:21:12.457504+00:00"
+  "updatedAt": "2026-09-03T00:19:00.409798+00:00"
 }
