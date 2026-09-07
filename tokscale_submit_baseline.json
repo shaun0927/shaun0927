@@ -151,10 +151,40 @@
             "output": 1102,
             "reasoning": 0
           }
+        },
+        "2026-09-06|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 0.619602,
+          "date": "2026-09-06",
+          "messages": 12,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 460714,
+            "cacheWrite": 37924,
+            "input": 24,
+            "output": 6084,
+            "reasoning": 0
+          }
+        },
+        "2026-09-07|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 194.29193825,
+          "date": "2026-09-07",
+          "messages": 1123,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 160381329,
+            "cacheWrite": 7558667,
+            "input": 2246,
+            "output": 2673935,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-08-06",
-      "updatedAt": "2026-09-03T12:19:31.061471+00:00"
+      "since": "2026-08-10",
+      "updatedAt": "2026-09-07T00:18:54.661043+00:00"
     },
     "codex": {
       "cells": {
@@ -1053,5 +1083,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06T12:19:10.591577+00:00"
+  "updatedAt": "2026-09-07T00:19:00.298153+00:00"
 }
