@@ -196,10 +196,25 @@
             "output": 39455,
             "reasoning": 0
           }
+        },
+        "2026-09-09|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 0.8216215000000001,
+          "date": "2026-09-09",
+          "messages": 1,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 11973,
+            "cacheWrite": 129300,
+            "input": 2,
+            "output": 300,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-08-11",
-      "updatedAt": "2026-09-08T12:19:07.582119+00:00"
+      "since": "2026-08-12",
+      "updatedAt": "2026-09-09T12:21:04.998855+00:00"
     },
     "codex": {
       "cells": {
@@ -445,17 +460,17 @@
         },
         "2026-08-28|codex|gpt-5.6-sol|cliproxyapi": {
           "client": "codex",
-          "cost": 553.857879200001,
+          "cost": 595.9999336000005,
           "date": "2026-08-28",
-          "messages": 2521,
+          "messages": 3003,
           "model": "gpt-5.6-sol",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 790316672,
+            "cacheRead": 821006976,
             "cacheWrite": 0,
-            "input": 21045140,
-            "output": 996035,
-            "reasoning": 835017
+            "input": 25192606,
+            "output": 1192285,
+            "reasoning": 957977
           }
         },
         "2026-08-29|codex|gpt-5.5|cliproxyapi": {
@@ -535,17 +550,17 @@
         },
         "2026-08-30|codex|gpt-5.6-sol|cliproxyapi": {
           "client": "codex",
-          "cost": 1215.4952272000053,
+          "cost": 1222.0720760000052,
           "date": "2026-08-30",
-          "messages": 5746,
+          "messages": 5816,
           "model": "gpt-5.6-sol",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 1627830016,
+            "cacheRead": 1636370688,
             "cacheWrite": 0,
-            "input": 49512413,
-            "output": 2036863,
-            "reasoning": 1530045
+            "input": 49949593,
+            "output": 2082749,
+            "reasoning": 1554752
           }
         },
         "2026-08-31|codex|gpt-5.5|cliproxyapi": {
@@ -580,17 +595,17 @@
         },
         "2026-08-31|codex|gpt-5.6-sol|cliproxyapi": {
           "client": "codex",
-          "cost": 392.0515783999998,
+          "cost": 392.7049215999998,
           "date": "2026-08-31",
-          "messages": 1804,
+          "messages": 1811,
           "model": "gpt-5.6-sol",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 481827840,
+            "cacheRead": 482176768,
             "cacheWrite": 0,
-            "input": 20085691,
-            "output": 753501,
-            "reasoning": 531170
+            "input": 20178654,
+            "output": 755952,
+            "reasoning": 535815
           }
         },
         "2026-09-01|codex|gpt-5.5|cliproxyapi": {
@@ -728,24 +743,69 @@
             "reasoning": 442
           }
         },
+        "2026-09-09|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 1.3606040000000001,
+          "date": "2026-09-09",
+          "messages": 3,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 430208,
+            "cacheWrite": 0,
+            "input": 211394,
+            "output": 2951,
+            "reasoning": 0
+          }
+        },
+        "2026-09-09|codex|gpt-5.6-luna|cliproxyapi": {
+          "client": "codex",
+          "cost": 0.51319852,
+          "date": "2026-09-09",
+          "messages": 49,
+          "model": "gpt-5.6-luna",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 7880960,
+            "cacheWrite": 0,
+            "input": 1357235,
+            "output": 40451,
+            "reasoning": 13495
+          }
+        },
+        "2026-09-09|codex|gpt-5.6-terra|cliproxyapi": {
+          "client": "codex",
+          "cost": 0.33968199999999993,
+          "date": "2026-09-09",
+          "messages": 7,
+          "model": "gpt-5.6-terra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 372480,
+            "cacheWrite": 0,
+            "input": 112991,
+            "output": 1595,
+            "reasoning": 1672
+          }
+        },
         "2026-09-09|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 1.18814,
+          "cost": 933.6296179999993,
           "date": "2026-09-09",
-          "messages": 8,
+          "messages": 5243,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 446080,
+            "cacheRead": 646078848,
             "cacheWrite": 0,
-            "input": 43636,
-            "output": 5781,
-            "reasoning": 333
+            "input": 18228402,
+            "output": 1500712,
+            "reasoning": 604623
           }
         }
       },
       "since": "2026-08-12",
-      "updatedAt": "2026-09-09T00:18:58.735161+00:00"
+      "updatedAt": "2026-09-09T12:20:27.144882+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1128,5 +1188,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T00:19:17.100038+00:00"
+  "updatedAt": "2026-09-09T12:21:13.311062+00:00"
 }
