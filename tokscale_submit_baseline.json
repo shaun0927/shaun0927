@@ -803,6 +803,21 @@
             "reasoning": 614483
           }
         },
+        "2026-09-10|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 19.465389999999996,
+          "date": "2026-09-10",
+          "messages": 157,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 22750720,
+            "cacheWrite": 0,
+            "input": 1194316,
+            "output": 58529,
+            "reasoning": 12086
+          }
+        },
         "2026-09-10|codex|gpt-5.6-luna|cliproxyapi": {
           "client": "codex",
           "cost": 0.46553272000000034,
@@ -835,37 +850,37 @@
         },
         "2026-09-10|codex|gpt-5.6-terra|cliproxyapi": {
           "client": "codex",
-          "cost": 0.3344772,
+          "cost": 1.3796964,
           "date": "2026-09-10",
-          "messages": 6,
+          "messages": 19,
           "model": "gpt-5.6-terra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 206336,
+            "cacheRead": 1332992,
             "cacheWrite": 0,
-            "input": 122371,
-            "output": 2297,
-            "reasoning": 1742
+            "input": 450253,
+            "output": 10905,
+            "reasoning": 6811
           }
         },
         "2026-09-10|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 22.33617600000002,
+          "cost": 24.71607800000002,
           "date": "2026-09-10",
-          "messages": 107,
+          "messages": 118,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 9408256,
+            "cacheRead": 10459648,
             "cacheWrite": 0,
-            "input": 1103382,
-            "output": 33189,
-            "reasoning": 4693
+            "input": 1221898,
+            "output": 35508,
+            "reasoning": 5241
           }
         }
       },
       "since": "2026-08-13",
-      "updatedAt": "2026-09-10T00:18:56.888818+00:00"
+      "updatedAt": "2026-09-10T12:19:09.272082+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1248,5 +1263,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T00:19:07.316317+00:00"
+  "updatedAt": "2026-09-10T12:19:18.210685+00:00"
 }
