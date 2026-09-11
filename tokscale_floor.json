@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-09-11",
   "totals": {
-    "cost": 267263.7914686127,
-    "tokens": 353753807596,
-    "messages": 2725128,
-    "input": 10835676962,
-    "output": 1109806369,
-    "cache_read": 337205907523,
+    "cost": 267281.18887761264,
+    "tokens": 353768967419,
+    "messages": 2725214,
+    "input": 10837072056,
+    "output": 1109837185,
+    "cache_read": 337219631299,
     "cache_write": 4416172993,
-    "reasoning": 186243749,
+    "reasoning": 186253886,
     "active_days": 246,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -261,15 +261,15 @@
         "reasoning": 22543411
       },
       "gpt-5.5": {
-        "cost": 104315.92026900001,
-        "messageCount": 1083972,
-        "input": 4915667253,
-        "output": 391228671,
-        "cacheRead": 132559431168,
+        "cost": 104328.59111600001,
+        "messageCount": 1084042,
+        "input": 4916735610,
+        "output": 391253564,
+        "cacheRead": 132572013952,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-09-11",
-        "reasoning": 57366943
+        "reasoning": 57376639
       },
       "gpt-5.6-sol": {
         "cost": 50369.03835940003,
@@ -316,15 +316,15 @@
         "last_seen": "2026-09-06"
       },
       "gpt-6-astra": {
-        "cost": 6057.9822650000015,
-        "messageCount": 58425,
-        "input": 189093101,
-        "output": 20812210,
-        "cacheRead": 7858694016,
+        "cost": 6062.708827000001,
+        "messageCount": 58441,
+        "input": 189419838,
+        "output": 20818133,
+        "cacheRead": 7859835008,
         "cacheWrite": 0,
-        "reasoning": 5892569,
+        "reasoning": 5893010,
         "first_seen": "2026-09-06",
-        "last_seen": "2026-09-10"
+        "last_seen": "2026-09-11"
       },
       "anthropic/claude-opus-5": {
         "cost": 30.421616000000007,
