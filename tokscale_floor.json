@@ -2,17 +2,17 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-13",
   "totals": {
-    "cost": 269031.3034008726,
-    "tokens": 357239197667,
-    "messages": 2750806,
-    "input": 11005252346,
-    "output": 1119326886,
-    "cache_read": 340508690963,
+    "cost": 269043.6957102726,
+    "tokens": 357245606154,
+    "messages": 2750866,
+    "input": 11005948951,
+    "output": 1119342095,
+    "cache_read": 340514385427,
     "cache_write": 4416693415,
-    "reasoning": 189234057,
-    "active_days": 247,
+    "reasoning": 189236266,
+    "active_days": 248,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -294,15 +294,15 @@
         "reasoning": 2737808
       },
       "gpt-5.6-luna": {
-        "cost": 47.265098920000014,
-        "messageCount": 10687,
-        "input": 81495541,
-        "output": 3978961,
-        "cacheRead": 1233446400,
+        "cost": 47.288704320000015,
+        "messageCount": 10694,
+        "input": 81576024,
+        "output": 3980323,
+        "cacheRead": 1233716480,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
-        "last_seen": "2026-09-12",
-        "reasoning": 1252427
+        "last_seen": "2026-09-13",
+        "reasoning": 1252821
       },
       "codex-auto-review": {
         "cost": 1.594849839999999,
@@ -316,15 +316,15 @@
         "last_seen": "2026-09-06"
       },
       "gpt-6-astra": {
-        "cost": 6690.135698000001,
-        "messageCount": 64549,
-        "input": 216182175,
-        "output": 22259284,
-        "cacheRead": 8761636480,
+        "cost": 6702.504402000001,
+        "messageCount": 64602,
+        "input": 216798297,
+        "output": 22273131,
+        "cacheRead": 8767060864,
         "cacheWrite": 0,
-        "reasoning": 6160437,
+        "reasoning": 6162252,
         "first_seen": "2026-09-06",
-        "last_seen": "2026-09-12"
+        "last_seen": "2026-09-13"
       },
       "anthropic/claude-opus-5": {
         "cost": 161.24485249999998,
