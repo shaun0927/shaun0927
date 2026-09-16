@@ -1045,22 +1045,37 @@
         },
         "2026-09-15|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 54.93187800000007,
+          "cost": 59.051984000000076,
           "date": "2026-09-15",
-          "messages": 233,
+          "messages": 275,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 19543168,
+            "cacheRead": 22076544,
             "cacheWrite": 0,
-            "input": 3037266,
-            "output": 93655,
-            "reasoning": 6666
+            "input": 3173009,
+            "output": 97677,
+            "reasoning": 7230
+          }
+        },
+        "2026-09-16|codex|gpt-6-astra|cliproxyapi": {
+          "client": "codex",
+          "cost": 1.410042,
+          "date": "2026-09-16",
+          "messages": 14,
+          "model": "gpt-6-astra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 1127552,
+            "cacheWrite": 0,
+            "input": 22329,
+            "output": 1138,
+            "reasoning": 46
           }
         }
       },
-      "since": "2026-08-18",
-      "updatedAt": "2026-09-15T12:19:10.803936+00:00"
+      "since": "2026-08-19",
+      "updatedAt": "2026-09-16T00:18:49.352417+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1338,17 +1353,17 @@
         },
         "2026-09-02|hermes|gpt-5.5|custom": {
           "client": "hermes",
-          "cost": 53.836777000000005,
+          "cost": 59.953037,
           "date": "2026-09-02",
-          "messages": 447,
+          "messages": 464,
           "model": "gpt-5.5",
           "provider": "custom",
           "tokens": {
-            "cacheRead": 13414912,
+            "cacheRead": 14341632,
             "cacheWrite": 0,
-            "input": 3852991,
-            "output": 158961,
-            "reasoning": 46200
+            "input": 4357191,
+            "output": 163321,
+            "reasoning": 46758
           }
         },
         "2026-09-03|hermes|gpt-5.5|custom": {
@@ -1367,8 +1382,8 @@
           }
         }
       },
-      "since": "2026-08-12",
-      "updatedAt": "2026-09-09T00:19:13.214661+00:00"
+      "since": "2026-08-19",
+      "updatedAt": "2026-09-16T00:19:03.883343+00:00"
     },
     "micode": {
       "cells": {},
@@ -1443,5 +1458,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T12:19:31.967655+00:00"
+  "updatedAt": "2026-09-16T00:19:07.908786+00:00"
 }
