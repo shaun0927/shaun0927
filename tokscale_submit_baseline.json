@@ -271,10 +271,25 @@
             "output": 106392,
             "reasoning": 0
           }
+        },
+        "2026-09-22|claude|claude-opus-5|anthropic": {
+          "client": "claude",
+          "cost": 0.69321175,
+          "date": "2026-09-22",
+          "messages": 17,
+          "model": "claude-opus-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 532746,
+            "cacheWrite": 49155,
+            "input": 34,
+            "output": 4778,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-08-18",
-      "updatedAt": "2026-09-15T12:19:26.294044+00:00"
+      "since": "2026-08-25",
+      "updatedAt": "2026-09-22T12:19:52.666811+00:00"
     },
     "codex": {
       "cells": {
@@ -1072,10 +1087,40 @@
             "output": 1138,
             "reasoning": 46
           }
+        },
+        "2026-09-22|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 12.682381,
+          "date": "2026-09-22",
+          "messages": 98,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 9214592,
+            "cacheWrite": 0,
+            "input": 1109493,
+            "output": 75251,
+            "reasoning": 9003
+          }
+        },
+        "2026-09-22|codex|gpt-6-astra|cliproxyapi": {
+          "client": "codex",
+          "cost": 32.566624000000004,
+          "date": "2026-09-22",
+          "messages": 170,
+          "model": "gpt-6-astra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 13091584,
+            "cacheWrite": 0,
+            "input": 1729914,
+            "output": 41428,
+            "reasoning": 2090
+          }
         }
       },
-      "since": "2026-08-19",
-      "updatedAt": "2026-09-16T00:18:49.352417+00:00"
+      "since": "2026-08-25",
+      "updatedAt": "2026-09-22T12:18:47.933704+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1458,5 +1503,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T00:18:48.387028+00:00"
+  "updatedAt": "2026-09-22T12:19:58.614869+00:00"
 }
