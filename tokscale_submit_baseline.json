@@ -1270,32 +1270,32 @@
         },
         "2026-09-24|codex|gpt-5.6-luna|cliproxyapi": {
           "client": "codex",
-          "cost": 0.14974607999999998,
+          "cost": 0.47419392,
           "date": "2026-09-24",
-          "messages": 35,
+          "messages": 105,
           "model": "gpt-5.6-luna",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 3832064,
+            "cacheRead": 12261376,
             "cacheWrite": 0,
-            "input": 272830,
-            "output": 8985,
-            "reasoning": 6464
+            "input": 851684,
+            "output": 32642,
+            "reasoning": 16216
           }
         },
         "2026-09-24|codex|gpt-5.6-sol|cliproxyapi": {
           "client": "codex",
-          "cost": 4.3325672,
+          "cost": 5.1308919999999985,
           "date": "2026-09-24",
-          "messages": 56,
+          "messages": 63,
           "model": "gpt-5.6-sol",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 3468928,
+            "cacheRead": 3827840,
             "cacheWrite": 0,
-            "input": 602719,
-            "output": 23356,
-            "reasoning": 3350
+            "input": 754979,
+            "output": 25322,
+            "reasoning": 3670
           }
         },
         "2026-09-24|codex|gpt-5.6-terra|cliproxyapi": {
@@ -1315,22 +1315,22 @@
         },
         "2026-09-24|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 250.95326200000008,
+          "cost": 348.7229159999996,
           "date": "2026-09-24",
-          "messages": 1142,
+          "messages": 1555,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 139071232,
+            "cacheRead": 187355136,
             "cacheWrite": 0,
-            "input": 9255213,
-            "output": 284898,
-            "reasoning": 101700
+            "input": 13483733,
+            "output": 392468,
+            "reasoning": 138141
           }
         }
       },
       "since": "2026-08-27",
-      "updatedAt": "2026-09-24T00:19:27.864714+00:00"
+      "updatedAt": "2026-09-24T12:19:06.126200+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1713,5 +1713,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T00:20:15.348249+00:00"
+  "updatedAt": "2026-09-24T12:19:14.907217+00:00"
 }
