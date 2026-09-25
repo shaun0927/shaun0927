@@ -1270,17 +1270,17 @@
         },
         "2026-09-24|codex|gpt-5.6-luna|cliproxyapi": {
           "client": "codex",
-          "cost": 0.47419392,
+          "cost": 0.5126407199999999,
           "date": "2026-09-24",
-          "messages": 105,
+          "messages": 116,
           "model": "gpt-5.6-luna",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 12261376,
+            "cacheRead": 13042176,
             "cacheWrite": 0,
-            "input": 851684,
-            "output": 32642,
-            "reasoning": 16216
+            "input": 947154,
+            "output": 35456,
+            "reasoning": 16516
           }
         },
         "2026-09-24|codex|gpt-5.6-sol|cliproxyapi": {
@@ -1315,22 +1315,67 @@
         },
         "2026-09-24|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 348.7229159999996,
+          "cost": 515.0378779999991,
           "date": "2026-09-24",
-          "messages": 1555,
+          "messages": 2337,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 187355136,
+            "cacheRead": 280711808,
             "cacheWrite": 0,
-            "input": 13483733,
-            "output": 392468,
-            "reasoning": 138141
+            "input": 19486417,
+            "output": 588299,
+            "reasoning": 200939
+          }
+        },
+        "2026-09-25|codex|gpt-5.6-sol|cliproxyapi": {
+          "client": "codex",
+          "cost": 2.3813624,
+          "date": "2026-09-25",
+          "messages": 25,
+          "model": "gpt-5.6-sol",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 2606976,
+            "cacheWrite": 0,
+            "input": 264948,
+            "output": 11755,
+            "reasoning": 2184
+          }
+        },
+        "2026-09-25|codex|gpt-5.6-terra|cliproxyapi": {
+          "client": "codex",
+          "cost": 4.189650799999998,
+          "date": "2026-09-25",
+          "messages": 97,
+          "model": "gpt-5.6-terra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 8578944,
+            "cacheWrite": 0,
+            "input": 839053,
+            "output": 43364,
+            "reasoning": 22949
+          }
+        },
+        "2026-09-25|codex|gpt-6-astra|cliproxyapi": {
+          "client": "codex",
+          "cost": 461.4241880000003,
+          "date": "2026-09-25",
+          "messages": 2558,
+          "model": "gpt-6-astra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 315890688,
+            "cacheWrite": 0,
+            "input": 10018540,
+            "output": 755748,
+            "reasoning": 151214
           }
         }
       },
-      "since": "2026-08-27",
-      "updatedAt": "2026-09-24T12:19:06.126200+00:00"
+      "since": "2026-08-28",
+      "updatedAt": "2026-09-25T00:19:56.656562+00:00"
     },
     "gemini": {
       "cells": {},
@@ -1713,5 +1758,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T12:19:14.907217+00:00"
+  "updatedAt": "2026-09-25T00:20:36.266913+00:00"
 }
