@@ -2,17 +2,17 @@
   "_note": "Floor values to prevent display regression. update_tokscale.py ratchets these up whenever SSR returns higher values, and applies them as a minimum when SSR returns lower (proportionally scaling per-(client,model) breakdown).",
   "_recovery_methodology": "Multi-event compensation. (a) 2026-04-21..2026-05-06: server data eroded by naive `tokscale submit` calls on rotated local logs. Estimated loss $3,029 / 3.22B tok / 28,323 msgs absorbed into floor on 2026-05-12. (b) 2026-05-14 10:29 KST: a one-time `submit -c claude` (with TOKSCALE_FORCE_LOSS=1) that was expected to leave the synthetic `reconstructed-claude-history` bucket intact in fact destroyed ~94% of it ($12,455 -> $790, ~$11,665 erased) — the CLI's submit semantics turned out to be CLIENT-level REPLACE, not (client, model)-level. Floor was ratcheted to (pre-submit total $49,986 + Claude growth $7,721) = $57,707 to absorb the loss visually. safe_submit.py now BLOCKS any client whose server bucket holds a synthetic/recovery model unless TOKSCALE_FORCE_SYNTHETIC_DELETE=1 is explicitly set. (c) 2026-05-14 11:50 KST: bucket restored to $12,527 by re-fabricating ~111K synthetic Claude session JSONL entries under ~/.claude/projects/-tokscale-recovery-reconstructed/ with model=reconstructed-claude-history and total tokens calibrated to ~$11,665. Server now reports cost ~$57,075 vs floor $57,707 (close convergence). Tokens column remains floor-inflated (server 69B vs floor 82B) because the synthetic bucket is denser per-token than the original; this delta will close naturally as new usage accumulates.",
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "totals": {
-    "cost": 283726.3035238826,
-    "tokens": 377659038439,
-    "messages": 2866274,
-    "input": 11473701960,
-    "output": 1187933876,
-    "cache_read": 360234181820,
-    "cache_write": 4568440322,
-    "reasoning": 194780461,
-    "active_days": 260,
+    "cost": 284089.98722058255,
+    "tokens": 377993539079,
+    "messages": 2868974,
+    "input": 11508044150,
+    "output": 1189150578,
+    "cache_read": 360532788288,
+    "cache_write": 4568556028,
+    "reasoning": 195000035,
+    "active_days": 261,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -160,14 +160,14 @@
         "last_seen": "2026-08-02"
       },
       "claude-opus-5": {
-        "cost": 12644.176019749999,
-        "messageCount": 60030,
-        "input": 1306225,
-        "output": 61159748,
-        "cacheRead": 18603861452,
-        "cacheWrite": 289075275,
+        "cost": 12645.132714249996,
+        "messageCount": 60034,
+        "input": 1306233,
+        "output": 61162278,
+        "cacheRead": 18604201936,
+        "cacheWrite": 289190981,
         "first_seen": "2026-07-30",
-        "last_seen": "2026-09-24"
+        "last_seen": "2026-09-26"
       },
       "claude-sonnet-5": {
         "cost": 234.90698319999996,
@@ -272,15 +272,15 @@
         "reasoning": 22543411
       },
       "gpt-5.5": {
-        "cost": 108610.683038,
-        "messageCount": 1119860,
-        "input": 5157757116,
-        "output": 409697483,
-        "cacheRead": 137460868096,
+        "cost": 108972.657187,
+        "messageCount": 1122541,
+        "input": 5191939733,
+        "output": 410901390,
+        "cacheRead": 137757715584,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
-        "last_seen": "2026-09-25",
-        "reasoning": 60017964
+        "last_seen": "2026-09-26",
+        "reasoning": 60235301
       },
       "gpt-5.6-sol": {
         "cost": 50704.65512340002,
@@ -294,15 +294,15 @@
         "reasoning": 72033378
       },
       "gpt-5.6-terra": {
-        "cost": 1343.071446,
-        "messageCount": 26146,
-        "input": 154281611,
-        "output": 11699618,
-        "cacheRead": 3446956544,
+        "cost": 1343.8242991999998,
+        "messageCount": 26161,
+        "input": 154441176,
+        "output": 11709883,
+        "cacheRead": 3448375040,
         "cacheWrite": 0,
         "first_seen": "2026-07-13",
-        "last_seen": "2026-09-25",
-        "reasoning": 3522668
+        "last_seen": "2026-09-26",
+        "reasoning": 3524905
       },
       "gpt-5.6-luna": {
         "cost": 54.04399252,
