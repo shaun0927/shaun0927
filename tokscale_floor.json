@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-09-26",
   "totals": {
-    "cost": 284089.98722058255,
-    "tokens": 377993539079,
-    "messages": 2868974,
-    "input": 11508044150,
-    "output": 1189150578,
-    "cache_read": 360532788288,
-    "cache_write": 4568556028,
-    "reasoning": 195000035,
+    "cost": 285128.8519481426,
+    "tokens": 378778941463,
+    "messages": 2876012,
+    "input": 11556783575,
+    "output": 1191488702,
+    "cache_read": 361266478598,
+    "cache_write": 4568851155,
+    "reasoning": 195339433,
     "active_days": 261,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -191,15 +191,15 @@
         "last_seen": "2026-09-25"
       },
       "claude-opus-5-5": {
-        "cost": 702.9821845600001,
-        "messageCount": 4794,
-        "input": 9854,
-        "output": 4224608,
-        "cacheRead": 2023509319,
-        "cacheWrite": 19708918,
+        "cost": 704.9834207600001,
+        "messageCount": 4799,
+        "input": 9864,
+        "output": 4238870,
+        "cacheRead": 2024710925,
+        "cacheWrite": 20004045,
         "reasoning": 0,
         "first_seen": "2026-09-24",
-        "last_seen": "2026-09-25"
+        "last_seen": "2026-09-26"
       }
     },
     "gemini": {
@@ -272,15 +272,15 @@
         "reasoning": 22543411
       },
       "gpt-5.5": {
-        "cost": 108972.657187,
-        "messageCount": 1122541,
-        "input": 5191939733,
-        "output": 410901390,
-        "cacheRead": 137757715584,
+        "cost": 109298.57841500001,
+        "messageCount": 1124943,
+        "input": 5223868349,
+        "output": 411928397,
+        "cacheRead": 138018742400,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-09-26",
-        "reasoning": 60235301
+        "reasoning": 60400452
       },
       "gpt-5.6-sol": {
         "cost": 50704.65512340002,
@@ -305,15 +305,15 @@
         "reasoning": 3524905
       },
       "gpt-5.6-luna": {
-        "cost": 54.04399252,
-        "messageCount": 13006,
-        "input": 93671017,
-        "output": 4777375,
-        "cacheRead": 1384529280,
+        "cost": 54.08949588,
+        "messageCount": 13019,
+        "input": 93781583,
+        "output": 4781837,
+        "cacheRead": 1385417088,
         "cacheWrite": 0,
         "first_seen": "2026-08-28",
-        "last_seen": "2026-09-25",
-        "reasoning": 1555797
+        "last_seen": "2026-09-26",
+        "reasoning": 1556030
       },
       "codex-auto-review": {
         "cost": 1.594849839999999,
@@ -327,15 +327,15 @@
         "last_seen": "2026-09-06"
       },
       "gpt-6-astra": {
-        "cost": 11515.112019999999,
-        "messageCount": 102814,
-        "input": 386063009,
-        "output": 34337185,
-        "cacheRead": 13795065856,
+        "cost": 12226.00878,
+        "messageCount": 107432,
+        "input": 402763242,
+        "output": 35629578,
+        "cacheRead": 14265639936,
         "cacheWrite": 0,
-        "reasoning": 8166084,
+        "reasoning": 8340098,
         "first_seen": "2026-09-06",
-        "last_seen": "2026-09-25"
+        "last_seen": "2026-09-26"
       },
       "anthropic/claude-opus-5": {
         "cost": 172.9154135,
