@@ -409,31 +409,31 @@
         },
         "2026-09-29|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 52.47349724999999,
+          "cost": 107.1703024999999,
           "date": "2026-09-29",
-          "messages": 233,
+          "messages": 432,
           "model": "claude-opus-4-8",
           "provider": "anthropic",
           "tokens": {
-            "cacheRead": 37739447,
-            "cacheWrite": 3390979,
-            "input": 466,
-            "output": 496313,
+            "cacheRead": 106982915,
+            "cacheWrite": 5156108,
+            "input": 864,
+            "output": 857954,
             "reasoning": 0
           }
         },
         "2026-09-29|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 72.56548619999995,
+          "cost": 73.11193579999997,
           "date": "2026-09-29",
-          "messages": 1269,
+          "messages": 1281,
           "model": "claude-opus-5-5",
           "provider": "anthropic",
           "tokens": {
-            "cacheRead": 161842356,
-            "cacheWrite": 4020643,
-            "input": 2570,
-            "output": 1004176,
+            "cacheRead": 162631174,
+            "cacheWrite": 4088121,
+            "input": 2594,
+            "output": 1006736,
             "reasoning": 0
           }
         },
@@ -451,10 +451,25 @@
             "output": 77849,
             "reasoning": 0
           }
+        },
+        "2026-09-30|claude|claude-opus-4-8|anthropic": {
+          "client": "claude",
+          "cost": 44.826348499999995,
+          "date": "2026-09-30",
+          "messages": 111,
+          "model": "claude-opus-4-8",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 79557752,
+            "cacheWrite": 192854,
+            "input": 222,
+            "output": 153641,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-09-01",
-      "updatedAt": "2026-09-29T12:20:01.540064+00:00"
+      "since": "2026-09-02",
+      "updatedAt": "2026-09-30T00:19:44.027707+00:00"
     },
     "codex": {
       "cells": {
@@ -1645,37 +1660,67 @@
         },
         "2026-09-29|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 5884.192393000021,
+          "cost": 6033.269365000012,
           "date": "2026-09-29",
-          "messages": 42379,
+          "messages": 43597,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 4800993536,
+            "cacheRead": 4937920000,
             "cacheWrite": 0,
-            "input": 577869183,
-            "output": 15991161,
-            "reasoning": 3820496
+            "input": 590845603,
+            "output": 16385972,
+            "reasoning": 3950073
           }
         },
         "2026-09-29|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 975.9199359999984,
+          "cost": 1008.6834079999991,
           "date": "2026-09-29",
-          "messages": 4299,
+          "messages": 4460,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 532801536,
+            "cacheRead": 552443008,
             "cacheWrite": 0,
-            "input": 37742925,
-            "output": 1042981,
-            "reasoning": 270802
+            "input": 38746810,
+            "output": 1087060,
+            "reasoning": 288386
+          }
+        },
+        "2026-09-30|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 1099.3822560000028,
+          "date": "2026-09-30",
+          "messages": 8561,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 939313152,
+            "cacheWrite": 0,
+            "input": 102211428,
+            "output": 2998352,
+            "reasoning": 957266
+          }
+        },
+        "2026-09-30|codex|gpt-6-astra|cliproxyapi": {
+          "client": "codex",
+          "cost": 233.1854359999999,
+          "date": "2026-09-30",
+          "messages": 945,
+          "model": "gpt-6-astra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 117058816,
+            "cacheWrite": 0,
+            "input": 10176892,
+            "output": 212250,
+            "reasoning": 74904
           }
         }
       },
-      "since": "2026-09-01",
-      "updatedAt": "2026-09-29T12:19:41.408931+00:00"
+      "since": "2026-09-02",
+      "updatedAt": "2026-09-30T00:19:19.799896+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2058,5 +2103,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T12:20:09.370233+00:00"
+  "updatedAt": "2026-09-30T00:19:57.026901+00:00"
 }
