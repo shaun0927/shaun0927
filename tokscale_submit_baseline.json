@@ -481,10 +481,25 @@
             "output": 24173,
             "reasoning": 0
           }
+        },
+        "2026-10-01|claude|claude-opus-4-8|anthropic": {
+          "client": "claude",
+          "cost": 7.9627627500000004,
+          "date": "2026-10-01",
+          "messages": 26,
+          "model": "claude-opus-4-8",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 9068318,
+            "cacheWrite": 380399,
+            "input": 52,
+            "output": 42034,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-09-02",
-      "updatedAt": "2026-09-30T12:20:19.932340+00:00"
+      "since": "2026-09-03",
+      "updatedAt": "2026-10-01T12:19:28.294514+00:00"
     },
     "codex": {
       "cells": {
@@ -1735,22 +1750,37 @@
         },
         "2026-10-01|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 869.6506240000035,
+          "cost": 962.3708700000032,
           "date": "2026-10-01",
-          "messages": 7086,
+          "messages": 7775,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 801739008,
+            "cacheRead": 867917440,
             "cacheWrite": 0,
-            "input": 76157084,
-            "output": 2165427,
-            "reasoning": 767763
+            "input": 86250140,
+            "output": 2388309,
+            "reasoning": 850406
+          }
+        },
+        "2026-10-01|codex|gpt-6-astra|cliproxyapi": {
+          "client": "codex",
+          "cost": 23.584365999999996,
+          "date": "2026-10-01",
+          "messages": 69,
+          "model": "gpt-6-astra",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 7755776,
+            "cacheWrite": 0,
+            "input": 1456779,
+            "output": 16801,
+            "reasoning": 8415
           }
         }
       },
       "since": "2026-09-03",
-      "updatedAt": "2026-10-01T00:19:32.643377+00:00"
+      "updatedAt": "2026-10-01T12:19:12.982750+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2133,5 +2163,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T00:19:51.218324+00:00"
+  "updatedAt": "2026-10-01T12:19:34.782160+00:00"
 }
