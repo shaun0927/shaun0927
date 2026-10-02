@@ -484,22 +484,52 @@
         },
         "2026-10-01|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 7.9627627500000004,
+          "cost": 19.3029695,
           "date": "2026-10-01",
-          "messages": 26,
+          "messages": 88,
           "model": "claude-opus-4-8",
           "provider": "anthropic",
           "tokens": {
-            "cacheRead": 9068318,
-            "cacheWrite": 380399,
-            "input": 52,
-            "output": 42034,
+            "cacheRead": 16163029,
+            "cacheWrite": 1059784,
+            "input": 176,
+            "output": 183877,
+            "reasoning": 0
+          }
+        },
+        "2026-10-02|claude|claude-opus-4-8|anthropic": {
+          "client": "claude",
+          "cost": 67.66902675000001,
+          "date": "2026-10-02",
+          "messages": 197,
+          "model": "claude-opus-4-8",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 87322876,
+            "cacheWrite": 1699899,
+            "input": 394,
+            "output": 535250,
+            "reasoning": 0
+          }
+        },
+        "2026-10-02|claude|claude-opus-5-5|anthropic": {
+          "client": "claude",
+          "cost": 0.7222655999999998,
+          "date": "2026-10-02",
+          "messages": 13,
+          "model": "claude-opus-5-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 1084208,
+            "cacheWrite": 85992,
+            "input": 26,
+            "output": 3768,
             "reasoning": 0
           }
         }
       },
-      "since": "2026-09-03",
-      "updatedAt": "2026-10-01T12:19:28.294514+00:00"
+      "since": "2026-09-04",
+      "updatedAt": "2026-10-02T00:19:19.666580+00:00"
     },
     "codex": {
       "cells": {
@@ -2163,5 +2193,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T12:19:34.782160+00:00"
+  "updatedAt": "2026-10-02T00:19:27.106241+00:00"
 }
