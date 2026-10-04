@@ -1807,10 +1807,25 @@
             "output": 16801,
             "reasoning": 8415
           }
+        },
+        "2026-10-04|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 16.585988000000004,
+          "date": "2026-10-04",
+          "messages": 191,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 20802816,
+            "cacheWrite": 0,
+            "input": 894310,
+            "output": 34863,
+            "reasoning": 22238
+          }
         }
       },
-      "since": "2026-09-03",
-      "updatedAt": "2026-10-01T12:19:12.982750+00:00"
+      "since": "2026-09-06",
+      "updatedAt": "2026-10-04T12:18:51.321430+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2193,5 +2208,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T00:18:48.718951+00:00"
+  "updatedAt": "2026-10-04T12:19:00.672045+00:00"
 }
