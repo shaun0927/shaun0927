@@ -169,7 +169,7 @@
         },
         "2026-09-07|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 194.5896535,
+          "cost": 219.28692475000008,
           "date": "2026-09-07",
           "messages": 1124,
           "model": "claude-opus-5",
@@ -184,7 +184,7 @@
         },
         "2026-09-08|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 1.4379122500000001,
+          "cost": 1.6694935,
           "date": "2026-09-08",
           "messages": 6,
           "model": "claude-opus-5",
@@ -199,7 +199,7 @@
         },
         "2026-09-09|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 0.8216215000000001,
+          "cost": 1.3064965000000002,
           "date": "2026-09-09",
           "messages": 1,
           "model": "claude-opus-5",
@@ -214,7 +214,7 @@
         },
         "2026-09-12|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 0.8189365000000001,
+          "cost": 0.9393865,
           "date": "2026-09-12",
           "messages": 22,
           "model": "claude-opus-5",
@@ -229,7 +229,7 @@
         },
         "2026-09-13|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 2.1071324999999996,
+          "cost": 2.3879924999999997,
           "date": "2026-09-13",
           "messages": 31,
           "model": "claude-opus-5",
@@ -244,7 +244,7 @@
         },
         "2026-09-15|claude|claude-fable-5-1|anthropic": {
           "client": "claude",
-          "cost": 0.2647938,
+          "cost": 0.35139400000000004,
           "date": "2026-09-15",
           "messages": 1,
           "model": "claude-fable-5-1",
@@ -259,7 +259,7 @@
         },
         "2026-09-15|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 14.583744499999996,
+          "cost": 15.817959500000002,
           "date": "2026-09-15",
           "messages": 159,
           "model": "claude-opus-5",
@@ -274,7 +274,7 @@
         },
         "2026-09-22|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 2.8598292499999998,
+          "cost": 3.387743000000001,
           "date": "2026-09-22",
           "messages": 52,
           "model": "claude-opus-5",
@@ -289,7 +289,7 @@
         },
         "2026-09-23|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 6.5307151999999995,
+          "cost": 7.4274001999999975,
           "date": "2026-09-23",
           "messages": 124,
           "model": "claude-opus-5-5",
@@ -304,7 +304,7 @@
         },
         "2026-09-23|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 1.8125645000000001,
+          "cost": 2.5320995,
           "date": "2026-09-23",
           "messages": 13,
           "model": "claude-opus-5",
@@ -319,7 +319,7 @@
         },
         "2026-09-24|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 0.7250137500000001,
+          "cost": 1.0983825,
           "date": "2026-09-24",
           "messages": 2,
           "model": "claude-opus-5",
@@ -334,7 +334,7 @@
         },
         "2026-09-25|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 5.226540800000003,
+          "cost": 6.063549800000001,
           "date": "2026-09-25",
           "messages": 55,
           "model": "claude-opus-5-5",
@@ -349,7 +349,7 @@
         },
         "2026-09-26|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 2.0012362,
+          "cost": 2.8866172000000003,
           "date": "2026-09-26",
           "messages": 5,
           "model": "claude-opus-5-5",
@@ -364,7 +364,7 @@
         },
         "2026-09-26|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 0.9566945,
+          "cost": 1.3905919999999998,
           "date": "2026-09-26",
           "messages": 4,
           "model": "claude-opus-5",
@@ -379,7 +379,7 @@
         },
         "2026-09-27|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 2.4781184,
+          "cost": 3.4340774,
           "date": "2026-09-27",
           "messages": 10,
           "model": "claude-opus-5-5",
@@ -394,7 +394,7 @@
         },
         "2026-09-28|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 17.503719199999992,
+          "cost": 20.673168200000017,
           "date": "2026-09-28",
           "messages": 277,
           "model": "claude-opus-5-5",
@@ -409,7 +409,7 @@
         },
         "2026-09-29|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 107.1703024999999,
+          "cost": 111.21180125000002,
           "date": "2026-09-29",
           "messages": 432,
           "model": "claude-opus-4-8",
@@ -424,7 +424,7 @@
         },
         "2026-09-29|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 73.11193579999997,
+          "cost": 77.12202379999997,
           "date": "2026-09-29",
           "messages": 1281,
           "model": "claude-opus-5-5",
@@ -439,7 +439,7 @@
         },
         "2026-09-29|claude|claude-opus-5|anthropic": {
           "client": "claude",
-          "cost": 9.332010000000002,
+          "cost": 10.720091250000001,
           "date": "2026-09-29",
           "messages": 32,
           "model": "claude-opus-5",
@@ -454,7 +454,7 @@
         },
         "2026-09-30|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 343.90659250000033,
+          "cost": 347.2404212500001,
           "date": "2026-09-30",
           "messages": 1135,
           "model": "claude-opus-4-8",
@@ -469,7 +469,7 @@
         },
         "2026-09-30|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 2.7871972000000005,
+          "cost": 3.8850232000000013,
           "date": "2026-09-30",
           "messages": 25,
           "model": "claude-opus-5-5",
@@ -484,7 +484,7 @@
         },
         "2026-10-01|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 19.3029695,
+          "cost": 22.41473075,
           "date": "2026-10-01",
           "messages": 88,
           "model": "claude-opus-4-8",
@@ -499,7 +499,7 @@
         },
         "2026-10-02|claude|claude-opus-4-8|anthropic": {
           "client": "claude",
-          "cost": 96.05818225000003,
+          "cost": 102.53304475000003,
           "date": "2026-10-02",
           "messages": 291,
           "model": "claude-opus-4-8",
@@ -514,7 +514,7 @@
         },
         "2026-10-02|claude|claude-opus-5-5|anthropic": {
           "client": "claude",
-          "cost": 0.7222655999999998,
+          "cost": 0.9802416000000002,
           "date": "2026-10-02",
           "messages": 13,
           "model": "claude-opus-5-5",
@@ -528,8 +528,8 @@
           }
         }
       },
-      "since": "2026-09-04",
-      "updatedAt": "2026-10-02T12:19:00.984294+00:00"
+      "since": "2026-09-07",
+      "updatedAt": "2026-10-05T12:20:06.087042+00:00"
     },
     "codex": {
       "cells": {
@@ -1450,17 +1450,17 @@
         },
         "2026-09-23|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 487.46167599999944,
+          "cost": 489.4183659999994,
           "date": "2026-09-23",
-          "messages": 2296,
+          "messages": 2297,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 268110976,
+            "cacheRead": 268114816,
             "cacheWrite": 0,
-            "input": 18254385,
-            "output": 573577,
-            "reasoning": 162560
+            "input": 18440790,
+            "output": 575336,
+            "reasoning": 162577
           }
         },
         "2026-09-24|codex|gpt-5.6-luna|cliproxyapi": {
@@ -1825,22 +1825,22 @@
         },
         "2026-10-05|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 23.126219000000013,
+          "cost": 65.19079400000003,
           "date": "2026-10-05",
-          "messages": 208,
+          "messages": 610,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 22437248,
+            "cacheRead": 72267008,
             "cacheWrite": 0,
-            "input": 1961573,
-            "output": 50703,
-            "reasoning": 19288
+            "input": 4854434,
+            "output": 113580,
+            "reasoning": 45924
           }
         }
       },
       "since": "2026-09-07",
-      "updatedAt": "2026-10-05T00:19:09.388229+00:00"
+      "updatedAt": "2026-10-05T12:19:43.761988+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2223,5 +2223,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T00:19:22.615806+00:00"
+  "updatedAt": "2026-10-05T12:20:11.694468+00:00"
 }
