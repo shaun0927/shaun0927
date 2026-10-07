@@ -4,14 +4,14 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-10-07",
   "totals": {
-    "cost": 314506.25805102265,
-    "tokens": 412211317369,
-    "messages": 3112259,
-    "input": 13522178353,
-    "output": 1288592980,
-    "cache_read": 392478136216,
+    "cost": 314820.49782802264,
+    "tokens": 412526570514,
+    "messages": 3114732,
+    "input": 13548087942,
+    "output": 1289779547,
+    "cache_read": 392766123160,
     "cache_write": 4709116779,
-    "reasoning": 213293041,
+    "reasoning": 213463086,
     "active_days": 272,
     "streak": 0,
     "best_day_cost": 5210.0,
@@ -283,15 +283,15 @@
         "reasoning": 22543411
       },
       "gpt-5.5": {
-        "cost": 132065.76463000002,
-        "messageCount": 1309269,
-        "input": 6993319848,
-        "output": 474219071,
-        "cacheRead": 161189880320,
+        "cost": 132380.004407,
+        "messageCount": 1311742,
+        "input": 7019229437,
+        "output": 475405638,
+        "cacheRead": 161477867264,
         "cacheWrite": 0,
         "first_seen": "2026-06-13",
         "last_seen": "2026-10-07",
-        "reasoning": 75921770
+        "reasoning": 76091815
       },
       "gpt-5.6-sol": {
         "cost": 50865.20497940002,
