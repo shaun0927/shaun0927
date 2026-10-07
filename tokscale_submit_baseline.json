@@ -1855,17 +1855,17 @@
         },
         "2026-10-06|codex|gpt-5.5|cliproxyapi": {
           "client": "codex",
-          "cost": 920.1459249999991,
+          "cost": 946.2782889999996,
           "date": "2026-10-06",
-          "messages": 7532,
+          "messages": 7774,
           "model": "gpt-5.5",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 871457280,
+            "cacheRead": 901779968,
             "cacheWrite": 0,
-            "input": 77381507,
-            "output": 2615437,
-            "reasoning": 634888
+            "input": 79099947,
+            "output": 2675107,
+            "reasoning": 654512
           }
         },
         "2026-10-06|codex|gpt-6-astra|cliproxyapi": {
@@ -1882,10 +1882,25 @@
             "output": 7719,
             "reasoning": 935
           }
+        },
+        "2026-10-07|codex|gpt-5.5|cliproxyapi": {
+          "client": "codex",
+          "cost": 360.2545020000002,
+          "date": "2026-10-07",
+          "messages": 3332,
+          "model": "gpt-5.5",
+          "provider": "cliproxyapi",
+          "tokens": {
+            "cacheRead": 410820224,
+            "cacheWrite": 0,
+            "input": 23556094,
+            "output": 984199,
+            "reasoning": 251265
+          }
         }
       },
-      "since": "2026-09-08",
-      "updatedAt": "2026-10-06T12:19:00.895899+00:00"
+      "since": "2026-09-09",
+      "updatedAt": "2026-10-07T00:19:00.969007+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2268,5 +2283,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T12:19:10.226505+00:00"
+  "updatedAt": "2026-10-07T00:19:10.257524+00:00"
 }
