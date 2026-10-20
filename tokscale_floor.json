@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-10-20",
   "totals": {
-    "cost": 316982.7931544826,
-    "tokens": 417191662246,
-    "messages": 3145858,
-    "input": 13690525564,
-    "output": 1310092499,
-    "cache_read": 397256957679,
-    "cache_write": 4714789519,
-    "reasoning": 219296985,
-    "active_days": 279,
+    "cost": 316984.7492232826,
+    "tokens": 417192824563,
+    "messages": 3145883,
+    "input": 13690588229,
+    "output": 1310097799,
+    "cache_read": 397258028507,
+    "cache_write": 4714812931,
+    "reasoning": 219297097,
+    "active_days": 280,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -191,15 +191,15 @@
         "last_seen": "2026-10-01"
       },
       "claude-opus-5-5": {
-        "cost": 2150.6698216,
-        "messageCount": 21863,
-        "input": 44532,
-        "output": 20806444,
-        "cacheRead": 6021462843,
-        "cacheWrite": 103576135,
+        "cost": 2150.9309864,
+        "messageCount": 21869,
+        "input": 44544,
+        "output": 20808365,
+        "cacheRead": 6021639847,
+        "cacheWrite": 103599547,
         "reasoning": 0,
         "first_seen": "2026-09-24",
-        "last_seen": "2026-10-11"
+        "last_seen": "2026-10-20"
       },
       "claude-sonnet-5-5": {
         "cost": 179.1947178,
@@ -338,15 +338,15 @@
         "last_seen": "2026-09-06"
       },
       "gpt-6-astra": {
-        "cost": 17153.34646199999,
-        "messageCount": 139753,
-        "input": 565732702,
-        "output": 48873509,
-        "cacheRead": 18268929792,
+        "cost": 17155.04136599999,
+        "messageCount": 139772,
+        "input": 565795355,
+        "output": 48876888,
+        "cacheRead": 18269823616,
         "cacheWrite": 0,
-        "reasoning": 11570714,
+        "reasoning": 11570826,
         "first_seen": "2026-09-06",
-        "last_seen": "2026-10-16"
+        "last_seen": "2026-10-20"
       },
       "anthropic/claude-opus-5": {
         "cost": 172.91541350000003,
