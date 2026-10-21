@@ -1975,22 +1975,22 @@
         },
         "2026-10-21|codex|gpt-6-astra|cliproxyapi": {
           "client": "codex",
-          "cost": 129.736862,
+          "cost": 1928.4579359999993,
           "date": "2026-10-21",
-          "messages": 849,
+          "messages": 11973,
           "model": "gpt-6-astra",
           "provider": "cliproxyapi",
           "tokens": {
-            "cacheRead": 81939712,
+            "cacheRead": 1192776576,
             "cacheWrite": 0,
-            "input": 3634295,
-            "output": 203635,
-            "reasoning": 25449
+            "input": 51352131,
+            "output": 3866851,
+            "reasoning": 576350
           }
         }
       },
       "since": "2026-09-23",
-      "updatedAt": "2026-10-21T00:19:04.600188+00:00"
+      "updatedAt": "2026-10-21T12:19:30.097328+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2373,5 +2373,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T00:19:18.929857+00:00"
+  "updatedAt": "2026-10-21T12:20:00.794394+00:00"
 }
