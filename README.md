@@ -30,18 +30,18 @@ Building AI products that matter.
 
 <div align="center">
 
-<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2338-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
-<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-318,914-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
-<img src="https://img.shields.io/badge/Tokens-418.4B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
+<a href="https://tokscale.ai/leaderboard"><img src="https://img.shields.io/badge/Global_Rank-%2337-FFD700?style=for-the-badge&logo=trophy&logoColor=white" alt="Global Rank"/></a>
+<a href="https://tokscale.ai/u/shaun0927"><img src="https://img.shields.io/badge/Total_Cost-319,503-00d084?style=for-the-badge&logo=cashapp&logoColor=white" alt="Total Cost"/></a>
+<img src="https://img.shields.io/badge/Tokens-419.0B-00d084?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Tokens"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Active_Days-281-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
-<img src="https://img.shields.io/badge/Avg_Daily-1,135-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
+<img src="https://img.shields.io/badge/Active_Days-282-4A90D9?style=flat-square&logo=calendar&logoColor=white" alt="Active Days"/>
+<img src="https://img.shields.io/badge/Avg_Daily-1,133-9B59B6?style=flat-square&logo=trending-up&logoColor=white" alt="Avg Daily"/>
 <img src="https://img.shields.io/badge/Best_Day-5,210-E74C3C?style=flat-square&logo=zap&logoColor=white" alt="Best Day"/>
-<img src="https://img.shields.io/badge/Messages-3,157,863-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
+<img src="https://img.shields.io/badge/Messages-3,162,186-3498DB?style=flat-square&logo=chat&logoColor=white" alt="Messages"/>
 <img src="https://img.shields.io/badge/Models-53-1ABC9C?style=flat-square&logo=robot&logoColor=white" alt="Models"/>
 
 </div>
@@ -50,14 +50,14 @@ Building AI products that matter.
 
 <table>
 <tr><th>Platform</th><th>Models</th><th>Share</th><th>Messages</th><th>Tokens</th><th>Cost</th></tr>
-<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.6-sol</code> <code>6-astra</code> <code>+11</code></td><td><code>██████████████░░░░░░</code> 71.2%</td><td align="right">2,132,963</td><td align="right">297.7B</td><td align="right"><b>$218,752</b></td></tr>
-<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-5</code> <code>opus-4-6</code> <code>+15</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 23.0%</td><td align="right">695,456</td><td align="right">96.0B</td><td align="right"><b>$89,720</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Codex_CLI-74aa9c?style=flat-square&logo=openai&logoColor=white" alt="Codex CLI"/></td><td><code>5.5</code> <code>5.6-sol</code> <code>6-astra</code> <code>+11</code></td><td><code>██████████████░░░░░░</code> 71.1%</td><td align="right">2,136,390</td><td align="right">298.1B</td><td align="right"><b>$219,283</b></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Claude_Code-cc9b7a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/></td><td><code>opus-4-7</code> <code>opus-5</code> <code>opus-4-6</code> <code>+15</code></td><td><code>█████░░░░░░░░░░░░░░░</code> 23.0%</td><td align="right">696,352</td><td align="right">96.2B</td><td align="right"><b>$89,779</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Micode-A855F7?style=flat-square&logo=terminal&logoColor=white" alt="Micode"/></td><td><code>opus-4-7</code> <code>opus-4-8</code> <code>opus-4-6</code> <code>+11</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 1.9%</td><td align="right">147,747</td><td align="right">8.1B</td><td align="right"><b>$6,625</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Grok-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="Grok"/></td><td><code>grok-4.6</code> <code>grok-4.5</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 3.4%</td><td align="right">120,474</td><td align="right">14.3B</td><td align="right"><b>$2,266</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Hermes_Agent-FFB400?style=flat-square&logo=rocket&logoColor=white" alt="Hermes Agent"/></td><td><code>5.5</code> <code>mimo-v2.5-pro-ultraspeed</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.3%</td><td align="right">57,189</td><td align="right">1.2B</td><td align="right"><b>$1,550</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Gemini_CLI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini CLI"/></td><td><code>2.5-pro</code> <code>2.5-flash</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.0%</td><td align="right">19</td><td align="right">318.4K</td><td align="right"><b>$0.18</b></td></tr>
 <tr><td><img src="https://img.shields.io/badge/OpenCode-111111?style=flat-square&logo=opencode&logoColor=white" alt="OpenCode"/></td><td><code>ox-alpha</code></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 0.2%</td><td align="right">4,015</td><td align="right">998.1M</td><td align="right"><b>$0.00</b></td></tr>
-<tr><td colspan="3"><b>Total</b></td><td align="right"><b>3,157,863</b></td><td align="right"><b>418.4B</b></td><td align="right"><b>$318,914</b></td></tr>
+<tr><td colspan="3"><b>Total</b></td><td align="right"><b>3,162,186</b></td><td align="right"><b>419.0B</b></td><td align="right"><b>$319,503</b></td></tr>
 </table>
 
 </div>
@@ -66,15 +66,15 @@ Building AI products that matter.
 
 **Token Composition**
 
-<img src="https://img.shields.io/badge/Cache_Read_(95.2%25)-398.5B-2ECC71?style=flat-square" alt="Cache Read (95.2%25)"/>
+<img src="https://img.shields.io/badge/Cache_Read_(95.2%25)-399.0B-2ECC71?style=flat-square" alt="Cache Read (95.2%25)"/>
 <img src="https://img.shields.io/badge/Cache_Write_(1.1%25)-4.7B-27AE60?style=flat-square" alt="Cache Write (1.1%25)"/>
-<img src="https://img.shields.io/badge/Input_(3.3%25)-13.7B-3498DB?style=flat-square" alt="Input (3.3%25)"/>
+<img src="https://img.shields.io/badge/Input_(3.3%25)-13.8B-3498DB?style=flat-square" alt="Input (3.3%25)"/>
 <img src="https://img.shields.io/badge/Output_(0.3%25)-1.3B-9B59B6?style=flat-square" alt="Output (0.3%25)"/>
-<img src="https://img.shields.io/badge/Reasoning_(0.1%25)-219.9M-F59E0B?style=flat-square" alt="Reasoning (0.1%25)"/>
+<img src="https://img.shields.io/badge/Reasoning_(0.1%25)-220.1M-F59E0B?style=flat-square" alt="Reasoning (0.1%25)"/>
 
 </div>
 
-<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-10-21</sub></div>
+<div align="center"><sub>Tracked by <a href="https://tokscale.ai/u/shaun0927">tokscale</a> | <a href="https://tokscale.ai/leaderboard">Leaderboard</a> | Auto-updated 2026-10-22</sub></div>
 
 <!-- TOKSCALE_END -->
 
@@ -117,75 +117,75 @@ Total 1000K+ stars contribution in external public projects.
 
 <!-- OSS_START -->
 
-_Auto-refreshed 2026-10-21 via `gh` CLI (`update_oss_contributions.py`): **562 PRs** merged across **50 curated repos** below. Star counts via repos API; merged-PR counts via GraphQL search._
+_Auto-refreshed 2026-10-22 via `gh` CLI (`update_oss_contributions.py`): **562 PRs** merged across **50 curated repos** below. Star counts via repos API; merged-PR counts via GraphQL search._
 
 ### Harness engineering
 
 | Project | Description | Stars | Merged | Notes |
 |:--|:--|--:|:-:|:--|
-| <img src="https://github.com/Q00.png" width="18" align="top"/> [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | ⭐ 6,256 | [402](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/Yeachan-Heo.png" width="18" align="top"/> [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code | ⭐ 40,142 | [51](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/Yeachan-Heo.png" width="18" align="top"/> [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI | ⭐ 33,578 | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/jarrodwatts.png" width="18" align="top"/> [claude-hud](https://github.com/jarrodwatts/claude-hud) | Claude Code plugin with context/tool HUD | ⭐ 28,716 | [6](https://github.com/jarrodwatts/claude-hud/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/zeroclaw-labs.png" width="18" align="top"/> [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | autonomous AI personal assistant infrastructure | ⭐ 33,020 | [5](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/multica-ai.png" width="18" align="top"/> [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | ⭐ 53,403 | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%234-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/HKUDS.png" width="18" align="top"/> [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent | ⭐ 49,241 | [3](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/camel-ai.png" width="18" align="top"/> [camel](https://github.com/camel-ai/camel) | multi-agent framework | ⭐ 17,942 | [3](https://github.com/camel-ai/camel/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/langgenius.png" width="18" align="top"/> [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | ⭐ 159,124 | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%233-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/MemPalace.png" width="18" align="top"/> [mempalace](https://github.com/MemPalace/mempalace) | open-source AI memory system | ⭐ 59,672 | [2](https://github.com/MemPalace/mempalace/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/FlowiseAI.png" width="18" align="top"/> [Flowise](https://github.com/FlowiseAI/Flowise) | visual builder for AI agents | ⭐ 55,513 | [2](https://github.com/FlowiseAI/Flowise/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/Q00.png" width="18" align="top"/> [ouroboros](https://github.com/Q00/ouroboros) | workflow engine driven by specs instead of prompts | ⭐ 6,255 | [402](https://github.com/Q00/ouroboros/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/Yeachan-Heo.png" width="18" align="top"/> [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | multi-agent orchestration for Claude Code | ⭐ 40,160 | [51](https://github.com/Yeachan-Heo/oh-my-claudecode/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/Yeachan-Heo.png" width="18" align="top"/> [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | hooks, agent teams, and HUDs for Codex CLI | ⭐ 33,585 | [13](https://github.com/Yeachan-Heo/oh-my-codex/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/jarrodwatts.png" width="18" align="top"/> [claude-hud](https://github.com/jarrodwatts/claude-hud) | Claude Code plugin with context/tool HUD | ⭐ 28,738 | [6](https://github.com/jarrodwatts/claude-hud/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/zeroclaw-labs.png" width="18" align="top"/> [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | autonomous AI personal assistant infrastructure | ⭐ 33,019 | [5](https://github.com/zeroclaw-labs/zeroclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/multica-ai.png" width="18" align="top"/> [multica](https://github.com/multica-ai/multica) | managed coding-agents platform | ⭐ 53,447 | [4](https://github.com/multica-ai/multica/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%234-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/HKUDS.png" width="18" align="top"/> [nanobot](https://github.com/HKUDS/nanobot) | lightweight personal AI agent | ⭐ 49,252 | [3](https://github.com/HKUDS/nanobot/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/camel-ai.png" width="18" align="top"/> [camel](https://github.com/camel-ai/camel) | multi-agent framework | ⭐ 17,947 | [3](https://github.com/camel-ai/camel/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/langgenius.png" width="18" align="top"/> [dify](https://github.com/langgenius/dify) | platform for agentic workflow development | ⭐ 159,158 | [2](https://github.com/langgenius/dify/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%233-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/MemPalace.png" width="18" align="top"/> [mempalace](https://github.com/MemPalace/mempalace) | open-source AI memory system | ⭐ 59,687 | [2](https://github.com/MemPalace/mempalace/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/FlowiseAI.png" width="18" align="top"/> [Flowise](https://github.com/FlowiseAI/Flowise) | visual builder for AI agents | ⭐ 55,514 | [2](https://github.com/FlowiseAI/Flowise/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/agno-agi.png" width="18" align="top"/> [agno](https://github.com/agno-agi/agno) | framework for running agents as production software | ⭐ 42,850 | [2](https://github.com/agno-agi/agno/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/mastra-ai.png" width="18" align="top"/> [mastra](https://github.com/mastra-ai/mastra) | TypeScript framework for AI apps and agents | ⭐ 28,973 | [2](https://github.com/mastra-ai/mastra/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/HKUDS.png" width="18" align="top"/> [OpenHarness](https://github.com/HKUDS/OpenHarness) | open harness for coding agents | ⭐ 16,023 | [2](https://github.com/HKUDS/OpenHarness/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/lsdefine.png" width="18" align="top"/> [GenericAgent](https://github.com/lsdefine/GenericAgent) | self-evolving generic agent framework | ⭐ 14,335 | [2](https://github.com/lsdefine/GenericAgent/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/BasedHardware.png" width="18" align="top"/> [omi](https://github.com/BasedHardware/omi) | AI wearable assistant that sees and listens | ⭐ 13,778 | [2](https://github.com/BasedHardware/omi/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/nextlevelbuilder.png" width="18" align="top"/> [goclaw](https://github.com/nextlevelbuilder/goclaw) | Go rebuild of OpenClaw with multi-tenant agent isolation | ⭐ 3,663 | [2](https://github.com/nextlevelbuilder/goclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/addyosmani.png" width="18" align="top"/> [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | ⭐ 109,149 | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Addy_Osmani-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=30363d) ![](https://img.shields.io/badge/GitHub_Trending_%2310-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/lobehub.png" width="18" align="top"/> [lobehub](https://github.com/lobehub/lobehub) | multi-agent collaboration space | ⭐ 83,378 | [1](https://github.com/lobehub/lobehub/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/can1357.png" width="18" align="top"/> [oh-my-pi](https://github.com/can1357/oh-my-pi) | terminal-native AI coding agent | ⭐ 36,110 | [1](https://github.com/can1357/oh-my-pi/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/sipeed.png" width="18" align="top"/> [picoclaw](https://github.com/sipeed/picoclaw) | tiny deployable coding agent | ⭐ 30,072 | [1](https://github.com/sipeed/picoclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/rohitg00.png" width="18" align="top"/> [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | ⭐ 29,740 | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/deepset-ai.png" width="18" align="top"/> [haystack](https://github.com/deepset-ai/haystack) | AI orchestration framework for LLM applications | ⭐ 26,801 | [1](https://github.com/deepset-ai/haystack/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/revfactory.png" width="18" align="top"/> [harness](https://github.com/revfactory/harness) | meta-skill that designs domain-specific agent teams | ⭐ 9,230 | [1](https://github.com/revfactory/harness/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/osaurus-ai.png" width="18" align="top"/> [osaurus](https://github.com/osaurus-ai/osaurus) | native macOS runtime for local LLMs | ⭐ 8,063 | [1](https://github.com/osaurus-ai/osaurus/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Swift_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/mastra-ai.png" width="18" align="top"/> [mastra](https://github.com/mastra-ai/mastra) | TypeScript framework for AI apps and agents | ⭐ 28,985 | [2](https://github.com/mastra-ai/mastra/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/HKUDS.png" width="18" align="top"/> [OpenHarness](https://github.com/HKUDS/OpenHarness) | open harness for coding agents | ⭐ 16,025 | [2](https://github.com/HKUDS/OpenHarness/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/lsdefine.png" width="18" align="top"/> [GenericAgent](https://github.com/lsdefine/GenericAgent) | self-evolving generic agent framework | ⭐ 14,336 | [2](https://github.com/lsdefine/GenericAgent/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/BasedHardware.png" width="18" align="top"/> [omi](https://github.com/BasedHardware/omi) | AI wearable assistant that sees and listens | ⭐ 13,784 | [2](https://github.com/BasedHardware/omi/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/nextlevelbuilder.png" width="18" align="top"/> [goclaw](https://github.com/nextlevelbuilder/goclaw) | Go rebuild of OpenClaw with multi-tenant agent isolation | ⭐ 3,665 | [2](https://github.com/nextlevelbuilder/goclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/addyosmani.png" width="18" align="top"/> [agent-skills](https://github.com/addyosmani/agent-skills) | engineering skills library for coding agents | ⭐ 109,326 | [1](https://github.com/addyosmani/agent-skills/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Addy_Osmani-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=30363d) ![](https://img.shields.io/badge/GitHub_Trending_%2310-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/lobehub.png" width="18" align="top"/> [lobehub](https://github.com/lobehub/lobehub) | multi-agent collaboration space | ⭐ 83,394 | [1](https://github.com/lobehub/lobehub/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/can1357.png" width="18" align="top"/> [oh-my-pi](https://github.com/can1357/oh-my-pi) | terminal-native AI coding agent | ⭐ 36,167 | [1](https://github.com/can1357/oh-my-pi/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/sipeed.png" width="18" align="top"/> [picoclaw](https://github.com/sipeed/picoclaw) | tiny deployable coding agent | ⭐ 30,069 | [1](https://github.com/sipeed/picoclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/rohitg00.png" width="18" align="top"/> [agentmemory](https://github.com/rohitg00/agentmemory) | persistent memory for coding agents | ⭐ 29,761 | [1](https://github.com/rohitg00/agentmemory/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/deepset-ai.png" width="18" align="top"/> [haystack](https://github.com/deepset-ai/haystack) | AI orchestration framework for LLM applications | ⭐ 26,804 | [1](https://github.com/deepset-ai/haystack/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/revfactory.png" width="18" align="top"/> [harness](https://github.com/revfactory/harness) | meta-skill that designs domain-specific agent teams | ⭐ 9,232 | [1](https://github.com/revfactory/harness/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/osaurus-ai.png" width="18" align="top"/> [osaurus](https://github.com/osaurus-ai/osaurus) | native macOS runtime for local LLMs | ⭐ 8,066 | [1](https://github.com/osaurus-ai/osaurus/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Swift_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
 | <img src="https://github.com/xerrors.png" width="18" align="top"/> [Yuxi](https://github.com/xerrors/Yuxi) | multi-tenant agent harness with LightRAG knowledge base | ⭐ 7,451 | [1](https://github.com/xerrors/Yuxi/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/walkinglabs.png" width="18" align="top"/> [awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering) | curated list of harness engineering tools and guides | ⭐ 4,447 | [1](https://github.com/walkinglabs/awesome-harness-engineering/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/openclaw.png" width="18" align="top"/> [acpx](https://github.com/openclaw/acpx) | headless CLI for Agent Client Protocol sessions | ⭐ 3,374 | [1](https://github.com/openclaw/acpx/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/chrysb.png" width="18" align="top"/> [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | ⭐ 1,475 | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/mksglu.png" width="18" align="top"/> [context-mode](https://github.com/mksglu/context-mode) | context-window optimization for AI coding agents | ⭐ 31,554 | [0](https://github.com/mksglu/context-mode/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/chrysb.png" width="18" align="top"/> [alphaclaw](https://github.com/chrysb/alphaclaw) | setup harness for OpenClaw | ⭐ 1,474 | [1](https://github.com/chrysb/alphaclaw/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/mksglu.png" width="18" align="top"/> [context-mode](https://github.com/mksglu/context-mode) | context-window optimization for AI coding agents | ⭐ 31,651 | [0](https://github.com/mksglu/context-mode/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/getsentry.png" width="18" align="top"/> [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | MCP server for iOS and macOS build tooling | ⭐ 6,497 | [0](https://github.com/getsentry/XcodeBuildMCP/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 
 ### ML
 
 | Project | Description | Stars | Merged | Notes |
 |:--|:--|--:|:-:|:--|
-| <img src="https://github.com/jacobgil.png" width="18" align="top"/> [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | visual explainability for CNNs and vision transformers | ⭐ 12,999 | [7](https://github.com/jacobgil/pytorch-grad-cam/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/jacobgil.png" width="18" align="top"/> [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | visual explainability for CNNs and vision transformers | ⭐ 12,998 | [7](https://github.com/jacobgil/pytorch-grad-cam/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/MSAI3rdTeam5.png" width="18" align="top"/> [FootTrafficReport](https://github.com/MSAI3rdTeam5/FootTrafficReport) | foot-traffic analytics report project | ⭐ 7 | [5](https://github.com/MSAI3rdTeam5/FootTrafficReport/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/WenjieDu.png" width="18" align="top"/> [PyPOTS](https://github.com/WenjieDu/PyPOTS) | toolkit for partially-observed time-series modeling | ⭐ 2,081 | [4](https://github.com/WenjieDu/PyPOTS/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/roboflow.png" width="18" align="top"/> [supervision](https://github.com/roboflow/supervision) | reusable computer vision tools | ⭐ 51,253 | [3](https://github.com/roboflow/supervision/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/roboflow.png" width="18" align="top"/> [supervision](https://github.com/roboflow/supervision) | reusable computer vision tools | ⭐ 51,258 | [3](https://github.com/roboflow/supervision/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/unit8co.png" width="18" align="top"/> [darts](https://github.com/unit8co/darts) | time-series forecasting library | ⭐ 9,559 | [3](https://github.com/unit8co/darts/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/jamiepine.png" width="18" align="top"/> [voicebox](https://github.com/jamiepine/voicebox) | open-source AI voice studio | ⭐ 58,148 | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%237-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/marimo-team.png" width="18" align="top"/> [marimo](https://github.com/marimo-team/marimo) | reactive Python notebook for experiments and apps | ⭐ 23,270 | [2](https://github.com/marimo-team/marimo/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/open-edge-platform.png" width="18" align="top"/> [anomalib](https://github.com/open-edge-platform/anomalib) | anomaly detection library | ⭐ 6,275 | [2](https://github.com/open-edge-platform/anomalib/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/z-lab.png" width="18" align="top"/> [dflash](https://github.com/z-lab/dflash) | block-diffusion flash speculative decoding kernels | ⭐ 6,185 | [2](https://github.com/z-lab/dflash/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%234-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/amazon-science.png" width="18" align="top"/> [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) | foundation models for time-series forecasting | ⭐ 6,161 | [2](https://github.com/amazon-science/chronos-forecasting/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Amazon_Science-232F3E?style=flat-square&logo=amazon&logoColor=FF9900&labelColor=30363d) ![](https://img.shields.io/badge/Python_Trending_%232-f78166?style=flat-square&labelColor=30363d) |
-| <img src="https://github.com/PaddlePaddle.png" width="18" align="top"/> [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | OCR toolkit for structured document extraction | ⭐ 91,466 | [1](https://github.com/PaddlePaddle/PaddleOCR/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/OpenBMB.png" width="18" align="top"/> [VoxCPM](https://github.com/OpenBMB/VoxCPM) | tokenizer-free multilingual TTS | ⭐ 39,652 | [1](https://github.com/OpenBMB/VoxCPM/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/jamiepine.png" width="18" align="top"/> [voicebox](https://github.com/jamiepine/voicebox) | open-source AI voice studio | ⭐ 58,192 | [2](https://github.com/jamiepine/voicebox/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/GitHub_Trending_%237-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/marimo-team.png" width="18" align="top"/> [marimo](https://github.com/marimo-team/marimo) | reactive Python notebook for experiments and apps | ⭐ 23,281 | [2](https://github.com/marimo-team/marimo/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/open-edge-platform.png" width="18" align="top"/> [anomalib](https://github.com/open-edge-platform/anomalib) | anomaly detection library | ⭐ 6,276 | [2](https://github.com/open-edge-platform/anomalib/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/z-lab.png" width="18" align="top"/> [dflash](https://github.com/z-lab/dflash) | block-diffusion flash speculative decoding kernels | ⭐ 6,187 | [2](https://github.com/z-lab/dflash/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Python_Trending_%234-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/amazon-science.png" width="18" align="top"/> [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) | foundation models for time-series forecasting | ⭐ 6,170 | [2](https://github.com/amazon-science/chronos-forecasting/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Amazon_Science-232F3E?style=flat-square&logo=amazon&logoColor=FF9900&labelColor=30363d) ![](https://img.shields.io/badge/Python_Trending_%232-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/PaddlePaddle.png" width="18" align="top"/> [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | OCR toolkit for structured document extraction | ⭐ 91,486 | [1](https://github.com/PaddlePaddle/PaddleOCR/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/OpenBMB.png" width="18" align="top"/> [VoxCPM](https://github.com/OpenBMB/VoxCPM) | tokenizer-free multilingual TTS | ⭐ 39,675 | [1](https://github.com/OpenBMB/VoxCPM/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/mlfoundations.png" width="18" align="top"/> [open_clip](https://github.com/mlfoundations/open_clip) | open source CLIP implementation | ⭐ 14,211 | [1](https://github.com/mlfoundations/open_clip/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/sktime.png" width="18" align="top"/> [sktime](https://github.com/sktime/sktime) | unified framework for ML on time series | ⭐ 10,071 | [1](https://github.com/sktime/sktime/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/gorse-io.png" width="18" align="top"/> [gorse](https://github.com/gorse-io/gorse) | recommender system engine | ⭐ 9,884 | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Go_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
+| <img src="https://github.com/sktime.png" width="18" align="top"/> [sktime](https://github.com/sktime/sktime) | unified framework for ML on time series | ⭐ 10,072 | [1](https://github.com/sktime/sktime/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/gorse-io.png" width="18" align="top"/> [gorse](https://github.com/gorse-io/gorse) | recommender system engine | ⭐ 9,886 | [1](https://github.com/gorse-io/gorse/pulls?q=author%3Ashaun0927+is%3Amerged) | ![](https://img.shields.io/badge/Go_Trending_%231-f78166?style=flat-square&labelColor=30363d) |
 | <img src="https://github.com/Nixtla.png" width="18" align="top"/> [statsforecast](https://github.com/Nixtla/statsforecast) | fast statistical and econometric forecasting | ⭐ 4,943 | [1](https://github.com/Nixtla/statsforecast/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 
 ### Other
 
 | Project | Description | Stars | Merged | Notes |
 |:--|:--|--:|:-:|:--|
-| <img src="https://github.com/NawfalMotii79.png" width="18" align="top"/> [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 10.5 GHz phased-array radar | ⭐ 27,100 | [3](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/immich-app.png" width="18" align="top"/> [immich](https://github.com/immich-app/immich) | self-hosted photo and video management | ⭐ 116,819 | [1](https://github.com/immich-app/immich/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/siddharthvaddem.png" width="18" align="top"/> [openscreen](https://github.com/siddharthvaddem/openscreen) | open-source screen demo recorder | ⭐ 39,926 | [1](https://github.com/siddharthvaddem/openscreen/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/apify.png" width="18" align="top"/> [crawlee](https://github.com/apify/crawlee) | web scraping and browser automation library | ⭐ 26,209 | [1](https://github.com/apify/crawlee/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/NawfalMotii79.png" width="18" align="top"/> [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 10.5 GHz phased-array radar | ⭐ 27,111 | [3](https://github.com/NawfalMotii79/PLFM_RADAR/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/immich-app.png" width="18" align="top"/> [immich](https://github.com/immich-app/immich) | self-hosted photo and video management | ⭐ 116,863 | [1](https://github.com/immich-app/immich/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/siddharthvaddem.png" width="18" align="top"/> [openscreen](https://github.com/siddharthvaddem/openscreen) | open-source screen demo recorder | ⭐ 39,927 | [1](https://github.com/siddharthvaddem/openscreen/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/apify.png" width="18" align="top"/> [crawlee](https://github.com/apify/crawlee) | web scraping and browser automation library | ⭐ 26,214 | [1](https://github.com/apify/crawlee/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 | <img src="https://github.com/dimartarmizi.png" width="18" align="top"/> [map-to-poster](https://github.com/dimartarmizi/map-to-poster) | map-to-poster generator | ⭐ 1,097 | [1](https://github.com/dimartarmizi/map-to-poster/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
-| <img src="https://github.com/steipete.png" width="18" align="top"/> [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | ⭐ 2,829 | [0](https://github.com/steipete/wacli/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
+| <img src="https://github.com/steipete.png" width="18" align="top"/> [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | ⭐ 2,831 | [0](https://github.com/steipete/wacli/pulls?q=author%3Ashaun0927+is%3Amerged) |  |
 
 <!-- OSS_END -->
 ---
