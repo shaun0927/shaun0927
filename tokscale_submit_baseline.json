@@ -2020,22 +2020,22 @@
         },
         "2026-10-23|codex|gpt-6-astra|openai": {
           "client": "codex",
-          "cost": 29.518098000000002,
+          "cost": 32.40132600000001,
           "date": "2026-10-23",
-          "messages": 188,
+          "messages": 205,
           "model": "gpt-6-astra",
           "provider": "openai",
           "tokens": {
-            "cacheRead": 8205568,
+            "cacheRead": 8992256,
             "cacheWrite": 0,
-            "input": 1968648,
-            "output": 32314,
-            "reasoning": 207
+            "input": 2164257,
+            "output": 35070,
+            "reasoning": 260
           }
         }
       },
       "since": "2026-09-25",
-      "updatedAt": "2026-10-23T00:19:53.194521+00:00"
+      "updatedAt": "2026-10-23T12:19:20.338540+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2418,5 +2418,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T00:20:47.426101+00:00"
+  "updatedAt": "2026-10-23T12:19:33.011542+00:00"
 }
