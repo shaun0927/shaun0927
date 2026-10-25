@@ -586,10 +586,25 @@
             "output": 1089211,
             "reasoning": 0
           }
+        },
+        "2026-10-25|claude|claude-opus-5-5|anthropic": {
+          "client": "claude",
+          "cost": 1.9474714000000002,
+          "date": "2026-10-25",
+          "messages": 20,
+          "model": "claude-opus-5-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 3005157,
+            "cacheWrite": 153925,
+            "input": 40,
+            "output": 5744,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-09-24",
-      "updatedAt": "2026-10-22T12:20:00.822904+00:00"
+      "since": "2026-09-27",
+      "updatedAt": "2026-10-25T00:23:06.828282+00:00"
     },
     "codex": {
       "cells": {
@@ -2047,10 +2062,25 @@
             "output": 310074,
             "reasoning": 42133
           }
+        },
+        "2026-10-25|codex|gpt-6-astra|openai": {
+          "client": "codex",
+          "cost": 46.45839000000003,
+          "date": "2026-10-25",
+          "messages": 274,
+          "model": "gpt-6-astra",
+          "provider": "openai",
+          "tokens": {
+            "cacheRead": 24515840,
+            "cacheWrite": 0,
+            "input": 1800375,
+            "output": 70812,
+            "reasoning": 7964
+          }
         }
       },
-      "since": "2026-09-26",
-      "updatedAt": "2026-10-24T12:19:43.067554+00:00"
+      "since": "2026-09-27",
+      "updatedAt": "2026-10-25T00:21:03.410276+00:00"
     },
     "gemini": {
       "cells": {},
@@ -2433,5 +2463,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T12:19:56.410807+00:00"
+  "updatedAt": "2026-10-25T00:24:01.703868+00:00"
 }
