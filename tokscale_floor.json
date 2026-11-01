@@ -4,15 +4,15 @@
   "_initial_source": "Recovered baseline 2026-05-12 via reverse-calc from .tokscale-update.log; updated 2026-05-14 after reconstructed-claude-history erasure event.",
   "last_updated": "2026-11-01",
   "totals": {
-    "cost": 319914.2373288826,
-    "tokens": 419345190300,
-    "messages": 3164863,
-    "input": 13769375024,
-    "output": 1316525056,
-    "cache_read": 399320764376,
+    "cost": 319914.9922508826,
+    "tokens": 419345296649,
+    "messages": 3164865,
+    "input": 13769435148,
+    "output": 1316527201,
+    "cache_read": 399320808408,
     "cache_write": 4718352821,
-    "reasoning": 220173023,
-    "active_days": 288,
+    "reasoning": 220173071,
+    "active_days": 289,
     "streak": 0,
     "best_day_cost": 5210.0,
     "best_day_date": "Jul 2, 2026"
@@ -338,15 +338,15 @@
         "last_seen": "2026-09-06"
       },
       "gpt-6-astra": {
-        "cost": 19968.72580199998,
-        "messageCount": 157396,
-        "input": 644579388,
-        "output": 54200911,
-        "cacheRead": 19985670272,
+        "cost": 19969.48072399998,
+        "messageCount": 157398,
+        "input": 644639512,
+        "output": 54203056,
+        "cacheRead": 19985714304,
         "cacheWrite": 0,
-        "reasoning": 12446752,
+        "reasoning": 12446800,
         "first_seen": "2026-09-06",
-        "last_seen": "2026-10-28"
+        "last_seen": "2026-11-01"
       },
       "anthropic/claude-opus-5": {
         "cost": 172.91541350000003,
