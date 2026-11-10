@@ -616,10 +616,25 @@
             "output": 11967,
             "reasoning": 0
           }
+        },
+        "2026-11-10|claude|claude-opus-5-5|anthropic": {
+          "client": "claude",
+          "cost": 0.2177284,
+          "date": "2026-11-10",
+          "messages": 4,
+          "model": "claude-opus-5-5",
+          "provider": "anthropic",
+          "tokens": {
+            "cacheRead": 107342,
+            "cacheWrite": 21506,
+            "input": 8,
+            "output": 1209,
+            "reasoning": 0
+          }
         }
       },
-      "since": "2026-10-12",
-      "updatedAt": "2026-11-09T12:21:32.755891+00:00"
+      "since": "2026-10-13",
+      "updatedAt": "2026-11-10T12:21:10.863157+00:00"
     },
     "codex": {
       "cells": {
@@ -2538,5 +2553,5 @@
     }
   },
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:19:40.413125+00:00"
+  "updatedAt": "2026-11-10T12:24:41.631609+00:00"
 }
